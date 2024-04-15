@@ -1,0 +1,71 @@
+HTML (index.html):<!DOCTYPE html>
+<html>
+<head>
+    <title>Car Dealership</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Car Dealership</h1>
+    </header>
+    <div class="car-list">
+        <div class="car-card">
+            <img src="car1.jpg" alt="Car 1">
+            <h2>Car Model 1</h2>
+            <p>Price: $XX,XXX</p>
+            <button>Contact Seller</button>
+        </div>
+        <div class="car-card">
+            <img src="car2.jpg" alt="Car 2">
+            <h2>Car Model 2</h2>
+            <p>Price: $XX,XXX</p>
+            <button>Contact Seller</button>
+        </div>
+    </div>
+</body>
+</html>
+
+CSS (styles.css):
+```css
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+.car-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.car-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+}
+img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #555;
+}
