@@ -67,10 +67,11 @@ cs2-shorts/
 | Шаг | Кто |
 |---|---|
 | Следить за обновлениями CS2 (официальная лента Steam), выбирать темы | Claude |
-| Сценарий, озвучка, монтаж — `tools/make_news_short.py shorts/<ролик>.json` | Claude |
+| Сценарий, нейроозвучка (Silero), субтитры по словам, переходы, звуки CS — `tools/make_news_short.py shorts/<ролик>.json` | Claude |
 | Название, описание, закреп — `shorts/UPLOAD.md` | Claude |
 | Загрузка на YouTube / VK / Дзен, ответы в комментариях | вы — доступ к аккаунтам только у вас |
 | Разбор статистики и план на неделю | Claude — по скриншотам Studio |
 
 `tools/make_short.py` — монтаж из своей записи игры, если она когда-нибудь появится.
-Видео Valve кладутся в `raw/valve/`, готовые ролики — в `out/` (обе папки не идут в git).
+Видео Valve — `raw/valve/`, звуки — `raw/sfx/`, модель голоса — `raw/models/v4_ru.pt`, готовые ролики — `out/` (не идут в git).
+Звуки CS взяты из открытого набора [chasemgray/game-sounds](https://github.com/chasemgray/game-sounds).
