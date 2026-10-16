@@ -16,7 +16,11 @@ spec.json:
   "lines": [
     {"text": "В CS2 теперь можно перезаряжаться бесшумно.",   # субтитр
      "say":  "В кс два теперь можно перезаряжаться бесшумно.", # как читать (только кириллица и числа словами)
-     "sfx":  "go-go-go"}                                       # звук из raw/sfx в начале фразы
+     "sfx":  "go-go-go",                                       # звук из raw/sfx в начале фразы
+     "tone": "hook"}                                           # интонация: hook, fact, twist, punch, cta
+
+Интонация в тексте: *слово* — логическое ударение (голос выделяет, в субтитрах слово оранжевое),
+| — пауза, +перед гласной — ударение в слове. Роль по умолчанию: первая фраза hook, последняя cta, остальные fact.
   ]
 }
 
@@ -29,7 +33,16 @@ W, H, FPS = 1080, 1920, 30
 FONT = "Inter"
 XF = 0.3              # длина перехода, с
 PAD = 0.12            # пауза после фразы, с
-SPEED = 1.08          # ускорение голоса
+SPEED = 1.0           # общий темп (основной темп задаёт интонация фразы)
+# интонация по роли фразы: темп и высота голоса (SSML prosody), пауза перед фразой
+TONES = {
+    "hook":  {"rate": "112%", "pitch": "+10%"},   # заход: быстрее и выше — цепляет
+    "fact":  {"rate": "106%", "pitch": "+2%"},    # объяснение: ровно, бодро
+    "twist": {"rate": "98%",  "pitch": "-6%"},    # «но есть подвох»: ниже и медленнее — интрига
+    "punch": {"rate": "110%", "pitch": "+7%"},    # вывод/фишка: энергично
+    "cta":   {"rate": "100%", "pitch": "-3%"},    # «сохрани»: спокойно, уверенно
+}
+BREAK = "280ms"       # пауза на |
 # обработка голоса: срез гула, меньше «бубнения», больше разборчивости, компрессор, де-эссер, лёгкая комната
 VOICE_FX = ("highpass=f=75,equalizer=f=250:t=q:w=1:g=-2.5,equalizer=f=3500:t=q:w=1.2:g=2.5,"
             "equalizer=f=9000:t=q:w=1:g=1.5,acompressor=threshold=-20dB:ratio=3:attack=5:release=90:makeup=2,"
@@ -73,15 +86,31 @@ def stressed(text):
     return re.sub(r"[A-Za-zА-Яа-яЁё0-9]+", fix, text)
 
 
-def say(model, text, voice, path):
+def ssml(text, tone):
+    t = TONES.get(tone, TONES["fact"])
+    body = stressed(text).replace("&", " и ").replace("<", "").replace(">", "")
+    body = f"<break time='{BREAK}'/>".join(part.strip() for part in body.split("|"))
+    return f"<speak><prosody rate='{t['rate']}' pitch='{t['pitch']}'>{body}</prosody></speak>"
+
+
+def say(model, text, voice, path, tone="fact"):
+    import wave
     raw = path + ".raw.wav"
-    model.save_wav(text=stressed(text), speaker=voice, sample_rate=48000, audio_path=raw)
+    audio = model.apply_tts(ssml_text=ssml(text, tone), speaker=voice, sample_rate=48000)
+    pcm = (audio.clamp(-1, 1) * 32767).short().numpy().tobytes()
+    with wave.open(raw, "wb") as w:
+        w.setnchannels(1); w.setsampwidth(2); w.setframerate(48000); w.writeframes(pcm)
     run(["ffmpeg", "-y", "-i", raw, "-af", f"{VOICE_FX},atempo={SPEED},apad=pad_dur={PAD}", "-ar", "48000", "-ac", "2", path])
 
 
 def word_events(start, dur, text):
-    """Субтитр по словам: куски до 3 слов, текущее слово жёлтое и «подпрыгивает»."""
-    words = text.upper().split()
+    """Субтитр по словам: куски до 3 слов, текущее слово жёлтое и «подпрыгивает», *главные* — оранжевые."""
+    words = text.replace("|", " ").upper().split()
+    focus = set()
+    for k, w in enumerate(words):
+        if "*" in w:
+            focus.add(k)
+            words[k] = w.replace("*", "")
     speak = max(dur - PAD, 0.3)
     weights = [len(re.sub(r"\W", "", w)) + 2 for w in words]
     total = sum(weights)
@@ -97,6 +126,8 @@ def word_events(start, dur, text):
             for j in chunk:
                 if j == i:
                     parts.append(r"{\c&H0000E5FF&\fscx118\fscy118\t(0,90,\fscx100\fscy100)}" + words[j] + r"{\c&H00FFFFFF&}")
+                elif j in focus:
+                    parts.append(r"{\c&H00218CFF&}" + words[j] + r"{\c&H00FFFFFF&}")
                 else:
                     parts.append(words[j])
             a, b = times[i]
@@ -119,7 +150,8 @@ def main():
         wavs, durs = [], []
         for i, ln in enumerate(lines):
             p = os.path.join(tmp, f"v{i}.wav")
-            say(model, ln.get("say", ln["text"]), spec.get("voice", "aidar"), p)
+            tone = ln.get("tone") or ("hook" if i == 0 else "cta" if i == len(lines) - 1 else "fact")
+            say(model, ln.get("say", ln["text"]), spec.get("voice", "aidar"), p, tone)
             wavs.append(p)
             durs.append(duration(p))
         starts = [sum(durs[:i]) for i in range(len(durs))]
