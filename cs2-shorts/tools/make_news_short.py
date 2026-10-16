@@ -20,7 +20,8 @@ spec.json:
   ]
 }
 
-Нужно: ffmpeg с libass, torch (CPU) и модель raw/models/v4_ru.pt (https://models.silero.ai/models/tts/ru/v4_ru.pt).
+Нужно: ffmpeg с libass, torch (CPU) и модель raw/models/v5_6_ru.pt (https://models.silero.ai/models/tts/ru/v5_6_ru.pt).
+Ударения для сленга — tools/stress.json; проверить, как модель прочитает фразы: tools/check_stress.py.
 """
 import json, os, re, subprocess, sys, tempfile
 
@@ -28,11 +29,16 @@ W, H, FPS = 1080, 1920, 30
 FONT = "Inter"
 XF = 0.3              # длина перехода, с
 PAD = 0.12            # пауза после фразы, с
-SPEED = 1.12          # ускорение голоса
+SPEED = 1.08          # ускорение голоса
+# обработка голоса: срез гула, меньше «бубнения», больше разборчивости, компрессор, де-эссер, лёгкая комната
+VOICE_FX = ("highpass=f=75,equalizer=f=250:t=q:w=1:g=-2.5,equalizer=f=3500:t=q:w=1.2:g=2.5,"
+            "equalizer=f=9000:t=q:w=1:g=1.5,acompressor=threshold=-20dB:ratio=3:attack=5:release=90:makeup=2,"
+            "deesser=i=0.35,aecho=0.9:0.7:22|37:0.10|0.06")
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 SFX = os.path.join(ROOT, "raw", "sfx")
-MODEL = os.path.join(ROOT, "raw", "models", "v4_ru.pt")
+MODEL = os.path.join(ROOT, "raw", "models", "v5_6_ru.pt")
+STRESS = json.load(open(os.path.join(HERE, "stress.json"), encoding="utf-8"))
 TRANSITIONS = ["fadewhite", "zoomin", "slideleft", "circleopen", "pixelize", "slideup", "radial", "smoothleft"]
 
 
@@ -59,10 +65,18 @@ def load_tts():
     return m
 
 
+def stressed(text):
+    """Подставить ударения из stress.json для сленга и названий, которые модель читает неверно."""
+    def fix(m):
+        w = m.group(0)
+        return STRESS.get(w.lower(), w)
+    return re.sub(r"[A-Za-zА-Яа-яЁё0-9]+", fix, text)
+
+
 def say(model, text, voice, path):
     raw = path + ".raw.wav"
-    model.save_wav(text=text, speaker=voice, sample_rate=48000, audio_path=raw)
-    run(["ffmpeg", "-y", "-i", raw, "-af", f"atempo={SPEED},apad=pad_dur={PAD}", "-ar", "48000", "-ac", "2", path])
+    model.save_wav(text=stressed(text), speaker=voice, sample_rate=48000, audio_path=raw)
+    run(["ffmpeg", "-y", "-i", raw, "-af", f"{VOICE_FX},atempo={SPEED},apad=pad_dur={PAD}", "-ar", "48000", "-ac", "2", path])
 
 
 def word_events(start, dur, text):
