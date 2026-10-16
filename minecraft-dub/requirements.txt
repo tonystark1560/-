@@ -1,0 +1,5 @@
+yt-dlp
+faster-whisper
+edge-tts
+deep-translator
+numpy
