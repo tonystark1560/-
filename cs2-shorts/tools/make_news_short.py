@@ -13,6 +13,7 @@ spec.json:
   "headline": "ТИХАЯ ПЕРЕЗАРЯДКА",
   "source": "Источник: обновление CS2 · Valve, 22.09.2026",
   "voice": "aidar",                          # aidar, eugene (м), baya, kseniya, xenia (ж)
+  "style": "aggressive",                     # calm (по умолчанию) или aggressive — резко, быстро, напористо
   "lines": [
     {"text": "В CS2 теперь можно перезаряжаться бесшумно.",   # субтитр
      "say":  "В кс два теперь можно перезаряжаться бесшумно.", # как читать (только кириллица и числа словами)
@@ -43,6 +44,7 @@ TONES = {
     "cta":   {"rate": "100%", "pitch": "-3%"},    # «сохрани»: спокойно, уверенно
 }
 BREAK = "280ms"       # пауза на |
+INTENSITY = 2         # сила логического ударения на *словах* (1–3)
 # обработка голоса: срез гула, меньше «бубнения», больше разборчивости, компрессор, де-эссер, лёгкая комната
 VOICE_FX = ("highpass=f=75,equalizer=f=250:t=q:w=1:g=-2.5,equalizer=f=3500:t=q:w=1.2:g=2.5,"
             "equalizer=f=9000:t=q:w=1:g=1.5,acompressor=threshold=-20dB:ratio=3:attack=5:release=90:makeup=2,"
@@ -86,6 +88,33 @@ def stressed(text):
     return re.sub(r"[A-Za-zА-Яа-яЁё0-9]+", fix, text)
 
 
+# агрессивная подача: быстрее, резкие перепады высоты, короткие паузы, плотный «радийный» звук
+AGGRESSIVE = {
+    "TONES": {
+        "hook":  {"rate": "124%", "pitch": "+16%"},
+        "fact":  {"rate": "116%", "pitch": "+6%"},
+        "twist": {"rate": "106%", "pitch": "-4%"},
+        "punch": {"rate": "122%", "pitch": "+13%"},
+        "cta":   {"rate": "112%", "pitch": "+5%"},
+    },
+    "BREAK": "150ms",
+    "PAD": 0.04,
+    "INTENSITY": 3,                # максимум модели
+    "VOICE_FX": ("highpass=f=90,equalizer=f=200:t=q:w=1:g=-3,equalizer=f=1800:t=q:w=1:g=2,"
+                 "equalizer=f=4000:t=q:w=1.2:g=4,equalizer=f=10000:t=q:w=1:g=2,"
+                 "acompressor=threshold=-26dB:ratio=6:attack=2:release=60:makeup=4,asoftclip=type=tanh,"
+                 "deesser=i=0.5,aecho=0.9:0.6:18:0.05"),
+}
+# срезать тишину в начале и в конце фразы — первое слово звучит сразу
+TRIM = ("silenceremove=start_periods=1:start_threshold=-45dB,areverse,"
+        "silenceremove=start_periods=1:start_threshold=-45dB,areverse")
+
+
+def set_style(name):
+    if name == "aggressive":
+        globals().update(AGGRESSIVE)
+
+
 def ssml(text, tone):
     t = TONES.get(tone, TONES["fact"])
     body = stressed(text).replace("&", " и ").replace("<", "").replace(">", "")
@@ -96,11 +125,11 @@ def ssml(text, tone):
 def say(model, text, voice, path, tone="fact"):
     import wave
     raw = path + ".raw.wav"
-    audio = model.apply_tts(ssml_text=ssml(text, tone), speaker=voice, sample_rate=48000)
+    audio = model.apply_tts(ssml_text=ssml(text, tone), speaker=voice, sample_rate=48000, intensity=INTENSITY)
     pcm = (audio.clamp(-1, 1) * 32767).short().numpy().tobytes()
     with wave.open(raw, "wb") as w:
         w.setnchannels(1); w.setsampwidth(2); w.setframerate(48000); w.writeframes(pcm)
-    run(["ffmpeg", "-y", "-i", raw, "-af", f"{VOICE_FX},atempo={SPEED},apad=pad_dur={PAD}", "-ar", "48000", "-ac", "2", path])
+    run(["ffmpeg", "-y", "-i", raw, "-af", f"{TRIM},{VOICE_FX},atempo={SPEED},apad=pad_dur={PAD}", "-ar", "48000", "-ac", "2", path])
 
 
 def word_events(start, dur, text):
@@ -144,6 +173,7 @@ def main():
     out = os.path.normpath(os.path.join(base, spec["out"]))
     os.makedirs(os.path.dirname(out), exist_ok=True)
     lines = spec["lines"]
+    set_style(spec.get("style", "calm"))
     model = load_tts()
     with tempfile.TemporaryDirectory() as tmp:
         # 1. голос по фразам
