@@ -69,7 +69,8 @@ def main():
         lst = os.path.join(tmp, "a.txt")
         open(lst, "w").write("".join(f"file '{p}'\n" for p in wavs))
         voice = os.path.join(tmp, "voice.wav")
-        run(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", lst, voice])
+        # громкость под Shorts: -14 LUFS, как у большинства роликов в ленте
+        run(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", lst, "-af", "loudnorm=I=-14:TP=-1:LRA=7", "-ar", "44100", voice])
 
         # фон: видео Valve по кругу до длины озвучки
         bl = os.path.join(tmp, "bg.txt")
