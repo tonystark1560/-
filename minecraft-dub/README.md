@@ -31,3 +31,12 @@ python dub.py video.mp4 --ru-srt out/<имя>/ru.srt
 | `--no-burn` | не вшивать субтитры, только файл .srt |
 | `--model medium` | точнее распознавание, но медленнее |
 | `--cookies cookies.txt` | если YouTube пишет «Sign in to confirm you're not a bot» |
+
+## Стиль «мем-шортс» (`styled.py`)
+Свой закадровый текст по сценарию, субтитры по одному слову (жёлтые, заглавные, с обводкой),
+картинка по центру поверх размытого фона. Чёрные полосы исходника обрезаются автоматически.
+```
+python styled.py video.mp4 scripts/sulfur_cube.json -o out/sulfur_cube_ru.mp4
+```
+Сценарий — JSON со списком фраз и секундой начала каждой (пример в `scripts/`).
+Нужен шрифт Montserrat Black (`apt install fonts-montserrat` или установить вручную).
