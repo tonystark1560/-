@@ -2452,11 +2452,11 @@
   },
   "renders": {
     "latest": {
-      "id": "41ac6500-63ab-44cf-9664-e65698fda81b",
-      "completedAt": 1792346432618,
-      "output": "/home/user/-/videos/ai-bubble-explained/renders/video.mp4",
+      "id": "d718d363-b197-4e3c-83d3-ba802d755717",
+      "completedAt": 1792355676800,
+      "output": "/home/user/-/videos/ai-bubble-explained/renders/ai-bubble-full.mp4",
       "status": "completed",
-      "revision": "8f12c5a6-2c19-4a9f-9171-ee1c62378603"
+      "revision": null
     },
     "retainedRevisions": [
       "8f12c5a6-2c19-4a9f-9171-ee1c62378603"
