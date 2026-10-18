@@ -1,6 +1,6 @@
 # The $9 Billion Lie: The Rise & Fall of Theranos
 
-**Канал:** Rise & Ruin · **Формат:** 16:9 · **Длина:** около 10 минут (примерно 1450 слов)
+**Канал:** Rise & Ruin · **Формат:** 16:9 · **Длина:** примерно 8–9 минут (около 1145 слов озвучки)
 **Превью:** женский силуэт в чёрной водолазке, капля крови на чипе, крупно «$9B LIE», красная трещина.
 
 ## Описание для YouTube
@@ -46,6 +46,18 @@ Some experts told her it wasn't realistic. The amount of blood was too small. Th
 
 She didn't listen. And at first, that looked like genius.
 
+[ЭКРАН: Холмс показывает патентную заявку, в ней схема пластыря с микрочипом.]
+
+Her first idea was even wilder: a patch that would test your blood through your skin and deliver medicine automatically. That proved impossible, so the company shifted to a portable device that could test a few drops of blood from a finger.
+
+[ЭКРАН: инвесторы-миллиардеры выстраиваются в очередь.]
+
+She raised money from family connections and wealthy investors, many of whom had no medical background. Year after year, the company stayed in what's called "stealth mode." No public data. No published research. Just promises.
+
+[ЭКРАН: настоящий учёный смотрит на это и хмурится.]
+
+In science, if you claim a breakthrough, you show your data so other experts can check it. Theranos never did. And for more than ten years, almost nobody forced it to.
+
 ### 2:30 — Building the legend
 
 [ЭКРАН: Холмс в чёрной водолазке на сцене, низкий голос показан звуковой волной.]
@@ -78,11 +90,37 @@ But behind the scenes, it couldn't reliably do what the company promised. So The
 
 [ЭКРАН: бланк анализа, красные отметки «ERROR».]
 
-Real patients got real results. Some were told they had conditions they didn't have. Others got false reassurance.
+[ЭКРАН: аптека Walgreens, вывеска «Theranos Wellness Center», очередь людей.]
+
+In 2013, Theranos launched its tests to the public inside Walgreens stores in Arizona and California. For the first time, real patients were relying on it. Doctors were making decisions based on its numbers.
+
+Real patients got real results. Some were told they had conditions they didn't have. Others got false reassurance. Some were told to go to the emergency room for problems that didn't exist. Others, with real problems, were told everything was fine.
+
+[ЭКРАН: Safeway строит клиники, которые так и не открываются.]
+
+The grocery chain Safeway also signed a deal and reportedly spent around a hundred million dollars building clinics in its stores for Theranos. They never launched. The tests were always "almost ready."
 
 [ЭКРАН: офис разделён стенами, люди не видят друг друга.]
 
 Inside the company, secrecy was extreme. Teams were kept apart so no one could see the full picture. Employees who asked too many questions were pushed out or threatened with lawsuits.
+
+[ЭКРАН: Холмс и Балвани за стеклянной стеной, сотрудники снаружи.]
+
+Holmes ran the company together with Ramesh "Sunny" Balwani, her number two, who was also secretly her romantic partner. Former employees described a culture of fear. Balwani watched people closely, and staff were afraid to say the machines weren't working.
+
+[ЭКРАН: военный вертолёт, сделка с армией, которая так и не состоялась.]
+
+Theranos also claimed its tests were being used by the U.S. military in the field, which was not true. It showed investors reports that looked like they came from big pharmaceutical companies, but had actually been made by Theranos itself, with the logos added.
+
+[ЭКРАН: стопка слайдов с громкими прогнозами выручки, рядом реальные цифры почти нулевые.]
+
+It told investors it expected to make well over a hundred million dollars in revenue in a single year. The real numbers were a tiny fraction of that.
+
+Every promise needed a bigger promise to cover it.
+
+[ЭКРАН: стоп-кадр, текст «How long can a lie last?».]
+
+You might wonder: how can a medical company fool regulators, partners and patients for this long? Part of the answer is a loophole. Many of Theranos' tests were run as "lab-developed tests," which at the time faced much lighter review than medical devices sold to other labs. Theranos didn't need to prove to the FDA that its own lab's tests worked before using them on patients. It only needed to pass lab inspections. And it got very good at hiding what inspectors shouldn't see.
 
 ### 5:30 — The whistleblowers
 
@@ -135,6 +173,14 @@ She was sentenced to more than 11 years in federal prison, and reported to priso
 How did so many smart, powerful people believe it?
 
 Because they wanted to. The story was perfect: a young genius, a world-changing idea, a hero founder. Asking hard questions felt like being on the wrong side of history.
+
+[ЭКРАН: список инвесторов-миллиардеров, суммы потерь рядом с каждым.]
+
+Some of the richest families in America lost more than a hundred million dollars each. Many of them never asked for independent scientific proof. They trusted the board. The board trusted Holmes. And Holmes kept the lab hidden.
+
+[ЭКРАН: книга, подкаст, сериал, все с названием про Theranos.]
+
+The story became a bestselling book by John Carreyrou, called "Bad Blood," then a podcast, a documentary and a TV series. Silicon Valley started using the word "Theranos" as a warning: if a startup won't show you how it works, be careful.
 
 [ЭКРАН: крупно фраза.]
 

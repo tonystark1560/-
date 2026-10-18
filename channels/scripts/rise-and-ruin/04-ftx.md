@@ -1,6 +1,6 @@
 # FTX: From Crypto King to Prison
 
-**Канал:** Rise & Ruin · **Формат:** 16:9 · **Длина:** около 10 минут (примерно 1450 слов)
+**Канал:** Rise & Ruin · **Формат:** 16:9 · **Длина:** примерно 8–9 минут (около 1127 слов озвучки)
 **Превью:** взъерошенный парень в шортах и футболке, на голове падающая корона, график криптовалюты обрывается, «$8B GONE».
 
 ## Описание для YouTube
@@ -72,6 +72,14 @@ FTX put its name on the Miami Heat's arena. It ran a Super Bowl ad. It signed de
 
 SBF became the face of "responsible crypto." He testified in Congress. He donated to politicians. He played video games during investor calls, and people loved it. It made him seem real.
 
+[ЭКРАН: обложки журналов: «The next Warren Buffett?».]
+
+Magazines compared him to Warren Buffett and J.P. Morgan. When other crypto companies started failing in 2022, SBF stepped in to bail some of them out. People called him crypto's lender of last resort. The savior of the industry.
+
+[ЭКРАН: инвесторы с чемоданами денег, один из них пишет восторженную статью.]
+
+Some of the most famous investment firms in the world put money into FTX. One venture firm even published a glowing profile of him on its website. Very few of them demanded the basic things you'd expect, like a proper board of directors or detailed financial controls.
+
 ### 5:00 — The secret pipe
 
 [ЭКРАН: два здания: «FTX» и «Alameda». Между ними скрытая подземная труба.]
@@ -85,6 +93,28 @@ FTX and Alameda were supposed to be separate companies. In reality, they were de
 And a lot of Alameda's "assets" were in FTT, a token created by FTX itself. A coin whose value mostly depended on everyone believing in FTX.
 
 It was a house built on its own shadow.
+
+[ЭКРАН: строка кода с надписью «allow_negative», красная подсветка.]
+
+At trial, it came out that Alameda had special privileges on FTX that no other customer had. It could borrow almost without limit, and it wasn't subject to the same automatic selling rules as everyone else. In effect, Alameda had a secret line of credit, funded by FTX customers.
+
+[ЭКРАН: пентхаус на Багамах, соседи по квартире играют в настолки.]
+
+Meanwhile, the inner circle lived together in a luxury penthouse in the Bahamas. The company spent hundreds of millions on property, sponsorships and venture investments. SBF drove a modest car and wore shorts to meetings, which made him look humble. But the money flowing around him was anything but.
+
+[ЭКРАН: 2022, крипторынок падает, монеты сыпятся.]
+
+Then in 2022, the crypto market crashed. Big crypto lenders went bust. Alameda lost huge amounts and couldn't repay what it owed. And the hole it had dug with customer money got deeper and deeper.
+
+Nobody outside knew. Yet.
+
+[ЭКРАН: деньги разлетаются веером: «politics», «real estate», «startups», «sponsorships», «charity».]
+
+So where did the money go? Prosecutors said customer funds paid for venture investments, luxury property in the Bahamas, huge marketing deals and tens of millions of dollars in political donations, some of them made under other people's names to hide where the money came from.
+
+[ЭКРАН: SBF говорит об «effective altruism», вокруг благотворительные логотипы-заглушки.]
+
+SBF was closely tied to the effective altruism movement, which focuses on doing the most good possible with money. He had promised to give away most of his fortune. After the collapse, many people in that movement felt betrayed. The money they thought would save lives had come from customers who never agreed to give it.
 
 ### 6:15 — The bank run
 
@@ -122,6 +152,14 @@ At trial, his closest colleagues, including former Alameda CEO Caroline Ellison,
 
 In November 2023, he was found guilty on all seven counts of fraud and conspiracy. In March 2024, he was sentenced to 25 years in prison.
 
+[ЭКРАН: SBF даёт интервью в студии, журналисты кивают.]
+
+In the weeks after the collapse, before his arrest, SBF gave interview after interview. He apologized, but said he hadn't knowingly committed fraud, that he'd lost track of the numbers. The jury didn't believe him. Prosecutors said he'd known exactly what was happening.
+
+[ЭКРАН: Кэролайн Эллисон и другие коллеги, каждый с табличкой приговора.]
+
+Several of his closest colleagues pleaded guilty and cooperated with prosecutors. Their testimony painted a picture of a company where one person made the key decisions and the rules didn't apply to him.
+
 ### 8:45 — The strange ending
 
 [ЭКРАН: бухгалтеры в пустом офисе собирают остатки.]
@@ -133,6 +171,10 @@ And here's the strange twist. The bankruptcy team recovered a lot of money, from
 The bankruptcy plan aimed to repay customers in full, based on the value of their accounts at the time of the collapse. Even though crypto prices later went much higher, which many customers felt was unfair.
 
 [ЭКРАН: падающая корона катится и останавливается.]
+
+[ЭКРАН: регуляторы, новые законы о крипте, биржи публикуют «proof of reserves».]
+
+The collapse changed crypto. Exchanges rushed to publish so-called "proof of reserves" to show they actually held customers' coins. Regulators around the world cracked down. And millions of people learned a painful phrase from the crypto world: "not your keys, not your coins." If someone else holds your crypto, you're trusting them, just like a bank, but often without the protections a bank gives you.
 
 FTX shows how quickly trust can turn into a bank run. And that when someone tells you they're the "responsible" one, it's worth asking who's checking.
 

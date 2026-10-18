@@ -1,6 +1,6 @@
 # Kodak Invented the Digital Camera… and Still Died
 
-**Канал:** Rise & Ruin · **Формат:** 16:9 · **Длина:** около 9–10 минут (примерно 1400 слов)
+**Канал:** Rise & Ruin · **Формат:** 16:9 · **Длина:** примерно 8–9 минут (около 1070 слов озвучки)
 **Превью:** жёлтая коробка плёнки, из неё выпадает цифровая камера, тень камеры похожа на надгробие, «THEY INVENTED IT».
 
 ## Описание для YouTube
@@ -58,6 +58,18 @@ And the secret to its profits was simple: film. Kodak didn't make most of its mo
 
 Every click was a sale. Remember that. It's the key to the whole story.
 
+[ЭКРАН: Рочестер расцветает: школы, парки, концертный зал с именем Истмана.]
+
+Kodak didn't just dominate an industry. It built a city. Rochester, New York, became known as a company town. Kodak paid good wages, gave out generous bonuses, and funded schools, hospitals and music. For generations, getting a job at Kodak meant a job for life.
+
+[ЭКРАН: первая высадка на Луну, фото с камеры на плёнке.]
+
+Kodak film was there for historic moments, from family birthdays to Hollywood blockbusters to images from space. If something was worth remembering, it was probably on Kodak film.
+
+[ЭКРАН: зелёная коробка Fujifilm появляется на горизонте.]
+
+There were warning signs, though. In the 1980s, the Japanese company Fujifilm started selling cheaper film in the US, and even won the rights to be the official film of the 1984 Los Angeles Olympics, right in Kodak's home country. Kodak was big. But it wasn't untouchable.
+
 ### 3:30 — The toaster camera
 
 [ЭКРАН: 1975 год, лаборатория. Молодой инженер Стив Сассон.]
@@ -112,6 +124,18 @@ And then smartphones came. Suddenly, everyone had a camera in their pocket. And 
 
 Kodak had lost the film business, and the digital camera business was disappearing too.
 
+[ЭКРАН: логотип фотосайта «Ofoto», Kodak показывает фото онлайн.]
+
+And here's the most painful part. In 2001, Kodak bought a photo-sharing website called Ofoto. It could have become a social network built around pictures, years before Instagram. But Kodak mostly used it to get people to order prints. Printing was what Kodak understood.
+
+[ЭКРАН: Instagram продан за $1B, у Kodak тот же месяц — банкротство.]
+
+In April 2012, Facebook bought Instagram, a tiny photo-sharing app with just 13 employees, for a billion dollars. Just three months earlier, Kodak, the company that had defined photography for a century, had filed for bankruptcy.
+
+[ЭКРАН: Fujifilm переключается на медицину и косметику, становится сильнее.]
+
+Even its old rival handled it differently. Fujifilm faced the same collapse of film, but it moved into new areas like medical imaging, materials and even cosmetics, using its chemistry know-how. Fujifilm survived and thrived. Kodak didn't.
+
 ### 7:45 — Bankruptcy
 
 [ЭКРАН: холодные цвета, январь 2012, печать «CHAPTER 11».]
@@ -126,9 +150,29 @@ To survive, it sold off businesses and many of its digital imaging patents. The 
 
 Kodak still exists today, as a much smaller company focused on printing and other industrial businesses. But the yellow empire is gone.
 
+[ЭКРАН: 2020 год, акции Kodak подскакивают ракетой.]
+
+And Kodak's story has one more strange chapter. In July 2020, during the pandemic, the US government announced a deal to lend Kodak hundreds of millions of dollars to start making ingredients for medicines. Kodak's stock exploded, rising more than twenty times in just a few days.
+
+[ЭКРАН: ракета сдувается, на экране «LOAN ON HOLD».]
+
+Then questions came up about how the news had been handled and about stock trades around the announcement. The loan was put on hold, and the stock fell back down. For a moment, the old giant looked alive again. Then it was just another headline.
+
+[ЭКРАН: кинокамера на съёмочной площадке, на ней жёлтая плёнка.]
+
+But here's a nice detail: film never fully died. Some famous Hollywood directors still insist on shooting on film. And a new generation discovered film cameras for the vintage look on social media. Kodak still makes the film they use. A tiny business compared to the old days, but a living one.
+
 ### 8:45 — The lesson
 
 [ЭКРАН: дверь, за дверью свет. Рука закрывает её.]
+
+[ЭКРАН: книга «The Innovator's Dilemma», автор-профессор у доски.]
+
+In 1997, Harvard professor Clayton Christensen published a famous book that explained exactly this pattern. New technologies usually start out worse than the old ones: lower quality, smaller market, lower profits. So successful companies, listening to their best customers, rationally ignore them. By the time the new technology gets good enough, it's too late.
+
+[ЭКРАН: график: старая технология выходит на плато, новая догоняет снизу и обгоняет.]
+
+That first digital camera, with its 0.01 megapixels and 23-second wait, was laughably worse than film. Until, one day, it wasn't.
 
 Kodak is the classic example of something called the innovator's dilemma. When the new technology threatens your most profitable business, it's incredibly hard to choose the future over the present.
 

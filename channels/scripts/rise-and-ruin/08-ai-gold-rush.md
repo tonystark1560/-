@@ -1,6 +1,6 @@
 # The AI Gold Rush: Who Will Be the Next to Fall?
 
-**Канал:** Rise & Ruin · **Формат:** 16:9 · **Длина:** около 10 минут (примерно 1450 слов)
+**Канал:** Rise & Ruin · **Формат:** 16:9 · **Длина:** примерно 8–9 минут (около 1059 слов озвучки)
 **Превью:** золотая гора с логотипами-заглушками, у подножия кладбище с надгробиями «.com», крупно «WHO'S NEXT?»
 
 ## Описание для YouTube
@@ -86,6 +86,18 @@ Pets.com shut down in November 2000, just nine months after going public.
 
 Webvan went bankrupt in 2001. Hundreds of dot-com companies disappeared. Trillions of dollars in stock market value were wiped out.
 
+[ЭКРАН: под землёй тянутся оптоволоконные кабели, большинство из них тёмные.]
+
+And it wasn't just websites. Telecom companies had spent fortunes laying fiber-optic cable across the country, expecting internet traffic to explode overnight. It did grow, but not fast enough. Some of those companies went bankrupt, leaving huge amounts of unused, so-called "dark fiber" in the ground.
+
+[ЭКРАН: годы спустя тёмные кабели загораются: видео, стриминг, облака.]
+
+Years later, that cheap, leftover fiber helped power the next generation of the internet: video streaming, cloud computing and social media. The investors lost their money. Everyone else got the infrastructure.
+
+[ЭКРАН: офис-сотрудник с коробкой, «layoffs» на табличке.]
+
+For ordinary people, the crash was very real. Many lost their jobs. People who had put their retirement savings into tech stocks saw them shrink by more than half.
+
 ### 5:00 — Who survived
 
 [ЭКРАН: маленькая коробка с улыбкой выбирается из руин.]
@@ -118,6 +130,18 @@ Big tech companies are spending staggering amounts on data centers and chips. St
 
 Sound familiar?
 
+[ЭКРАН: продавец лопат стоит у золотой горы, у него очередь.]
+
+In every gold rush, the most reliable money is often made by the people selling the shovels. In the California Gold Rush of 1849, many miners went home broke, while some merchants selling supplies to them got rich.
+
+[ЭКРАН: лопаты превращаются в чипы и серверы.]
+
+In the AI gold rush, the shovels are chips, data centers and electricity. The companies that make AI chips have seen their value explode, because everyone needs them, whether their AI products succeed or not.
+
+[ЭКРАН: круг из стрелок: компания A инвестирует в B, B покупает у A, A инвестирует ещё.]
+
+And there's something else analysts have been watching closely: circular deals. Big tech and chip companies investing billions into AI startups, which then use that money to buy chips and cloud services from those same companies. It can make demand look stronger than it really is. The same kind of thing happened during the dot-com era, when telecom companies lent money to customers so they could buy their equipment.
+
 ### 7:45 — Warning signs
 
 [ЭКРАН: тикеры акций краснеют.]
@@ -136,6 +160,10 @@ Two: startups whose whole product is a thin layer on top of someone else's AI mo
 
 Three: huge valuations based on "users" who might not stick around, like we just saw with Character.AI.
 
+[ЭКРАН: обычный человек смотрит на свой пенсионный счёт, в нём логотипы техкомпаний.]
+
+And this matters even if you've never bought a single AI stock. The biggest tech companies now make up a huge share of the main US stock indexes. If you have a retirement account or an index fund, there's a good chance a big part of it is riding on the AI boom. That's not a reason to panic. But it is a reason to understand what you own.
+
 ### 9:00 — Who falls first
 
 [ЭКРАН: две двери: над одной «Amazon», над другой «Pets.com».]
@@ -143,6 +171,14 @@ Three: huge valuations based on "users" who might not stick around, like we just
 So who survives? If history is any guide, it's companies that own something hard to copy: unique data, real customers who pay, or the infrastructure everyone else depends on.
 
 [ЭКРАН: горизонт, рассвет над дата-центрами.]
+
+[ЭКРАН: три типа компаний: «builders», «shovels», «wrappers», у каждого свой уровень риска.]
+
+Think of today's AI companies in three groups. The model builders, who spend billions to train the biggest AI systems. The shovel sellers: chips, cloud and power. And the wrappers: the thousands of apps built on top of someone else's AI.
+
+[ЭКРАН: у «wrappers» стрелка риска на максимуме.]
+
+History suggests the wrappers are the most fragile. The shovel sellers do well until the spending slows down. And the model builders face the biggest bets of all: if they win, they could become the next Google. If they lose, they burn through more money than most dot-coms ever raised.
 
 AI will almost certainly change the world, just like the railways and the internet did. But that doesn't mean every AI company will be around to see it.
 

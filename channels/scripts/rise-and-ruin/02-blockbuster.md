@@ -1,6 +1,6 @@
 # Blockbuster Laughed at Netflix. Then This Happened.
 
-**Канал:** Rise & Ruin · **Формат:** 16:9 · **Длина:** около 10 минут (примерно 1450 слов)
+**Канал:** Rise & Ruin · **Формат:** 16:9 · **Длина:** примерно 8–9 минут (около 1160 слов озвучки)
 **Превью:** синяя вывеска Blockbuster треснула, рядом маленький красный конверт, крупно «$50M?», человек в костюме смеётся.
 
 ## Описание для YouTube
@@ -48,6 +48,18 @@ Friday night meant one thing for millions of families: drive to Blockbuster, wal
 
 It wasn't just a store. It was a ritual. And Blockbuster owned it.
 
+[ЭКРАН: маленький видеопрокат «Mom & Pop Video» закрывается, рядом открывается огромный синий магазин.]
+
+Part of the secret was scale. Small local video stores couldn't afford to stock many copies of new releases. Blockbuster could. It used computers to track what people rented in each neighborhood and stocked stores accordingly. If a big movie came out, Blockbuster had a whole wall of it.
+
+[ЭКРАН: Viacom покупает Blockbuster, на экране «$8.4B».]
+
+In 1994, the media giant Viacom bought Blockbuster for around 8 billion dollars. It was one of the most valuable retail brands in America, sitting at the intersection of Hollywood and Main Street.
+
+[ЭКРАН: ряды кассет превращаются в ряды DVD.]
+
+When DVDs arrived in the late 1990s, Blockbuster simply swapped the tapes for discs. Same stores. Same ritual. Same money machine. What could possibly go wrong?
+
 ### 2:45 — The late fee problem
 
 [ЭКРАН: кассета под кроватью, календарь с днями просрочки.]
@@ -66,6 +78,10 @@ And here's the dirty secret: late fees weren't a side hustle for Blockbuster. Th
 
 Blockbuster was making a fortune by annoying its own customers. And whenever a company does that, it's leaving the door open for someone else.
 
+[ЭКРАН: стоп-кадр, текст «Remember this number: $50M».]
+
+And remember: this is the company that, a few years later, would be offered Netflix for 50 million dollars. To Blockbuster, that was pocket change. Which is exactly why it seemed like a joke. But to understand why it wasn't, we need to look at the startup across the table.
+
 ### 4:00 — A tiny DVD startup
 
 [ЭКРАН: тесный офис, коробки с DVD, красные конверты.]
@@ -81,6 +97,18 @@ Rent DVDs online. Get them in the mail. Keep them as long as you want. Monthly s
 In the beginning, Netflix was tiny and losing money. That's why, in 2000, after the dot-com crash, its founders were willing to sell. And that's why Blockbuster thought it was a joke.
 
 Why would a giant with thousands of stores buy a company that mails DVDs?
+
+[ЭКРАН: склад Netflix, конвейер с красными конвертами, робот-сортировщик.]
+
+But Netflix had advantages that were easy to miss. It didn't pay rent for thousands of stores. One warehouse could serve a whole region. It didn't need to guess what one neighborhood wanted, because its catalog had almost every movie ever released on DVD.
+
+[ЭКРАН: интерфейс «Because you watched…», звёздочки рейтинга.]
+
+And it collected something Blockbuster barely used: data. Netflix tracked what every customer rated and built a recommendation system to suggest what they'd like next. That meant people rented older, cheaper movies, not just expensive new releases.
+
+[ЭКРАН: часы, годы идут: 2001, 2002, 2003. Линия подписчиков ползёт вверх.]
+
+In 2002, Netflix went public. Slowly, quietly, its subscriber count kept climbing. Not fast enough to scare Blockbuster yet. But fast enough to matter.
 
 ### 5:30 — Blockbuster fights back
 
@@ -112,6 +140,14 @@ In 2007, after clashing with activist investor Carl Icahn over strategy and pay,
 
 Blockbuster pulled back on its online push and refocused on retail.
 
+[ЭКРАН: Keyes на сцене, позади слайд «Stores are our strength».]
+
+From the inside, this didn't look crazy. Stores still brought in billions of dollars. The online business was losing money. Shareholders wanted profits, not a long, expensive war with a startup.
+
+[ЭКРАН: мужчина с тележкой в магазине, полной вещей не по теме: конфеты, игрушки, гаджеты.]
+
+So Blockbuster tried to make its stores more exciting, adding more products and experimenting with new formats. It was trying to win the last war.
+
 [ЭКРАН: 2007 год. На экране ноутбука кнопка «Watch Now».]
 
 The same year, Netflix launched streaming.
@@ -123,6 +159,14 @@ The same year, Netflix launched streaming.
 From there, it went fast. Streaming grew. Redbox kiosks offered DVDs for a dollar. And the 2008 financial crisis crushed a company already drowning in debt.
 
 [ЭКРАН: печать «CHAPTER 11», 2010.]
+
+[ЭКРАН: красный автомат Redbox у супермаркета, цена «$1».]
+
+Redbox was especially painful. It put red DVD rental machines outside supermarkets and pharmacies. One dollar a night, no store, no staff. It took Blockbuster's quick, cheap new-release rentals and made them even quicker and cheaper.
+
+[ЭКРАН: Blockbuster зажат между тремя стенами: Netflix, Redbox, стриминг.]
+
+Blockbuster was now squeezed from three sides: Netflix's mail service, Redbox's kiosks and the first wave of streaming. And it still had thousands of expensive stores, plus a mountain of debt.
 
 In September 2010, Blockbuster filed for bankruptcy. The next year, its remaining business was bought at auction by Dish Network. By early 2014, the last company-owned stores were closed.
 
@@ -138,7 +182,15 @@ Today, there's one Blockbuster left on Earth. In Bend, Oregon. It's a franchise 
 
 [ЭКРАН: люди фотографируются у вывески.]
 
-People fly in just to rent a movie there. Not because they need to. Because they remember.
+People fly in just to rent a movie there. Not because they need to. Because they remember. It even became the subject of its own documentary and, for a while, you could book a sleepover in the store.
+
+[ЭКРАН: сплит-скрин: Netflix в 2000 году (маленький офис) и сегодня (огромная студия).]
+
+And here's the irony. Netflix eventually became the very thing Blockbuster was: a giant that has to worry about the next disruptor. It now spends billions making its own shows and movies, fighting streaming wars with some of the biggest companies in the world.
+
+[ЭКРАН: новые логотипы-заглушки стриминговых сервисов окружают Netflix.]
+
+The question that haunted Blockbuster now haunts everyone: what's the thing you're laughing at today that will replace you tomorrow?
 
 [ЭКРАН: крупно фраза.]
 

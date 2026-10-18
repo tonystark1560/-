@@ -1,6 +1,6 @@
 # Nokia Ruled the World. Then the iPhone Happened.
 
-**Канал:** Rise & Ruin · **Формат:** 16:9 · **Длина:** около 9–10 минут (примерно 1400 слов)
+**Канал:** Rise & Ruin · **Формат:** 16:9 · **Длина:** примерно 8–9 минут (около 1062 слов озвучки)
 **Превью:** неубиваемая Nokia с трещиной, рядом сияет силуэт смартфона без кнопок, «HOW?!»
 
 ## Описание для YouTube
@@ -74,6 +74,18 @@ Around 2000, Nokia was one of the most valuable companies in Europe. A huge shar
 
 And as late as 2007, Nokia sold roughly four out of every ten phones on Earth. No one was close.
 
+[ЭКРАН: Nokia Communicator раскрывается, внутри клавиатура и экран с почтой.]
+
+And here's what most people forget: Nokia was a smartphone pioneer. In the 1990s, it released the Nokia Communicator, a phone that opened up like a tiny laptop, with email and web access. Nokia phones had cameras, apps and even early internet years before the iPhone.
+
+[ЭКРАН: прототип сенсорного телефона в лаборатории Nokia.]
+
+Its engineers even worked on touchscreen phone concepts. Nokia had the talent, the money and the patents. On paper, it was the company best positioned to build the smartphone of the future.
+
+[ЭКРАН: офис Nokia в Эспоо, огромный и самоуверенный.]
+
+But success can make a company comfortable. Nokia was so dominant that it measured itself mostly against other phone makers like Motorola and Samsung. It didn't see the danger coming from a computer company in California.
+
 ### 4:45 — 2007
 
 [ЭКРАН: сцена, человек в чёрной водолазке достаёт телефон без кнопок.]
@@ -106,6 +118,18 @@ Then, in 2008, Google's Android arrived. Suddenly, Samsung, HTC and many others 
 
 Nokia was squeezed from both sides: Apple at the top, Android everywhere else. Its internal teams worked on several competing software projects. Decisions were slow. Its smartphone market share started collapsing.
 
+[ЭКРАН: вне компании: разработчики выбирают App Store и Google Play, мимо Nokia.]
+
+The real battle wasn't about phones anymore. It was about ecosystems. Developers wanted to build apps where the users were, and users wanted phones with the best apps. Apple and Google got that flywheel spinning. Nokia's app store never caught up.
+
+[ЭКРАН: исследование: менеджеры среднего звена боятся говорить начальству правду.]
+
+Researchers who later studied Nokia's fall pointed to something deeper: fear. Middle managers reportedly worried about telling top executives how far behind Nokia's software really was. So leadership kept thinking the company had more time than it did.
+
+[ЭКРАН: стрелка акций Nokia вниз, у входа в офис репортёры.]
+
+By 2010, Nokia's stock had fallen dramatically from its peak, and the company needed a new direction. Fast.
+
 ### 7:15 — The burning platform
 
 [ЭКРАН: 2010, новый CEO из Microsoft, Стивен Элоп.]
@@ -134,11 +158,31 @@ In 2013, Nokia agreed to sell its phone business to Microsoft for around 5.4 bil
 
 It didn't work out for Microsoft either. Within a couple of years, Microsoft wrote off most of the deal, and eventually gave up on its phones.
 
+[ЭКРАН: заголовки финских газет, недовольная толпа.]
+
+In Finland, the sale was a national shock. Nokia wasn't just a company there; it was a symbol of the country's success. And there was outrage when it came out that Stephen Elop, the CEO who had come from Microsoft and was now going back to Microsoft with the phone business, would receive a payout of millions of euros.
+
+[ЭКРАН: карта Финляндии тускнеет, затем загораются маленькие точки стартапов.]
+
+Tens of thousands of jobs disappeared over the years. But something interesting happened next. Many former Nokia engineers started their own companies. Finland's startup scene grew, including mobile game studios that went on to create hits played by millions around the world.
+
+[ЭКРАН: 2017, возрождённая Nokia 3310 в ярких цветах на выставке.]
+
+And Nokia phones didn't completely vanish. A Finnish company called HMD Global licensed the Nokia brand and started making phones again. In 2017, it even brought back a modern version of the legendary 3310, with Snake. Fans went crazy. It was pure nostalgia, but it showed how much people still loved the name.
+
 [ЭКРАН: современная Nokia: сетевые вышки, 5G.]
 
 Nokia itself survived. Today, it's mainly a telecom equipment company, building the networks phones run on. It came back, quietly. But it never ruled your pocket again.
 
 [ЭКРАН: корона медленно соскальзывает с синего телефона.]
+
+[ЭКРАН: «what if?»: альтернативная временная линия, Nokia с Android.]
+
+People still argue about what Nokia should have done. Some say it should have adopted Android early, like Samsung did, and used its huge manufacturing power to dominate. Others say it should have bet on its own modern software sooner. What almost everyone agrees on is that it waited too long to choose, and in a fast market, a slow decision is a decision too.
+
+[ЭКРАН: Samsung и Apple на вершине, в тени новые претенденты.]
+
+And the companies that beat Nokia face the same danger today. Every king of tech is just one platform shift away from becoming the next Nokia.
 
 Nokia proves that being number one is temporary. The biggest danger isn't a competitor that beats you at your own game. It's one that changes the game.
 
