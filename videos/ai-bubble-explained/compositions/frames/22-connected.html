@@ -1,0 +1,61 @@
+<template>
+<style>
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Regular.otf') format('opentype');font-weight:400;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Medium.otf') format('opentype');font-weight:500;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-SemiBold.otf') format('opentype');font-weight:600;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Bold.otf') format('opentype');font-weight:700;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-ExtraBold.otf') format('opentype');font-weight:800;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Black.otf') format('opentype');font-weight:900;font-style:normal;}
+#root{position:absolute;inset:0;width:1920px;height:1080px;overflow:hidden;font-family:'Inter',sans-serif;color:#1B1F3B;}
+.fd22-bg{position:absolute;inset:0;background:#EEF0FF;overflow:hidden;}
+.fd22-blob{position:absolute;border-radius:50%;filter:blur(110px);opacity:.85;}
+.fd22-b1{width:900px;height:900px;left:-200px;top:-260px;background:#BFD7FF;}
+.fd22-b2{width:820px;height:820px;right:-180px;top:120px;background:#E3D4FF;}
+.fd22-b3{width:700px;height:700px;left:520px;bottom:-420px;background:#FFE1EC;}
+.fd22-stage{position:absolute;inset:0;}
+.fd22-card{position:absolute;background:rgba(255,255,255,.88);border-radius:22px;box-shadow:0 18px 50px rgba(124,92,255,.14),0 2px 6px rgba(27,31,59,.06);}
+.fd22-pill{position:absolute;display:inline-flex;align-items:center;gap:10px;padding:12px 26px;border-radius:999px;font-weight:700;font-size:26px;letter-spacing:.08em;text-transform:uppercase;}
+.fd22-robotwrap{position:absolute;}
+.fd22-robot{display:block;filter:drop-shadow(0 14px 22px rgba(124,92,255,.35));}
+
+.fd22-eyebrow{left:110px;top:100px;background:#7C5CFF;color:#fff;}
+.fd22-h{position:absolute;font-weight:900;letter-spacing:-.02em;line-height:1;}
+.fd22-h span{color:#7C5CFF;} .fd22-h .fd22-red{color:#E24040;} .fd22-h .fd22-grn{color:#0EA674;}
+.fd22-lbl{font-weight:800;font-size:30px;letter-spacing:.03em;}
+.fd22-sub{font-weight:600;font-size:24px;color:#5B6178;}
+.fd22-tile{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:20px;text-align:center;}
+.fd22-chipx{position:absolute;padding:12px 24px;border-radius:999px;font-weight:800;font-size:28px;color:#fff;background:#7C5CFF;}
+.fd22-nd{position:absolute;width:280px;height:110px;margin-left:-140px;margin-top:-55px;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:34px;}</style>
+<div id="root" data-composition-id="22-connected" data-width="1920" data-height="1080">
+<div class="clip fd22-bg" id="fd22-bg" data-start="0" data-duration="7.483" data-track-index="0"><div class="fd22-blob fd22-b1" id="fd22-b1"></div><div class="fd22-blob fd22-b2" id="fd22-b2"></div><div class="fd22-blob fd22-b3" id="fd22-b3"></div></div>
+<div class="clip fd22-stage" id="fd22-stage" data-start="0" data-duration="7.483" data-track-index="1">
+<svg style="position:absolute;left:0;top:0" width="1920" height="1080"><line id="fd22-ln0" x1="960" y1="200" x2="1450" y2="400" stroke="#7C5CFF" stroke-width="5" opacity=".5"/><line id="fd22-ln1" x1="1450" y1="400" x2="1300" y2="750" stroke="#7C5CFF" stroke-width="5" opacity=".5"/><line id="fd22-ln2" x1="1300" y1="750" x2="620" y2="750" stroke="#7C5CFF" stroke-width="5" opacity=".5"/><line id="fd22-ln3" x1="620" y1="750" x2="470" y2="400" stroke="#7C5CFF" stroke-width="5" opacity=".5"/><line id="fd22-ln4" x1="470" y1="400" x2="960" y2="200" stroke="#7C5CFF" stroke-width="5" opacity=".5"/><line id="fd22-ln5" x1="960" y1="200" x2="1300" y2="750" stroke="#7C5CFF" stroke-width="5" opacity=".5"/><line id="fd22-ln6" x1="960" y1="200" x2="620" y2="750" stroke="#7C5CFF" stroke-width="5" opacity=".5"/><line id="fd22-ln7" x1="1450" y1="400" x2="470" y2="400" stroke="#7C5CFF" stroke-width="5" opacity=".5"/></svg><div class="fd22-card fd22-nd" id="fd22-n0" style="left:960px;top:200px">BIG TECH</div><div class="fd22-card fd22-nd" id="fd22-n1" style="left:1450px;top:400px">CHIPS</div><div class="fd22-card fd22-nd" id="fd22-n2" style="left:1300px;top:750px">CLOUD</div><div class="fd22-card fd22-nd" id="fd22-n3" style="left:620px;top:750px">POWER</div><div class="fd22-card fd22-nd" id="fd22-n4" style="left:470px;top:400px">STARTUPS</div>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+<script>
+(function(){
+const tl = gsap.timeline({ paused: true });
+tl.fromTo("#fd22-b1",{x:0,y:0},{x:140,y:60,duration:7.483,ease:"none"},0);tl.fromTo("#fd22-b2",{x:0,y:0},{x:-120,y:-50,duration:7.483,ease:"none"},0);tl.fromTo("#fd22-b3",{x:0,y:0},{x:-90,y:-40,duration:7.483,ease:"none"},0);
+tl.fromTo("#fd22-n0",{scale:0.5,opacity:0},{scale:1,opacity:1,duration:.45,ease:"back.out(2)"},1.56);
+tl.fromTo("#fd22-n1",{scale:0.5,opacity:0},{scale:1,opacity:1,duration:.45,ease:"back.out(2)"},1.71);
+tl.fromTo("#fd22-n2",{scale:0.5,opacity:0},{scale:1,opacity:1,duration:.45,ease:"back.out(2)"},1.86);
+tl.fromTo("#fd22-n3",{scale:0.5,opacity:0},{scale:1,opacity:1,duration:.45,ease:"back.out(2)"},2.01);
+tl.fromTo("#fd22-n4",{scale:0.5,opacity:0},{scale:1,opacity:1,duration:.45,ease:"back.out(2)"},2.16);
+tl.fromTo("#fd22-ln0",{opacity:0},{opacity:.5,duration:.3},2.87);
+tl.fromTo("#fd22-ln1",{opacity:0},{opacity:.5,duration:.3},2.95);
+tl.fromTo("#fd22-ln2",{opacity:0},{opacity:.5,duration:.3},3.03);
+tl.fromTo("#fd22-ln3",{opacity:0},{opacity:.5,duration:.3},3.11);
+tl.fromTo("#fd22-ln4",{opacity:0},{opacity:.5,duration:.3},3.19);
+tl.fromTo("#fd22-ln5",{opacity:0},{opacity:.5,duration:.3},3.27);
+tl.fromTo("#fd22-ln6",{opacity:0},{opacity:.5,duration:.3},3.35);
+tl.fromTo("#fd22-ln7",{opacity:0},{opacity:.5,duration:.3},3.43);
+tl.to("#fd22-n0",{x:10,duration:.05},4.62);tl.to("#fd22-n0",{x:-10,duration:.05},4.67);tl.to("#fd22-n0",{x:7,duration:.05},4.72);tl.to("#fd22-n0",{x:-7,duration:.05},4.77);tl.to("#fd22-n0",{x:0,duration:.05},4.82);
+tl.to(["#fd22-n1","#fd22-n2","#fd22-n3","#fd22-n4"],{color:"#E24040",y:12,duration:.3,stagger:.12},6.64);
+const K = 1.00000;
+if (K !== 1) tl.getChildren(false, true, true).forEach(c => { if (c.startTime() > 0.001) c.startTime(c.startTime() * K); });
+window.__timelines = window.__timelines || {};
+window.__timelines["22-connected"] = tl;
+})();
+</script>
+</template>

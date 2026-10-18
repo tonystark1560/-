@@ -1,0 +1,77 @@
+<template>
+<style>
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Regular.otf') format('opentype');font-weight:400;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Medium.otf') format('opentype');font-weight:500;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-SemiBold.otf') format('opentype');font-weight:600;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Bold.otf') format('opentype');font-weight:700;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-ExtraBold.otf') format('opentype');font-weight:800;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Black.otf') format('opentype');font-weight:900;font-style:normal;}
+#root{position:absolute;inset:0;width:1920px;height:1080px;overflow:hidden;font-family:'Inter',sans-serif;color:#1B1F3B;}
+.fd29-bg{position:absolute;inset:0;background:#EEF0FF;overflow:hidden;}
+.fd29-blob{position:absolute;border-radius:50%;filter:blur(110px);opacity:.85;}
+.fd29-b1{width:900px;height:900px;left:-200px;top:-260px;background:#BFD7FF;}
+.fd29-b2{width:820px;height:820px;right:-180px;top:120px;background:#E3D4FF;}
+.fd29-b3{width:700px;height:700px;left:520px;bottom:-420px;background:#FFE1EC;}
+.fd29-stage{position:absolute;inset:0;}
+.fd29-card{position:absolute;background:rgba(255,255,255,.88);border-radius:22px;box-shadow:0 18px 50px rgba(124,92,255,.14),0 2px 6px rgba(27,31,59,.06);}
+.fd29-pill{position:absolute;display:inline-flex;align-items:center;gap:10px;padding:12px 26px;border-radius:999px;font-weight:700;font-size:26px;letter-spacing:.08em;text-transform:uppercase;}
+.fd29-robotwrap{position:absolute;}
+.fd29-robot{display:block;filter:drop-shadow(0 14px 22px rgba(124,92,255,.35));}
+
+.fd29-eyebrow{left:110px;top:100px;background:#7C5CFF;color:#fff;}
+.fd29-h{position:absolute;font-weight:900;letter-spacing:-.02em;line-height:1;}
+.fd29-h span{color:#7C5CFF;} .fd29-h .fd29-red{color:#E24040;} .fd29-h .fd29-grn{color:#0EA674;}
+.fd29-lbl{font-weight:800;font-size:30px;letter-spacing:.03em;}
+.fd29-sub{font-weight:600;font-size:24px;color:#5B6178;}
+.fd29-tile{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:20px;text-align:center;}
+.fd29-chipx{position:absolute;padding:12px 24px;border-radius:999px;font-weight:800;font-size:28px;color:#fff;background:#7C5CFF;}
+</style>
+<div id="root" data-composition-id="29-gauges" data-width="1920" data-height="1080">
+<div class="clip fd29-bg" id="fd29-bg" data-start="0" data-duration="5.392" data-track-index="0"><div class="fd29-blob fd29-b1" id="fd29-b1"></div><div class="fd29-blob fd29-b2" id="fd29-b2"></div><div class="fd29-blob fd29-b3" id="fd29-b3"></div></div>
+<div class="clip fd29-stage" id="fd29-stage" data-start="0" data-duration="5.392" data-track-index="1">
+<div class="fd29-pill fd29-eyebrow" id="fd29-eb">3 gauges to watch</div><div class="fd29-card" id="fd29-g0" style="left:160px;top:300px;width:480px;height:374px">
+<svg width="480" height="298" viewBox="0 0 480 298">
+<path d="M 20.0 260.0 A 220.0 220.0 0 0 1 460.0 260.0" stroke="#E5E7F5" stroke-width="26" fill="none"/>
+<path d="M 20.0 260.0 A 220.0 220.0 0 0 1 240.0 40.0" stroke="#0EA674" stroke-width="26" fill="none"/>
+<path d="M 240.0 40.0 A 220.0 220.0 0 0 1 394 104" stroke="#FBBF24" stroke-width="26" fill="none"/>
+<path d="M 394 104 A 220.0 220.0 0 0 1 460.0 260.0" stroke="#E24040" stroke-width="26" fill="none"/>
+<g id="fd29-g0-n"><rect x="236.0" y="58.0" width="8" height="202.0" rx="4" fill="#1B1F3B"/></g>
+<circle cx="240.0" cy="260.0" r="14" fill="#1B1F3B"/></svg>
+<div class="fd29-lbl" style="text-align:center;margin-top:6px">SPENDING</div></div><div class="fd29-card" id="fd29-g1" style="left:720px;top:300px;width:480px;height:374px">
+<svg width="480" height="298" viewBox="0 0 480 298">
+<path d="M 20.0 260.0 A 220.0 220.0 0 0 1 460.0 260.0" stroke="#E5E7F5" stroke-width="26" fill="none"/>
+<path d="M 20.0 260.0 A 220.0 220.0 0 0 1 240.0 40.0" stroke="#0EA674" stroke-width="26" fill="none"/>
+<path d="M 240.0 40.0 A 220.0 220.0 0 0 1 394 104" stroke="#FBBF24" stroke-width="26" fill="none"/>
+<path d="M 394 104 A 220.0 220.0 0 0 1 460.0 260.0" stroke="#E24040" stroke-width="26" fill="none"/>
+<g id="fd29-g1-n"><rect x="236.0" y="58.0" width="8" height="202.0" rx="4" fill="#1B1F3B"/></g>
+<circle cx="240.0" cy="260.0" r="14" fill="#1B1F3B"/></svg>
+<div class="fd29-lbl" style="text-align:center;margin-top:6px">CUSTOMERS</div></div><div class="fd29-card" id="fd29-g2" style="left:1280px;top:300px;width:480px;height:374px">
+<svg width="480" height="298" viewBox="0 0 480 298">
+<path d="M 20.0 260.0 A 220.0 220.0 0 0 1 460.0 260.0" stroke="#E5E7F5" stroke-width="26" fill="none"/>
+<path d="M 20.0 260.0 A 220.0 220.0 0 0 1 240.0 40.0" stroke="#0EA674" stroke-width="26" fill="none"/>
+<path d="M 240.0 40.0 A 220.0 220.0 0 0 1 394 104" stroke="#FBBF24" stroke-width="26" fill="none"/>
+<path d="M 394 104 A 220.0 220.0 0 0 1 460.0 260.0" stroke="#E24040" stroke-width="26" fill="none"/>
+<g id="fd29-g2-n"><rect x="236.0" y="58.0" width="8" height="202.0" rx="4" fill="#1B1F3B"/></g>
+<circle cx="240.0" cy="260.0" r="14" fill="#1B1F3B"/></svg>
+<div class="fd29-lbl" style="text-align:center;margin-top:6px">DEBT</div></div>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+<script>
+(function(){
+const tl = gsap.timeline({ paused: true });
+tl.fromTo("#fd29-b1",{x:0,y:0},{x:140,y:60,duration:5.392,ease:"none"},0);tl.fromTo("#fd29-b2",{x:0,y:0},{x:-120,y:-50,duration:5.392,ease:"none"},0);tl.fromTo("#fd29-b3",{x:0,y:0},{x:-90,y:-40,duration:5.392,ease:"none"},0);
+tl.fromTo("#fd29-eb",{y:40,opacity:0},{y:0,opacity:1,duration:.5,ease:"power3.out"},0.10);
+tl.fromTo("#fd29-g0",{scale:0.5,opacity:0},{scale:1,opacity:1,duration:.45,ease:"back.out(2)"},3.52);
+tl.fromTo("#fd29-g0-n",{rotation:-80,svgOrigin:"240.0 260.0"},{rotation:-30,svgOrigin:"240.0 260.0",duration:0.8,ease:"elastic.out(1,.5)"},3.82);
+tl.fromTo("#fd29-g1",{scale:0.5,opacity:0},{scale:1,opacity:1,duration:.45,ease:"back.out(2)"},3.77);
+tl.fromTo("#fd29-g1-n",{rotation:-80,svgOrigin:"240.0 260.0"},{rotation:0,svgOrigin:"240.0 260.0",duration:0.8,ease:"elastic.out(1,.5)"},4.07);
+tl.fromTo("#fd29-g2",{scale:0.5,opacity:0},{scale:1,opacity:1,duration:.45,ease:"back.out(2)"},4.02);
+tl.fromTo("#fd29-g2-n",{rotation:-80,svgOrigin:"240.0 260.0"},{rotation:25,svgOrigin:"240.0 260.0",duration:0.8,ease:"elastic.out(1,.5)"},4.32);
+const K = 1.00000;
+if (K !== 1) tl.getChildren(false, true, true).forEach(c => { if (c.startTime() > 0.001) c.startTime(c.startTime() * K); });
+window.__timelines = window.__timelines || {};
+window.__timelines["29-gauges"] = tl;
+})();
+</script>
+</template>

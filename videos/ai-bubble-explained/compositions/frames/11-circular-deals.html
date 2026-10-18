@@ -1,0 +1,78 @@
+<template>
+<style>
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Regular.otf') format('opentype');font-weight:400;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Medium.otf') format('opentype');font-weight:500;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-SemiBold.otf') format('opentype');font-weight:600;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Bold.otf') format('opentype');font-weight:700;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-ExtraBold.otf') format('opentype');font-weight:800;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Black.otf') format('opentype');font-weight:900;font-style:normal;}
+#root{position:absolute;inset:0;width:1920px;height:1080px;overflow:hidden;font-family:'Inter',sans-serif;color:#1B1F3B;}
+.fd11-bg{position:absolute;inset:0;background:#EEF0FF;overflow:hidden;}
+.fd11-blob{position:absolute;border-radius:50%;filter:blur(110px);opacity:.85;}
+.fd11-b1{width:900px;height:900px;left:-200px;top:-260px;background:#BFD7FF;}
+.fd11-b2{width:820px;height:820px;right:-180px;top:120px;background:#E3D4FF;}
+.fd11-b3{width:700px;height:700px;left:520px;bottom:-420px;background:#FFE1EC;}
+.fd11-stage{position:absolute;inset:0;}
+.fd11-card{position:absolute;background:rgba(255,255,255,.88);border-radius:22px;box-shadow:0 18px 50px rgba(124,92,255,.14),0 2px 6px rgba(27,31,59,.06);}
+.fd11-pill{position:absolute;display:inline-flex;align-items:center;gap:10px;padding:12px 26px;border-radius:999px;font-weight:700;font-size:26px;letter-spacing:.08em;text-transform:uppercase;}
+.fd11-robotwrap{position:absolute;}
+.fd11-robot{display:block;filter:drop-shadow(0 14px 22px rgba(124,92,255,.35));}
+
+.fd11-eyebrow{left:110px;top:100px;background:#7C5CFF;color:#fff;}
+.fd11-h{position:absolute;font-weight:900;letter-spacing:-.02em;line-height:1;}
+.fd11-h span{color:#7C5CFF;} .fd11-h .fd11-red{color:#E24040;} .fd11-h .fd11-grn{color:#0EA674;}
+.fd11-lbl{font-weight:800;font-size:30px;letter-spacing:.03em;}
+.fd11-sub{font-weight:600;font-size:24px;color:#5B6178;}
+.fd11-tile{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:20px;text-align:center;}
+.fd11-chipx{position:absolute;padding:12px 24px;border-radius:999px;font-weight:800;font-size:28px;color:#fff;background:#7C5CFF;}
+.fd11-node{position:absolute;width:380px;height:150px;margin-left:-190px;margin-top:-75px;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:38px;}.fd11-coin{position:absolute;left:0;top:0;}</style>
+<div id="root" data-composition-id="11-circular-deals" data-width="1920" data-height="1080">
+<div class="clip fd11-bg" id="fd11-bg" data-start="0" data-duration="16.251" data-track-index="0"><div class="fd11-blob fd11-b1" id="fd11-b1"></div><div class="fd11-blob fd11-b2" id="fd11-b2"></div><div class="fd11-blob fd11-b3" id="fd11-b3"></div></div>
+<div class="clip fd11-stage" id="fd11-stage" data-start="0" data-duration="16.251" data-track-index="1">
+<div class="fd11-pill fd11-eyebrow" id="fd11-eb">Reason 3 · Circular deals</div><svg style="position:absolute;left:0;top:0" width="1920" height="1080" viewBox="0 0 1920 1080">
+<defs><marker id="fd11-ah" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#7C5CFF"/></marker></defs>
+<path id="fd11-e0" d="M1120 300 Q 1330 420 1330 600" stroke="#7C5CFF" stroke-width="10" fill="none" marker-end="url(#fd11-ah)"/>
+<path id="fd11-e1" d="M1150 760 Q 960 850 780 760" stroke="#7C5CFF" stroke-width="10" fill="none" marker-end="url(#fd11-ah)"/>
+<path id="fd11-e2" d="M590 600 Q 590 420 800 300" stroke="#7C5CFF" stroke-width="10" fill="none" marker-end="url(#fd11-ah)"/>
+</svg><div class="fd11-card fd11-node" id="fd11-n0" style="left:960px;top:230px;color:#1B1F3B">CHIP & CLOUD CO.</div><div class="fd11-card fd11-node" id="fd11-n1" style="left:1330px;top:690px;color:#1B1F3B">AI STARTUP</div><div class="fd11-card fd11-node" id="fd11-n2" style="left:590px;top:690px;color:#1B1F3B">BUYS CHIPS & CLOUD</div><div class="fd11-coin" id="fd11-coin"><svg class="" viewBox="0 0 8 8" width="56" height="56" shape-rendering="crispEdges"><rect x="2" y="0" width="1.02" height="1.02" fill="#FBBF24"/><rect x="3" y="0" width="1.02" height="1.02" fill="#FBBF24"/><rect x="4" y="0" width="1.02" height="1.02" fill="#FBBF24"/><rect x="5" y="0" width="1.02" height="1.02" fill="#FBBF24"/><rect x="1" y="1" width="1.02" height="1.02" fill="#FBBF24"/><rect x="2" y="1" width="1.02" height="1.02" fill="#FBBF24"/><rect x="3" y="1" width="1.02" height="1.02" fill="#D97706"/><rect x="4" y="1" width="1.02" height="1.02" fill="#D97706"/><rect x="5" y="1" width="1.02" height="1.02" fill="#FBBF24"/><rect x="6" y="1" width="1.02" height="1.02" fill="#FBBF24"/><rect x="0" y="2" width="1.02" height="1.02" fill="#FBBF24"/><rect x="1" y="2" width="1.02" height="1.02" fill="#FBBF24"/><rect x="2" y="2" width="1.02" height="1.02" fill="#D97706"/><rect x="3" y="2" width="1.02" height="1.02" fill="#FBBF24"/><rect x="4" y="2" width="1.02" height="1.02" fill="#FBBF24"/><rect x="5" y="2" width="1.02" height="1.02" fill="#FBBF24"/><rect x="6" y="2" width="1.02" height="1.02" fill="#FBBF24"/><rect x="7" y="2" width="1.02" height="1.02" fill="#FBBF24"/><rect x="0" y="3" width="1.02" height="1.02" fill="#FBBF24"/><rect x="1" y="3" width="1.02" height="1.02" fill="#FBBF24"/><rect x="2" y="3" width="1.02" height="1.02" fill="#FBBF24"/><rect x="3" y="3" width="1.02" height="1.02" fill="#D97706"/><rect x="4" y="3" width="1.02" height="1.02" fill="#D97706"/><rect x="5" y="3" width="1.02" height="1.02" fill="#FBBF24"/><rect x="6" y="3" width="1.02" height="1.02" fill="#FBBF24"/><rect x="7" y="3" width="1.02" height="1.02" fill="#FBBF24"/><rect x="0" y="4" width="1.02" height="1.02" fill="#FBBF24"/><rect x="1" y="4" width="1.02" height="1.02" fill="#FBBF24"/><rect x="2" y="4" width="1.02" height="1.02" fill="#FBBF24"/><rect x="3" y="4" width="1.02" height="1.02" fill="#FBBF24"/><rect x="4" y="4" width="1.02" height="1.02" fill="#FBBF24"/><rect x="5" y="4" width="1.02" height="1.02" fill="#D97706"/><rect x="6" y="4" width="1.02" height="1.02" fill="#FBBF24"/><rect x="7" y="4" width="1.02" height="1.02" fill="#FBBF24"/><rect x="0" y="5" width="1.02" height="1.02" fill="#FBBF24"/><rect x="1" y="5" width="1.02" height="1.02" fill="#FBBF24"/><rect x="2" y="5" width="1.02" height="1.02" fill="#D97706"/><rect x="3" y="5" width="1.02" height="1.02" fill="#D97706"/><rect x="4" y="5" width="1.02" height="1.02" fill="#FBBF24"/><rect x="5" y="5" width="1.02" height="1.02" fill="#FBBF24"/><rect x="6" y="5" width="1.02" height="1.02" fill="#FBBF24"/><rect x="7" y="5" width="1.02" height="1.02" fill="#FBBF24"/><rect x="1" y="6" width="1.02" height="1.02" fill="#FBBF24"/><rect x="2" y="6" width="1.02" height="1.02" fill="#FBBF24"/><rect x="3" y="6" width="1.02" height="1.02" fill="#FBBF24"/><rect x="4" y="6" width="1.02" height="1.02" fill="#FBBF24"/><rect x="5" y="6" width="1.02" height="1.02" fill="#FBBF24"/><rect x="6" y="6" width="1.02" height="1.02" fill="#FBBF24"/><rect x="2" y="7" width="1.02" height="1.02" fill="#FBBF24"/><rect x="3" y="7" width="1.02" height="1.02" fill="#FBBF24"/><rect x="4" y="7" width="1.02" height="1.02" fill="#FBBF24"/><rect x="5" y="7" width="1.02" height="1.02" fill="#FBBF24"/></svg></div>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+<script>
+(function(){
+const tl = gsap.timeline({ paused: true });
+tl.fromTo("#fd11-b1",{x:0,y:0},{x:140,y:60,duration:16.251,ease:"none"},0);tl.fromTo("#fd11-b2",{x:0,y:0},{x:-120,y:-50,duration:16.251,ease:"none"},0);tl.fromTo("#fd11-b3",{x:0,y:0},{x:-90,y:-40,duration:16.251,ease:"none"},0);
+tl.fromTo("#fd11-eb",{y:40,opacity:0},{y:0,opacity:1,duration:.5,ease:"power3.out"},0.10);
+tl.fromTo("#fd11-n0",{scale:0.5,opacity:0},{scale:1,opacity:1,duration:.45,ease:"back.out(2)"},3.08);
+tl.fromTo("#fd11-n1",{scale:0.5,opacity:0},{scale:1,opacity:1,duration:.45,ease:"back.out(2)"},7.15);
+tl.fromTo("#fd11-e0",{opacity:0,strokeDasharray:700,strokeDashoffset:700},{opacity:1,strokeDashoffset:0,duration:.5},5.12);
+tl.fromTo("#fd11-n2",{scale:0.5,opacity:0},{scale:1,opacity:1,duration:.45,ease:"back.out(2)"},9.48);
+tl.fromTo("#fd11-e1",{opacity:0,strokeDasharray:700,strokeDashoffset:700},{opacity:1,strokeDashoffset:0,duration:.5},8.44);
+tl.fromTo("#fd11-e2",{opacity:0,strokeDasharray:700,strokeDashoffset:700},{opacity:1,strokeDashoffset:0,duration:.5},12.04);
+tl.fromTo("#fd11-coin",{opacity:0,x:1222,y:352},{opacity:1,duration:.2},5.42);
+tl.to("#fd11-coin",{x:1152,y:692,duration:.6,ease:"none"},5.42);
+tl.to("#fd11-coin",{x:932,y:772,duration:.6,ease:"none"},6.02);
+tl.to("#fd11-coin",{x:712,y:692,duration:.6,ease:"none"},6.62);
+tl.to("#fd11-coin",{x:632,y:352,duration:.6,ease:"none"},7.22);
+tl.to("#fd11-coin",{x:1222,y:352,duration:.6,ease:"none"},7.82);
+tl.to("#fd11-coin",{x:1152,y:692,duration:.6,ease:"none"},8.42);
+tl.to("#fd11-coin",{x:932,y:772,duration:.6,ease:"none"},9.02);
+tl.to("#fd11-coin",{x:712,y:692,duration:.6,ease:"none"},9.62);
+tl.to("#fd11-coin",{x:632,y:352,duration:.6,ease:"none"},10.22);
+tl.to("#fd11-coin",{x:1222,y:352,duration:.6,ease:"none"},10.82);
+tl.to("#fd11-coin",{x:1152,y:692,duration:.6,ease:"none"},11.42);
+tl.to("#fd11-coin",{x:932,y:772,duration:.6,ease:"none"},12.02);
+tl.to("#fd11-coin",{x:712,y:692,duration:.6,ease:"none"},12.62);
+tl.to("#fd11-coin",{x:632,y:352,duration:.6,ease:"none"},13.22);
+tl.to("#fd11-coin",{x:1222,y:352,duration:.6,ease:"none"},13.82);
+tl.to("#fd11-coin",{x:1152,y:692,duration:.6,ease:"none"},14.42);
+tl.to("#fd11-coin",{x:932,y:772,duration:.6,ease:"none"},15.02);
+tl.to("#fd11-coin",{x:712,y:692,duration:.6,ease:"none"},15.62);
+tl.to(["#fd11-n0","#fd11-n1","#fd11-n2"],{scale:1.06,duration:.3},14.84);
+const K = 1.00000;
+if (K !== 1) tl.getChildren(false, true, true).forEach(c => { if (c.startTime() > 0.001) c.startTime(c.startTime() * K); });
+window.__timelines = window.__timelines || {};
+window.__timelines["11-circular-deals"] = tl;
+})();
+</script>
+</template>

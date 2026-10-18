@@ -297,7 +297,7 @@ def f3():
 .{p}-bar{{height:64px;background:rgba(238,240,255,.9);display:flex;align-items:center;padding:0 24px;gap:12px;border-bottom:1.5px solid rgba(124,92,255,.15);}}
 .{p}-dot{{width:16px;height:16px;border-radius:50%;}}
 .{p}-title{{margin-left:18px;font-weight:600;font-size:22px;color:{C['muted']};}}
-.{p}-chip{{margin-left:auto;padding:8px 18px;border-radius:999px;background:rgba(124,92,255,.12);color:{C['primary']};font-weight:800;font-size:18px;letter-spacing:.1em;}}
+.{p}-chip{{margin-left:auto;padding:8px 18px;border-radius:999px;background:rgba(124,92,255,.12);color:#4C2FC9;font-weight:800;font-size:18px;letter-spacing:.1em;}}
 .{p}-body{{padding:50px 64px;}}
 .{p}-h{{font-weight:900;font-size:64px;letter-spacing:-.02em;margin-bottom:34px;}}
 .{p}-row{{display:flex;align-items:center;gap:28px;height:96px;}}

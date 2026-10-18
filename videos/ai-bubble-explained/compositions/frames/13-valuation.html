@@ -1,0 +1,67 @@
+<template>
+<style>
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Regular.otf') format('opentype');font-weight:400;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Medium.otf') format('opentype');font-weight:500;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-SemiBold.otf') format('opentype');font-weight:600;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Bold.otf') format('opentype');font-weight:700;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-ExtraBold.otf') format('opentype');font-weight:800;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Black.otf') format('opentype');font-weight:900;font-style:normal;}
+#root{position:absolute;inset:0;width:1920px;height:1080px;overflow:hidden;font-family:'Inter',sans-serif;color:#1B1F3B;}
+.fd13-bg{position:absolute;inset:0;background:#EEF0FF;overflow:hidden;}
+.fd13-blob{position:absolute;border-radius:50%;filter:blur(110px);opacity:.85;}
+.fd13-b1{width:900px;height:900px;left:-200px;top:-260px;background:#BFD7FF;}
+.fd13-b2{width:820px;height:820px;right:-180px;top:120px;background:#E3D4FF;}
+.fd13-b3{width:700px;height:700px;left:520px;bottom:-420px;background:#FFE1EC;}
+.fd13-stage{position:absolute;inset:0;}
+.fd13-card{position:absolute;background:rgba(255,255,255,.88);border-radius:22px;box-shadow:0 18px 50px rgba(124,92,255,.14),0 2px 6px rgba(27,31,59,.06);}
+.fd13-pill{position:absolute;display:inline-flex;align-items:center;gap:10px;padding:12px 26px;border-radius:999px;font-weight:700;font-size:26px;letter-spacing:.08em;text-transform:uppercase;}
+.fd13-robotwrap{position:absolute;}
+.fd13-robot{display:block;filter:drop-shadow(0 14px 22px rgba(124,92,255,.35));}
+
+.fd13-eyebrow{left:110px;top:100px;background:#7C5CFF;color:#fff;}
+.fd13-h{position:absolute;font-weight:900;letter-spacing:-.02em;line-height:1;}
+.fd13-h span{color:#7C5CFF;} .fd13-h .fd13-red{color:#E24040;} .fd13-h .fd13-grn{color:#0EA674;}
+.fd13-lbl{font-weight:800;font-size:30px;letter-spacing:.03em;}
+.fd13-sub{font-weight:600;font-size:24px;color:#5B6178;}
+.fd13-tile{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:20px;text-align:center;}
+.fd13-chipx{position:absolute;padding:12px 24px;border-radius:999px;font-weight:800;font-size:28px;color:#fff;background:#7C5CFF;}
+
+.fd13-beam{position:absolute;left:560px;top:520px;width:1140px;height:24px;border-radius:12px;background:#1B1F3B;transform-origin:50% 50%;}
+.fd13-tri{position:absolute;left:1090px;top:544px;width:0;height:0;border-left:40px solid transparent;border-right:40px solid transparent;border-bottom:80px solid #1B1F3B;}
+.fd13-left{position:absolute;left:600px;top:290px;width:340px;height:230px;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:90px;color:#7C5CFF;}
+.fd13-right{position:absolute;left:1320px;top:330px;width:300px;height:190px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;}
+.fd13-perfect{left:1150px;top:720px;background:#E24040;}
+</style>
+<div id="root" data-composition-id="13-valuation" data-width="1920" data-height="1080">
+<div class="clip fd13-bg" id="fd13-bg" data-start="0" data-duration="24.144" data-track-index="0"><div class="fd13-blob fd13-b1" id="fd13-b1"></div><div class="fd13-blob fd13-b2" id="fd13-b2"></div><div class="fd13-blob fd13-b3" id="fd13-b3"></div></div>
+<div class="clip fd13-stage" id="fd13-stage" data-start="0" data-duration="24.144" data-track-index="1">
+<div class="fd13-pill fd13-eyebrow" id="fd13-eb">What you're really buying</div>
+<div class="fd13-h" id="fd13-h" style="left:110px;top:220px;font-size:80px">A slice of<br><span>future</span><br>profits</div>
+<div id="fd13-scale"><div class="fd13-beam" id="fd13-beam"></div><div class="fd13-tri"></div>
+<div class="fd13-card fd13-left" id="fd13-L">$100</div>
+<div class="fd13-card fd13-right" id="fd13-R"><svg class="" viewBox="0 0 8 8" width="80" height="80" shape-rendering="crispEdges"><rect x="2" y="0" width="1.02" height="1.02" fill="#FBBF24"/><rect x="3" y="0" width="1.02" height="1.02" fill="#FBBF24"/><rect x="4" y="0" width="1.02" height="1.02" fill="#FBBF24"/><rect x="5" y="0" width="1.02" height="1.02" fill="#FBBF24"/><rect x="1" y="1" width="1.02" height="1.02" fill="#FBBF24"/><rect x="2" y="1" width="1.02" height="1.02" fill="#FBBF24"/><rect x="3" y="1" width="1.02" height="1.02" fill="#D97706"/><rect x="4" y="1" width="1.02" height="1.02" fill="#D97706"/><rect x="5" y="1" width="1.02" height="1.02" fill="#FBBF24"/><rect x="6" y="1" width="1.02" height="1.02" fill="#FBBF24"/><rect x="0" y="2" width="1.02" height="1.02" fill="#FBBF24"/><rect x="1" y="2" width="1.02" height="1.02" fill="#FBBF24"/><rect x="2" y="2" width="1.02" height="1.02" fill="#D97706"/><rect x="3" y="2" width="1.02" height="1.02" fill="#FBBF24"/><rect x="4" y="2" width="1.02" height="1.02" fill="#FBBF24"/><rect x="5" y="2" width="1.02" height="1.02" fill="#FBBF24"/><rect x="6" y="2" width="1.02" height="1.02" fill="#FBBF24"/><rect x="7" y="2" width="1.02" height="1.02" fill="#FBBF24"/><rect x="0" y="3" width="1.02" height="1.02" fill="#FBBF24"/><rect x="1" y="3" width="1.02" height="1.02" fill="#FBBF24"/><rect x="2" y="3" width="1.02" height="1.02" fill="#FBBF24"/><rect x="3" y="3" width="1.02" height="1.02" fill="#D97706"/><rect x="4" y="3" width="1.02" height="1.02" fill="#D97706"/><rect x="5" y="3" width="1.02" height="1.02" fill="#FBBF24"/><rect x="6" y="3" width="1.02" height="1.02" fill="#FBBF24"/><rect x="7" y="3" width="1.02" height="1.02" fill="#FBBF24"/><rect x="0" y="4" width="1.02" height="1.02" fill="#FBBF24"/><rect x="1" y="4" width="1.02" height="1.02" fill="#FBBF24"/><rect x="2" y="4" width="1.02" height="1.02" fill="#FBBF24"/><rect x="3" y="4" width="1.02" height="1.02" fill="#FBBF24"/><rect x="4" y="4" width="1.02" height="1.02" fill="#FBBF24"/><rect x="5" y="4" width="1.02" height="1.02" fill="#D97706"/><rect x="6" y="4" width="1.02" height="1.02" fill="#FBBF24"/><rect x="7" y="4" width="1.02" height="1.02" fill="#FBBF24"/><rect x="0" y="5" width="1.02" height="1.02" fill="#FBBF24"/><rect x="1" y="5" width="1.02" height="1.02" fill="#FBBF24"/><rect x="2" y="5" width="1.02" height="1.02" fill="#D97706"/><rect x="3" y="5" width="1.02" height="1.02" fill="#D97706"/><rect x="4" y="5" width="1.02" height="1.02" fill="#FBBF24"/><rect x="5" y="5" width="1.02" height="1.02" fill="#FBBF24"/><rect x="6" y="5" width="1.02" height="1.02" fill="#FBBF24"/><rect x="7" y="5" width="1.02" height="1.02" fill="#FBBF24"/><rect x="1" y="6" width="1.02" height="1.02" fill="#FBBF24"/><rect x="2" y="6" width="1.02" height="1.02" fill="#FBBF24"/><rect x="3" y="6" width="1.02" height="1.02" fill="#FBBF24"/><rect x="4" y="6" width="1.02" height="1.02" fill="#FBBF24"/><rect x="5" y="6" width="1.02" height="1.02" fill="#FBBF24"/><rect x="6" y="6" width="1.02" height="1.02" fill="#FBBF24"/><rect x="2" y="7" width="1.02" height="1.02" fill="#FBBF24"/><rect x="3" y="7" width="1.02" height="1.02" fill="#FBBF24"/><rect x="4" y="7" width="1.02" height="1.02" fill="#FBBF24"/><rect x="5" y="7" width="1.02" height="1.02" fill="#FBBF24"/></svg><div class="fd13-lbl">$1 / year</div></div></div>
+<div class="fd13-chipx fd13-perfect" id="fd13-pf">PRICED FOR PERFECT</div>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+<script>
+(function(){
+const tl = gsap.timeline({ paused: true });
+tl.fromTo("#fd13-b1",{x:0,y:0},{x:140,y:60,duration:24.144,ease:"none"},0);tl.fromTo("#fd13-b2",{x:0,y:0},{x:-120,y:-50,duration:24.144,ease:"none"},0);tl.fromTo("#fd13-b3",{x:0,y:0},{x:-90,y:-40,duration:24.144,ease:"none"},0);
+tl.fromTo("#fd13-eb",{y:40,opacity:0},{y:0,opacity:1,duration:.5,ease:"power3.out"},0.10);
+tl.fromTo("#fd13-h",{x:-60,opacity:0},{x:0,opacity:1,duration:.5,ease:"power3.out"},4.29);
+tl.fromTo("#fd13-scale",{y:40,opacity:0},{y:0,opacity:1,duration:.5,ease:"power3.out"},4.69);
+tl.fromTo("#fd13-L",{scale:0.5,opacity:0},{scale:1,opacity:1,duration:.45,ease:"back.out(2)"},12.07);
+tl.fromTo("#fd13-R",{scale:0.5,opacity:0},{scale:1,opacity:1,duration:.45,ease:"back.out(2)"},9.86);
+tl.to(["#fd13-beam"],{rotation:-8,duration:.8,ease:"elastic.out(1,.5)"},11.79);
+tl.to("#fd13-L",{y:40,duration:.8,ease:"elastic.out(1,.5)"},11.79);
+tl.to("#fd13-R",{y:-60,duration:.8,ease:"elastic.out(1,.5)"},11.79);
+tl.to("#fd13-R",{y:-20,duration:.6},15.71);
+tl.fromTo("#fd13-pf",{scale:0.5,opacity:0},{scale:1,opacity:1,duration:.45,ease:"back.out(2)"},23.08);
+const K = 1.00000;
+if (K !== 1) tl.getChildren(false, true, true).forEach(c => { if (c.startTime() > 0.001) c.startTime(c.startTime() * K); });
+window.__timelines = window.__timelines || {};
+window.__timelines["13-valuation"] = tl;
+})();
+</script>
+</template>

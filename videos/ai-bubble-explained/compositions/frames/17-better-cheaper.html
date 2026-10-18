@@ -1,0 +1,56 @@
+<template>
+<style>
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Regular.otf') format('opentype');font-weight:400;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Medium.otf') format('opentype');font-weight:500;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-SemiBold.otf') format('opentype');font-weight:600;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Bold.otf') format('opentype');font-weight:700;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-ExtraBold.otf') format('opentype');font-weight:800;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Black.otf') format('opentype');font-weight:900;font-style:normal;}
+#root{position:absolute;inset:0;width:1920px;height:1080px;overflow:hidden;font-family:'Inter',sans-serif;color:#1B1F3B;}
+.fd17-bg{position:absolute;inset:0;background:#EEF0FF;overflow:hidden;}
+.fd17-blob{position:absolute;border-radius:50%;filter:blur(110px);opacity:.85;}
+.fd17-b1{width:900px;height:900px;left:-200px;top:-260px;background:#BFD7FF;}
+.fd17-b2{width:820px;height:820px;right:-180px;top:120px;background:#E3D4FF;}
+.fd17-b3{width:700px;height:700px;left:520px;bottom:-420px;background:#FFE1EC;}
+.fd17-stage{position:absolute;inset:0;}
+.fd17-card{position:absolute;background:rgba(255,255,255,.88);border-radius:22px;box-shadow:0 18px 50px rgba(124,92,255,.14),0 2px 6px rgba(27,31,59,.06);}
+.fd17-pill{position:absolute;display:inline-flex;align-items:center;gap:10px;padding:12px 26px;border-radius:999px;font-weight:700;font-size:26px;letter-spacing:.08em;text-transform:uppercase;}
+.fd17-robotwrap{position:absolute;}
+.fd17-robot{display:block;filter:drop-shadow(0 14px 22px rgba(124,92,255,.35));}
+
+.fd17-eyebrow{left:110px;top:100px;background:#7C5CFF;color:#fff;}
+.fd17-h{position:absolute;font-weight:900;letter-spacing:-.02em;line-height:1;}
+.fd17-h span{color:#7C5CFF;} .fd17-h .fd17-red{color:#E24040;} .fd17-h .fd17-grn{color:#0EA674;}
+.fd17-lbl{font-weight:800;font-size:30px;letter-spacing:.03em;}
+.fd17-sub{font-weight:600;font-size:24px;color:#5B6178;}
+.fd17-tile{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:20px;text-align:center;}
+.fd17-chipx{position:absolute;padding:12px 24px;border-radius:999px;font-weight:800;font-size:28px;color:#fff;background:#7C5CFF;}
+.fd17-chart{left:560px;top:150px;width:1200px;height:680px;} .fd17-k1{left:610px;top:180px;} .fd17-k2{left:1360px;top:720px;background:#0EA674;}</style>
+<div id="root" data-composition-id="17-better-cheaper" data-width="1920" data-height="1080">
+<div class="clip fd17-bg" id="fd17-bg" data-start="0" data-duration="10.619" data-track-index="0"><div class="fd17-blob fd17-b1" id="fd17-b1"></div><div class="fd17-blob fd17-b2" id="fd17-b2"></div><div class="fd17-blob fd17-b3" id="fd17-b3"></div></div>
+<div class="clip fd17-stage" id="fd17-stage" data-start="0" data-duration="10.619" data-track-index="1">
+<div class="fd17-pill fd17-eyebrow" id="fd17-eb">3 · Better & cheaper</div>
+<div class="fd17-h" style="left:110px;top:260px;font-size:84px" id="fd17-h">More<br>for<br><span>less</span></div>
+<div class="fd17-card fd17-chart" id="fd17-c"><svg width="1200" height="680"><line x1="80" y1="610" x2="1160" y2="610" stroke="#9AA0B8" stroke-width="3"/><text x="80" y="650" text-anchor="middle" font-family="Inter" font-weight="700" font-size="24" fill="#5B6178">THEN</text><text x="1140" y="650" text-anchor="middle" font-family="Inter" font-weight="700" font-size="24" fill="#5B6178">NOW</text><path id="fd17-cap" d="M80 557 L345 478 L610 372 L875 239 L1140 106" fill="none" stroke="#7C5CFF" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path id="fd17-cost" d="M80 133 L345 266 L610 398 L875 493 L1140 557" fill="none" stroke="#0EA674" stroke-width="10" stroke-linecap="round" stroke-dasharray="2 20"/></svg></div>
+<div class="fd17-chipx fd17-k1" id="fd17-k1">WHAT AI CAN DO</div><div class="fd17-chipx fd17-k2" id="fd17-k2">COST</div>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+<script>
+(function(){
+const tl = gsap.timeline({ paused: true });
+tl.fromTo("#fd17-b1",{x:0,y:0},{x:140,y:60,duration:10.619,ease:"none"},0);tl.fromTo("#fd17-b2",{x:0,y:0},{x:-120,y:-50,duration:10.619,ease:"none"},0);tl.fromTo("#fd17-b3",{x:0,y:0},{x:-90,y:-40,duration:10.619,ease:"none"},0);
+tl.fromTo("#fd17-eb",{y:40,opacity:0},{y:0,opacity:1,duration:.5,ease:"power3.out"},0.10);
+tl.fromTo("#fd17-c",{y:40,opacity:0},{y:0,opacity:1,duration:.5,ease:"power3.out"},0.30);
+tl.fromTo("#fd17-cap",{strokeDasharray:2000,strokeDashoffset:2000},{strokeDashoffset:0,duration:1.4,ease:"power2.inOut"},1.99);
+tl.fromTo("#fd17-k1",{scale:0.5,opacity:0},{scale:1,opacity:1,duration:.45,ease:"back.out(2)"},5.60);
+tl.fromTo("#fd17-cost",{opacity:0},{opacity:1,duration:.8},2.65);
+tl.fromTo("#fd17-k2",{scale:0.5,opacity:0},{scale:1,opacity:1,duration:.45,ease:"back.out(2)"},6.15);
+tl.fromTo("#fd17-h",{x:-60,opacity:0},{x:0,opacity:1,duration:.5,ease:"power3.out"},7.52);
+const K = 1.00000;
+if (K !== 1) tl.getChildren(false, true, true).forEach(c => { if (c.startTime() > 0.001) c.startTime(c.startTime() * K); });
+window.__timelines = window.__timelines || {};
+window.__timelines["17-better-cheaper"] = tl;
+})();
+</script>
+</template>

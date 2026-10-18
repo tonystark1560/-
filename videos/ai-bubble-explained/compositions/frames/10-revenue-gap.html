@@ -1,0 +1,66 @@
+<template>
+<style>
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Regular.otf') format('opentype');font-weight:400;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Medium.otf') format('opentype');font-weight:500;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-SemiBold.otf') format('opentype');font-weight:600;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Bold.otf') format('opentype');font-weight:700;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-ExtraBold.otf') format('opentype');font-weight:800;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Black.otf') format('opentype');font-weight:900;font-style:normal;}
+#root{position:absolute;inset:0;width:1920px;height:1080px;overflow:hidden;font-family:'Inter',sans-serif;color:#1B1F3B;}
+.fd10-bg{position:absolute;inset:0;background:#EEF0FF;overflow:hidden;}
+.fd10-blob{position:absolute;border-radius:50%;filter:blur(110px);opacity:.85;}
+.fd10-b1{width:900px;height:900px;left:-200px;top:-260px;background:#BFD7FF;}
+.fd10-b2{width:820px;height:820px;right:-180px;top:120px;background:#E3D4FF;}
+.fd10-b3{width:700px;height:700px;left:520px;bottom:-420px;background:#FFE1EC;}
+.fd10-stage{position:absolute;inset:0;}
+.fd10-card{position:absolute;background:rgba(255,255,255,.88);border-radius:22px;box-shadow:0 18px 50px rgba(124,92,255,.14),0 2px 6px rgba(27,31,59,.06);}
+.fd10-pill{position:absolute;display:inline-flex;align-items:center;gap:10px;padding:12px 26px;border-radius:999px;font-weight:700;font-size:26px;letter-spacing:.08em;text-transform:uppercase;}
+.fd10-robotwrap{position:absolute;}
+.fd10-robot{display:block;filter:drop-shadow(0 14px 22px rgba(124,92,255,.35));}
+
+.fd10-eyebrow{left:110px;top:100px;background:#7C5CFF;color:#fff;}
+.fd10-h{position:absolute;font-weight:900;letter-spacing:-.02em;line-height:1;}
+.fd10-h span{color:#7C5CFF;} .fd10-h .fd10-red{color:#E24040;} .fd10-h .fd10-grn{color:#0EA674;}
+.fd10-lbl{font-weight:800;font-size:30px;letter-spacing:.03em;}
+.fd10-sub{font-weight:600;font-size:24px;color:#5B6178;}
+.fd10-tile{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:20px;text-align:center;}
+.fd10-chipx{position:absolute;padding:12px 24px;border-radius:999px;font-weight:800;font-size:28px;color:#fff;background:#7C5CFF;}
+
+.fd10-chart{left:560px;top:130px;width:1200px;height:720px;}
+.fd10-bar{position:absolute;bottom:120px;width:300px;border-radius:24px 24px 8px 8px;transform-origin:50% 100%;}
+.fd10-out{left:200px;height:520px;background:linear-gradient(180deg,#FF8A8A,#E24040);}
+.fd10-in{left:700px;height:520px;background:linear-gradient(180deg,#5EEAD4,#0EA674);}
+.fd10-bl{position:absolute;bottom:50px;width:300px;text-align:center;}
+.fd10-gap{position:absolute;left:1030px;top:110px;width:120px;height:440px;border:5px dashed #7C5CFF;border-left:none;border-radius:0 30px 30px 0;}
+.fd10-gapl{position:absolute;left:1000px;top:300px;}
+</style>
+<div id="root" data-composition-id="10-revenue-gap" data-width="1920" data-height="1080">
+<div class="clip fd10-bg" id="fd10-bg" data-start="0" data-duration="16.101" data-track-index="0"><div class="fd10-blob fd10-b1" id="fd10-b1"></div><div class="fd10-blob fd10-b2" id="fd10-b2"></div><div class="fd10-blob fd10-b3" id="fd10-b3"></div></div>
+<div class="clip fd10-stage" id="fd10-stage" data-start="0" data-duration="16.101" data-track-index="1">
+<div class="fd10-pill fd10-eyebrow" id="fd10-eb">Reason 2 · Revenue gap</div>
+<div class="fd10-card fd10-chart" id="fd10-chart"><div class="fd10-bar fd10-out" id="fd10-out"></div><div class="fd10-bar fd10-in" id="fd10-in"></div>
+<div class="fd10-bl fd10-lbl" style="left:200px">MONEY OUT</div><div class="fd10-bl fd10-lbl" style="left:700px">MONEY IN</div>
+<div class="fd10-gap" id="fd10-gap"></div><div class="fd10-chipx fd10-gapl" id="fd10-gapl">GAP</div></div><div class="fd10-robotwrap" id="fd10-bot" style="left:160px;top:500px;"><svg class="fd10-robot" viewBox="0 0 12 12" width="230" height="230" shape-rendering="crispEdges"><rect x="4" y="0" width="1.02" height="1.02" fill="#22D3EE" class="fd10-antenna"/><rect x="5" y="0" width="1.02" height="1.02" fill="#22D3EE" class="fd10-antenna"/><rect x="4" y="1" width="1.02" height="1.02" fill="#22D3EE" class="fd10-antenna"/><rect x="5" y="1" width="1.02" height="1.02" fill="#22D3EE" class="fd10-antenna"/><rect x="2" y="2" width="1.02" height="1.02" fill="#8B5CF6"/><rect x="3" y="2" width="1.02" height="1.02" fill="#8B5CF6"/><rect x="4" y="2" width="1.02" height="1.02" fill="#8B5CF6"/><rect x="5" y="2" width="1.02" height="1.02" fill="#8B5CF6"/><rect x="6" y="2" width="1.02" height="1.02" fill="#8B5CF6"/><rect x="7" y="2" width="1.02" height="1.02" fill="#8B5CF6"/><rect x="8" y="2" width="1.02" height="1.02" fill="#8B5CF6"/><rect x="9" y="2" width="1.02" height="1.02" fill="#8B5CF6"/><rect x="2" y="3" width="1.02" height="1.02" fill="#8B5CF6"/><rect x="3" y="3" width="1.02" height="1.02" fill="#FFFFFF" class="fd10-eyewhite"/><rect x="4" y="3" width="1.02" height="1.02" fill="#FFFFFF" class="fd10-eyewhite"/><rect x="5" y="3" width="1.02" height="1.02" fill="#8B5CF6"/><rect x="6" y="3" width="1.02" height="1.02" fill="#8B5CF6"/><rect x="7" y="3" width="1.02" height="1.02" fill="#FFFFFF" class="fd10-eyewhite"/><rect x="8" y="3" width="1.02" height="1.02" fill="#FFFFFF" class="fd10-eyewhite"/><rect x="9" y="3" width="1.02" height="1.02" fill="#8B5CF6"/><rect x="2" y="4" width="1.02" height="1.02" fill="#8B5CF6"/><rect x="3" y="4" width="1.02" height="1.02" fill="#FFFFFF" class="fd10-eyewhite"/><rect x="4" y="4" width="1.02" height="1.02" fill="#1B1F3B" class="fd10-pupil"/><rect x="5" y="4" width="1.02" height="1.02" fill="#8B5CF6"/><rect x="6" y="4" width="1.02" height="1.02" fill="#8B5CF6"/><rect x="7" y="4" width="1.02" height="1.02" fill="#FFFFFF" class="fd10-eyewhite"/><rect x="8" y="4" width="1.02" height="1.02" fill="#1B1F3B" class="fd10-pupil"/><rect x="9" y="4" width="1.02" height="1.02" fill="#8B5CF6"/><rect x="2" y="5" width="1.02" height="1.02" fill="#8B5CF6"/><rect x="3" y="5" width="1.02" height="1.02" fill="#8B5CF6"/><rect x="4" y="5" width="1.02" height="1.02" fill="#8B5CF6"/><rect x="5" y="5" width="1.02" height="1.02" fill="#8B5CF6"/><rect x="6" y="5" width="1.02" height="1.02" fill="#8B5CF6"/><rect x="7" y="5" width="1.02" height="1.02" fill="#8B5CF6"/><rect x="8" y="5" width="1.02" height="1.02" fill="#8B5CF6"/><rect x="9" y="5" width="1.02" height="1.02" fill="#8B5CF6"/><rect x="2" y="6" width="1.02" height="1.02" fill="#8B5CF6"/><rect x="3" y="6" width="1.02" height="1.02" fill="#8B5CF6"/><rect x="4" y="6" width="1.02" height="1.02" fill="#22D3EE"/><rect x="5" y="6" width="1.02" height="1.02" fill="#22D3EE"/><rect x="6" y="6" width="1.02" height="1.02" fill="#22D3EE"/><rect x="7" y="6" width="1.02" height="1.02" fill="#22D3EE"/><rect x="8" y="6" width="1.02" height="1.02" fill="#8B5CF6"/><rect x="9" y="6" width="1.02" height="1.02" fill="#8B5CF6"/><rect x="3" y="7" width="1.02" height="1.02" fill="#8B5CF6"/><rect x="4" y="7" width="1.02" height="1.02" fill="#8B5CF6"/><rect x="5" y="7" width="1.02" height="1.02" fill="#8B5CF6"/><rect x="6" y="7" width="1.02" height="1.02" fill="#8B5CF6"/><rect x="7" y="7" width="1.02" height="1.02" fill="#8B5CF6"/><rect x="8" y="7" width="1.02" height="1.02" fill="#8B5CF6"/><rect x="1" y="8" width="1.02" height="1.02" fill="#22D3EE"/><rect x="2" y="8" width="1.02" height="1.02" fill="#22D3EE"/><rect x="3" y="8" width="1.02" height="1.02" fill="#8B5CF6"/><rect x="4" y="8" width="1.02" height="1.02" fill="#8B5CF6"/><rect x="5" y="8" width="1.02" height="1.02" fill="#8B5CF6"/><rect x="6" y="8" width="1.02" height="1.02" fill="#8B5CF6"/><rect x="7" y="8" width="1.02" height="1.02" fill="#8B5CF6"/><rect x="8" y="8" width="1.02" height="1.02" fill="#8B5CF6"/><rect x="9" y="8" width="1.02" height="1.02" fill="#22D3EE"/><rect x="10" y="8" width="1.02" height="1.02" fill="#22D3EE"/><rect x="1" y="9" width="1.02" height="1.02" fill="#22D3EE"/><rect x="3" y="9" width="1.02" height="1.02" fill="#8B5CF6"/><rect x="4" y="9" width="1.02" height="1.02" fill="#8B5CF6"/><rect x="5" y="9" width="1.02" height="1.02" fill="#8B5CF6"/><rect x="6" y="9" width="1.02" height="1.02" fill="#8B5CF6"/><rect x="7" y="9" width="1.02" height="1.02" fill="#8B5CF6"/><rect x="8" y="9" width="1.02" height="1.02" fill="#8B5CF6"/><rect x="10" y="9" width="1.02" height="1.02" fill="#22D3EE"/><rect x="3" y="10" width="1.02" height="1.02" fill="#8B5CF6"/><rect x="4" y="10" width="1.02" height="1.02" fill="#8B5CF6"/><rect x="7" y="10" width="1.02" height="1.02" fill="#8B5CF6"/><rect x="8" y="10" width="1.02" height="1.02" fill="#8B5CF6"/><rect x="3" y="11" width="1.02" height="1.02" fill="#22D3EE"/><rect x="4" y="11" width="1.02" height="1.02" fill="#22D3EE"/><rect x="7" y="11" width="1.02" height="1.02" fill="#22D3EE"/><rect x="8" y="11" width="1.02" height="1.02" fill="#22D3EE"/></svg></div>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+<script>
+(function(){
+const tl = gsap.timeline({ paused: true });
+tl.fromTo("#fd10-b1",{x:0,y:0},{x:140,y:60,duration:16.101,ease:"none"},0);tl.fromTo("#fd10-b2",{x:0,y:0},{x:-120,y:-50,duration:16.101,ease:"none"},0);tl.fromTo("#fd10-b3",{x:0,y:0},{x:-90,y:-40,duration:16.101,ease:"none"},0);
+tl.fromTo("#fd10-eb",{y:40,opacity:0},{y:0,opacity:1,duration:.5,ease:"power3.out"},0.10);
+tl.fromTo("#fd10-chart",{y:40,opacity:0},{y:0,opacity:1,duration:.5,ease:"power3.out"},0.20);
+tl.fromTo("#fd10-bot",{y:80,opacity:0},{y:0,opacity:1,duration:.5,ease:"back.out(1.6)"},0.4);tl.to("#fd10-bot .fd10-eyewhite, #fd10-bot .fd10-pupil",{scaleY:0.1,transformOrigin:"50% 50%",duration:0.08},2.2);tl.to("#fd10-bot .fd10-eyewhite, #fd10-bot .fd10-pupil",{scaleY:1,duration:0.1},2.3000000000000003);tl.to("#fd10-bot",{y:-8,duration:0.800,ease:"sine.inOut"},1.000);tl.to("#fd10-bot",{y:0,duration:0.800,ease:"sine.inOut"},1.800);tl.to("#fd10-bot",{y:-8,duration:0.800,ease:"sine.inOut"},2.600);tl.to("#fd10-bot",{y:0,duration:0.800,ease:"sine.inOut"},3.400);tl.to("#fd10-bot",{y:-8,duration:0.800,ease:"sine.inOut"},4.200);tl.to("#fd10-bot",{y:0,duration:0.800,ease:"sine.inOut"},5.000);tl.to("#fd10-bot",{y:-8,duration:0.800,ease:"sine.inOut"},5.800);tl.to("#fd10-bot",{y:0,duration:0.800,ease:"sine.inOut"},6.600);tl.to("#fd10-bot",{y:-8,duration:0.800,ease:"sine.inOut"},7.400);tl.to("#fd10-bot",{y:0,duration:0.800,ease:"sine.inOut"},8.200);tl.to("#fd10-bot",{y:-8,duration:0.800,ease:"sine.inOut"},9.000);tl.to("#fd10-bot",{y:0,duration:0.800,ease:"sine.inOut"},9.800);tl.to("#fd10-bot",{y:-8,duration:0.800,ease:"sine.inOut"},10.600);tl.to("#fd10-bot",{y:0,duration:0.800,ease:"sine.inOut"},11.400);tl.to("#fd10-bot",{y:-8,duration:0.800,ease:"sine.inOut"},12.200);tl.to("#fd10-bot",{y:0,duration:0.800,ease:"sine.inOut"},13.000);tl.to("#fd10-bot",{y:-8,duration:0.800,ease:"sine.inOut"},13.800);tl.to("#fd10-bot",{y:0,duration:0.800,ease:"sine.inOut"},14.600);tl.to("#fd10-bot",{y:-8,duration:0.701,ease:"sine.inOut"},15.400);
+tl.fromTo("#fd10-in",{scaleY:0},{scaleY:.12,duration:.8,ease:"power2.out"},4.59);
+tl.fromTo("#fd10-out",{scaleY:0},{scaleY:1,duration:1.0,ease:"power2.out"},9.29);
+tl.fromTo("#fd10-gap",{scale:0.5,opacity:0},{scale:1,opacity:1,duration:.45,ease:"back.out(2)"},10.84);
+tl.fromTo("#fd10-gapl",{scale:0.5,opacity:0},{scale:1,opacity:1,duration:.45,ease:"back.out(2)"},11.89);
+tl.to("#fd10-in",{scaleY:.3,duration:1.2,ease:"power1.inOut"},12.41);
+tl.to("#fd10-bot",{x:10,duration:.05},15.28);tl.to("#fd10-bot",{x:-10,duration:.05},15.33);tl.to("#fd10-bot",{x:7,duration:.05},15.38);tl.to("#fd10-bot",{x:-7,duration:.05},15.43);tl.to("#fd10-bot",{x:0,duration:.05},15.48);
+const K = 1.00000;
+if (K !== 1) tl.getChildren(false, true, true).forEach(c => { if (c.startTime() > 0.001) c.startTime(c.startTime() * K); });
+window.__timelines = window.__timelines || {};
+window.__timelines["10-revenue-gap"] = tl;
+})();
+</script>
+</template>

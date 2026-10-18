@@ -1,0 +1,63 @@
+<template>
+<style>
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Regular.otf') format('opentype');font-weight:400;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Medium.otf') format('opentype');font-weight:500;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-SemiBold.otf') format('opentype');font-weight:600;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Bold.otf') format('opentype');font-weight:700;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-ExtraBold.otf') format('opentype');font-weight:800;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Black.otf') format('opentype');font-weight:900;font-style:normal;}
+#root{position:absolute;inset:0;width:1920px;height:1080px;overflow:hidden;font-family:'Inter',sans-serif;color:#1B1F3B;}
+.fd21-bg{position:absolute;inset:0;background:#EEF0FF;overflow:hidden;}
+.fd21-blob{position:absolute;border-radius:50%;filter:blur(110px);opacity:.85;}
+.fd21-b1{width:900px;height:900px;left:-200px;top:-260px;background:#BFD7FF;}
+.fd21-b2{width:820px;height:820px;right:-180px;top:120px;background:#E3D4FF;}
+.fd21-b3{width:700px;height:700px;left:520px;bottom:-420px;background:#FFE1EC;}
+.fd21-stage{position:absolute;inset:0;}
+.fd21-card{position:absolute;background:rgba(255,255,255,.88);border-radius:22px;box-shadow:0 18px 50px rgba(124,92,255,.14),0 2px 6px rgba(27,31,59,.06);}
+.fd21-pill{position:absolute;display:inline-flex;align-items:center;gap:10px;padding:12px 26px;border-radius:999px;font-weight:700;font-size:26px;letter-spacing:.08em;text-transform:uppercase;}
+.fd21-robotwrap{position:absolute;}
+.fd21-robot{display:block;filter:drop-shadow(0 14px 22px rgba(124,92,255,.35));}
+
+.fd21-eyebrow{left:110px;top:100px;background:#7C5CFF;color:#fff;}
+.fd21-h{position:absolute;font-weight:900;letter-spacing:-.02em;line-height:1;}
+.fd21-h span{color:#7C5CFF;} .fd21-h .fd21-red{color:#E24040;} .fd21-h .fd21-grn{color:#0EA674;}
+.fd21-lbl{font-weight:800;font-size:30px;letter-spacing:.03em;}
+.fd21-sub{font-weight:600;font-size:24px;color:#5B6178;}
+.fd21-tile{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:20px;text-align:center;}
+.fd21-chipx{position:absolute;padding:12px 24px;border-radius:999px;font-weight:800;font-size:28px;color:#fff;background:#7C5CFF;}
+
+.fd21-grid{position:absolute;left:560px;top:200px;width:1200px;height:600px;}
+.fd21-meter{left:1000px;top:700px;width:700px;height:60px;padding:0;overflow:hidden;border-radius:999px;}
+.fd21-mf{position:absolute;left:8px;top:8px;bottom:8px;right:8px;border-radius:999px;background:linear-gradient(90deg,#0EA674,#FBBF24,#E24040);transform-origin:0 50%;}
+.fd21-ml{position:absolute;left:30px;top:15px;font-weight:900;font-size:24px;color:#fff;letter-spacing:.1em;}
+</style>
+<div id="root" data-composition-id="21-power" data-width="1920" data-height="1080">
+<div class="clip fd21-bg" id="fd21-bg" data-start="0" data-duration="18.213" data-track-index="0"><div class="fd21-blob fd21-b1" id="fd21-b1"></div><div class="fd21-blob fd21-b2" id="fd21-b2"></div><div class="fd21-blob fd21-b3" id="fd21-b3"></div></div>
+<div class="clip fd21-stage" id="fd21-stage" data-start="0" data-duration="18.213" data-track-index="1">
+<div class="fd21-pill fd21-eyebrow" id="fd21-eb">And then there's power</div>
+<svg class="fd21-grid" id="fd21-g" viewBox="0 0 1200 600"><g transform="translate(120,120)"><path d="M60 0 L0 380 M60 0 L120 380 M20 250 L100 250 M35 150 L85 150" stroke="#5B6178" stroke-width="8" fill="none"/></g><g transform="translate(420,120)"><path d="M60 0 L0 380 M60 0 L120 380 M20 250 L100 250 M35 150 L85 150" stroke="#5B6178" stroke-width="8" fill="none"/></g><g transform="translate(720,120)"><path d="M60 0 L0 380 M60 0 L120 380 M20 250 L100 250 M35 150 L85 150" stroke="#5B6178" stroke-width="8" fill="none"/></g><g transform="translate(1020,120)"><path d="M60 0 L0 380 M60 0 L120 380 M20 250 L100 250 M35 150 L85 150" stroke="#5B6178" stroke-width="8" fill="none"/></g><path id="fd21-w" d="M180 130 Q 330 220 480 130 Q 630 220 780 130 Q 930 220 1080 130" stroke="#7C5CFF" stroke-width="6" fill="none"/></svg><div id="fd21-bx0" style="position:absolute;left:700px;top:150px"><svg class="" viewBox="0 0 6 8" width="90" height="120" shape-rendering="crispEdges"><rect x="4" y="0" width="1.02" height="1.02" fill="#FBBF24"/><rect x="5" y="0" width="1.02" height="1.02" fill="#FBBF24"/><rect x="3" y="1" width="1.02" height="1.02" fill="#FBBF24"/><rect x="4" y="1" width="1.02" height="1.02" fill="#FBBF24"/><rect x="2" y="2" width="1.02" height="1.02" fill="#FBBF24"/><rect x="3" y="2" width="1.02" height="1.02" fill="#FBBF24"/><rect x="1" y="3" width="1.02" height="1.02" fill="#FBBF24"/><rect x="2" y="3" width="1.02" height="1.02" fill="#FBBF24"/><rect x="3" y="3" width="1.02" height="1.02" fill="#FBBF24"/><rect x="4" y="3" width="1.02" height="1.02" fill="#FBBF24"/><rect x="5" y="3" width="1.02" height="1.02" fill="#FBBF24"/><rect x="3" y="4" width="1.02" height="1.02" fill="#FBBF24"/><rect x="4" y="4" width="1.02" height="1.02" fill="#FBBF24"/><rect x="2" y="5" width="1.02" height="1.02" fill="#FBBF24"/><rect x="3" y="5" width="1.02" height="1.02" fill="#FBBF24"/><rect x="1" y="6" width="1.02" height="1.02" fill="#FBBF24"/><rect x="2" y="6" width="1.02" height="1.02" fill="#FBBF24"/><rect x="0" y="7" width="1.02" height="1.02" fill="#FBBF24"/><rect x="1" y="7" width="1.02" height="1.02" fill="#FBBF24"/></svg></div><div id="fd21-bx1" style="position:absolute;left:1000px;top:150px"><svg class="" viewBox="0 0 6 8" width="90" height="120" shape-rendering="crispEdges"><rect x="4" y="0" width="1.02" height="1.02" fill="#FBBF24"/><rect x="5" y="0" width="1.02" height="1.02" fill="#FBBF24"/><rect x="3" y="1" width="1.02" height="1.02" fill="#FBBF24"/><rect x="4" y="1" width="1.02" height="1.02" fill="#FBBF24"/><rect x="2" y="2" width="1.02" height="1.02" fill="#FBBF24"/><rect x="3" y="2" width="1.02" height="1.02" fill="#FBBF24"/><rect x="1" y="3" width="1.02" height="1.02" fill="#FBBF24"/><rect x="2" y="3" width="1.02" height="1.02" fill="#FBBF24"/><rect x="3" y="3" width="1.02" height="1.02" fill="#FBBF24"/><rect x="4" y="3" width="1.02" height="1.02" fill="#FBBF24"/><rect x="5" y="3" width="1.02" height="1.02" fill="#FBBF24"/><rect x="3" y="4" width="1.02" height="1.02" fill="#FBBF24"/><rect x="4" y="4" width="1.02" height="1.02" fill="#FBBF24"/><rect x="2" y="5" width="1.02" height="1.02" fill="#FBBF24"/><rect x="3" y="5" width="1.02" height="1.02" fill="#FBBF24"/><rect x="1" y="6" width="1.02" height="1.02" fill="#FBBF24"/><rect x="2" y="6" width="1.02" height="1.02" fill="#FBBF24"/><rect x="0" y="7" width="1.02" height="1.02" fill="#FBBF24"/><rect x="1" y="7" width="1.02" height="1.02" fill="#FBBF24"/></svg></div><div id="fd21-bx2" style="position:absolute;left:1300px;top:150px"><svg class="" viewBox="0 0 6 8" width="90" height="120" shape-rendering="crispEdges"><rect x="4" y="0" width="1.02" height="1.02" fill="#FBBF24"/><rect x="5" y="0" width="1.02" height="1.02" fill="#FBBF24"/><rect x="3" y="1" width="1.02" height="1.02" fill="#FBBF24"/><rect x="4" y="1" width="1.02" height="1.02" fill="#FBBF24"/><rect x="2" y="2" width="1.02" height="1.02" fill="#FBBF24"/><rect x="3" y="2" width="1.02" height="1.02" fill="#FBBF24"/><rect x="1" y="3" width="1.02" height="1.02" fill="#FBBF24"/><rect x="2" y="3" width="1.02" height="1.02" fill="#FBBF24"/><rect x="3" y="3" width="1.02" height="1.02" fill="#FBBF24"/><rect x="4" y="3" width="1.02" height="1.02" fill="#FBBF24"/><rect x="5" y="3" width="1.02" height="1.02" fill="#FBBF24"/><rect x="3" y="4" width="1.02" height="1.02" fill="#FBBF24"/><rect x="4" y="4" width="1.02" height="1.02" fill="#FBBF24"/><rect x="2" y="5" width="1.02" height="1.02" fill="#FBBF24"/><rect x="3" y="5" width="1.02" height="1.02" fill="#FBBF24"/><rect x="1" y="6" width="1.02" height="1.02" fill="#FBBF24"/><rect x="2" y="6" width="1.02" height="1.02" fill="#FBBF24"/><rect x="0" y="7" width="1.02" height="1.02" fill="#FBBF24"/><rect x="1" y="7" width="1.02" height="1.02" fill="#FBBF24"/></svg></div>
+<div class="fd21-h" id="fd21-h" style="left:110px;top:300px;font-size:88px">The<br><span>grid</span><br>limit</div>
+<div class="fd21-card fd21-meter" id="fd21-m"><div class="fd21-mf" id="fd21-mf"></div><div class="fd21-ml">GRID LOAD</div></div>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+<script>
+(function(){
+const tl = gsap.timeline({ paused: true });
+tl.fromTo("#fd21-b1",{x:0,y:0},{x:140,y:60,duration:18.213,ease:"none"},0);tl.fromTo("#fd21-b2",{x:0,y:0},{x:-120,y:-50,duration:18.213,ease:"none"},0);tl.fromTo("#fd21-b3",{x:0,y:0},{x:-90,y:-40,duration:18.213,ease:"none"},0);
+tl.fromTo("#fd21-eb",{y:40,opacity:0},{y:0,opacity:1,duration:.5,ease:"power3.out"},0.10);
+tl.fromTo("#fd21-g",{y:40,opacity:0},{y:0,opacity:1,duration:.5,ease:"power3.out"},0.20);
+tl.fromTo("#fd21-w",{strokeDasharray:1400,strokeDashoffset:1400},{strokeDashoffset:0,duration:1.2,ease:"power2.inOut"},4.44);
+tl.fromTo("#fd21-bx0",{scale:0.5,opacity:0},{scale:1,opacity:1,duration:.45,ease:"back.out(2)"},3.40);
+tl.fromTo("#fd21-bx1",{scale:0.5,opacity:0},{scale:1,opacity:1,duration:.45,ease:"back.out(2)"},3.60);
+tl.fromTo("#fd21-bx2",{scale:0.5,opacity:0},{scale:1,opacity:1,duration:.45,ease:"back.out(2)"},3.80);
+tl.fromTo("#fd21-m",{y:40,opacity:0},{y:0,opacity:1,duration:.5,ease:"power3.out"},7.32);
+tl.fromTo("#fd21-mf",{scaleX:.2},{scaleX:.97,duration:2,ease:"power2.in"},11.10);
+tl.fromTo("#fd21-h",{x:-60,opacity:0},{x:0,opacity:1,duration:.5,ease:"power3.out"},11.10);
+const K = 1.00000;
+if (K !== 1) tl.getChildren(false, true, true).forEach(c => { if (c.startTime() > 0.001) c.startTime(c.startTime() * K); });
+window.__timelines = window.__timelines || {};
+window.__timelines["21-power"] = tl;
+})();
+</script>
+</template>

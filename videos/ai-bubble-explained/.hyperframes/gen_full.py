@@ -81,6 +81,13 @@ def shake(sel, t):
     return "".join(f'tl.to("{sel}",{{x:{dx},duration:.05}},{t + i*0.05:.2f});' for i, dx in enumerate([10, -10, 7, -7, 0]))
 
 
+GEO = {}
+
+
+def SO(p, gid="g"):
+    cx, cy = GEO[(p, gid)]
+    return f"{cx} {cy}"
+
 # ---------- shared CSS ----------
 def css_common(p):
     return f"""
@@ -121,19 +128,21 @@ def tiles(p, items, x0, y0, w, h, gap, cols):
 def gauge(p, gid, x, y, size, label):
     r = size / 2 - 20
     cx, cy = size / 2, size / 2 + 20
+    GEO[(p, gid)] = (cx, cy)
     return f'''<div class="{p}-card" id="{p}-{gid}" style="left:{x}px;top:{y}px;width:{size}px;height:{size*0.78:.0f}px">
 <svg width="{size}" height="{size*0.62:.0f}" viewBox="0 0 {size} {size*0.62:.0f}">
 <path d="M {cx-r} {cy} A {r} {r} 0 0 1 {cx+r} {cy}" stroke="#E5E7F5" stroke-width="26" fill="none"/>
 <path d="M {cx-r} {cy} A {r} {r} 0 0 1 {cx} {cy-r}" stroke="{C['green']}" stroke-width="26" fill="none"/>
 <path d="M {cx} {cy-r} A {r} {r} 0 0 1 {cx+r*0.7:.0f} {cy-r*0.71:.0f}" stroke="#FBBF24" stroke-width="26" fill="none"/>
 <path d="M {cx+r*0.7:.0f} {cy-r*0.71:.0f} A {r} {r} 0 0 1 {cx+r} {cy}" stroke="{C['red']}" stroke-width="26" fill="none"/>
-<g id="{p}-{gid}-n" style="transform-origin:{cx}px {cy}px"><rect x="{cx-4}" y="{cy-r+18}" width="8" height="{r-18}" rx="4" fill="{C['text']}"/></g>
+<g id="{p}-{gid}-n"><rect x="{cx-4}" y="{cy-r+18}" width="8" height="{r-18}" rx="4" fill="{C['text']}"/></g>
 <circle cx="{cx}" cy="{cy}" r="14" fill="{C['text']}"/></svg>
 <div class="{p}-lbl" style="text-align:center;margin-top:6px">{label}</div></div>'''
 
 
 def needle(p, gid, t, deg, dur=.8):
-    return f'tl.fromTo("#{p}-{gid}-n",{{rotation:-80}},{{rotation:{deg},duration:{dur},ease:"elastic.out(1,.5)"}},{t:.2f});'
+    cx, cy = GEO[(p, gid)]
+    return f'tl.fromTo("#{p}-{gid}-n",{{rotation:-80,svgOrigin:"{cx} {cy}"}},{{rotation:{deg},svgOrigin:"{cx} {cy}",duration:{dur},ease:"elastic.out(1,.5)"}},{t:.2f});'
 
 
 def linechart(p, x, y, w, h, pts, color, pid, labels_x=None):
@@ -228,25 +237,25 @@ def loop3(p, labels, colors):
 <path id="{p}-e2" d="M590 600 Q 590 420 800 300" stroke="{C['primary']}" stroke-width="10" fill="none" marker-end="url(#{p}-ah)"/>
 </svg>'''
     css = f".{p}-node{{position:absolute;width:380px;height:150px;margin-left:-190px;margin-top:-75px;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:38px;}}"
-    return svg + nodes, css, [(960, 300), (1330, 610), (960, 790), (590, 610)]
+    return svg + nodes, css, [(1250, 380), (1180, 720), (960, 800), (740, 720), (660, 380)]
 
 
 def f11():
     n, p = 11, "fd11"
     h, c, pts = loop3(p, ["CHIP & CLOUD CO.", "AI STARTUP", "BUYS CHIPS & CLOUD"], [C["text"]] * 3)
     css = c + f".{p}-coin{{position:absolute;left:0;top:0;}}"
-    html = f'<div class="{p}-pill {p}-eyebrow" id="{p}-eb">Reason 3 · Circular deals</div>{h}<div class="{p}-coin" id="{p}-coin">{icon("coin", 70)}</div>'
+    html = f'<div class="{p}-pill {p}-eyebrow" id="{p}-eb">Reason 3 · Circular deals</div>{h}<div class="{p}-coin" id="{p}-coin">{icon("coin", 56)}</div>'
     js = [rise(f"#{p}-eb", .1), pop(f"#{p}-n0", cue(n, "chip")), pop(f"#{p}-n1", cue(n, "startups")),
           f'tl.fromTo("#{p}-e0",{{opacity:0,strokeDasharray:700,strokeDashoffset:700}},{{opacity:1,strokeDashoffset:0,duration:.5}},{cue(n, "investing"):.2f});',
           pop(f"#{p}-n2", cue(n, "buying")),
           f'tl.fromTo("#{p}-e1",{{opacity:0,strokeDasharray:700,strokeDashoffset:700}},{{opacity:1,strokeDashoffset:0,duration:.5}},{cue(n, "spend"):.2f});',
           f'tl.fromTo("#{p}-e2",{{opacity:0,strokeDasharray:700,strokeDashoffset:700}},{{opacity:1,strokeDashoffset:0,duration:.5}},{cue(n, "same"):.2f});']
     t = cue(n, "investing") + .3
-    js.append(f'tl.set("#{p}-coin",{{x:{pts[0][0]-35},y:{pts[0][1]-35},opacity:1}},{t:.2f});')
+    js.append(f'tl.fromTo("#{p}-coin",{{opacity:0,x:{pts[0][0]-28},y:{pts[0][1]-28}}},{{opacity:1,duration:.2}},{t:.2f});')
     k = 0
     while t < DUR[n] - .5:
-        x, y = pts[(k + 1) % 4]
-        js.append(f'tl.to("#{p}-coin",{{x:{x-35},y:{y-35},duration:.6,ease:"none"}},{t:.2f});')
+        x, y = pts[(k + 1) % len(pts)]
+        js.append(f'tl.to("#{p}-coin",{{x:{x-28},y:{y-28},duration:.6,ease:"none"}},{t:.2f});')
         t += .6; k += 1
     js.append(f'tl.to(["#{p}-n0","#{p}-n1","#{p}-n2"],{{scale:1.06,duration:.3}},{cue(n, "stronger"):.2f});')
     frame(n, "circular-deals", css, html, js)
@@ -396,7 +405,7 @@ def f19():
           f'gsap.set("#{p}-ch",{{opacity:0}});',
           f'tl.fromTo(["#{p}-g1","#{p}-g2","#{p}-g3"],{{scale:0,transformOrigin:"50% 50%"}},{{scale:1,duration:.4,stagger:.15,ease:"back.out(3)"}},{cue(n, "gold"):.2f});',
           f'tl.to("#{p}-sh",{{opacity:0,rotation:-30,duration:.3}},{cue(n, "chips"):.2f});tl.fromTo("#{p}-ch",{{opacity:0,scale:.4}},{{opacity:1,scale:1,duration:.4,ease:"back.out(2.5)"}},{cue(n, "chips")+.2:.2f});',
-          f'tl.to("#{p}-sl",{{opacity:0,duration:.15}},{cue(n, "chips"):.2f});tl.call(function(){{}},null,{cue(n, "chips"):.2f});',
+          f'tl.to("#{p}-sl",{{opacity:0,duration:.15}},{cue(n, "chips"):.2f});',
           f'tl.to("#{p}-st",{{scale:1.08,duration:.4,ease:"back.out(2)"}},{cue(n, "explode"):.2f});']
     js = [j for j in js if "tl.call" not in j]
     html = html.replace(f'<div class="{p}-lbl" id="{p}-sl">SHOVELS</div>', f'<div class="{p}-lbl" id="{p}-sl">SHOVELS</div><div class="{p}-lbl" id="{p}-sl2" style="color:{C["primary"]};margin-top:-58px">AI CHIPS</div>')
@@ -434,16 +443,16 @@ def f21():
 """
     towers = "".join(f'<g transform="translate({120+i*300},120)"><path d="M60 0 L0 380 M60 0 L120 380 M20 250 L100 250 M35 150 L85 150" stroke="{C["muted"]}" stroke-width="8" fill="none"/></g>' for i in range(4))
     wires = f'<path id="{p}-w" d="M180 130 Q 330 220 480 130 Q 630 220 780 130 Q 930 220 1080 130" stroke="{C["primary"]}" stroke-width="6" fill="none"/>'
-    bolts = "".join(f'<div id="{p}-b{i}" style="position:absolute;left:{700+i*300}px;top:150px">{icon("bolt", 90)}</div>' for i in range(3))
+    bolts = "".join(f'<div id="{p}-bx{i}" style="position:absolute;left:{700+i*300}px;top:150px">{icon("bolt", 90)}</div>' for i in range(3))
     html = f'''<div class="{p}-pill {p}-eyebrow" id="{p}-eb">And then there's power</div>
 <svg class="{p}-grid" id="{p}-g" viewBox="0 0 1200 600">{towers}{wires}</svg>{bolts}
 <div class="{p}-h" id="{p}-h" style="left:110px;top:300px;font-size:88px">The<br><span>grid</span><br>limit</div>
 <div class="{p}-card {p}-meter" id="{p}-m"><div class="{p}-mf" id="{p}-mf"></div><div class="{p}-ml">GRID LOAD</div></div>'''
     js = [rise(f"#{p}-eb", .1), rise(f"#{p}-g", .2), draw(f"#{p}-w", cue(n, "electricity"), 1.2, 1400)]
     for i in range(3):
-        js.append(pop(f"#{p}-b{i}", cue(n, "enormous") + i * .2))
+        js.append(pop(f"#{p}-bx{i}", cue(n, "enormous") + i * .2))
     js += [rise(f"#{p}-m", cue(n, "limit")), f'tl.fromTo("#{p}-mf",{{scaleX:.2}},{{scaleX:.97,duration:2,ease:"power2.in"}},{cue(n, "grid"):.2f});',
-           slide(f"#{p}-h", cue(n, "grid")), pop(f"#{p}-eb", cue(n, "utilities"), .9)]
+           slide(f"#{p}-h", cue(n, "grid"))]
     frame(n, "power", css, html, js)
 
 
@@ -530,10 +539,10 @@ def f26():
 <div class="{p}-card {p}-chart" id="{p}-c"><svg width="{W}" height="{H}">{svg}</svg><div class="{p}-lbl" style="position:absolute;left:40px;top:24px">Cisco stock</div></div>
 <div class="{p}-list"><div class="{p}-it" id="{p}-i0">{icon("check", 50)}<div class="{p}-lbl">Real products</div></div><div class="{p}-it" id="{p}-i1">{icon("check", 50)}<div class="{p}-lbl">Real customers</div></div><div class="{p}-it" id="{p}-i2">{icon("check", 50)}<div class="{p}-lbl">Real profits</div></div></div>
 <div class="{p}-chipx {p}-warn" id="{p}-w">Great company ≠ great price</div>'''
-    js = [rise(f"#{p}-eb", .1), rise(f"#{p}-c", cue(n, "cisco")), draw(f"#{p}-ln", cue(n, "cisco") + .3, cue(n, "valuable") - cue(n, "cisco") + .3, 2500),
+    js = [rise(f"#{p}-eb", .1), rise(f"#{p}-c", cue(n, "cisco")), f'tl.fromTo("#{p}-ln",{{strokeDasharray:2500,strokeDashoffset:2500}},{{strokeDashoffset:1500,duration:{max(.8, cue(n, "valuable") - cue(n, "cisco")):.2f},ease:"power2.out"}},{cue(n, "cisco") + .3:.2f});',
           pop(f"#{p}-cr", cue(n, "valuable")), slide(f"#{p}-i0", cue(n, "products")), slide(f"#{p}-i1", cue(n, "customers")),
           slide(f"#{p}-i2", cue(n, "profits")),
-          f'tl.fromTo("#{p}-ln",{{strokeDasharray:2500,strokeDashoffset:900}},{{strokeDashoffset:0,duration:1.6,ease:"power2.in"}},{cue(n, "lost"):.2f});',
+          f'tl.to("#{p}-ln",{{strokeDashoffset:0,duration:1.6,ease:"power2.in"}},{cue(n, "lost"):.2f});',
           f'tl.to("#{p}-cr",{{y:140,rotation:40,opacity:0,duration:.8,ease:"power2.in"}},{cue(n, "lost"):.2f});',
           pop(f"#{p}-w", cue(n, "terrible"))]
     frame(n, "cisco", css, html, js)
@@ -582,17 +591,17 @@ def f29():
 
 def f30():
     n, p = 30, "fd30"
-    bars = "".join(f'<div class="{p}-bar" id="{p}-b{i}" style="left:{900 + i*170}px"></div>' for i in range(5))
+    bars = "".join(f'<div class="{p}-bar" id="{p}-bx{i}" style="left:{900 + i*170}px"></div>' for i in range(5))
     css = f".{p}-bar{{position:absolute;bottom:280px;width:120px;height:440px;border-radius:18px 18px 6px 6px;background:{C['primary']};transform-origin:50% 100%;}} .{p}-cut{{left:1050px;top:830px;background:{C['red']};}}"
     html = (f'<div class="{p}-pill {p}-eyebrow" id="{p}-eb">Gauge 1 · Spending cuts</div>' + gauge(p, "g", 140, 230, 600, "AI BUDGETS")
             + bars + f'<div class="{p}-chipx {p}-cut" id="{p}-cut" style="top:820px">BUDGETS CUT = NO RETURN</div>')
     js = [rise(f"#{p}-eb", .1), pop(f"#{p}-g", .3), needle(p, "g", .6, -50)]
     for i in range(5):
-        js.append(f'tl.fromTo("#{p}-b{i}",{{scaleY:0}},{{scaleY:{.4 + i*.15:.2f},duration:.5,ease:"back.out(1.5)"}},{.5 + i*.12:.2f});')
+        js.append(f'tl.fromTo("#{p}-bx{i}",{{scaleY:0}},{{scaleY:{.4 + i*.15:.2f},duration:.5,ease:"back.out(1.5)"}},{.5 + i*.12:.2f});')
     t = cue(n, "cutting")
     for i in range(5):
-        js.append(f'tl.to("#{p}-b{i}",{{scaleY:{.55 - i*.08:.2f},background:"{C["red"]}",duration:.5}},{t + i*.1:.2f});')
-    js += [f'tl.to("#{p}-g-n",{{rotation:60,duration:1,ease:"elastic.out(1,.5)"}},{t:.2f});', pop(f"#{p}-cut", cue(n, "return"))]
+        js.append(f'tl.to("#{p}-bx{i}",{{scaleY:{.55 - i*.08:.2f},background:"{C["red"]}",duration:.5}},{t + i*.1:.2f});')
+    js += [f'tl.to("#{p}-g-n",{{rotation:60,svgOrigin:"{SO(p)}",duration:1,ease:"elastic.out(1,.5)"}},{t:.2f});', pop(f"#{p}-cut", cue(n, "return"))]
     css += f" .{p}-cut{{top:820px;}}"
     frame(n, "gauge-spending", css.replace(f".{p}-cut{{left:1050px;top:830px;", f".{p}-cut{{left:1000px;"), html, js)
 
@@ -607,7 +616,7 @@ def f31():
     for i in range(4):
         js.append(slide(f"#{p}-s{i}", cue(n, "businesses") + i * .2, 80))
         js.append(pop(f"#{p}-ok{i}", cue(n, "renewing") + i * .25))
-    js.append(f'tl.to("#{p}-g-n",{{rotation:-55,duration:1,ease:"elastic.out(1,.5)"}},{cue(n, "repeat"):.2f});')
+    js.append(f'tl.to("#{p}-g-n",{{rotation:-55,svgOrigin:"{SO(p)}",duration:1,ease:"elastic.out(1,.5)"}},{cue(n, "repeat"):.2f});')
     frame(n, "gauge-customers", css, html, js)
 
 
@@ -622,7 +631,7 @@ def f32():
             + f'<div class="{p}-cmp"><div class="{p}-card" id="{p}-pa" style="position:relative;padding:26px 40px"><div class="{p}-lbl" style="color:{C["green"]}">Paid with profits</div></div><div class="{p}-card" id="{p}-pb" style="position:relative;padding:26px 40px"><div class="{p}-lbl" style="color:{C["red"]}">Paid with loans</div></div></div>')
     js = [rise(f"#{p}-eb", .1), pop(f"#{p}-g", .3), needle(p, "g", .6, -30), pop(f"#{p}-loan", cue(n, "borrowed")),
           rise(f"#{p}-pb", cue(n, "loans")), rise(f"#{p}-pa", cue(n, "profits")),
-          f'tl.to("#{p}-g-n",{{rotation:65,duration:1,ease:"elastic.out(1,.5)"}},{cue(n, "risk"):.2f});']
+          f'tl.to("#{p}-g-n",{{rotation:65,svgOrigin:"{SO(p)}",duration:1,ease:"elastic.out(1,.5)"}},{cue(n, "risk"):.2f});']
     for i in range(4):
         js.append(f'tl.fromTo("#{p}-r{i}",{{scale:1,opacity:.9}},{{scale:16,opacity:0,duration:1.6,ease:"power2.out"}},{cue(n, "spreads") - .3 + i*.25:.2f});')
     frame(n, "gauge-debt", css, html, js)

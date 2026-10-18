@@ -24,8 +24,8 @@
 .fd06-crowd{position:absolute;left:110px;top:430px;width:400px;display:flex;flex-wrap:wrap;gap:6px;}
 </style>
 <div id="root" data-composition-id="06-loop" data-width="1920" data-height="1080">
-<div class="clip fd06-bg" id="fd06-bg" data-start="0" data-duration="14.123" data-track-index="0"><div class="fd06-blob fd06-b1" id="fd06-b1"></div><div class="fd06-blob fd06-b2" id="fd06-b2"></div><div class="fd06-blob fd06-b3" id="fd06-b3"></div></div>
-<div class="clip fd06-stage" id="fd06-stage" data-start="0" data-duration="14.123" data-track-index="1">
+<div class="clip fd06-bg" id="fd06-bg" data-start="0" data-duration="13.669" data-track-index="0"><div class="fd06-blob fd06-b1" id="fd06-b1"></div><div class="fd06-blob fd06-b2" id="fd06-b2"></div><div class="fd06-blob fd06-b3" id="fd06-b3"></div></div>
+<div class="clip fd06-stage" id="fd06-stage" data-start="0" data-duration="13.669" data-track-index="1">
 <div class="fd06-pill fd06-title" id="fd06-title">The bubble loop</div><svg style="position:absolute;left:0;top:0" width="1920" height="1080" viewBox="0 0 1920 1080">
 <defs><marker id="fd06-ah" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#7C5CFF"/></marker>
 <marker id="fd06-ahr" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#E24040"/></marker></defs>
@@ -45,7 +45,7 @@
 <script>
 (function(){
 const tl = gsap.timeline({ paused: true });
-tl.fromTo("#fd06-b1",{x:0,y:0},{x:140,y:60,duration:14.123,ease:"none"},0);tl.fromTo("#fd06-b2",{x:0,y:0},{x:-120,y:-50,duration:14.123,ease:"none"},0);tl.fromTo("#fd06-b3",{x:0,y:0},{x:-90,y:-40,duration:14.123,ease:"none"},0);
+tl.fromTo("#fd06-b1",{x:0,y:0},{x:140,y:60,duration:13.669,ease:"none"},0);tl.fromTo("#fd06-b2",{x:0,y:0},{x:-120,y:-50,duration:13.669,ease:"none"},0);tl.fromTo("#fd06-b3",{x:0,y:0},{x:-90,y:-40,duration:13.669,ease:"none"},0);
 tl.fromTo("#fd06-title",{y:-24,opacity:0},{y:0,opacity:1,duration:.4,ease:"back.out(2)"},0.1);
 tl.fromTo("#fd06-bot",{x:120,opacity:0},{x:0,opacity:1,duration:.5,ease:"back.out(1.5)"},0.3);
 gsap.set(["#fd06-r1","#fd06-r2","#fd06-r3"],{opacity:0});gsap.set("#fd06-dot",{opacity:0});
@@ -79,6 +79,8 @@ tl.to("#fd06-pr",{color:"#E24040",duration:.2},12.7);
 tl.to("#fd06-pr",{y:40,rotation:-4,duration:.6,ease:"bounce.out"},13.0);
 tl.to("#fd06-bot .fd06-pupil",{y:0.3,duration:.2},13.0);
 tl.to("#fd06-bot .fd06-eyewhite, #fd06-bot .fd06-pupil",{scaleY:0.1,transformOrigin:"50% 50%",duration:0.08},4.5);tl.to("#fd06-bot .fd06-eyewhite, #fd06-bot .fd06-pupil",{scaleY:1,duration:0.1},4.6);
+const K = 0.93953;
+if (K !== 1) tl.getChildren(false, true, true).forEach(c => { if (c.startTime() > 0.001) c.startTime(c.startTime() * K); });
 window.__timelines = window.__timelines || {};
 window.__timelines["06-loop"] = tl;
 })();

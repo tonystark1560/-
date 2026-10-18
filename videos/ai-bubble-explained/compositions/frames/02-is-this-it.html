@@ -24,8 +24,8 @@
 .fd02-needle{position:absolute;left:1500px;top:330px;width:340px;height:14px;}
 </style>
 <div id="root" data-composition-id="02-is-this-it" data-width="1920" data-height="1080">
-<div class="clip fd02-bg" id="fd02-bg" data-start="0" data-duration="7.253" data-track-index="0"><div class="fd02-blob fd02-b1" id="fd02-b1"></div><div class="fd02-blob fd02-b2" id="fd02-b2"></div><div class="fd02-blob fd02-b3" id="fd02-b3"></div></div>
-<div class="clip fd02-stage" id="fd02-stage" data-start="0" data-duration="7.253" data-track-index="1">
+<div class="clip fd02-bg" id="fd02-bg" data-start="0" data-duration="7.269" data-track-index="0"><div class="fd02-blob fd02-b1" id="fd02-b1"></div><div class="fd02-blob fd02-b2" id="fd02-b2"></div><div class="fd02-blob fd02-b3" id="fd02-b3"></div></div>
+<div class="clip fd02-stage" id="fd02-stage" data-start="0" data-duration="7.269" data-track-index="1">
 <svg style="position:absolute;left:560px;top:600px" width="560" height="140" viewBox="0 0 560 140"><path id="fd02-str" d="M10 120 C 200 40, 380 140, 520 20" stroke="#5B6178" stroke-width="4" fill="none"/></svg><svg class="fd02-balloon" id="fd02-balloon" viewBox="0 0 520 600">
 <defs><radialGradient id="fd02-bg1" cx="35%" cy="30%" r="75%"><stop offset="0" stop-color="#C9B8FF"/><stop offset=".55" stop-color="#7C5CFF"/><stop offset="1" stop-color="#4B2FD1"/></radialGradient></defs>
 <path d="M260 560 C 250 590, 300 600, 230 640" stroke="#5B6178" stroke-width="5" fill="none"/>
@@ -41,7 +41,7 @@
 <script>
 (function(){
 const tl = gsap.timeline({ paused: true });
-tl.fromTo("#fd02-b1",{x:0,y:0},{x:140,y:60,duration:7.253,ease:"none"},0);tl.fromTo("#fd02-b2",{x:0,y:0},{x:-120,y:-50,duration:7.253,ease:"none"},0);tl.fromTo("#fd02-b3",{x:0,y:0},{x:-90,y:-40,duration:7.253,ease:"none"},0);
+tl.fromTo("#fd02-b1",{x:0,y:0},{x:140,y:60,duration:7.269,ease:"none"},0);tl.fromTo("#fd02-b2",{x:0,y:0},{x:-120,y:-50,duration:7.269,ease:"none"},0);tl.fromTo("#fd02-b3",{x:0,y:0},{x:-90,y:-40,duration:7.269,ease:"none"},0);
 tl.fromTo("#fd02-bot",{x:-120,opacity:0},{x:0,opacity:1,duration:.5,ease:"power3.out"},0.05);
 tl.fromTo("#fd02-balloon",{scale:.2,opacity:0},{scale:1,opacity:1,duration:.8,ease:"back.out(1.4)"},0.2);
 tl.fromTo("#fd02-str",{opacity:0},{opacity:1,duration:.4},0.4);
@@ -64,7 +64,9 @@ tl.to("#fd02-balloon",{x:-6,duration:.06},6.43);
 tl.to("#fd02-balloon",{x:0,duration:.06},6.49);
 tl.to("#fd02-bot .fd02-pupil",{x:0.3,y:-0.25,duration:.25},3.9);
 tl.to("#fd02-bot .fd02-eyewhite, #fd02-bot .fd02-pupil",{scaleY:0.1,transformOrigin:"50% 50%",duration:0.08},2.0);tl.to("#fd02-bot .fd02-eyewhite, #fd02-bot .fd02-pupil",{scaleY:1,duration:0.1},2.1);
-tl.to("#fd02-bot",{y:-8,duration:0.800,ease:"sine.inOut"},0.600);tl.to("#fd02-bot",{y:0,duration:0.800,ease:"sine.inOut"},1.400);tl.to("#fd02-bot",{y:-8,duration:0.800,ease:"sine.inOut"},2.200);tl.to("#fd02-bot",{y:0,duration:0.800,ease:"sine.inOut"},3.000);tl.to("#fd02-bot",{y:-8,duration:0.800,ease:"sine.inOut"},3.800);tl.to("#fd02-bot",{y:0,duration:0.800,ease:"sine.inOut"},4.600);tl.to("#fd02-bot",{y:-8,duration:0.800,ease:"sine.inOut"},5.400);tl.to("#fd02-bot",{y:0,duration:0.800,ease:"sine.inOut"},6.200);tl.to("#fd02-bot",{y:-8,duration:0.253,ease:"sine.inOut"},7.000);
+tl.to("#fd02-bot",{y:-8,duration:0.800,ease:"sine.inOut"},0.600);tl.to("#fd02-bot",{y:0,duration:0.800,ease:"sine.inOut"},1.400);tl.to("#fd02-bot",{y:-8,duration:0.800,ease:"sine.inOut"},2.200);tl.to("#fd02-bot",{y:0,duration:0.800,ease:"sine.inOut"},3.000);tl.to("#fd02-bot",{y:-8,duration:0.800,ease:"sine.inOut"},3.800);tl.to("#fd02-bot",{y:0,duration:0.800,ease:"sine.inOut"},4.600);tl.to("#fd02-bot",{y:-8,duration:0.800,ease:"sine.inOut"},5.400);tl.to("#fd02-bot",{y:0,duration:0.800,ease:"sine.inOut"},6.200);tl.to("#fd02-bot",{y:-8,duration:0.269,ease:"sine.inOut"},7.000);
+const K = 0.94706;
+if (K !== 1) tl.getChildren(false, true, true).forEach(c => { if (c.startTime() > 0.001) c.startTime(c.startTime() * K); });
 window.__timelines = window.__timelines || {};
 window.__timelines["02-is-this-it"] = tl;
 })();

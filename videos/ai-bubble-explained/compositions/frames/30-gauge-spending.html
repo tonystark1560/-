@@ -1,0 +1,69 @@
+<template>
+<style>
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Regular.otf') format('opentype');font-weight:400;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Medium.otf') format('opentype');font-weight:500;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-SemiBold.otf') format('opentype');font-weight:600;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Bold.otf') format('opentype');font-weight:700;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-ExtraBold.otf') format('opentype');font-weight:800;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Black.otf') format('opentype');font-weight:900;font-style:normal;}
+#root{position:absolute;inset:0;width:1920px;height:1080px;overflow:hidden;font-family:'Inter',sans-serif;color:#1B1F3B;}
+.fd30-bg{position:absolute;inset:0;background:#EEF0FF;overflow:hidden;}
+.fd30-blob{position:absolute;border-radius:50%;filter:blur(110px);opacity:.85;}
+.fd30-b1{width:900px;height:900px;left:-200px;top:-260px;background:#BFD7FF;}
+.fd30-b2{width:820px;height:820px;right:-180px;top:120px;background:#E3D4FF;}
+.fd30-b3{width:700px;height:700px;left:520px;bottom:-420px;background:#FFE1EC;}
+.fd30-stage{position:absolute;inset:0;}
+.fd30-card{position:absolute;background:rgba(255,255,255,.88);border-radius:22px;box-shadow:0 18px 50px rgba(124,92,255,.14),0 2px 6px rgba(27,31,59,.06);}
+.fd30-pill{position:absolute;display:inline-flex;align-items:center;gap:10px;padding:12px 26px;border-radius:999px;font-weight:700;font-size:26px;letter-spacing:.08em;text-transform:uppercase;}
+.fd30-robotwrap{position:absolute;}
+.fd30-robot{display:block;filter:drop-shadow(0 14px 22px rgba(124,92,255,.35));}
+
+.fd30-eyebrow{left:110px;top:100px;background:#7C5CFF;color:#fff;}
+.fd30-h{position:absolute;font-weight:900;letter-spacing:-.02em;line-height:1;}
+.fd30-h span{color:#7C5CFF;} .fd30-h .fd30-red{color:#E24040;} .fd30-h .fd30-grn{color:#0EA674;}
+.fd30-lbl{font-weight:800;font-size:30px;letter-spacing:.03em;}
+.fd30-sub{font-weight:600;font-size:24px;color:#5B6178;}
+.fd30-tile{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:20px;text-align:center;}
+.fd30-chipx{position:absolute;padding:12px 24px;border-radius:999px;font-weight:800;font-size:28px;color:#fff;background:#7C5CFF;}
+.fd30-bar{position:absolute;bottom:280px;width:120px;height:440px;border-radius:18px 18px 6px 6px;background:#7C5CFF;transform-origin:50% 100%;} .fd30-cut{left:1000px;background:#E24040;} .fd30-cut{top:820px;}</style>
+<div id="root" data-composition-id="30-gauge-spending" data-width="1920" data-height="1080">
+<div class="clip fd30-bg" id="fd30-bg" data-start="0" data-duration="12.795" data-track-index="0"><div class="fd30-blob fd30-b1" id="fd30-b1"></div><div class="fd30-blob fd30-b2" id="fd30-b2"></div><div class="fd30-blob fd30-b3" id="fd30-b3"></div></div>
+<div class="clip fd30-stage" id="fd30-stage" data-start="0" data-duration="12.795" data-track-index="1">
+<div class="fd30-pill fd30-eyebrow" id="fd30-eb">Gauge 1 · Spending cuts</div><div class="fd30-card" id="fd30-g" style="left:140px;top:230px;width:600px;height:468px">
+<svg width="600" height="372" viewBox="0 0 600 372">
+<path d="M 20.0 320.0 A 280.0 280.0 0 0 1 580.0 320.0" stroke="#E5E7F5" stroke-width="26" fill="none"/>
+<path d="M 20.0 320.0 A 280.0 280.0 0 0 1 300.0 40.0" stroke="#0EA674" stroke-width="26" fill="none"/>
+<path d="M 300.0 40.0 A 280.0 280.0 0 0 1 496 121" stroke="#FBBF24" stroke-width="26" fill="none"/>
+<path d="M 496 121 A 280.0 280.0 0 0 1 580.0 320.0" stroke="#E24040" stroke-width="26" fill="none"/>
+<g id="fd30-g-n"><rect x="296.0" y="58.0" width="8" height="262.0" rx="4" fill="#1B1F3B"/></g>
+<circle cx="300.0" cy="320.0" r="14" fill="#1B1F3B"/></svg>
+<div class="fd30-lbl" style="text-align:center;margin-top:6px">AI BUDGETS</div></div><div class="fd30-bar" id="fd30-bx0" style="left:900px"></div><div class="fd30-bar" id="fd30-bx1" style="left:1070px"></div><div class="fd30-bar" id="fd30-bx2" style="left:1240px"></div><div class="fd30-bar" id="fd30-bx3" style="left:1410px"></div><div class="fd30-bar" id="fd30-bx4" style="left:1580px"></div><div class="fd30-chipx fd30-cut" id="fd30-cut" style="top:820px">BUDGETS CUT = NO RETURN</div>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+<script>
+(function(){
+const tl = gsap.timeline({ paused: true });
+tl.fromTo("#fd30-b1",{x:0,y:0},{x:140,y:60,duration:12.795,ease:"none"},0);tl.fromTo("#fd30-b2",{x:0,y:0},{x:-120,y:-50,duration:12.795,ease:"none"},0);tl.fromTo("#fd30-b3",{x:0,y:0},{x:-90,y:-40,duration:12.795,ease:"none"},0);
+tl.fromTo("#fd30-eb",{y:40,opacity:0},{y:0,opacity:1,duration:.5,ease:"power3.out"},0.10);
+tl.fromTo("#fd30-g",{scale:0.5,opacity:0},{scale:1,opacity:1,duration:.45,ease:"back.out(2)"},0.30);
+tl.fromTo("#fd30-g-n",{rotation:-80,svgOrigin:"300.0 320.0"},{rotation:-50,svgOrigin:"300.0 320.0",duration:0.8,ease:"elastic.out(1,.5)"},0.60);
+tl.fromTo("#fd30-bx0",{scaleY:0},{scaleY:0.40,duration:.5,ease:"back.out(1.5)"},0.50);
+tl.fromTo("#fd30-bx1",{scaleY:0},{scaleY:0.55,duration:.5,ease:"back.out(1.5)"},0.62);
+tl.fromTo("#fd30-bx2",{scaleY:0},{scaleY:0.70,duration:.5,ease:"back.out(1.5)"},0.74);
+tl.fromTo("#fd30-bx3",{scaleY:0},{scaleY:0.85,duration:.5,ease:"back.out(1.5)"},0.86);
+tl.fromTo("#fd30-bx4",{scaleY:0},{scaleY:1.00,duration:.5,ease:"back.out(1.5)"},0.98);
+tl.to("#fd30-bx0",{scaleY:0.55,background:"#E24040",duration:.5},4.15);
+tl.to("#fd30-bx1",{scaleY:0.47,background:"#E24040",duration:.5},4.25);
+tl.to("#fd30-bx2",{scaleY:0.39,background:"#E24040",duration:.5},4.35);
+tl.to("#fd30-bx3",{scaleY:0.31,background:"#E24040",duration:.5},4.45);
+tl.to("#fd30-bx4",{scaleY:0.23,background:"#E24040",duration:.5},4.55);
+tl.to("#fd30-g-n",{rotation:60,svgOrigin:"300.0 320.0",duration:1,ease:"elastic.out(1,.5)"},4.15);
+tl.fromTo("#fd30-cut",{scale:0.5,opacity:0},{scale:1,opacity:1,duration:.45,ease:"back.out(2)"},7.66);
+const K = 1.00000;
+if (K !== 1) tl.getChildren(false, true, true).forEach(c => { if (c.startTime() > 0.001) c.startTime(c.startTime() * K); });
+window.__timelines = window.__timelines || {};
+window.__timelines["30-gauge-spending"] = tl;
+})();
+</script>
+</template>
