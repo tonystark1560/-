@@ -16,5 +16,5 @@ Full long-form episode "What Happens If You Stop Buying for 30 Days" from channe
 
 ## Notes
 
-- Voiceover verbatim from the channel script (VO_MODE: verbatim), English, Kokoro af_heart at speed 1.1.
+- Voiceover verbatim from the channel script (VO_MODE: verbatim), English, Kokoro af_heart at speed 1.0.
 - No company logos; names as plain text only.

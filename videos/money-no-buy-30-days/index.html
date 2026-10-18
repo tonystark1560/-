@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=1920, height=1080" />
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js" integrity="sha384-sG0Hv1tP1lZCk9KQmrIbY/XNwi+OY84GQqhMscbnsoBFqAz8KNCil1kvfL3Hbbk2" crossorigin="anonymous"></script>
     <style>
       * {
         margin: 0;
@@ -12,25 +12,23 @@
       }
       html,
       body {
-        margin: 0;
         width: 1920px;
         height: 1080px;
         overflow: hidden;
-        background: #0a0a0a;
+        background: #000;
       }
       #root {
+        position: relative;
+        width: 1920px;
+        height: 1080px;
+        overflow: hidden;
+        background: #F1FBF5;
+      }
+      .scene {
+        position: absolute;
+        inset: 0;
         width: 100%;
         height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-family: Inter, ui-sans-serif, system-ui, sans-serif;
-      }
-      #title {
-        color: #f4f4f5;
-        font-size: 72px;
-        font-weight: 600;
-        letter-spacing: -0.03em;
       }
     </style>
   </head>
@@ -39,17 +37,951 @@
       id="root"
       data-composition-id="main"
       data-start="0"
-      data-duration="10"
+      data-duration="463.995"
       data-width="1920"
       data-height="1080"
     >
-      <h1 id="title" class="clip" data-start="0" data-duration="10" data-track-index="0">Title</h1>
+      <div
+        id="el-01-hook"
+        class="scene"
+        data-composition-id="01-hook"
+        data-composition-src="compositions/frames/01-hook.html"
+        data-start="0"
+        data-duration="8.374"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-01-hook-voice"
+        src="assets/voice/01.wav"
+        data-start="0"
+        data-duration="7.874"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+
+      <div
+        id="el-02-trend"
+        class="scene"
+        data-composition-id="02-trend"
+        data-composition-src="compositions/frames/02-trend.html"
+        data-start="7.874"
+        data-duration="12.214"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-02-trend-voice"
+        src="assets/voice/02.wav"
+        data-start="7.874"
+        data-duration="11.714"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+
+      <div
+        id="el-03-unlock"
+        class="scene"
+        data-composition-id="03-unlock"
+        data-composition-src="compositions/frames/03-unlock.html"
+        data-start="19.588"
+        data-duration="6.881"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-03-unlock-voice"
+        src="assets/voice/03.wav"
+        data-start="19.588"
+        data-duration="6.381"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+
+      <div
+        id="el-04-why-now"
+        class="scene"
+        data-composition-id="04-why-now"
+        data-composition-src="compositions/frames/04-why-now.html"
+        data-start="25.969"
+        data-duration="4.449"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-04-why-now-voice"
+        src="assets/voice/04.wav"
+        data-start="25.969"
+        data-duration="3.949"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+
+      <div
+        id="el-05-cost-of-living"
+        class="scene"
+        data-composition-id="05-cost-of-living"
+        data-composition-src="compositions/frames/05-cost-of-living.html"
+        data-start="29.918"
+        data-duration="10.721"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-05-cost-of-living-voice"
+        src="assets/voice/05.wav"
+        data-start="29.918"
+        data-duration="10.221"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+
+      <div
+        id="el-06-uncertainty"
+        class="scene"
+        data-composition-id="06-uncertainty"
+        data-composition-src="compositions/frames/06-uncertainty.html"
+        data-start="40.138999999999996"
+        data-duration="11.937"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-06-uncertainty-voice"
+        src="assets/voice/06.wav"
+        data-start="40.138999999999996"
+        data-duration="11.437"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+
+      <div
+        id="el-07-burnout"
+        class="scene"
+        data-composition-id="07-burnout"
+        data-composition-src="compositions/frames/07-burnout.html"
+        data-start="51.57599999999999"
+        data-duration="14.817"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-07-burnout-voice"
+        src="assets/voice/07.wav"
+        data-start="51.57599999999999"
+        data-duration="14.317"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+
+      <div
+        id="el-08-rulebook"
+        class="scene"
+        data-composition-id="08-rulebook"
+        data-composition-src="compositions/frames/08-rulebook.html"
+        data-start="65.893"
+        data-duration="4.726"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-08-rulebook-voice"
+        src="assets/voice/08.wav"
+        data-start="65.893"
+        data-duration="4.226"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+
+      <div
+        id="el-09-allowed"
+        class="scene"
+        data-composition-id="09-allowed"
+        data-composition-src="compositions/frames/09-allowed.html"
+        data-start="70.119"
+        data-duration="11.19"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-09-allowed-voice"
+        src="assets/voice/09.wav"
+        data-start="70.119"
+        data-duration="10.69"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+
+      <div
+        id="el-10-paused"
+        class="scene"
+        data-composition-id="10-paused"
+        data-composition-src="compositions/frames/10-paused.html"
+        data-start="80.809"
+        data-duration="10.23"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-10-paused-voice"
+        src="assets/voice/10.wav"
+        data-start="80.809"
+        data-duration="9.73"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+
+      <div
+        id="el-11-replace-dont-add"
+        class="scene"
+        data-composition-id="11-replace-dont-add"
+        data-composition-src="compositions/frames/11-replace-dont-add.html"
+        data-start="90.539"
+        data-duration="9.697"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-11-replace-dont-add-voice"
+        src="assets/voice/11.wav"
+        data-start="90.539"
+        data-duration="9.197"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+
+      <div
+        id="el-12-write-rules"
+        class="scene"
+        data-composition-id="12-write-rules"
+        data-composition-src="compositions/frames/12-write-rules.html"
+        data-start="99.736"
+        data-duration="11.553"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-12-write-rules-voice"
+        src="assets/voice/12.wav"
+        data-start="99.736"
+        data-duration="11.053"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+
+      <div
+        id="el-13-smart-prep"
+        class="scene"
+        data-composition-id="13-smart-prep"
+        data-composition-src="compositions/frames/13-smart-prep.html"
+        data-start="110.789"
+        data-duration="10.742"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-13-smart-prep-voice"
+        src="assets/voice/13.wav"
+        data-start="110.789"
+        data-duration="10.242"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+
+      <div
+        id="el-14-quick-math"
+        class="scene"
+        data-composition-id="14-quick-math"
+        data-composition-src="compositions/frames/14-quick-math.html"
+        data-start="121.031"
+        data-duration="23.521"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-14-quick-math-voice"
+        src="assets/voice/14.wav"
+        data-start="121.031"
+        data-duration="23.021"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+
+      <div
+        id="el-15-autopilot"
+        class="scene"
+        data-composition-id="15-autopilot"
+        data-composition-src="compositions/frames/15-autopilot.html"
+        data-start="144.05200000000002"
+        data-duration="6.326"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-15-autopilot-voice"
+        src="assets/voice/15.wav"
+        data-start="144.05200000000002"
+        data-duration="5.826"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+
+      <div
+        id="el-16-subscriptions"
+        class="scene"
+        data-composition-id="16-subscriptions"
+        data-composition-src="compositions/frames/16-subscriptions.html"
+        data-start="149.87800000000001"
+        data-duration="10.315"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-16-subscriptions-voice"
+        src="assets/voice/16.wav"
+        data-start="149.87800000000001"
+        data-duration="9.815"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+
+      <div
+        id="el-17-small-habits"
+        class="scene"
+        data-composition-id="17-small-habits"
+        data-composition-src="compositions/frames/17-small-habits.html"
+        data-start="159.693"
+        data-duration="11.83"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-17-small-habits-voice"
+        src="assets/voice/17.wav"
+        data-start="159.693"
+        data-duration="11.33"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+
+      <div
+        id="el-18-reward-loop"
+        class="scene"
+        data-composition-id="18-reward-loop"
+        data-composition-src="compositions/frames/18-reward-loop.html"
+        data-start="171.02300000000002"
+        data-duration="22.091"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-18-reward-loop-voice"
+        src="assets/voice/18.wav"
+        data-start="171.02300000000002"
+        data-duration="21.591"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+
+      <div
+        id="el-19-boredom"
+        class="scene"
+        data-composition-id="19-boredom"
+        data-composition-src="compositions/frames/19-boredom.html"
+        data-start="192.61400000000003"
+        data-duration="8.886"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-19-boredom-voice"
+        src="assets/voice/19.wav"
+        data-start="192.61400000000003"
+        data-duration="8.386"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+
+      <div
+        id="el-20-urge-journal"
+        class="scene"
+        data-composition-id="20-urge-journal"
+        data-composition-src="compositions/frames/20-urge-journal.html"
+        data-start="201.00000000000003"
+        data-duration="9.931"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-20-urge-journal-voice"
+        src="assets/voice/20.wav"
+        data-start="201.00000000000003"
+        data-duration="9.431"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+
+      <div
+        id="el-21-week-two"
+        class="scene"
+        data-composition-id="21-week-two"
+        data-composition-src="compositions/frames/21-week-two.html"
+        data-start="210.43100000000004"
+        data-duration="5.579"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-21-week-two-voice"
+        src="assets/voice/21.wav"
+        data-start="210.43100000000004"
+        data-duration="5.079"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+
+      <div
+        id="el-22-temptations"
+        class="scene"
+        data-composition-id="22-temptations"
+        data-composition-src="compositions/frames/22-temptations.html"
+        data-start="215.51000000000005"
+        data-duration="9.142"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-22-temptations-voice"
+        src="assets/voice/22.wav"
+        data-start="215.51000000000005"
+        data-duration="8.642"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+
+      <div
+        id="el-23-list-48h"
+        class="scene"
+        data-composition-id="23-list-48h"
+        data-composition-src="compositions/frames/23-list-48h.html"
+        data-start="224.15200000000004"
+        data-duration="14.241"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-23-list-48h-voice"
+        src="assets/voice/23.wav"
+        data-start="224.15200000000004"
+        data-duration="13.741"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+
+      <div
+        id="el-24-free-alternatives"
+        class="scene"
+        data-composition-id="24-free-alternatives"
+        data-composition-src="compositions/frames/24-free-alternatives.html"
+        data-start="237.89300000000003"
+        data-duration="12.619"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-24-free-alternatives-voice"
+        src="assets/voice/24.wav"
+        data-start="237.89300000000003"
+        data-duration="12.119"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+
+      <div
+        id="el-25-slips"
+        class="scene"
+        data-composition-id="25-slips"
+        data-composition-src="compositions/frames/25-slips.html"
+        data-start="250.01200000000003"
+        data-duration="8.267"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-25-slips-voice"
+        src="assets/voice/25.wav"
+        data-start="250.01200000000003"
+        data-duration="7.767"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+
+      <div
+        id="el-26-social-events"
+        class="scene"
+        data-composition-id="26-social-events"
+        data-composition-src="compositions/frames/26-social-events.html"
+        data-start="257.77900000000005"
+        data-duration="21.387"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-26-social-events-voice"
+        src="assets/voice/26.wav"
+        data-start="257.77900000000005"
+        data-duration="20.887"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+
+      <div
+        id="el-27-week-three"
+        class="scene"
+        data-composition-id="27-week-three"
+        data-composition-src="compositions/frames/27-week-three.html"
+        data-start="278.66600000000005"
+        data-duration="10.507"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-27-week-three-voice"
+        src="assets/voice/27.wav"
+        data-start="278.66600000000005"
+        data-duration="10.007"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+
+      <div
+        id="el-28-use-what-you-have"
+        class="scene"
+        data-composition-id="28-use-what-you-have"
+        data-composition-src="compositions/frames/28-use-what-you-have.html"
+        data-start="288.67300000000006"
+        data-duration="8.267"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-28-use-what-you-have-voice"
+        src="assets/voice/28.wav"
+        data-start="288.67300000000006"
+        data-duration="7.767"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+
+      <div
+        id="el-29-see-the-money"
+        class="scene"
+        data-composition-id="29-see-the-money"
+        data-composition-src="compositions/frames/29-see-the-money.html"
+        data-start="296.44000000000005"
+        data-duration="10.742"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-29-see-the-money-voice"
+        src="assets/voice/29.wav"
+        data-start="296.44000000000005"
+        data-duration="10.242"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+
+      <div
+        id="el-30-control"
+        class="scene"
+        data-composition-id="30-control"
+        data-composition-src="compositions/frames/30-control.html"
+        data-start="306.6820000000001"
+        data-duration="10.059"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-30-control-voice"
+        src="assets/voice/30.wav"
+        data-start="306.6820000000001"
+        data-duration="9.559"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+
+      <div
+        id="el-31-tracker"
+        class="scene"
+        data-composition-id="31-tracker"
+        data-composition-src="compositions/frames/31-tracker.html"
+        data-start="316.2410000000001"
+        data-duration="20.513"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-31-tracker-voice"
+        src="assets/voice/31.wav"
+        data-start="316.2410000000001"
+        data-duration="20.013"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+
+      <div
+        id="el-32-day-31"
+        class="scene"
+        data-composition-id="32-day-31"
+        data-composition-src="compositions/frames/32-day-31.html"
+        data-start="336.2540000000001"
+        data-duration="8.587"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-32-day-31-voice"
+        src="assets/voice/32.wav"
+        data-start="336.2540000000001"
+        data-duration="8.087"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+
+      <div
+        id="el-33-savings-job"
+        class="scene"
+        data-composition-id="33-savings-job"
+        data-composition-src="compositions/frames/33-savings-job.html"
+        data-start="344.34100000000007"
+        data-duration="10.635"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-33-savings-job-voice"
+        src="assets/voice/33.wav"
+        data-start="344.34100000000007"
+        data-duration="10.135"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+
+      <div
+        id="el-34-want-list"
+        class="scene"
+        data-composition-id="34-want-list"
+        data-composition-src="compositions/frames/34-want-list.html"
+        data-start="354.47600000000006"
+        data-duration="5.579"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-34-want-list-voice"
+        src="assets/voice/34.wav"
+        data-start="354.47600000000006"
+        data-duration="5.079"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+
+      <div
+        id="el-35-keep-wins"
+        class="scene"
+        data-composition-id="35-keep-wins"
+        data-composition-src="compositions/frames/35-keep-wins.html"
+        data-start="359.55500000000006"
+        data-duration="10.87"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-35-keep-wins-voice"
+        src="assets/voice/35.wav"
+        data-start="359.55500000000006"
+        data-duration="10.37"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+
+      <div
+        id="el-36-savings-order"
+        class="scene"
+        data-composition-id="36-savings-order"
+        data-composition-src="compositions/frames/36-savings-order.html"
+        data-start="369.92500000000007"
+        data-duration="28.699"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-36-savings-order-voice"
+        src="assets/voice/36.wav"
+        data-start="369.92500000000007"
+        data-duration="28.199"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+
+      <div
+        id="el-37-gentler"
+        class="scene"
+        data-composition-id="37-gentler"
+        data-composition-src="compositions/frames/37-gentler.html"
+        data-start="398.1240000000001"
+        data-duration="5.43"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-37-gentler-voice"
+        src="assets/voice/37.wav"
+        data-start="398.1240000000001"
+        data-duration="4.93"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+
+      <div
+        id="el-38-low-buy"
+        class="scene"
+        data-composition-id="38-low-buy"
+        data-composition-src="compositions/frames/38-low-buy.html"
+        data-start="403.0540000000001"
+        data-duration="6.326"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-38-low-buy-voice"
+        src="assets/voice/38.wav"
+        data-start="403.0540000000001"
+        data-duration="5.826"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+
+      <div
+        id="el-39-category-no-buy"
+        class="scene"
+        data-composition-id="39-category-no-buy"
+        data-composition-src="compositions/frames/39-category-no-buy.html"
+        data-start="408.8800000000001"
+        data-duration="8.715"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-39-category-no-buy-voice"
+        src="assets/voice/39.wav"
+        data-start="408.8800000000001"
+        data-duration="8.215"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+
+      <div
+        id="el-40-no-spend-weekends"
+        class="scene"
+        data-composition-id="40-no-spend-weekends"
+        data-composition-src="compositions/frames/40-no-spend-weekends.html"
+        data-start="417.0950000000001"
+        data-duration="6.795"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-40-no-spend-weekends-voice"
+        src="assets/voice/40.wav"
+        data-start="417.0950000000001"
+        data-duration="6.295"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+
+      <div
+        id="el-41-recap"
+        class="scene"
+        data-composition-id="41-recap"
+        data-composition-src="compositions/frames/41-recap.html"
+        data-start="423.3900000000001"
+        data-duration="16.246"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-41-recap-voice"
+        src="assets/voice/41.wav"
+        data-start="423.3900000000001"
+        data-duration="15.746"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+
+      <div
+        id="el-42-one-week"
+        class="scene"
+        data-composition-id="42-one-week"
+        data-composition-src="compositions/frames/42-one-week.html"
+        data-start="439.1360000000001"
+        data-duration="7.563"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-42-one-week-voice"
+        src="assets/voice/42.wav"
+        data-start="439.1360000000001"
+        data-duration="7.063"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+
+      <div
+        id="el-43-on-purpose"
+        class="scene"
+        data-composition-id="43-on-purpose"
+        data-composition-src="compositions/frames/43-on-purpose.html"
+        data-start="446.19900000000007"
+        data-duration="5.217"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-43-on-purpose-voice"
+        src="assets/voice/43.wav"
+        data-start="446.19900000000007"
+        data-duration="4.717"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+
+      <div
+        id="el-44-cta"
+        class="scene"
+        data-composition-id="44-cta"
+        data-composition-src="compositions/frames/44-cta.html"
+        data-start="450.91600000000005"
+        data-duration="13.079"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-44-cta-voice"
+        src="assets/voice/44.wav"
+        data-start="450.91600000000005"
+        data-duration="13.079"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+
+      <!-- captions -->
+      <div
+        id="el-captions" data-track-kind="captions"
+        class="scene"
+        data-composition-id="captions"
+        data-composition-src="compositions/captions.html"
+        data-start="0"
+        data-duration="463.995"
+        data-track-index="2"
+      ></div>
+
     </div>
+
     <script>
-      const tl = gsap.timeline({ paused: true });
-      // Example: tl.fromTo("#title", { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.6 }, 0);
-      window.__timelines["main"] = tl;
-      tl.seek(0);
+      window.__timelines = window.__timelines || {};
+      window.__timelines["main"] = gsap.timeline({ paused: true });
+      // ── frame transitions (injected by transitions.mjs) ──
+      (function () { var tl = window.__timelines["main"];
+        tl.to("#el-01-hook", { opacity: 0, duration: 0.5, ease: "power2.inOut" }, 7.874);
+        tl.fromTo("#el-02-trend", { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power2.inOut" }, 7.874);
+        tl.addLabel("hf:transition:01-hook:02-trend:crossfade", 7.874);
+        tl.to("#el-02-trend", { opacity: 0, duration: 0.5, ease: "power2.inOut" }, 19.588);
+        tl.fromTo("#el-03-unlock", { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power2.inOut" }, 19.588);
+        tl.addLabel("hf:transition:02-trend:03-unlock:crossfade", 19.588);
+        tl.to("#el-03-unlock", { opacity: 0, duration: 0.5, ease: "power2.inOut" }, 25.969);
+        tl.fromTo("#el-04-why-now", { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power2.inOut" }, 25.969);
+        tl.addLabel("hf:transition:03-unlock:04-why-now:crossfade", 25.969);
+        tl.to("#el-04-why-now", { opacity: 0, duration: 0.5, ease: "power2.inOut" }, 29.918);
+        tl.fromTo("#el-05-cost-of-living", { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power2.inOut" }, 29.918);
+        tl.addLabel("hf:transition:04-why-now:05-cost-of-living:crossfade", 29.918);
+        tl.to("#el-05-cost-of-living", { opacity: 0, duration: 0.5, ease: "power2.inOut" }, 40.139);
+        tl.fromTo("#el-06-uncertainty", { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power2.inOut" }, 40.139);
+        tl.addLabel("hf:transition:05-cost-of-living:06-uncertainty:crossfade", 40.139);
+        tl.to("#el-06-uncertainty", { opacity: 0, duration: 0.5, ease: "power2.inOut" }, 51.576);
+        tl.fromTo("#el-07-burnout", { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power2.inOut" }, 51.576);
+        tl.addLabel("hf:transition:06-uncertainty:07-burnout:crossfade", 51.576);
+        tl.to("#el-07-burnout", { opacity: 0, duration: 0.5, ease: "power2.inOut" }, 65.893);
+        tl.fromTo("#el-08-rulebook", { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power2.inOut" }, 65.893);
+        tl.addLabel("hf:transition:07-burnout:08-rulebook:crossfade", 65.893);
+        tl.to("#el-08-rulebook", { opacity: 0, duration: 0.5, ease: "power2.inOut" }, 70.119);
+        tl.fromTo("#el-09-allowed", { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power2.inOut" }, 70.119);
+        tl.addLabel("hf:transition:08-rulebook:09-allowed:crossfade", 70.119);
+        tl.to("#el-09-allowed", { opacity: 0, duration: 0.5, ease: "power2.inOut" }, 80.809);
+        tl.fromTo("#el-10-paused", { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power2.inOut" }, 80.809);
+        tl.addLabel("hf:transition:09-allowed:10-paused:crossfade", 80.809);
+        tl.to("#el-10-paused", { opacity: 0, duration: 0.5, ease: "power2.inOut" }, 90.539);
+        tl.fromTo("#el-11-replace-dont-add", { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power2.inOut" }, 90.539);
+        tl.addLabel("hf:transition:10-paused:11-replace-dont-add:crossfade", 90.539);
+        tl.to("#el-11-replace-dont-add", { opacity: 0, duration: 0.5, ease: "power2.inOut" }, 99.736);
+        tl.fromTo("#el-12-write-rules", { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power2.inOut" }, 99.736);
+        tl.addLabel("hf:transition:11-replace-dont-add:12-write-rules:crossfade", 99.736);
+        tl.to("#el-12-write-rules", { opacity: 0, duration: 0.5, ease: "power2.inOut" }, 110.789);
+        tl.fromTo("#el-13-smart-prep", { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power2.inOut" }, 110.789);
+        tl.addLabel("hf:transition:12-write-rules:13-smart-prep:crossfade", 110.789);
+        tl.to("#el-13-smart-prep", { opacity: 0, duration: 0.5, ease: "power2.inOut" }, 121.031);
+        tl.fromTo("#el-14-quick-math", { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power2.inOut" }, 121.031);
+        tl.addLabel("hf:transition:13-smart-prep:14-quick-math:crossfade", 121.031);
+        tl.to("#el-14-quick-math", { opacity: 0, duration: 0.5, ease: "power2.inOut" }, 144.052);
+        tl.fromTo("#el-15-autopilot", { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power2.inOut" }, 144.052);
+        tl.addLabel("hf:transition:14-quick-math:15-autopilot:crossfade", 144.052);
+        tl.to("#el-15-autopilot", { opacity: 0, duration: 0.5, ease: "power2.inOut" }, 149.878);
+        tl.fromTo("#el-16-subscriptions", { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power2.inOut" }, 149.878);
+        tl.addLabel("hf:transition:15-autopilot:16-subscriptions:crossfade", 149.878);
+        tl.to("#el-16-subscriptions", { opacity: 0, duration: 0.5, ease: "power2.inOut" }, 159.693);
+        tl.fromTo("#el-17-small-habits", { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power2.inOut" }, 159.693);
+        tl.addLabel("hf:transition:16-subscriptions:17-small-habits:crossfade", 159.693);
+        tl.to("#el-17-small-habits", { opacity: 0, duration: 0.5, ease: "power2.inOut" }, 171.023);
+        tl.fromTo("#el-18-reward-loop", { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power2.inOut" }, 171.023);
+        tl.addLabel("hf:transition:17-small-habits:18-reward-loop:crossfade", 171.023);
+        tl.to("#el-18-reward-loop", { opacity: 0, duration: 0.5, ease: "power2.inOut" }, 192.614);
+        tl.fromTo("#el-19-boredom", { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power2.inOut" }, 192.614);
+        tl.addLabel("hf:transition:18-reward-loop:19-boredom:crossfade", 192.614);
+        tl.to("#el-19-boredom", { opacity: 0, duration: 0.5, ease: "power2.inOut" }, 201);
+        tl.fromTo("#el-20-urge-journal", { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power2.inOut" }, 201);
+        tl.addLabel("hf:transition:19-boredom:20-urge-journal:crossfade", 201);
+        tl.to("#el-20-urge-journal", { opacity: 0, duration: 0.5, ease: "power2.inOut" }, 210.431);
+        tl.fromTo("#el-21-week-two", { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power2.inOut" }, 210.431);
+        tl.addLabel("hf:transition:20-urge-journal:21-week-two:crossfade", 210.431);
+        tl.to("#el-21-week-two", { opacity: 0, duration: 0.5, ease: "power2.inOut" }, 215.51);
+        tl.fromTo("#el-22-temptations", { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power2.inOut" }, 215.51);
+        tl.addLabel("hf:transition:21-week-two:22-temptations:crossfade", 215.51);
+        tl.to("#el-22-temptations", { opacity: 0, duration: 0.5, ease: "power2.inOut" }, 224.152);
+        tl.fromTo("#el-23-list-48h", { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power2.inOut" }, 224.152);
+        tl.addLabel("hf:transition:22-temptations:23-list-48h:crossfade", 224.152);
+        tl.to("#el-23-list-48h", { opacity: 0, duration: 0.5, ease: "power2.inOut" }, 237.893);
+        tl.fromTo("#el-24-free-alternatives", { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power2.inOut" }, 237.893);
+        tl.addLabel("hf:transition:23-list-48h:24-free-alternatives:crossfade", 237.893);
+        tl.to("#el-24-free-alternatives", { opacity: 0, duration: 0.5, ease: "power2.inOut" }, 250.012);
+        tl.fromTo("#el-25-slips", { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power2.inOut" }, 250.012);
+        tl.addLabel("hf:transition:24-free-alternatives:25-slips:crossfade", 250.012);
+        tl.to("#el-25-slips", { opacity: 0, duration: 0.5, ease: "power2.inOut" }, 257.779);
+        tl.fromTo("#el-26-social-events", { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power2.inOut" }, 257.779);
+        tl.addLabel("hf:transition:25-slips:26-social-events:crossfade", 257.779);
+        tl.to("#el-26-social-events", { opacity: 0, duration: 0.5, ease: "power2.inOut" }, 278.666);
+        tl.fromTo("#el-27-week-three", { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power2.inOut" }, 278.666);
+        tl.addLabel("hf:transition:26-social-events:27-week-three:crossfade", 278.666);
+        tl.to("#el-27-week-three", { opacity: 0, duration: 0.5, ease: "power2.inOut" }, 288.673);
+        tl.fromTo("#el-28-use-what-you-have", { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power2.inOut" }, 288.673);
+        tl.addLabel("hf:transition:27-week-three:28-use-what-you-have:crossfade", 288.673);
+        tl.to("#el-28-use-what-you-have", { opacity: 0, duration: 0.5, ease: "power2.inOut" }, 296.44);
+        tl.fromTo("#el-29-see-the-money", { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power2.inOut" }, 296.44);
+        tl.addLabel("hf:transition:28-use-what-you-have:29-see-the-money:crossfade", 296.44);
+        tl.to("#el-29-see-the-money", { opacity: 0, duration: 0.5, ease: "power2.inOut" }, 306.682);
+        tl.fromTo("#el-30-control", { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power2.inOut" }, 306.682);
+        tl.addLabel("hf:transition:29-see-the-money:30-control:crossfade", 306.682);
+        tl.to("#el-30-control", { opacity: 0, duration: 0.5, ease: "power2.inOut" }, 316.241);
+        tl.fromTo("#el-31-tracker", { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power2.inOut" }, 316.241);
+        tl.addLabel("hf:transition:30-control:31-tracker:crossfade", 316.241);
+        tl.to("#el-31-tracker", { opacity: 0, duration: 0.5, ease: "power2.inOut" }, 336.254);
+        tl.fromTo("#el-32-day-31", { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power2.inOut" }, 336.254);
+        tl.addLabel("hf:transition:31-tracker:32-day-31:crossfade", 336.254);
+        tl.to("#el-32-day-31", { opacity: 0, duration: 0.5, ease: "power2.inOut" }, 344.341);
+        tl.fromTo("#el-33-savings-job", { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power2.inOut" }, 344.341);
+        tl.addLabel("hf:transition:32-day-31:33-savings-job:crossfade", 344.341);
+        tl.to("#el-33-savings-job", { opacity: 0, duration: 0.5, ease: "power2.inOut" }, 354.476);
+        tl.fromTo("#el-34-want-list", { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power2.inOut" }, 354.476);
+        tl.addLabel("hf:transition:33-savings-job:34-want-list:crossfade", 354.476);
+        tl.to("#el-34-want-list", { opacity: 0, duration: 0.5, ease: "power2.inOut" }, 359.555);
+        tl.fromTo("#el-35-keep-wins", { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power2.inOut" }, 359.555);
+        tl.addLabel("hf:transition:34-want-list:35-keep-wins:crossfade", 359.555);
+        tl.to("#el-35-keep-wins", { opacity: 0, duration: 0.5, ease: "power2.inOut" }, 369.925);
+        tl.fromTo("#el-36-savings-order", { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power2.inOut" }, 369.925);
+        tl.addLabel("hf:transition:35-keep-wins:36-savings-order:crossfade", 369.925);
+        tl.to("#el-36-savings-order", { opacity: 0, duration: 0.5, ease: "power2.inOut" }, 398.124);
+        tl.fromTo("#el-37-gentler", { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power2.inOut" }, 398.124);
+        tl.addLabel("hf:transition:36-savings-order:37-gentler:crossfade", 398.124);
+        tl.to("#el-37-gentler", { opacity: 0, duration: 0.5, ease: "power2.inOut" }, 403.054);
+        tl.fromTo("#el-38-low-buy", { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power2.inOut" }, 403.054);
+        tl.addLabel("hf:transition:37-gentler:38-low-buy:crossfade", 403.054);
+        tl.to("#el-38-low-buy", { opacity: 0, duration: 0.5, ease: "power2.inOut" }, 408.88);
+        tl.fromTo("#el-39-category-no-buy", { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power2.inOut" }, 408.88);
+        tl.addLabel("hf:transition:38-low-buy:39-category-no-buy:crossfade", 408.88);
+        tl.to("#el-39-category-no-buy", { opacity: 0, duration: 0.5, ease: "power2.inOut" }, 417.095);
+        tl.fromTo("#el-40-no-spend-weekends", { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power2.inOut" }, 417.095);
+        tl.addLabel("hf:transition:39-category-no-buy:40-no-spend-weekends:crossfade", 417.095);
+        tl.to("#el-40-no-spend-weekends", { opacity: 0, duration: 0.5, ease: "power2.inOut" }, 423.39);
+        tl.fromTo("#el-41-recap", { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power2.inOut" }, 423.39);
+        tl.addLabel("hf:transition:40-no-spend-weekends:41-recap:crossfade", 423.39);
+        tl.to("#el-41-recap", { opacity: 0, duration: 0.5, ease: "power2.inOut" }, 439.136);
+        tl.fromTo("#el-42-one-week", { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power2.inOut" }, 439.136);
+        tl.addLabel("hf:transition:41-recap:42-one-week:crossfade", 439.136);
+        tl.to("#el-42-one-week", { opacity: 0, duration: 0.5, ease: "power2.inOut" }, 446.199);
+        tl.fromTo("#el-43-on-purpose", { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power2.inOut" }, 446.199);
+        tl.addLabel("hf:transition:42-one-week:43-on-purpose:crossfade", 446.199);
+        tl.to("#el-43-on-purpose", { opacity: 0, duration: 0.5, ease: "power2.inOut" }, 450.916);
+        tl.fromTo("#el-44-cta", { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power2.inOut" }, 450.916);
+        tl.addLabel("hf:transition:43-on-purpose:44-cta:crossfade", 450.916);
+        tl.to({}, { duration: 463.995 }, 0); // full-span anchor — main.duration() == composition total (Studio master duration)
+      })();
     </script>
   </body>
 </html>

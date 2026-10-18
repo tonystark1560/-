@@ -1,6 +1,6 @@
 # SCRIPT — money-no-buy-30-days
 
-**Voice:** af_heart (Kokoro), speed 1.1
+**Voice:** af_heart (Kokoro), speed 1.0
 
 ---
 
