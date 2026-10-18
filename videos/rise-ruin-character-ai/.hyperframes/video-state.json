@@ -1534,5 +1534,16 @@
         "attribution": "unversioned"
       }
     ]
-  }
+  },
+  "renders": {
+    "latest": {
+      "id": "e1ebf94f-f8a0-4396-bed0-2d36d992cf05",
+      "completedAt": 1792363129395,
+      "output": "/home/user/-/videos/rise-ruin-character-ai/renders/rise-ruin-character-ai.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
 }
