@@ -7,7 +7,7 @@ destination: youtube
 aspect: 1920x1080
 language: en
 audience: "US YouTube viewers curious about AI and money, non-experts"
-length: 90s
+length: 510s
 angle: concept
 ---
 

@@ -142,7 +142,7 @@ def bob(p, sel, start, end, amp=10, period=1.6):
     return "".join(js)
 
 
-def write(frame_id, p, d, css, html, js):
+def write(frame_id, p, d, css, html, js, k=1.0):
     doc = f"""<template>
 <style>{base_css(p)}{css}</style>
 <div id="root" data-composition-id="{frame_id}" data-width="1920" data-height="1080">
@@ -157,6 +157,8 @@ def write(frame_id, p, d, css, html, js):
 const tl = gsap.timeline({{ paused: true }});
 {bg_js(p, d)}
 {js}
+const K = {k:.5f};
+if (K !== 1) tl.getChildren(false, true, true).forEach(c => {{ if (c.startTime() > 0.001) c.startTime(c.startTime() * K); }});
 window.__timelines = window.__timelines || {{}};
 window.__timelines["{frame_id}"] = tl;
 }})();
@@ -167,9 +169,16 @@ window.__timelines["{frame_id}"] = tl;
         f.write(doc)
 
 
+import re as _re
+_sb = open(os.path.join(ROOT, "STORYBOARD.md")).read()
+DUR = {int(n): float(d) for n, d in _re.findall(r"## Frame (\d+) .*?- duration: ([\d.]+)s", _sb, _re.S)}
+OLD = {1: 16.725, 2: 7.253, 3: 11.861, 4: 9.28, 5: 16.256, 6: 14.123, 7: 6.507}
 meta = json.load(open(os.path.join(ROOT, "audio_meta.json")))
-DUR = {v["frame"]: v["duration_s"] for v in meta["voices"]}
-DUR[7] = 9.5  # final frame holds the end card after the last line
+VDUR = {v["frame"]: v["duration_s"] for v in meta["voices"]}
+
+
+def K(n):
+    return VDUR[n] / OLD[n]
 
 
 # ---------------- Frame 1: the bad week ----------------
@@ -231,7 +240,7 @@ def f1():
     # wiping out value: meter drains + turns red
     js.append(f'tl.to("#{p}-fill",{{scaleX:.18,background:"linear-gradient(90deg,{C["red"]},#FF8A8A)",duration:3.0,ease:"power2.inOut"}},13.1);')
     js.append(f'tl.to("#{p}-hero",{{x:-6,duration:.05}},12.7);tl.to("#{p}-hero",{{x:6,duration:.05}},12.75);tl.to("#{p}-hero",{{x:0,duration:.05}},12.8);')
-    write("01-bad-week", p, d, css, html, "\n".join(js))
+    write("01-bad-week", p, d, css, html, "\n".join(js), k=K(1))
 
 
 # ---------------- Frame 2: is this it? ----------------
@@ -274,7 +283,7 @@ def f2():
     js.append(f'tl.to("#{p}-bot .{p}-pupil",{{x:0.3,y:-0.25,duration:.25}},3.9);')
     js.append(blink(p, f"#{p}-bot", 2.0))
     js.append(bob(p, f"#{p}-bot", 0.6, d, amp=8))
-    write("02-is-this-it", p, d, css, html, "\n".join(js))
+    write("02-is-this-it", p, d, css, html, "\n".join(js), k=K(2))
 
 
 # ---------------- Frame 3: roadmap ----------------
@@ -314,7 +323,7 @@ def f3():
     js.append(f'tl.to("#{p}-row3 .{p}-txt",{{color:"{C["primary"]}",duration:.3}},9.5);')
     js.append(blink(p, f"#{p}-bot", 3.6) + blink(p, f"#{p}-bot", 8.0))
     js.append(bob(p, f"#{p}-bot", 1.5, d, amp=10))
-    write("03-roadmap", p, d, css, html, "\n".join(js))
+    write("03-roadmap", p, d, css, html, "\n".join(js), k=K(3))
 
 
 # ---------------- Frame 4: definition ----------------
@@ -358,7 +367,7 @@ def f4():
           f'tl.to("#{p}-more",{{opacity:1,duration:.4}},8.3);',
           f'tl.to("#{p}-bub",{{scale:1.08,duration:{d-8.3:.2f},ease:"sine.inOut",transformOrigin:"50% 50%"}},8.3);',
           blink(p, f"#{p}-bot", 2.2), bob(p, f"#{p}-bot", 1.0, d, amp=8)]
-    write("04-definition", p, d, css, html, "\n".join(js))
+    write("04-definition", p, d, css, html, "\n".join(js), k=K(4))
 
 
 # ---------------- Frame 5: tulips ----------------
@@ -406,7 +415,7 @@ def f5():
         js.append(f'tl.fromTo("#{p}-pr{k}",{{y:20,opacity:0}},{{y:0,opacity:1,duration:.3,ease:"back.out(2)"}},{14.1+k*0.5:.2f});')
     js.append(f'gsap.set(["#{p}-a1","#{p}-a2"],{{strokeDasharray:200,strokeDashoffset:200}});')
     js.append(f'tl.to("#{p}-a1",{{strokeDashoffset:0,duration:.3}},14.6);tl.to("#{p}-a2",{{strokeDashoffset:0,duration:.3}},15.1);')
-    write("05-tulips", p, d, css, html, "\n".join(js))
+    write("05-tulips", p, d, css, html, "\n".join(js), k=K(5))
 
 
 # ---------------- Frame 6: the loop ----------------
@@ -466,7 +475,7 @@ def f6():
     js.append(f'tl.to("#{p}-pr",{{y:40,rotation:-4,duration:.6,ease:"bounce.out"}},13.0);')
     js.append(f'tl.to("#{p}-bot .{p}-pupil",{{y:0.3,duration:.2}},13.0);')
     js.append(blink(p, f"#{p}-bot", 4.5))
-    write("06-loop", p, d, css, html, "\n".join(js))
+    write("06-loop", p, d, css, html, "\n".join(js), k=K(6))
 
 
 # ---------------- Frame 7: feels like the future + end card ----------------
@@ -494,10 +503,7 @@ def f7():
     html = f'''<div class="{p}-bubble" id="{p}-bub"></div>
 <div class="{p}-robotwrap" id="{p}-bot">{robot(p, 260)}</div>{sparks}
 <div class="{p}-future" id="{p}-fut">Feels like <span>the future</span></div>
-<div class="{p}-end" id="{p}-end"><div class="{p}-logo">Future <span>Decoded</span></div>
-<div class="{p}-row"><div class="{p}-chip">decoded ✓</div><div class="{p}-sub" id="{p}-subbtn">Subscribe</div></div>
-<div class="{p}-endbot" id="{p}-endbot">{robot(p + "e", 200)}</div>
-<svg class="{p}-cursor" id="{p}-cur" viewBox="0 0 24 24"><path d="M3 2 L20 12 L12 13.5 L8.5 21 Z" fill="#fff" stroke="{C['text']}" stroke-width="1.6" stroke-linejoin="round"/></svg></div>'''
+'''
     js = [f'tl.fromTo("#{p}-bot",{{y:60,opacity:0}},{{y:0,opacity:1,duration:.5,ease:"back.out(1.6)"}},0.05);',
           f'tl.fromTo("#{p}-bub",{{scale:0,opacity:0}},{{scale:1,opacity:1,duration:.9,ease:"elastic.out(1,.6)"}},2.2);',
           f'tl.fromTo(".{p}-spark",{{scale:0,rotation:0}},{{scale:1,rotation:90,duration:.5,stagger:.12,ease:"back.out(3)"}},3.0);',
@@ -505,15 +511,11 @@ def f7():
           f'tl.fromTo("#{p}-fut",{{y:40,opacity:0}},{{y:0,opacity:1,duration:.5,ease:"power3.out"}},5.0);',
           bob(p, f"#{p}-bot", 0.6, 6.6, amp=16, period=2.0),
           f'tl.to("#{p}-bub",{{scale:1.04,duration:3.0,ease:"sine.inOut"}},3.2);',
-          f'tl.fromTo("#{p}-end",{{opacity:0}},{{opacity:1,duration:.5}},6.7);',
-          f'tl.fromTo("#{p}-end .{p}-logo",{{y:40,opacity:0}},{{y:0,opacity:1,duration:.5,ease:"power3.out"}},6.8);',
-          f'tl.fromTo("#{p}-end .{p}-row",{{y:30,opacity:0}},{{y:0,opacity:1,duration:.5,ease:"power3.out"}},7.0);',
-          f'tl.fromTo("#{p}-endbot",{{x:120,opacity:0}},{{x:0,opacity:1,duration:.5,ease:"back.out(1.6)"}},7.1);',
-          f'tl.fromTo("#{p}-cur",{{x:260,y:200,opacity:0}},{{x:0,y:0,opacity:1,duration:.7,ease:"power3.out"}},7.6);',
-          f'tl.to("#{p}-subbtn",{{scale:.92,duration:.1}},8.35);tl.to("#{p}-subbtn",{{scale:1,background:"{C["primary"]}",duration:.25}},8.45);']
-    write("07-future", p, d, css, html, "\n".join(js))
+]
+    write("07-future", p, d, css, html, "\n".join(js), k=K(7))
 
 
-for fn in (f1, f2, f3, f4, f5, f6, f7):
-    fn()
-print("ok", sorted(os.listdir(OUT)))
+if __name__ == "__main__":
+    for fn in (f1, f2, f3, f4, f5, f6, f7):
+        fn()
+    print("ok", sorted(os.listdir(OUT)))

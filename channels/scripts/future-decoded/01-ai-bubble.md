@@ -65,6 +65,10 @@ Reason number three: circular deals. Chip makers and cloud companies are investi
 
 And reason number four: hype. Startups add "AI" to their pitch and their valuations jump. Companies mention AI in earnings calls again and again. When a word becomes magic, that's usually a warning sign.
 
+[ЭКРАН: весы: ценник «$100» против одной монетки «$1 profit», надпись «perfect future».]
+
+Here's a simple way to think about it. When you buy a stock, you're buying a slice of a company's future profits. If investors pay a hundred dollars today for a company that earns one dollar a year, they're betting that profit will grow a lot, and fast. That's fine when the growth shows up. It's a problem when it doesn't. In a bubble, prices stop pricing in a great future, and start pricing in a perfect one.
+
 ### 4:00 — Why AI might not be
 
 [ЭКРАН: маскот переворачивает карточку, на обороте «BUT…».]
@@ -111,6 +115,14 @@ We've been here before. In the late 1990s, the internet was the future. And it w
 
 But in 2000, the bubble burst anyway. The Nasdaq fell nearly 80 percent from its peak. Hundreds of internet companies disappeared.
 
+[ЭКРАН: карточка интернет-магазина товаров для животных: «IPO Feb 2000» → штамп «CLOSED Nov 2000».]
+
+Pets.com, an online pet supply store with a famous sock puppet mascot, went public in February 2000. Nine months later, it shut down.
+
+[ЭКРАН: корона «most valuable company, March 2000», затем график акции падает.]
+
+And it wasn't just the weak companies. Cisco, which made the equipment that powered the internet, briefly became the most valuable company in the world in March 2000. Its products were real. Its customers were real. Its profits were real. But its stock had run so far ahead that over the next two years it lost most of its value anyway. Even a great company can be a terrible investment at the wrong price.
+
 [ЭКРАН: маленькая коробка Amazon выбирается из обломков и растёт.]
 
 And yet, Amazon survived. Google, founded right in the middle of the bubble, became a giant. The internet kept growing. Online shopping, search, social media, all of it happened, just a few years later than investors expected, and mostly by different companies than they expected.
@@ -137,6 +149,10 @@ Gauge two: paying customers. Are businesses actually paying for AI and renewing 
 
 Gauge three: debt. Bubbles get really dangerous when they're built on borrowed money. If more and more of the AI build-out is paid for with loans instead of profits, the risk goes up. Because when debt goes bad, the damage spreads.
 
+[ЭКРАН: график волнами: резкое падение, отскок, ещё одно падение.]
+
+And if it does pop, it probably won't be one dramatic day. Bubbles usually deflate in waves: a sharp drop, a hopeful rebound, then another drop as the weakest companies run out of money. The strongest companies keep building. And a few years later, people look back and wonder how they ever doubted the technology, or how they ever paid those prices.
+
 ### 8:00 — What it means for you
 
 [ЭКРАН: обычный человек смотрит на свой пенсионный счёт, внутри логотипы техкомпаний.]
@@ -146,6 +162,10 @@ Now, why should you care, even if you don't trade stocks? Because the biggest te
 [ЭКРАН: маскот спокойно сидит, вокруг него бушует график.]
 
 That's not a reason to panic or to sell everything. It's a reason to know what you own, keep your investments diversified, and not bet money you can't afford to lose on whatever's the hottest thing this month. This isn't financial advice, just the boring, proven stuff.
+
+[ЭКРАН: корзина с яйцами; индексный фонд как сетка из сотни квадратиков, один краснеет, остальные держатся.]
+
+Diversified just means not putting all your eggs in one basket. A broad index fund owns hundreds of companies across many industries, so if one part of the market crashes, it doesn't take everything down with it. And if you're investing for decades, the most powerful tool usually isn't timing the market perfectly. It's time in the market: investing regularly, through the ups and downs, instead of panic-selling at the bottom.
 
 [ЭКРАН: шар лопается, внутри остаётся маленький светящийся чип.]
 
