@@ -1,0 +1,190 @@
+# What Happens If You Stop Buying for 30 Days
+
+**Канал:** Money Unlocked · **Формат:** 16:9 · **Длина:** примерно 7–8 минут (около 1017 слов озвучки)
+**Стиль:** пастельный фон (мятный и кремовый), пиксельный маскот — золотая монетка с ножками, карточки в стиле банковских приложений, субтитры по словам, ключевое слово в зелёной плашке.
+**Превью:** маскот захлопывает кошелёк на замок, рядом календарь «30 DAYS», крупно «NO BUY».
+
+## Описание для YouTube
+
+> The "No Buy" challenge is one of the biggest money trends of 2026. What happens to your money, and your brain, if you stop buying non-essentials for 30 days? The rules, what most people discover in week one, the hardest moments, and how to make the savings stick.
+>
+> Not financial advice. For educational purposes only.
+
+**Главы:**
+0:00 The challenge · 0:50 Why it's trending · 2:00 The rules · 3:30 Week 1: the autopilot shock · 4:45 Week 2: the itch · 5:45 Weeks 3–4: the reset · 7:00 After day 30 · 8:00 Your turn
+
+---
+
+## Сценарий
+
+### 0:00 — The challenge
+
+[ЭКРАН: маскот смотрит на корзину покупок, корзина медленно перечёркивается.]
+
+What if you didn't buy anything you didn't truly need for 30 days? No takeout. No new clothes. No "add to cart" at 1 a.m.
+
+[ЭКРАН: телефон с соцсетями, хэштег «#NoBuy» и тысячи видео.]
+
+It's called a "No Buy" challenge, and in 2026 it's become one of the biggest personal finance trends online. People post their rules, their progress, and how much they saved.
+
+[ЭКРАН: маскот с табличкой «let's unlock it».]
+
+But what actually happens when you try it? What do people learn about their money, and about themselves? Let's unlock it.
+
+### 0:50 — Why it's trending
+
+[ЭКРАН: продуктовая тележка дорожает, ценники прыгают.]
+
+Why is everyone suddenly trying not to spend? A few reasons.
+
+First, cost of living. Prices for many everyday things have gone up a lot over the past few years. Many people feel like their paycheck doesn't stretch as far as it used to.
+
+[ЭКРАН: тревожные заголовки о работе и экономике, маскот хмурится.]
+
+Second, uncertainty. Surveys show many Americans feel pessimistic about their finances. When the future feels shaky, cutting spending is one of the few things you fully control.
+
+[ЭКРАН: бесконечная лента рекламы, кнопки «Buy now» со всех сторон.]
+
+And third, burnout from shopping. Between one-click checkout, influencer hauls and constant sales, a lot of people feel like they're buying stuff without even noticing. A No Buy month is a way to hit pause and see what's really going on.
+
+### 2:00 — The rules
+
+[ЭКРАН: две колонки карточек: слева зелёные галочки, справа серые паузы.]
+
+There's no official rulebook, but most No Buy challenges work like this.
+
+[ЭКРАН: левая колонка: rent, bills, groceries, gas, medicine.]
+
+Allowed: the essentials. Rent or mortgage. Utilities. Groceries. Gas or transit. Medicine. Insurance. Debt payments. Anything you need to live and work.
+
+[ЭКРАН: правая колонка: takeout, clothes, gadgets, decor, impulse buys.]
+
+Paused: the extras. Takeout and delivery. New clothes and shoes. Gadgets. Home decor. Beauty products you don't need yet. Random online orders.
+
+[ЭКРАН: карточка «Replace, don't add», пустой флакон шампуня → новый.]
+
+A popular rule is "replace, don't add." If your shampoo runs out, you can buy shampoo. But you can't buy a second, fancier one just because it's on sale.
+
+[ЭКРАН: блокнот с «My rules», маскот пишет.]
+
+The most important rule: write your own rules down before you start. Decide what counts as essential for you. If you decide on the fly, every purchase will magically become "essential."
+
+[ЭКРАН: маскот отписывается от рассылок, удаляет приложения магазинов.]
+
+Smart prep: unsubscribe from store emails, delete shopping apps from your phone, and log out of saved payment methods. Make spending a little harder, and you'll do it a lot less.
+
+### 3:30 — Week 1: the autopilot shock
+
+[ЭКРАН: маскот спит, а из его кошелька сами вылетают монетки.]
+
+Here's what most people discover in the first week: a huge part of their spending was on autopilot.
+
+[ЭКРАН: выписка, подсвечиваются подписки.]
+
+Subscriptions they forgot about. A streaming service they haven't opened in months. An app charging $4.99 every month since 2023.
+
+[ЭКРАН: чек растёт вниз, «Just $12» повторяется девять раз.]
+
+Small habits add up. A coffee here. A snack there. A "just $12" purchase that happened nine times in a month. Individually, nothing. Together, sometimes hundreds of dollars.
+
+[ЭКРАН: маскот держит руку над кнопкой «Buy», рука сама тянется.]
+
+People also notice how often they reach for their phone to shop out of boredom. Not because they need something. Just because it's something to do.
+
+[ЭКРАН: тетрадь-трекер: записи «wanted to buy… because…».]
+
+A great trick for this week: every time you want to buy something, write it down along with how you feel. Bored? Stressed? Tired? You'll start seeing patterns quickly.
+
+### 4:45 — Week 2: the itch
+
+[ЭКРАН: маскот ёрзает, вокруг всплывают уведомления «SALE!».]
+
+Week two is usually the hardest. The excitement is gone, and the urges are loud.
+
+There's a sale on something you've wanted for months. A friend invites you to an expensive dinner. You had a terrible day and just want to treat yourself.
+
+[ЭКРАН: таймер «48:00» над корзиной, корзина медленно бледнеет.]
+
+A great tool here is the 48-hour list. Anything you want goes on a list with the date. If you still want it after the challenge ends, you can consider buying it. Most people find that by day 30, they've forgotten about most of the list.
+
+[ЭКРАН: альтернативы: прогулка, библиотека, готовка дома, игра с друзьями.]
+
+It also helps to have free alternatives ready. A walk instead of a shopping trip. The library instead of a new book. Cooking a favorite meal instead of ordering. Inviting friends over instead of going out.
+
+[ЭКРАН: маскот поскальзывается, потом встаёт.]
+
+And if you slip? Don't quit. Just write it down, figure out why it happened, and keep going. One slip doesn't erase 20 good days.
+
+### 5:45 — Weeks 3–4: the reset
+
+[ЭКРАН: тучи расходятся, маскот спокойно идёт мимо витрин.]
+
+By the third week, something interesting happens. For many people, the urge to shop gets quieter. Walking past a store or scrolling past an ad doesn't pull as hard.
+
+[ЭКРАН: шкаф, маскот находит забытые вещи с бирками.]
+
+People start using what they already have. They find clothes with the tags still on. Pantry food they forgot about. Books they never read.
+
+[ЭКРАН: счётчик сбережений растёт.]
+
+And they see the money. Many people find they've saved a meaningful amount, sometimes a few hundred dollars, sometimes much more, depending on how much they were spending before.
+
+[ЭКРАН: маскот с довольным лицом, надпись «control».]
+
+But the biggest change people report isn't financial. It's a feeling of control. Of being the one making decisions, instead of the ads and apps making them for you.
+
+### 7:00 — After day 30
+
+[ЭКРАН: день 30, конфетти, маскот у двери с надписью «Day 31».]
+
+So what happens on day 31? Here's where most people mess up: they "reward" themselves with a giant shopping spree and undo the whole thing.
+
+[ЭКРАН: сбережения улетают в сейф, на сейфе табличка «Emergency fund».]
+
+Instead, decide in advance where the money you saved will go. Move it to a savings account the day the challenge ends. Put it toward a debt. Or start an emergency fund.
+
+[ЭКРАН: список «48-hour list», некоторые пункты вычеркнуты.]
+
+Check your "want" list. Buy only the things you still really want, and still have money for.
+
+[ЭКРАН: подписки, отменённые навсегда, зелёные галочки.]
+
+And keep the wins. The subscriptions you cancelled stay cancelled. The shopping apps stay deleted. Some people even turn it into a habit, with one No Buy month every season.
+
+[ЭКРАН: «Variations», три карточки.]
+
+And if a full No Buy month doesn't fit your life, there are gentler versions people love.
+
+[ЭКРАН: карточка «Low Buy»: список разрешённых трат с лимитами.]
+
+A "Low Buy": instead of zero extras, you set a small budget for fun spending and stick to it.
+
+[ЭКРАН: карточка «Category No Buy»: перечёркнута только одна категория, например одежда.]
+
+A "Category No Buy": you only pause one problem area, like clothes, takeout or online shopping, and leave everything else normal.
+
+[ЭКРАН: карточка «No Spend Weekend»: календарь с выделенными субботой и воскресеньем.]
+
+Or "No Spend Weekends": two days a week with zero spending, which is often where impulse buys happen.
+
+[ЭКРАН: «Quick recap», карточки складываются в стопку.]
+
+Quick recap. Write your rules before you start. Expect week one to show you your autopilot spending, and week two to be the hardest. Use a 48-hour list for wants. And on day 31, send the money you saved somewhere on purpose, before it disappears.
+
+### 8:00 — Your turn
+
+[ЭКРАН: календарь, 7 клеток закрашиваются.]
+
+If 30 days sounds like too much, start with one week. Write your rules, delete one shopping app, and see what you notice.
+
+[ЭКРАН: маскот открывает кошелёк, внутри светится.]
+
+A No Buy challenge isn't about never spending. It's about spending on purpose.
+
+[ЭКРАН: финальная заставка: маскот с табличкой «Unlock more», кнопка Subscribe.]
+
+What would be the hardest thing for you to give up for 30 days? Tell me in the comments. And subscribe to Money Unlocked for more simple money moves. This video is for educational purposes only and isn't financial advice.
+
+---
+
+**Проверка фактов:** тренд «No Buy 2026» подтверждают Boldin и данные соцсетей. Конкретные суммы экономии не называем, потому что у всех они разные.
