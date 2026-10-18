@@ -550,7 +550,7 @@ def f43():
 @frame
 def f44():
     n, p = 44, "f44"
-    m, mj = mascot(p, n, 1400, 220, 220)
+    m, mj = mascot(p, n, 1560, 60, 200)
     html = (m + f'<div class="h" id="{p}-logo" style="left:0;right:0;top:280px;text-align:center;font-size:120px">Money <span>Unlocked</span></div>'
             + f'<div id="{p}-row" style="position:absolute;left:0;right:0;top:470px;display:flex;justify-content:center;gap:26px"><div class="chip white" style="position:relative;font-size:34px">Unlock more ✓</div><div class="chip dark" id="{p}-sub" style="position:relative;font-size:38px">Subscribe</div></div>'
             + f'<div class="chip white" id="{p}-q" style="left:640px;top:640px;font-size:32px">Hardest thing to give up? 💬</div>'.replace(" 💬", ""))

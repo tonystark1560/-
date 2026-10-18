@@ -21,24 +21,24 @@
 .win-bar{height:60px;background:rgba(241,251,245,.95);display:flex;align-items:center;padding:0 22px;gap:12px;border-bottom:1.5px solid rgba(14,159,110,.15);}
 .dot{width:15px;height:15px;border-radius:50%;}
 </style>
-<div id="root" data-composition-id="42-one-week" data-width="1920" data-height="1080" data-duration="7.563">
-<div class="clip" id="f42-bg" data-start="0" data-duration="7.563" data-track-index="0" style="position:absolute;inset:0;overflow:hidden"><div style="position:absolute;inset:0;background:#F1FBF5"></div><div class="blob" id="f42-b1" style="width:900px;height:900px;left:-220px;top:-260px;background:#C9F2DC"></div><div class="blob" id="f42-b2" style="width:800px;height:800px;right:-160px;top:140px;background:#FFF3C4"></div><div class="blob" id="f42-b3" style="width:700px;height:700px;left:540px;bottom:-420px;background:#FFE1EC"></div></div>
-<div class="clip" id="f42-stage" data-start="0" data-duration="7.563" data-track-index="1" style="position:absolute;inset:0"><div class="h" id="f42-h" style="left:110px;top:140px;font-size:80px">Start with <span>1 week</span></div><div class="card" id="f42-c" style="left:260px;top:380px;width:1400px;height:280px;padding:60px;display:flex;gap:40px"><div id="f42-d0" style="width:150px;height:150px;border-radius:20px;background:#F3F6F8;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:44px;color:#14213D">1</div><div id="f42-d1" style="width:150px;height:150px;border-radius:20px;background:#F3F6F8;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:44px;color:#14213D">2</div><div id="f42-d2" style="width:150px;height:150px;border-radius:20px;background:#F3F6F8;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:44px;color:#14213D">3</div><div id="f42-d3" style="width:150px;height:150px;border-radius:20px;background:#F3F6F8;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:44px;color:#14213D">4</div><div id="f42-d4" style="width:150px;height:150px;border-radius:20px;background:#F3F6F8;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:44px;color:#14213D">5</div><div id="f42-d5" style="width:150px;height:150px;border-radius:20px;background:#F3F6F8;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:44px;color:#14213D">6</div><div id="f42-d6" style="width:150px;height:150px;border-radius:20px;background:#F3F6F8;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:44px;color:#14213D">7</div></div></div>
+<div id="root" data-composition-id="42-one-week" data-width="1920" data-height="1080">
+<div class="clip" id="f42-bg" data-start="0" data-duration="7.383" data-track-index="0" style="position:absolute;inset:0;overflow:hidden"><div style="position:absolute;inset:0;background:#F1FBF5"></div><div class="blob" id="f42-b1" style="width:900px;height:900px;left:-220px;top:-260px;background:#C9F2DC"></div><div class="blob" id="f42-b2" style="width:800px;height:800px;right:-160px;top:140px;background:#FFF3C4"></div><div class="blob" id="f42-b3" style="width:700px;height:700px;left:540px;bottom:-420px;background:#FFE1EC"></div></div>
+<div class="clip" id="f42-stage" data-start="0" data-duration="7.383" data-track-index="1" style="position:absolute;inset:0"><div class="h" id="f42-h" style="left:110px;top:140px;font-size:80px">Start with <span>1 week</span></div><div class="card" id="f42-c" style="left:260px;top:380px;width:1400px;height:280px;padding:60px;display:flex;gap:40px"><div id="f42-d0" style="width:150px;height:150px;border-radius:20px;background:#F3F6F8;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:44px;color:#14213D">1</div><div id="f42-d1" style="width:150px;height:150px;border-radius:20px;background:#F3F6F8;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:44px;color:#14213D">2</div><div id="f42-d2" style="width:150px;height:150px;border-radius:20px;background:#F3F6F8;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:44px;color:#14213D">3</div><div id="f42-d3" style="width:150px;height:150px;border-radius:20px;background:#F3F6F8;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:44px;color:#14213D">4</div><div id="f42-d4" style="width:150px;height:150px;border-radius:20px;background:#F3F6F8;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:44px;color:#14213D">5</div><div id="f42-d5" style="width:150px;height:150px;border-radius:20px;background:#F3F6F8;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:44px;color:#14213D">6</div><div id="f42-d6" style="width:150px;height:150px;border-radius:20px;background:#F3F6F8;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:44px;color:#14213D">7</div></div></div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
 <script>
 (function(){
 const tl = gsap.timeline({ paused: true });
-tl.fromTo("#f42-b1",{x:0,y:0},{x:140,y:60,duration:7.06,ease:"none"},0);tl.fromTo("#f42-b2",{x:0,y:0},{x:-120,y:-50,duration:7.06,ease:"none"},0);tl.fromTo("#f42-b3",{x:0,y:0},{x:-90,y:-40,duration:7.06,ease:"none"},0);
+tl.fromTo("#f42-b1",{x:0,y:0},{x:140,y:60,duration:7.38,ease:"none"},0);tl.fromTo("#f42-b2",{x:0,y:0},{x:-120,y:-50,duration:7.38,ease:"none"},0);tl.fromTo("#f42-b3",{x:0,y:0},{x:-90,y:-40,duration:7.38,ease:"none"},0);
 tl.fromTo("#f42-h",{y:40,opacity:0},{y:0,opacity:1,duration:.55,ease:"power3.out"},0.10);
 tl.fromTo("#f42-c",{y:40,opacity:0},{y:0,opacity:1,duration:.55,ease:"power3.out"},0.30);
-tl.to("#f42-d0",{background:"#0E9F6E",color:"#fff",duration:.2},3.17);
-tl.to("#f42-d1",{background:"#0E9F6E",color:"#fff",duration:.2},3.52);
-tl.to("#f42-d2",{background:"#0E9F6E",color:"#fff",duration:.2},3.87);
-tl.to("#f42-d3",{background:"#0E9F6E",color:"#fff",duration:.2},4.22);
-tl.to("#f42-d4",{background:"#0E9F6E",color:"#fff",duration:.2},4.57);
-tl.to("#f42-d5",{background:"#0E9F6E",color:"#fff",duration:.2},4.92);
-tl.to("#f42-d6",{background:"#0E9F6E",color:"#fff",duration:.2},5.27);
+tl.to("#f42-d0",{background:"#0E9F6E",color:"#fff",duration:.2},3.27);
+tl.to("#f42-d1",{background:"#0E9F6E",color:"#fff",duration:.2},3.62);
+tl.to("#f42-d2",{background:"#0E9F6E",color:"#fff",duration:.2},3.97);
+tl.to("#f42-d3",{background:"#0E9F6E",color:"#fff",duration:.2},4.32);
+tl.to("#f42-d4",{background:"#0E9F6E",color:"#fff",duration:.2},4.67);
+tl.to("#f42-d5",{background:"#0E9F6E",color:"#fff",duration:.2},5.02);
+tl.to("#f42-d6",{background:"#0E9F6E",color:"#fff",duration:.2},5.37);
 window.__timelines = window.__timelines || {};
 window.__timelines["42-one-week"] = tl;
 })();
