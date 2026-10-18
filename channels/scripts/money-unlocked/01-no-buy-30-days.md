@@ -73,6 +73,10 @@ The most important rule: write your own rules down before you start. Decide what
 
 Smart prep: unsubscribe from store emails, delete shopping apps from your phone, and log out of saved payment methods. Make spending a little harder, and you'll do it a lot less.
 
+[ЭКРАН: калькулятор: $15 в день → $450 в месяц → $5,400 в год.]
+
+Before we start, let's do some quick math. Say you spend about $15 a day on extras: a coffee, a snack, a delivery fee, a little online order. That doesn't feel like much. But $15 a day is about $450 a month. Over a year, that's more than $5,000. Not on rent, not on groceries. Just on small stuff you barely remember buying. That's the money a No Buy month puts under a spotlight.
+
 ### 3:30 — Week 1: the autopilot shock
 
 [ЭКРАН: маскот спит, а из его кошелька сами вылетают монетки.]
@@ -86,6 +90,10 @@ Subscriptions they forgot about. A streaming service they haven't opened in mont
 [ЭКРАН: чек растёт вниз, «Just $12» повторяется девять раз.]
 
 Small habits add up. A coffee here. A snack there. A "just $12" purchase that happened nine times in a month. Individually, nothing. Together, sometimes hundreds of dollars.
+
+[ЭКРАН: мозг, зона «reward» вспыхивает при нажатии «Buy».]
+
+There's a reason this happens. Shopping gives your brain a small hit of reward, and it often comes before you even pay. Just browsing, adding to cart, waiting for a package: each step feels good. Apps and stores know this, which is why they're designed to make buying fast and fun. When you stop buying, you're not just saving money. You're breaking a loop that's been running in the background for years.
 
 [ЭКРАН: маскот держит руку над кнопкой «Buy», рука сама тянется.]
 
@@ -115,6 +123,10 @@ It also helps to have free alternatives ready. A walk instead of a shopping trip
 
 And if you slip? Don't quit. Just write it down, figure out why it happened, and keep going. One slip doesn't erase 20 good days.
 
+[ЭКРАН: календарь: день рождения друга, свадьба, ужин с коллегами; рядом конверт «gifts».]
+
+What about birthdays, weddings and nights out? Plan for them, don't pretend they won't happen. Before you start, look at your calendar and set aside a small amount for gifts and social events you already know about. You can also get creative: a homemade gift, a picnic instead of a restaurant, or offering to host. Most friends care much more about you showing up than about what you spend.
+
 ### 5:45 — Weeks 3–4: the reset
 
 [ЭКРАН: тучи расходятся, маскот спокойно идёт мимо витрин.]
@@ -133,6 +145,10 @@ And they see the money. Many people find they've saved a meaningful amount, some
 
 But the biggest change people report isn't financial. It's a feeling of control. Of being the one making decisions, instead of the ads and apps making them for you.
 
+[ЭКРАН: простая таблица-трекер: колонки «Day», «Wanted», «Why», «Saved».]
+
+Here's a simple way to make that progress visible. Keep a tiny tracker, on paper or in your notes app. Four columns: the day, what you wanted to buy, why you wanted it, and how much you didn't spend. By the end of the month, you'll have something more valuable than a number. You'll have a map of your spending triggers. And once you can see them, they lose a lot of their power.
+
 ### 7:00 — After day 30
 
 [ЭКРАН: день 30, конфетти, маскот у двери с надписью «Day 31».]
@@ -150,6 +166,10 @@ Check your "want" list. Buy only the things you still really want, and still hav
 [ЭКРАН: подписки, отменённые навсегда, зелёные галочки.]
 
 And keep the wins. The subscriptions you cancelled stay cancelled. The shopping apps stay deleted. Some people even turn it into a habit, with one No Buy month every season.
+
+[ЭКРАН: три карточки: «Emergency fund», «Debt», «Goal», монеты разлетаются по ним.]
+
+If you're not sure where the savings should go, here's a simple order many people use. First, a small emergency fund, even just a few hundred dollars, so a surprise bill doesn't land on a credit card. Next, high-interest debt, because paying off a card that charges over 20 percent is like earning a guaranteed 20 percent return. And after that, a goal that excites you: a trip, a new laptop, or your first investment. Giving the money a job is what makes the habit stick.
 
 [ЭКРАН: «Variations», три карточки.]
 

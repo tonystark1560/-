@@ -61,6 +61,10 @@ Write a name, a personality, a greeting, and boom: your character is alive. User
 
 The growth was explosive. In 2023, the company raised money at a valuation of around one billion dollars, led by the venture firm Andreessen Horowitz. For a company barely two years old, with a tiny team, that was remarkable.
 
+[ЭКРАН: два окна рядом: «tool» (сухой ассистент) и «relationship» (персонаж с сердечком).]
+
+What made it so different was the format. ChatGPT felt like a tool. Character.AI felt like a relationship. You didn't just ask it questions, you hung out with it. Users said good night to their characters. Some talked to the same one every day for months. In the tech world, there's a word for that kind of product: sticky. And sticky products are worth a fortune.
+
 ### 3:45 — Why people got hooked
 
 [ЭКРАН: подросток в кровати, 2 часа ночи на часах, бесконечная лента чата.]
@@ -131,6 +135,10 @@ Character.AI denied wrongdoing, and it has not been found liable. The company ad
 
 But the questions didn't go away. Lawmakers and regulators started asking whether AI companions were safe for kids at all. And for a company whose greatest strength was how much people used it, every new restriction hit the very core of the business.
 
+[ЭКРАН: родитель смотрит на закрытую дверь детской, под дверью свет от экрана.]
+
+For many parents, the biggest shock was how little they knew. Many had no idea their kids were spending hours a day talking to AI characters, or what those conversations were about. Unlike a social network, there were no public posts to scroll through. Just a private chat between a child and a machine that never got tired of talking.
+
 ### 7:15 — Bankruptcy
 
 [ЭКРАН: календарь листается до «OCTOBER 12, 2026».]
@@ -138,6 +146,10 @@ But the questions didn't go away. Lawmakers and regulators started asking whethe
 On October 12, 2026, Character.AI filed for Chapter 11 bankruptcy in Delaware.
 
 The company said it had been struggling with legal, regulatory and operational pressure. It estimated both its assets and its liabilities at between 50 and 100 million dollars. A far cry from the billion-dollar valuation of 2023.
+
+[ЭКРАН: офис с полупустыми столами, взлётная полоса заканчивается обрывом.]
+
+Inside the company, things had already changed. After the founders left, Character.AI had new leadership, smaller research ambitions and a much bigger legal bill. It was trying to turn a viral hit into a sustainable business while fighting lawsuits on several fronts at once. In the end, it simply ran out of runway.
 
 [ЭКРАН: здание с табличкой «FOR SALE», аукционный молоток.]
 
@@ -160,6 +172,10 @@ Second: engagement is not the same as value. An app people can't stop using is a
 [ЭКРАН: весы: на одной чаше «growth», на другой «safety».]
 
 And third: the era of "move fast and break things" is ending for AI. When your product talks to millions of kids, safety isn't a feature. It's the business.
+
+[ЭКРАН: силуэты больших техкомпаний строят своих ИИ-компаньонов.]
+
+And there's a lesson for everyone else too. AI companions aren't going away. Bigger companies are building them right now, with more money, more lawyers and more data. The question Character.AI leaves behind isn't whether people want to talk to AI. They clearly do. It's who is responsible when those conversations go wrong.
 
 [ЭКРАН: пустое окно чата, мигающий курсор.]
 
