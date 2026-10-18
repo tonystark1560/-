@@ -1,0 +1,39 @@
+<template>
+<style>@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Regular.otf') format('opentype');font-weight:400;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Medium.otf') format('opentype');font-weight:500;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-SemiBold.otf') format('opentype');font-weight:600;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Bold.otf') format('opentype');font-weight:700;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-ExtraBold.otf') format('opentype');font-weight:800;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Black.otf') format('opentype');font-weight:900;font-style:normal;}
+#root{position:absolute;inset:0;width:1920px;height:1080px;overflow:hidden;font-family:'Inter',sans-serif;}
+
+.cam{position:absolute;inset:0;transform-origin:50% 45%;}
+.card{position:absolute;background:#FFFFFF;border-radius:20px;box-shadow:0 14px 0 rgba(30,27,46,.12),0 20px 40px rgba(30,27,46,.18);}
+.lbl{font-weight:900;text-transform:uppercase;letter-spacing:.02em;color:#1E1B2E;}
+.chip{position:absolute;padding:12px 26px;border-radius:12px;font-weight:900;font-size:30px;letter-spacing:.04em;text-transform:uppercase;color:#1E1B2E;background:#FFC83D;box-shadow:0 6px 0 rgba(30,27,46,.25);}
+.chip.red{background:#E5484D;color:#fff;} .chip.dark{background:#1E1B2E;color:#fff;} .chip.white{background:#fff;}
+.stampx{position:absolute;padding:16px 36px;border:10px solid #E5484D;color:#E5484D;font-weight:900;font-size:84px;border-radius:18px;letter-spacing:.04em;background:rgba(255,255,255,.85);}
+.big{position:absolute;font-weight:900;text-transform:uppercase;line-height:.95;letter-spacing:-.01em;color:#1E1B2E;}
+.bubble{position:absolute;padding:16px 26px;border-radius:24px;background:#fff;font-weight:700;font-size:28px;color:#1E1B2E;box-shadow:0 6px 0 rgba(30,27,46,.15);}
+.bubble.me{background:#7950F2;color:#fff;}
+</style>
+<div id="root" data-composition-id="11-billion-valuation" data-width="1920" data-height="1080">
+<div class="clip" id="f11-bg" data-start="0" data-duration="16.237" data-track-index="0" style="position:absolute;inset:0;overflow:hidden"><div style="position:absolute;inset:0;background:linear-gradient(180deg,#BFE3F5 0%,#F6E7C8 70%)"></div><div id="f11-sun" style="position:absolute;left:1560px;top:90px;width:170px;height:170px;border-radius:50%;background:#FFE08A;box-shadow:0 0 80px #FFE08A"></div><svg style="position:absolute;left:0;top:0" width="1920" height="1080"><path d="M0 760 Q 400 640 860 740 T 1920 700 L1920 1080 L0 1080 Z" fill="#8FBF73"/><path d="M0 860 Q 520 780 1100 860 T 1920 840 L1920 1080 L0 1080 Z" fill="#6FA45A"/></svg></div>
+<div class="clip" id="f11-stage" data-start="0" data-duration="16.237" data-track-index="1" style="position:absolute;inset:0"><div class="cam" id="f11-cam"><div class="card" id="f11-ch" style="left:240px;top:200px;width:820px;height:600px"><svg width="820" height="600"><rect class="f11-ch-b" id="f11-ch-b0" x="50" y="502" width="128" height="38" rx="8" fill="#20C997" style="transform-origin:114px 540px"/><rect class="f11-ch-b" id="f11-ch-b1" x="198" y="468" width="128" height="72" rx="8" fill="#20C997" style="transform-origin:262px 540px"/><rect class="f11-ch-b" id="f11-ch-b2" x="346" y="396" width="128" height="144" rx="8" fill="#20C997" style="transform-origin:410px 540px"/><rect class="f11-ch-b" id="f11-ch-b3" x="494" y="276" width="128" height="264" rx="8" fill="#20C997" style="transform-origin:558px 540px"/><rect class="f11-ch-b" id="f11-ch-b4" x="642" y="84" width="128" height="456" rx="8" fill="#20C997" style="transform-origin:706px 540px"/><text x="114" y="580" text-anchor="middle" font-family="Inter" font-weight="800" font-size="22" fill="#5C5470">2021</text><text x="262" y="580" text-anchor="middle" font-family="Inter" font-weight="800" font-size="22" fill="#5C5470"></text><text x="410" y="580" text-anchor="middle" font-family="Inter" font-weight="800" font-size="22" fill="#5C5470">2022</text><text x="558" y="580" text-anchor="middle" font-family="Inter" font-weight="800" font-size="22" fill="#5C5470"></text><text x="706" y="580" text-anchor="middle" font-family="Inter" font-weight="800" font-size="22" fill="#5C5470">2023</text></svg></div><svg id="f11-bag" style="position:absolute;left:1200px;top:260px;overflow:visible" width="280" height="308" viewBox="0 0 200 220"><path d="M70 40 L130 40 L118 70 L82 70 Z" fill="#C9A15A"/><ellipse cx="100" cy="145" rx="88" ry="75" fill="#E2B866"/><text x="100" y="175" text-anchor="middle" font-family="Inter" font-weight="900" font-size="80" fill="#8B6A2B">$</text></svg><div class="chip" id="f11-v" style="left:1200px;top:600px;font-size:64px">~$1B</div><div class="chip white" id="f11-age" style="left:1200px;top:740px">2 YEARS OLD · TINY TEAM</div></div></div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+<script>
+(function(){
+const tl = gsap.timeline({ paused: true });
+
+tl.fromTo("#f11-cam",{scale:1,x:0,y:0},{scale:1.07,x:0,y:0,duration:16.24,ease:"none"},0);
+tl.fromTo("#f11-ch",{y:40,opacity:0},{y:0,opacity:1,duration:.55,ease:"power3.out"},0.10);
+tl.fromTo(".f11-ch-b",{scaleY:0},{scaleY:1,duration:.5,stagger:0.12,ease:"back.out(1.6)"},1.05);
+tl.fromTo("#f11-bag",{scale:0.5,opacity:0},{scale:1,opacity:1,duration:0.45,ease:"back.out(2)"},4.30);
+tl.fromTo("#f11-v",{scale:0.5,opacity:0},{scale:1,opacity:1,duration:0.45,ease:"back.out(2)"},7.36);
+tl.fromTo("#f11-age",{scale:0.5,opacity:0},{scale:1,opacity:1,duration:0.45,ease:"back.out(2)"},13.11);
+window.__timelines = window.__timelines || {};
+window.__timelines["11-billion-valuation"] = tl;
+})();
+</script>
+</template>

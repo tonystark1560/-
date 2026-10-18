@@ -1,0 +1,41 @@
+<template>
+<style>@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Regular.otf') format('opentype');font-weight:400;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Medium.otf') format('opentype');font-weight:500;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-SemiBold.otf') format('opentype');font-weight:600;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Bold.otf') format('opentype');font-weight:700;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-ExtraBold.otf') format('opentype');font-weight:800;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Black.otf') format('opentype');font-weight:900;font-style:normal;}
+#root{position:absolute;inset:0;width:1920px;height:1080px;overflow:hidden;font-family:'Inter',sans-serif;}
+
+.cam{position:absolute;inset:0;transform-origin:50% 45%;}
+.card{position:absolute;background:#FFFFFF;border-radius:20px;box-shadow:0 14px 0 rgba(30,27,46,.12),0 20px 40px rgba(30,27,46,.18);}
+.lbl{font-weight:900;text-transform:uppercase;letter-spacing:.02em;color:#1E1B2E;}
+.chip{position:absolute;padding:12px 26px;border-radius:12px;font-weight:900;font-size:30px;letter-spacing:.04em;text-transform:uppercase;color:#1E1B2E;background:#FFC83D;box-shadow:0 6px 0 rgba(30,27,46,.25);}
+.chip.red{background:#E5484D;color:#fff;} .chip.dark{background:#1E1B2E;color:#fff;} .chip.white{background:#fff;}
+.stampx{position:absolute;padding:16px 36px;border:10px solid #E5484D;color:#E5484D;font-weight:900;font-size:84px;border-radius:18px;letter-spacing:.04em;background:rgba(255,255,255,.85);}
+.big{position:absolute;font-weight:900;text-transform:uppercase;line-height:.95;letter-spacing:-.01em;color:#1E1B2E;}
+.bubble{position:absolute;padding:16px 26px;border-radius:24px;background:#fff;font-weight:700;font-size:28px;color:#1E1B2E;box-shadow:0 6px 0 rgba(30,27,46,.15);}
+.bubble.me{background:#7950F2;color:#fff;}
+</style>
+<div id="root" data-composition-id="28-safety-changes" data-width="1920" data-height="1080">
+<div class="clip" id="f28-bg" data-start="0" data-duration="20.909" data-track-index="0" style="position:absolute;inset:0;overflow:hidden"><div style="position:absolute;inset:0;background:linear-gradient(180deg,#EADBC0 0%,#E2CFAE 100%)"></div><div style="position:absolute;left:0;right:0;top:820px;bottom:0;background:#B98B5E"></div><div style="position:absolute;left:120px;top:120px;width:420px;height:300px;background:#BFE3F5;border:14px solid #fff;border-radius:6px"></div></div>
+<div class="clip" id="f28-stage" data-start="0" data-duration="20.909" data-track-index="1" style="position:absolute;inset:0"><div class="cam" id="f28-cam"><div id="f28-ph" style="position:absolute;left:300px;top:120px;width:380px;height:760px;border-radius:53px;background:#1E1B2E;padding:19px;box-shadow:0 20px 0 rgba(0,0,0,.15)"><div id="f28-ph-scr" style="position:relative;width:100%;height:100%;border-radius:38px;background:#F4F1FF;overflow:hidden"><div id="f28-w0" style="margin:16px;padding:16px;border-radius:14px;background:#FFF3BF;border:3px solid #FFC83D;font-weight:800;font-size:22px;color:#1E1B2E">⚠ THIS IS AN AI, NOT A REAL PERSON</div><div id="f28-w1" style="margin:16px;padding:16px;border-radius:14px;background:#FFF3BF;border:3px solid #FFC83D;font-weight:800;font-size:22px;color:#1E1B2E">⚠ YOU'VE BEEN CHATTING FOR 1 HOUR</div><div id="f28-w2" style="margin:16px;padding:16px;border-radius:14px;background:#FFF3BF;border:3px solid #FFC83D;font-weight:800;font-size:22px;color:#1E1B2E">⚠ UNDER 18: OPEN-ENDED CHAT OFF</div></div></div><div class="chip white" id="f28-den" style="left:900px;top:220px;font-size:40px">DENIED WRONGDOING</div><div class="chip dark" id="f28-lia" style="left:900px;top:330px;font-size:40px">NOT FOUND LIABLE</div><div class="chip" id="f28-y" style="left:900px;top:600px;font-size:40px">LATE 2025: TEEN CHAT LIMITS</div></div></div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+<script>
+(function(){
+const tl = gsap.timeline({ paused: true });
+
+tl.fromTo("#f28-cam",{scale:1,x:0,y:0},{scale:1.07,x:0,y:0,duration:20.91,ease:"none"},0);
+tl.fromTo("#f28-ph",{y:40,opacity:0},{y:0,opacity:1,duration:.55,ease:"power3.out"},0.10);
+tl.fromTo("#f28-den",{scale:0.5,opacity:0},{scale:1,opacity:1,duration:0.45,ease:"back.out(2)"},0.89);
+tl.fromTo("#f28-lia",{scale:0.5,opacity:0},{scale:1,opacity:1,duration:0.45,ease:"back.out(2)"},3.28);
+tl.fromTo("#f28-w0",{x:40,opacity:0},{x:0,opacity:1,duration:.55,ease:"power3.out"},6.51);
+tl.fromTo("#f28-w1",{x:40,opacity:0},{x:0,opacity:1,duration:.55,ease:"power3.out"},8.68);
+tl.fromTo("#f28-w2",{x:40,opacity:0},{x:0,opacity:1,duration:.55,ease:"power3.out"},14.14);
+tl.fromTo("#f28-y",{scale:0.5,opacity:0},{scale:1,opacity:1,duration:0.45,ease:"back.out(2)"},14.14);
+window.__timelines = window.__timelines || {};
+window.__timelines["28-safety-changes"] = tl;
+})();
+</script>
+</template>

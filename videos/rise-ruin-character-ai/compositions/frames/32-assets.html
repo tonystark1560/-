@@ -1,0 +1,37 @@
+<template>
+<style>@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Regular.otf') format('opentype');font-weight:400;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Medium.otf') format('opentype');font-weight:500;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-SemiBold.otf') format('opentype');font-weight:600;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Bold.otf') format('opentype');font-weight:700;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-ExtraBold.otf') format('opentype');font-weight:800;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Black.otf') format('opentype');font-weight:900;font-style:normal;}
+#root{position:absolute;inset:0;width:1920px;height:1080px;overflow:hidden;font-family:'Inter',sans-serif;}
+
+.cam{position:absolute;inset:0;transform-origin:50% 45%;}
+.card{position:absolute;background:#FFFFFF;border-radius:20px;box-shadow:0 14px 0 rgba(30,27,46,.12),0 20px 40px rgba(30,27,46,.18);}
+.lbl{font-weight:900;text-transform:uppercase;letter-spacing:.02em;color:#1E1B2E;}
+.chip{position:absolute;padding:12px 26px;border-radius:12px;font-weight:900;font-size:30px;letter-spacing:.04em;text-transform:uppercase;color:#1E1B2E;background:#FFC83D;box-shadow:0 6px 0 rgba(30,27,46,.25);}
+.chip.red{background:#E5484D;color:#fff;} .chip.dark{background:#1E1B2E;color:#fff;} .chip.white{background:#fff;}
+.stampx{position:absolute;padding:16px 36px;border:10px solid #E5484D;color:#E5484D;font-weight:900;font-size:84px;border-radius:18px;letter-spacing:.04em;background:rgba(255,255,255,.85);}
+.big{position:absolute;font-weight:900;text-transform:uppercase;line-height:.95;letter-spacing:-.01em;color:#1E1B2E;}
+.bubble{position:absolute;padding:16px 26px;border-radius:24px;background:#fff;font-weight:700;font-size:28px;color:#1E1B2E;box-shadow:0 6px 0 rgba(30,27,46,.15);}
+.bubble.me{background:#7950F2;color:#fff;}
+</style>
+<div id="root" data-composition-id="32-assets" data-width="1920" data-height="1080">
+<div class="clip" id="f32-bg" data-start="0" data-duration="16.962" data-track-index="0" style="position:absolute;inset:0;overflow:hidden"><div style="position:absolute;inset:0;background:linear-gradient(180deg,#EADBC0 0%,#E2CFAE 100%)"></div><div style="position:absolute;left:0;right:0;top:820px;bottom:0;background:#B98B5E"></div><div style="position:absolute;left:120px;top:120px;width:420px;height:300px;background:#BFE3F5;border:14px solid #fff;border-radius:6px"></div></div>
+<div class="clip" id="f32-stage" data-start="0" data-duration="16.962" data-track-index="1" style="position:absolute;inset:0"><div class="cam" id="f32-cam"><div class="card" id="f32-a" style="left:260px;top:220px;width:620px;height:440px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:20px"><div class="lbl" style="font-size:30px;color:#5C5470">2023 VALUATION</div><div style="font-weight:900;font-size:130px;color:#2F9E6E">~$1B</div></div><div class="card" id="f32-b" style="left:1040px;top:220px;width:620px;height:440px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:20px"><div class="lbl" style="font-size:30px;color:#5C5470">ASSETS (EST.)</div><div style="font-weight:900;font-size:110px;color:#E5484D">$50–100M</div></div><div class="chip white" id="f32-pr" style="left:620px;top:740px">LEGAL · REGULATORY · OPERATIONAL PRESSURE</div></div></div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+<script>
+(function(){
+const tl = gsap.timeline({ paused: true });
+
+tl.fromTo("#f32-cam",{scale:1,x:0,y:0},{scale:1.07,x:0,y:0,duration:16.96,ease:"none"},0);
+tl.fromTo("#f32-pr",{scale:0.5,opacity:0},{scale:1,opacity:1,duration:0.45,ease:"back.out(2)"},1.86);
+tl.fromTo("#f32-b",{scale:0.5,opacity:0},{scale:1,opacity:1,duration:0.45,ease:"back.out(2)"},6.77);
+tl.fromTo("#f32-a",{scale:0.5,opacity:0},{scale:1,opacity:1,duration:0.45,ease:"back.out(2)"},13.11);
+window.__timelines = window.__timelines || {};
+window.__timelines["32-assets"] = tl;
+})();
+</script>
+</template>

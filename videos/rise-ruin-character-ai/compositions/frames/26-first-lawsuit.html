@@ -1,0 +1,39 @@
+<template>
+<style>@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Regular.otf') format('opentype');font-weight:400;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Medium.otf') format('opentype');font-weight:500;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-SemiBold.otf') format('opentype');font-weight:600;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Bold.otf') format('opentype');font-weight:700;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-ExtraBold.otf') format('opentype');font-weight:800;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Black.otf') format('opentype');font-weight:900;font-style:normal;}
+#root{position:absolute;inset:0;width:1920px;height:1080px;overflow:hidden;font-family:'Inter',sans-serif;}
+
+.cam{position:absolute;inset:0;transform-origin:50% 45%;}
+.card{position:absolute;background:#FFFFFF;border-radius:20px;box-shadow:0 14px 0 rgba(30,27,46,.12),0 20px 40px rgba(30,27,46,.18);}
+.lbl{font-weight:900;text-transform:uppercase;letter-spacing:.02em;color:#1E1B2E;}
+.chip{position:absolute;padding:12px 26px;border-radius:12px;font-weight:900;font-size:30px;letter-spacing:.04em;text-transform:uppercase;color:#1E1B2E;background:#FFC83D;box-shadow:0 6px 0 rgba(30,27,46,.25);}
+.chip.red{background:#E5484D;color:#fff;} .chip.dark{background:#1E1B2E;color:#fff;} .chip.white{background:#fff;}
+.stampx{position:absolute;padding:16px 36px;border:10px solid #E5484D;color:#E5484D;font-weight:900;font-size:84px;border-radius:18px;letter-spacing:.04em;background:rgba(255,255,255,.85);}
+.big{position:absolute;font-weight:900;text-transform:uppercase;line-height:.95;letter-spacing:-.01em;color:#1E1B2E;}
+.bubble{position:absolute;padding:16px 26px;border-radius:24px;background:#fff;font-weight:700;font-size:28px;color:#1E1B2E;box-shadow:0 6px 0 rgba(30,27,46,.15);}
+.bubble.me{background:#7950F2;color:#fff;}
+</style>
+<div id="root" data-composition-id="26-first-lawsuit" data-width="1920" data-height="1080">
+<div class="clip" id="f26-bg" data-start="0" data-duration="14.381" data-track-index="0" style="position:absolute;inset:0;overflow:hidden"><div style="position:absolute;inset:0;background:linear-gradient(180deg,#E9E1D3 0%,#D8CDB8 100%)"></div><div style="position:absolute;left:160px;top:120px;width:90px;height:760px;background:#F4EFE6;box-shadow:inset -12px 0 0 rgba(0,0,0,.06)"></div><div style="position:absolute;left:520px;top:120px;width:90px;height:760px;background:#F4EFE6;box-shadow:inset -12px 0 0 rgba(0,0,0,.06)"></div><div style="position:absolute;left:880px;top:120px;width:90px;height:760px;background:#F4EFE6;box-shadow:inset -12px 0 0 rgba(0,0,0,.06)"></div><div style="position:absolute;left:1240px;top:120px;width:90px;height:760px;background:#F4EFE6;box-shadow:inset -12px 0 0 rgba(0,0,0,.06)"></div><div style="position:absolute;left:1600px;top:120px;width:90px;height:760px;background:#F4EFE6;box-shadow:inset -12px 0 0 rgba(0,0,0,.06)"></div><div style="position:absolute;left:0;right:0;top:860px;bottom:0;background:#BFAF95"></div></div>
+<div class="clip" id="f26-stage" data-start="0" data-duration="14.381" data-track-index="1" style="position:absolute;inset:0"><div class="cam" id="f26-cam"><svg id="f26-d" style="position:absolute;left:760px;top:140px;overflow:visible" width="420" height="546"><rect width="420" height="546" rx="14" fill="#fff" stroke="#E2DCEB" stroke-width="3"/><text x="30" y="70" font-family="Inter" font-weight="900" font-size="34" fill="#1E1B2E">LAWSUIT</text><rect x="30" y="110" width="360" height="14" rx="7" fill="#D8D2E3"/><rect x="30" y="146" width="310" height="14" rx="7" fill="#D8D2E3"/><rect x="30" y="182" width="360" height="14" rx="7" fill="#D8D2E3"/><rect x="30" y="218" width="310" height="14" rx="7" fill="#D8D2E3"/><rect x="30" y="254" width="360" height="14" rx="7" fill="#D8D2E3"/><rect x="30" y="290" width="310" height="14" rx="7" fill="#D8D2E3"/><circle cx="350" cy="366" r="34" fill="#E5484D" opacity=".85"/></svg><svg id="f26-g" style="position:absolute;left:1280px;top:520px;overflow:visible" width="338" height="286" viewBox="0 0 260 220"><g id="f26-g-h" style="transform-origin:200px 180px"><rect x="40" y="30" width="120" height="56" rx="12" fill="#8B5A2B" transform="rotate(-30 100 58)"/><rect x="100" y="60" width="16" height="140" rx="8" fill="#A06A35" transform="rotate(-30 108 130)"/></g><rect x="120" y="180" width="130" height="30" rx="8" fill="#6B4423"/></svg><div class="chip dark" id="f26-m" style="left:300px;top:260px">OCTOBER 2024</div><div class="chip white" id="f26-fl" style="left:300px;top:360px">FLORIDA</div><div class="chip white" id="f26-c" style="left:300px;top:460px">A MOTHER SUES</div></div></div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+<script>
+(function(){
+const tl = gsap.timeline({ paused: true });
+
+tl.fromTo("#f26-cam",{scale:1,x:0,y:0},{scale:1.05,x:0,y:0,duration:14.38,ease:"none"},0);
+tl.fromTo("#f26-m",{scale:0.5,opacity:0},{scale:1,opacity:1,duration:0.45,ease:"back.out(2)"},0.26);
+tl.fromTo("#f26-fl",{scale:0.5,opacity:0},{scale:1,opacity:1,duration:0.45,ease:"back.out(2)"},3.00);
+tl.fromTo("#f26-d",{y:40,opacity:0},{y:0,opacity:1,duration:.55,ease:"power3.out"},3.99);
+tl.fromTo("#f26-c",{scale:0.5,opacity:0},{scale:1,opacity:1,duration:0.45,ease:"back.out(2)"},4.29);
+tl.fromTo("#f26-g-h",{rotation:-25},{rotation:10,duration:.25,ease:"power4.in"},5.22);tl.to("#f26-g-h",{rotation:0,duration:.3},5.47);
+window.__timelines = window.__timelines || {};
+window.__timelines["26-first-lawsuit"] = tl;
+})();
+</script>
+</template>

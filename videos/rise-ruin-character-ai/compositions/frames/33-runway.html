@@ -1,0 +1,39 @@
+<template>
+<style>@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Regular.otf') format('opentype');font-weight:400;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Medium.otf') format('opentype');font-weight:500;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-SemiBold.otf') format('opentype');font-weight:600;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Bold.otf') format('opentype');font-weight:700;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-ExtraBold.otf') format('opentype');font-weight:800;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Black.otf') format('opentype');font-weight:900;font-style:normal;}
+#root{position:absolute;inset:0;width:1920px;height:1080px;overflow:hidden;font-family:'Inter',sans-serif;}
+
+.cam{position:absolute;inset:0;transform-origin:50% 45%;}
+.card{position:absolute;background:#FFFFFF;border-radius:20px;box-shadow:0 14px 0 rgba(30,27,46,.12),0 20px 40px rgba(30,27,46,.18);}
+.lbl{font-weight:900;text-transform:uppercase;letter-spacing:.02em;color:#1E1B2E;}
+.chip{position:absolute;padding:12px 26px;border-radius:12px;font-weight:900;font-size:30px;letter-spacing:.04em;text-transform:uppercase;color:#1E1B2E;background:#FFC83D;box-shadow:0 6px 0 rgba(30,27,46,.25);}
+.chip.red{background:#E5484D;color:#fff;} .chip.dark{background:#1E1B2E;color:#fff;} .chip.white{background:#fff;}
+.stampx{position:absolute;padding:16px 36px;border:10px solid #E5484D;color:#E5484D;font-weight:900;font-size:84px;border-radius:18px;letter-spacing:.04em;background:rgba(255,255,255,.85);}
+.big{position:absolute;font-weight:900;text-transform:uppercase;line-height:.95;letter-spacing:-.01em;color:#1E1B2E;}
+.bubble{position:absolute;padding:16px 26px;border-radius:24px;background:#fff;font-weight:700;font-size:28px;color:#1E1B2E;box-shadow:0 6px 0 rgba(30,27,46,.15);}
+.bubble.me{background:#7950F2;color:#fff;}
+</style>
+<div id="root" data-composition-id="33-runway" data-width="1920" data-height="1080">
+<div class="clip" id="f33-bg" data-start="0" data-duration="19.543" data-track-index="0" style="position:absolute;inset:0;overflow:hidden"><div style="position:absolute;inset:0;background:linear-gradient(180deg,#F5C08A 0%,#F4B183 45%,#E58A6B 100%)"></div><div style="position:absolute;left:1500px;top:560px;width:260px;height:260px;border-radius:50%;background:#FFD08A;opacity:.9"></div><svg style="position:absolute;left:0;top:0" width="1920" height="1080"><path d="M0 760 Q 400 640 860 740 T 1920 700 L1920 1080 L0 1080 Z" fill="#7B9A5C"/><path d="M0 860 Q 520 780 1100 860 T 1920 840 L1920 1080 L0 1080 Z" fill="#5E7F45"/></svg></div>
+<div class="clip" id="f33-stage" data-start="0" data-duration="19.543" data-track-index="1" style="position:absolute;inset:0"><div class="cam" id="f33-cam"><div style="position:absolute;left:0;top:620px;width:1400px;height:60px;background:#495057"></div><div style="position:absolute;left:60px;top:645px;width:70px;height:10px;background:#fff"></div><div style="position:absolute;left:200px;top:645px;width:70px;height:10px;background:#fff"></div><div style="position:absolute;left:340px;top:645px;width:70px;height:10px;background:#fff"></div><div style="position:absolute;left:480px;top:645px;width:70px;height:10px;background:#fff"></div><div style="position:absolute;left:620px;top:645px;width:70px;height:10px;background:#fff"></div><div style="position:absolute;left:760px;top:645px;width:70px;height:10px;background:#fff"></div><div style="position:absolute;left:900px;top:645px;width:70px;height:10px;background:#fff"></div><div style="position:absolute;left:1040px;top:645px;width:70px;height:10px;background:#fff"></div><div style="position:absolute;left:1180px;top:645px;width:70px;height:10px;background:#fff"></div><div style="position:absolute;left:1320px;top:645px;width:70px;height:10px;background:#fff"></div><div style="position:absolute;left:1400px;top:620px;width:520px;height:460px;background:linear-gradient(180deg,#3B4257,#151829)"></div><svg id="f33-pl" style="position:absolute;left:200px;top:500px;overflow:visible" width="300" height="140"><path d="M10 80 L250 70 Q 300 75 250 95 L10 100 Z" fill="#fff" stroke="#1E1B2E" stroke-width="5"/><path d="M110 80 L170 10 L200 10 L170 80 Z" fill="#20C997"/><path d="M20 80 L10 40 L40 40 L60 80 Z" fill="#20C997"/></svg><div class="chip white" id="f33-k0" style="left:180px;top:180px">NEW LEADERS</div><div class="chip white" id="f33-k1" style="left:640px;top:180px">SMALLER AMBITIONS</div><div class="chip white" id="f33-k2" style="left:1200px;top:180px">BIG LEGAL BILLS</div></div></div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+<script>
+(function(){
+const tl = gsap.timeline({ paused: true });
+
+tl.fromTo("#f33-cam",{scale:1,x:0,y:0},{scale:1.07,x:0,y:0,duration:19.54,ease:"none"},0);
+tl.fromTo("#f33-pl",{x:0},{x:1050,duration:18.54,ease:"power1.in"},.3);
+tl.fromTo("#f33-k0",{scale:0.5,opacity:0},{scale:1,opacity:1,duration:0.45,ease:"back.out(2)"},5.66);
+tl.fromTo("#f33-k1",{scale:0.5,opacity:0},{scale:1,opacity:1,duration:0.45,ease:"back.out(2)"},6.57);
+tl.fromTo("#f33-k2",{scale:0.5,opacity:0},{scale:1,opacity:1,duration:0.45,ease:"back.out(2)"},9.54);
+tl.to("#f33-pl",{rotation:4,duration:.4},18.50);
+window.__timelines = window.__timelines || {};
+window.__timelines["33-runway"] = tl;
+})();
+</script>
+</template>

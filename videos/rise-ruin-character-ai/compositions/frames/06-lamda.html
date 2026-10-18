@@ -1,0 +1,49 @@
+<template>
+<style>@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Regular.otf') format('opentype');font-weight:400;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Medium.otf') format('opentype');font-weight:500;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-SemiBold.otf') format('opentype');font-weight:600;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Bold.otf') format('opentype');font-weight:700;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-ExtraBold.otf') format('opentype');font-weight:800;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Black.otf') format('opentype');font-weight:900;font-style:normal;}
+#root{position:absolute;inset:0;width:1920px;height:1080px;overflow:hidden;font-family:'Inter',sans-serif;}
+
+.cam{position:absolute;inset:0;transform-origin:50% 45%;}
+.card{position:absolute;background:#FFFFFF;border-radius:20px;box-shadow:0 14px 0 rgba(30,27,46,.12),0 20px 40px rgba(30,27,46,.18);}
+.lbl{font-weight:900;text-transform:uppercase;letter-spacing:.02em;color:#1E1B2E;}
+.chip{position:absolute;padding:12px 26px;border-radius:12px;font-weight:900;font-size:30px;letter-spacing:.04em;text-transform:uppercase;color:#1E1B2E;background:#FFC83D;box-shadow:0 6px 0 rgba(30,27,46,.25);}
+.chip.red{background:#E5484D;color:#fff;} .chip.dark{background:#1E1B2E;color:#fff;} .chip.white{background:#fff;}
+.stampx{position:absolute;padding:16px 36px;border:10px solid #E5484D;color:#E5484D;font-weight:900;font-size:84px;border-radius:18px;letter-spacing:.04em;background:rgba(255,255,255,.85);}
+.big{position:absolute;font-weight:900;text-transform:uppercase;line-height:.95;letter-spacing:-.01em;color:#1E1B2E;}
+.bubble{position:absolute;padding:16px 26px;border-radius:24px;background:#fff;font-weight:700;font-size:28px;color:#1E1B2E;box-shadow:0 6px 0 rgba(30,27,46,.15);}
+.bubble.me{background:#7950F2;color:#fff;}
+</style>
+<div id="root" data-composition-id="06-lamda" data-width="1920" data-height="1080">
+<div class="clip" id="f06-bg" data-start="0" data-duration="21.079" data-track-index="0" style="position:absolute;inset:0;overflow:hidden"><div style="position:absolute;inset:0;background:linear-gradient(180deg,#EADBC0 0%,#E2CFAE 100%)"></div><div style="position:absolute;left:0;right:0;top:820px;bottom:0;background:#B98B5E"></div><div style="position:absolute;left:120px;top:120px;width:420px;height:300px;background:#BFE3F5;border:14px solid #fff;border-radius:6px"></div></div>
+<div class="clip" id="f06-stage" data-start="0" data-duration="21.079" data-track-index="1" style="position:absolute;inset:0"><div class="cam" id="f06-cam"><svg id="f06-dan" style="position:absolute;left:260px;top:480px;overflow:visible" width="120" height="300" viewBox="0 0 120 300">
+<rect x="38" y="180" width="18" height="110" rx="8" fill="#3B3552"/><rect x="64" y="180" width="18" height="110" rx="8" fill="#3B3552"/>
+<rect x="24" y="88" width="72" height="110" rx="26" fill="#7950F2"/>
+<rect x="12" y="98" width="16" height="80" rx="8" fill="#7950F2"/><rect x="92" y="98" width="16" height="80" rx="8" fill="#7950F2"/>
+<circle cx="60" cy="50" r="34" fill="#F2C9A0"/><path d="M26 46 Q 30 10 60 12 Q 92 12 94 46 Q 80 30 60 30 Q 40 30 26 46 Z" fill="#1E1B2E"/>
+<circle cx="48" cy="54" r="4" fill="#1E1B2E"/><circle cx="72" cy="54" r="4" fill="#1E1B2E"/>
+
+
+</svg><div class="card" id="f06-chat" style="left:520px;top:180px;width:700px;height:420px;padding:30px;display:flex;flex-direction:column;overflow:hidden"><div class="bubble" id="f06-chat-m0" style="position:relative;align-self:flex-start;margin:10px 0">Do you have feelings?</div><div class="bubble me" id="f06-chat-m1" style="position:relative;align-self:flex-end;margin:10px 0">I think I do…</div></div><div class="chip white" id="f06-sent" style="left:1300px;top:240px;font-size:44px">SENTIENT?</div><div class="stampx" id="f06-fired" style="left:1280px;top:480px;font-size:64px">FIRED</div><div class="chip" id="f06-pow" style="left:560px;top:660px">POWERFUL TECH</div></div></div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+<script>
+(function(){
+const tl = gsap.timeline({ paused: true });
+
+tl.fromTo("#f06-cam",{scale:1,x:0,y:0},{scale:1.07,x:0,y:0,duration:21.08,ease:"none"},0);
+tl.fromTo("#f06-dan",{x:-80,opacity:0},{x:0,opacity:1,duration:.55,ease:"power3.out"},0.10);
+tl.fromTo("#f06-chat",{y:40,opacity:0},{y:0,opacity:1,duration:.55,ease:"power3.out"},2.89);
+tl.fromTo("#f06-chat-m0",{scale:0.5,opacity:0},{scale:1,opacity:1,duration:0.45,ease:"back.out(2)"},8.48);
+tl.fromTo("#f06-chat-m1",{scale:0.5,opacity:0},{scale:1,opacity:1,duration:0.45,ease:"back.out(2)"},9.46);
+tl.fromTo("#f06-sent",{scale:0.5,opacity:0},{scale:1,opacity:1,duration:0.45,ease:"back.out(2)"},14.46);
+tl.fromTo("#f06-fired",{scale:2.6,opacity:0,rotation:-10},{scale:1,opacity:1,rotation:-10,duration:.32,ease:"power4.in"},16.54);
+tl.fromTo("#f06-pow",{scale:0.5,opacity:0},{scale:1,opacity:1,duration:0.45,ease:"back.out(2)"},19.71);
+window.__timelines = window.__timelines || {};
+window.__timelines["06-lamda"] = tl;
+})();
+</script>
+</template>

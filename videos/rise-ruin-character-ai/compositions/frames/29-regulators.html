@@ -1,0 +1,40 @@
+<template>
+<style>@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Regular.otf') format('opentype');font-weight:400;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Medium.otf') format('opentype');font-weight:500;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-SemiBold.otf') format('opentype');font-weight:600;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Bold.otf') format('opentype');font-weight:700;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-ExtraBold.otf') format('opentype');font-weight:800;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Black.otf') format('opentype');font-weight:900;font-style:normal;}
+#root{position:absolute;inset:0;width:1920px;height:1080px;overflow:hidden;font-family:'Inter',sans-serif;}
+
+.cam{position:absolute;inset:0;transform-origin:50% 45%;}
+.card{position:absolute;background:#FFFFFF;border-radius:20px;box-shadow:0 14px 0 rgba(30,27,46,.12),0 20px 40px rgba(30,27,46,.18);}
+.lbl{font-weight:900;text-transform:uppercase;letter-spacing:.02em;color:#1E1B2E;}
+.chip{position:absolute;padding:12px 26px;border-radius:12px;font-weight:900;font-size:30px;letter-spacing:.04em;text-transform:uppercase;color:#1E1B2E;background:#FFC83D;box-shadow:0 6px 0 rgba(30,27,46,.25);}
+.chip.red{background:#E5484D;color:#fff;} .chip.dark{background:#1E1B2E;color:#fff;} .chip.white{background:#fff;}
+.stampx{position:absolute;padding:16px 36px;border:10px solid #E5484D;color:#E5484D;font-weight:900;font-size:84px;border-radius:18px;letter-spacing:.04em;background:rgba(255,255,255,.85);}
+.big{position:absolute;font-weight:900;text-transform:uppercase;line-height:.95;letter-spacing:-.01em;color:#1E1B2E;}
+.bubble{position:absolute;padding:16px 26px;border-radius:24px;background:#fff;font-weight:700;font-size:28px;color:#1E1B2E;box-shadow:0 6px 0 rgba(30,27,46,.15);}
+.bubble.me{background:#7950F2;color:#fff;}
+</style>
+<div id="root" data-composition-id="29-regulators" data-width="1920" data-height="1080">
+<div class="clip" id="f29-bg" data-start="0" data-duration="15.789" data-track-index="0" style="position:absolute;inset:0;overflow:hidden"><div style="position:absolute;inset:0;background:linear-gradient(180deg,#BFE3F5 0%,#F6E7C8 70%)"></div><div id="f29-sun" style="position:absolute;left:1560px;top:90px;width:170px;height:170px;border-radius:50%;background:#FFE08A;box-shadow:0 0 80px #FFE08A"></div><svg style="position:absolute;left:0;top:0" width="1920" height="1080"><path d="M0 760 Q 400 640 860 740 T 1920 700 L1920 1080 L0 1080 Z" fill="#8FBF73"/><path d="M0 860 Q 520 780 1100 860 T 1920 840 L1920 1080 L0 1080 Z" fill="#6FA45A"/></svg></div>
+<div class="clip" id="f29-stage" data-start="0" data-duration="15.789" data-track-index="1" style="position:absolute;inset:0"><div class="cam" id="f29-cam"><svg id="f29-cap" style="position:absolute;left:560px;top:260px" width="800" height="560"><rect x="80" y="380" width="640" height="140" fill="#F4EFE6"/><rect x="110" y="230" width="50" height="150" fill="#F4EFE6"/><rect x="220" y="230" width="50" height="150" fill="#F4EFE6"/><rect x="330" y="230" width="50" height="150" fill="#F4EFE6"/><rect x="440" y="230" width="50" height="150" fill="#F4EFE6"/><rect x="550" y="230" width="50" height="150" fill="#F4EFE6"/><rect x="660" y="230" width="50" height="150" fill="#F4EFE6"/><path d="M60 230 L400 100 L740 230 Z" fill="#F4EFE6"/><ellipse cx="400" cy="90" rx="120" ry="70" fill="#F4EFE6"/></svg><div class="chip white" id="f29-q0" style="left:260px;top:180px;font-size:44px">?</div><div class="chip white" id="f29-q1" style="left:820px;top:260px;font-size:44px">?</div><div class="chip white" id="f29-q2" style="left:1380px;top:180px;font-size:44px">?</div><div class="chip" id="f29-s" style="left:760px;top:760px;font-size:44px">SAFE FOR KIDS?</div></div></div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+<script>
+(function(){
+const tl = gsap.timeline({ paused: true });
+
+tl.fromTo("#f29-cam",{scale:1,x:0,y:0},{scale:1.07,x:0,y:0,duration:15.79,ease:"none"},0);
+tl.fromTo("#f29-cap",{y:40,opacity:0},{y:0,opacity:1,duration:.55,ease:"power3.out"},0.10);
+tl.fromTo("#f29-q0",{scale:0.5,opacity:0},{scale:1,opacity:1,duration:0.45,ease:"back.out(2)"},2.22);
+tl.fromTo("#f29-q1",{scale:0.5,opacity:0},{scale:1,opacity:1,duration:0.45,ease:"back.out(2)"},2.52);
+tl.fromTo("#f29-q2",{scale:0.5,opacity:0},{scale:1,opacity:1,duration:0.45,ease:"back.out(2)"},2.82);
+tl.fromTo("#f29-s",{scale:0.5,opacity:0},{scale:1,opacity:1,duration:0.45,ease:"back.out(2)"},7.26);
+tl.to("#f29-s",{x:10,duration:.05},14.27);tl.to("#f29-s",{x:-10,duration:.05},14.32);tl.to("#f29-s",{x:7.0,duration:.05},14.37);tl.to("#f29-s",{x:-7.0,duration:.05},14.42);tl.to("#f29-s",{x:0,duration:.05},14.47);
+window.__timelines = window.__timelines || {};
+window.__timelines["29-regulators"] = tl;
+})();
+</script>
+</template>

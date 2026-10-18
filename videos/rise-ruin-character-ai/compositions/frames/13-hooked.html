@@ -1,0 +1,47 @@
+<template>
+<style>@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Regular.otf') format('opentype');font-weight:400;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Medium.otf') format('opentype');font-weight:500;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-SemiBold.otf') format('opentype');font-weight:600;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Bold.otf') format('opentype');font-weight:700;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-ExtraBold.otf') format('opentype');font-weight:800;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Black.otf') format('opentype');font-weight:900;font-style:normal;}
+#root{position:absolute;inset:0;width:1920px;height:1080px;overflow:hidden;font-family:'Inter',sans-serif;}
+
+.cam{position:absolute;inset:0;transform-origin:50% 45%;}
+.card{position:absolute;background:#FFFFFF;border-radius:20px;box-shadow:0 14px 0 rgba(30,27,46,.12),0 20px 40px rgba(30,27,46,.18);}
+.lbl{font-weight:900;text-transform:uppercase;letter-spacing:.02em;color:#1E1B2E;}
+.chip{position:absolute;padding:12px 26px;border-radius:12px;font-weight:900;font-size:30px;letter-spacing:.04em;text-transform:uppercase;color:#1E1B2E;background:#FFC83D;box-shadow:0 6px 0 rgba(30,27,46,.25);}
+.chip.red{background:#E5484D;color:#fff;} .chip.dark{background:#1E1B2E;color:#fff;} .chip.white{background:#fff;}
+.stampx{position:absolute;padding:16px 36px;border:10px solid #E5484D;color:#E5484D;font-weight:900;font-size:84px;border-radius:18px;letter-spacing:.04em;background:rgba(255,255,255,.85);}
+.big{position:absolute;font-weight:900;text-transform:uppercase;line-height:.95;letter-spacing:-.01em;color:#1E1B2E;}
+.bubble{position:absolute;padding:16px 26px;border-radius:24px;background:#fff;font-weight:700;font-size:28px;color:#1E1B2E;box-shadow:0 6px 0 rgba(30,27,46,.15);}
+.bubble.me{background:#7950F2;color:#fff;}
+</style>
+<div id="root" data-composition-id="13-hooked" data-width="1920" data-height="1080">
+<div class="clip" id="f13-bg" data-start="0" data-duration="15.789" data-track-index="0" style="position:absolute;inset:0;overflow:hidden"><div style="position:absolute;inset:0;background:linear-gradient(180deg,#151829 0%,#252A45 100%)"></div><svg style="position:absolute;inset:0" width="1920" height="1080"><circle cx="0" cy="20" r="1.5" fill="#fff" opacity="0.40"/><circle cx="373" cy="231" r="2.5" fill="#fff" opacity="0.52"/><circle cx="746" cy="442" r="3.5" fill="#fff" opacity="0.64"/><circle cx="1119" cy="53" r="1.5" fill="#fff" opacity="0.76"/><circle cx="1492" cy="264" r="2.5" fill="#fff" opacity="0.88"/><circle cx="1865" cy="475" r="3.5" fill="#fff" opacity="0.40"/><circle cx="318" cy="86" r="1.5" fill="#fff" opacity="0.52"/><circle cx="691" cy="297" r="2.5" fill="#fff" opacity="0.64"/><circle cx="1064" cy="508" r="3.5" fill="#fff" opacity="0.76"/><circle cx="1437" cy="119" r="1.5" fill="#fff" opacity="0.88"/><circle cx="1810" cy="330" r="2.5" fill="#fff" opacity="0.40"/><circle cx="263" cy="541" r="3.5" fill="#fff" opacity="0.52"/><circle cx="636" cy="152" r="1.5" fill="#fff" opacity="0.64"/><circle cx="1009" cy="363" r="2.5" fill="#fff" opacity="0.76"/><circle cx="1382" cy="574" r="3.5" fill="#fff" opacity="0.88"/><circle cx="1755" cy="185" r="1.5" fill="#fff" opacity="0.40"/><circle cx="208" cy="396" r="2.5" fill="#fff" opacity="0.52"/><circle cx="581" cy="607" r="3.5" fill="#fff" opacity="0.64"/><circle cx="954" cy="218" r="1.5" fill="#fff" opacity="0.76"/><circle cx="1327" cy="429" r="2.5" fill="#fff" opacity="0.88"/><circle cx="1700" cy="40" r="3.5" fill="#fff" opacity="0.40"/><circle cx="153" cy="251" r="1.5" fill="#fff" opacity="0.52"/><circle cx="526" cy="462" r="2.5" fill="#fff" opacity="0.64"/><circle cx="899" cy="73" r="3.5" fill="#fff" opacity="0.76"/><circle cx="1272" cy="284" r="1.5" fill="#fff" opacity="0.88"/><circle cx="1645" cy="495" r="2.5" fill="#fff" opacity="0.40"/><circle cx="98" cy="106" r="3.5" fill="#fff" opacity="0.52"/><circle cx="471" cy="317" r="1.5" fill="#fff" opacity="0.64"/><circle cx="844" cy="528" r="2.5" fill="#fff" opacity="0.76"/><circle cx="1217" cy="139" r="3.5" fill="#fff" opacity="0.88"/><circle cx="1590" cy="350" r="1.5" fill="#fff" opacity="0.40"/><circle cx="43" cy="561" r="2.5" fill="#fff" opacity="0.52"/><circle cx="416" cy="172" r="3.5" fill="#fff" opacity="0.64"/><circle cx="789" cy="383" r="1.5" fill="#fff" opacity="0.76"/><circle cx="1162" cy="594" r="2.5" fill="#fff" opacity="0.88"/><circle cx="1535" cy="205" r="3.5" fill="#fff" opacity="0.40"/><circle cx="1908" cy="416" r="1.5" fill="#fff" opacity="0.52"/><circle cx="361" cy="27" r="2.5" fill="#fff" opacity="0.64"/><circle cx="734" cy="238" r="3.5" fill="#fff" opacity="0.76"/><circle cx="1107" cy="449" r="1.5" fill="#fff" opacity="0.88"/><circle cx="1480" cy="60" r="2.5" fill="#fff" opacity="0.40"/><circle cx="1853" cy="271" r="3.5" fill="#fff" opacity="0.52"/><circle cx="306" cy="482" r="1.5" fill="#fff" opacity="0.64"/><circle cx="679" cy="93" r="2.5" fill="#fff" opacity="0.76"/><circle cx="1052" cy="304" r="3.5" fill="#fff" opacity="0.88"/><circle cx="1425" cy="515" r="1.5" fill="#fff" opacity="0.40"/><circle cx="1798" cy="126" r="2.5" fill="#fff" opacity="0.52"/><circle cx="251" cy="337" r="3.5" fill="#fff" opacity="0.64"/><circle cx="624" cy="548" r="1.5" fill="#fff" opacity="0.76"/><circle cx="997" cy="159" r="2.5" fill="#fff" opacity="0.88"/><circle cx="1370" cy="370" r="3.5" fill="#fff" opacity="0.40"/><circle cx="1743" cy="581" r="1.5" fill="#fff" opacity="0.52"/><circle cx="196" cy="192" r="2.5" fill="#fff" opacity="0.64"/><circle cx="569" cy="403" r="3.5" fill="#fff" opacity="0.76"/><circle cx="942" cy="614" r="1.5" fill="#fff" opacity="0.88"/><circle cx="1315" cy="225" r="2.5" fill="#fff" opacity="0.40"/><circle cx="1688" cy="436" r="3.5" fill="#fff" opacity="0.52"/><circle cx="141" cy="47" r="1.5" fill="#fff" opacity="0.64"/><circle cx="514" cy="258" r="2.5" fill="#fff" opacity="0.76"/><circle cx="887" cy="469" r="3.5" fill="#fff" opacity="0.88"/></svg><div style="position:absolute;left:1580px;top:100px;width:120px;height:120px;border-radius:50%;background:#F4F1DE;box-shadow:0 0 50px rgba(244,241,222,.6)"></div></div>
+<div class="clip" id="f13-stage" data-start="0" data-duration="15.789" data-track-index="1" style="position:absolute;inset:0"><div class="cam" id="f13-cam"><svg style="position:absolute;left:200px;top:560px" width="1000" height="320"><rect x="0" y="80" width="1000" height="240" rx="30" fill="#3D3A5C"/></svg><svg id="f13-kid" style="position:absolute;left:520px;top:420px;overflow:visible" width="132" height="330" viewBox="0 0 120 300">
+<rect x="38" y="180" width="18" height="110" rx="8" fill="#3B3552"/><rect x="64" y="180" width="18" height="110" rx="8" fill="#3B3552"/>
+<rect x="24" y="88" width="72" height="110" rx="26" fill="#20C997"/>
+<rect x="12" y="98" width="16" height="80" rx="8" fill="#20C997"/><rect x="92" y="98" width="16" height="80" rx="8" fill="#20C997"/>
+<circle cx="60" cy="50" r="34" fill="#F2C9A0"/><path d="M26 46 Q 30 10 60 12 Q 92 12 94 46 Q 80 30 60 30 Q 40 30 26 46 Z" fill="#1E1B2E"/>
+<circle cx="48" cy="54" r="4" fill="#1E1B2E"/><circle cx="72" cy="54" r="4" fill="#1E1B2E"/>
+
+<rect x="88" y="150" width="26" height="42" rx="6" fill="#1E1B2E"/><rect x="91" y="154" width="20" height="32" rx="3" fill="#9BE7FF"/>
+</svg><svg id="f13-clk" style="position:absolute;left:1260px;top:150px" width="300" height="300"><circle cx="150" cy="150" r="130" fill="#fff" stroke="#FFC83D" stroke-width="12"/><line x1="150" y1="150" x2="150" y2="70" stroke="#1E1B2E" stroke-width="10" stroke-linecap="round"/><line id="f13-mh" x1="150" y1="150" x2="210" y2="150" stroke="#1E1B2E" stroke-width="6" stroke-linecap="round"/></svg><div class="chip" id="f13-t" style="left:1290px;top:480px;font-size:52px">2:00 AM</div><div class="card" id="f13-bar" style="left:1180px;top:640px;width:520px;height:120px;padding:24px"><div class="lbl" style="font-size:24px">HOURS A DAY</div><div style="margin-top:12px;height:26px;border-radius:13px;background:#EEE"><div id="f13-fill" style="height:100%;width:100%;border-radius:13px;background:#E5484D;transform-origin:0 50%"></div></div></div></div></div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+<script>
+(function(){
+const tl = gsap.timeline({ paused: true });
+
+tl.fromTo("#f13-cam",{scale:1,x:0,y:0},{scale:1.07,x:0,y:0,duration:15.79,ease:"none"},0);
+tl.fromTo("#f13-clk",{scale:0.5,opacity:0},{scale:1,opacity:1,duration:0.45,ease:"back.out(2)"},0.20);
+tl.fromTo("#f13-t",{scale:0.5,opacity:0},{scale:1,opacity:1,duration:0.45,ease:"back.out(2)"},4.71);
+tl.fromTo("#f13-bar",{y:40,opacity:0},{y:0,opacity:1,duration:.55,ease:"power3.out"},7.89);
+tl.fromTo("#f13-fill",{scaleX:.05},{scaleX:.9,duration:2,ease:"power2.out"},7.89);
+tl.fromTo("#f13-mh",{rotation:0,svgOrigin:"150 150"},{rotation:720,svgOrigin:"150 150",duration:15.29,ease:"none"},.3);
+window.__timelines = window.__timelines || {};
+window.__timelines["13-hooked"] = tl;
+})();
+</script>
+</template>

@@ -400,7 +400,7 @@ def f18():
 @frame
 def f19():
     n, p = 19, "f19"
-    hands = f'<svg id="{p}-hs" style="position:absolute;left:660px;top:300px" width="600" height="300"><rect id="{p}-hl" x="0" y="120" width="300" height="70" rx="35" fill="{C["skin"]}"/><rect id="{p}-hr" x="300" y="120" width="300" height="70" rx="35" fill="#D9A47A"/><rect x="0" y="110" width="120" height="90" rx="20" fill="#2D3250"/><rect x="480" y="110" width="120" height="90" rx="20" fill="{C["teal"]}"/></svg>'
+    hands = f'<svg id="{p}-hs" style="position:absolute;left:660px;top:280px;transform:scale(1.7);transform-origin:50% 50%" width="600" height="300"><rect id="{p}-hl" x="0" y="120" width="300" height="70" rx="35" fill="{C["skin"]}"/><rect id="{p}-hr" x="300" y="120" width="300" height="70" rx="35" fill="#D9A47A"/><rect x="0" y="110" width="120" height="90" rx="20" fill="#2D3250"/><rect x="480" y="110" width="120" height="90" rx="20" fill="{C["teal"]}"/></svg>'
     html = (hands + f'<div class="chip dark" id="{p}-y" style="left:860px;top:180px;font-size:52px">2024</div>'
             + f'<div class="chip" id="{p}-amt" style="left:820px;top:640px;font-size:52px">~$2.7B (REPORTED)</div>'
             + f'<div class="chip white" id="{p}-l1" style="left:260px;top:320px">BIG TECH: LICENSE</div>'
@@ -529,7 +529,7 @@ def f30():
             + person(f"{p}-par", 420, 480, 1.1, shirt=C["red"], hair="#8B5A2B")
             + f'<div class="chip white" id="{p}-q" style="left:1320px;top:300px;font-size:40px">HOURS A DAY?</div>'
             + f'<div class="chip white" id="{p}-q2" style="left:1320px;top:420px;font-size:40px">ABOUT WHAT?</div>'
-            + f'<div class="chip dark" id="{p}-pv" style="left:1320px;top:580px;font-size:36px">PRIVATE CHAT · NO PUBLIC POSTS</div>')
+            + f'<div class="chip dark" id="{p}-pv" style="left:1320px;top:580px;font-size:36px">PRIVATE · NO POSTS</div>')
     js = [slide(f"#{p}-par", .2), f'tl.fromTo("#{p}-gl",{{opacity:.3}},{{opacity:1,duration:.8}},{cue(n, "kids"):.2f});', pop(f"#{p}-q", cue(n, "hours")), pop(f"#{p}-q2", cue(n, "about")), pop(f"#{p}-pv", cue(n, "private"))]
     W(n, html, js, "night")
 
@@ -562,7 +562,7 @@ def f33():
     html = (f'<div style="position:absolute;left:0;top:620px;width:1400px;height:60px;background:#495057"></div>'
             + "".join(f'<div style="position:absolute;left:{60+i*140}px;top:645px;width:70px;height:10px;background:#fff"></div>' for i in range(10))
             + f'<div style="position:absolute;left:1400px;top:620px;width:520px;height:460px;background:linear-gradient(180deg,#3B4257,#151829)"></div>' + plane
-            + "".join(f'<div class="chip white" id="{p}-k{i}" style="left:{300 + i*380}px;top:180px">{t}</div>' for i, t in enumerate(["NEW LEADERS", "SMALLER AMBITIONS", "BIG LEGAL BILLS"])))
+            + "".join(f'<div class="chip white" id="{p}-k{i}" style="left:{[180, 640, 1200][i]}px;top:180px">{t}</div>' for i, t in enumerate(["NEW LEADERS", "SMALLER AMBITIONS", "BIG LEGAL BILLS"])))
     js = [f'tl.fromTo("#{p}-pl",{{x:0}},{{x:1050,duration:{P.dur(n)-1:.2f},ease:"power1.in"}},.3);'] + [pop(f"#{p}-k{i}", cue(n, w)) for i, w in enumerate(["leadership", "smaller", "legal"])]
     js.append(f'tl.to("#{p}-pl",{{rotation:4,duration:.4}},{cue(n, "runway"):.2f});')
     W(n, html, js, "dusk")
@@ -636,7 +636,7 @@ def f40():
     n, p = 40, "f40"
     html = "".join(building(f"{p}-b{i}", 260 + i*480, 260 - i*20, 380, 600 + i*20, ["#5C7CFA", "#845EF7", "#20C997"][i], f"BIG CO #{i+1}") for i in range(3))
     html += "".join(avatar(f"{p}-a{i}", 360 + i*480, 120, k, 170) for i, k in enumerate(["friend", "anime", "wizard"]))
-    html += f'<div class="chip red" id="{p}-q" style="left:700px;top:820px;font-size:48px">WHO\'S RESPONSIBLE?</div>'
+    html += f'<div class="chip red" id="{p}-q" style="left:700px;top:30px;font-size:48px">WHO\'S RESPONSIBLE?</div>'
     js = [rise(f"#{p}-b{i}", cue(n, "bigger") + i * .2) for i in range(3)] + [pop(f"#{p}-a{i}", cue(n, "building") + i * .2) for i in range(3)] + [pop(f"#{p}-q", cue(n, "responsible"))]
     W(n, html, js, "dusk")
 

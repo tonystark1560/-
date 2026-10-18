@@ -1,0 +1,38 @@
+<template>
+<style>@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Regular.otf') format('opentype');font-weight:400;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Medium.otf') format('opentype');font-weight:500;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-SemiBold.otf') format('opentype');font-weight:600;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Bold.otf') format('opentype');font-weight:700;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-ExtraBold.otf') format('opentype');font-weight:800;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Black.otf') format('opentype');font-weight:900;font-style:normal;}
+#root{position:absolute;inset:0;width:1920px;height:1080px;overflow:hidden;font-family:'Inter',sans-serif;}
+
+.cam{position:absolute;inset:0;transform-origin:50% 45%;}
+.card{position:absolute;background:#FFFFFF;border-radius:20px;box-shadow:0 14px 0 rgba(30,27,46,.12),0 20px 40px rgba(30,27,46,.18);}
+.lbl{font-weight:900;text-transform:uppercase;letter-spacing:.02em;color:#1E1B2E;}
+.chip{position:absolute;padding:12px 26px;border-radius:12px;font-weight:900;font-size:30px;letter-spacing:.04em;text-transform:uppercase;color:#1E1B2E;background:#FFC83D;box-shadow:0 6px 0 rgba(30,27,46,.25);}
+.chip.red{background:#E5484D;color:#fff;} .chip.dark{background:#1E1B2E;color:#fff;} .chip.white{background:#fff;}
+.stampx{position:absolute;padding:16px 36px;border:10px solid #E5484D;color:#E5484D;font-weight:900;font-size:84px;border-radius:18px;letter-spacing:.04em;background:rgba(255,255,255,.85);}
+.big{position:absolute;font-weight:900;text-transform:uppercase;line-height:.95;letter-spacing:-.01em;color:#1E1B2E;}
+.bubble{position:absolute;padding:16px 26px;border-radius:24px;background:#fff;font-weight:700;font-size:28px;color:#1E1B2E;box-shadow:0 6px 0 rgba(30,27,46,.15);}
+.bubble.me{background:#7950F2;color:#fff;}
+</style>
+<div id="root" data-composition-id="38-engagement" data-width="1920" data-height="1080">
+<div class="clip" id="f38-bg" data-start="0" data-duration="10.605" data-track-index="0" style="position:absolute;inset:0;overflow:hidden"><div style="position:absolute;inset:0;background:linear-gradient(180deg,#EADBC0 0%,#E2CFAE 100%)"></div><div style="position:absolute;left:0;right:0;top:820px;bottom:0;background:#B98B5E"></div><div style="position:absolute;left:120px;top:120px;width:420px;height:300px;background:#BFE3F5;border:14px solid #fff;border-radius:6px"></div></div>
+<div class="clip" id="f38-stage" data-start="0" data-duration="10.605" data-track-index="1" style="position:absolute;inset:0"><div class="cam" id="f38-cam"><div class="card" id="f38-ch" style="left:560px;top:180px;width:800px;height:560px"><svg width="800" height="560"><rect class="f38-ch-b" id="f38-ch-b0" x="50" y="368" width="160" height="132" rx="8" fill="#E5484D" style="transform-origin:130px 500px"/><rect class="f38-ch-b" id="f38-ch-b1" x="230" y="280" width="160" height="220" rx="8" fill="#E5484D" style="transform-origin:310px 500px"/><rect class="f38-ch-b" id="f38-ch-b2" x="410" y="170" width="160" height="330" rx="8" fill="#E5484D" style="transform-origin:490px 500px"/><rect class="f38-ch-b" id="f38-ch-b3" x="590" y="69" width="160" height="431" rx="8" fill="#E5484D" style="transform-origin:670px 500px"/><text x="130" y="540" text-anchor="middle" font-family="Inter" font-weight="800" font-size="22" fill="#5C5470"></text><text x="310" y="540" text-anchor="middle" font-family="Inter" font-weight="800" font-size="22" fill="#5C5470"></text><text x="490" y="540" text-anchor="middle" font-family="Inter" font-weight="800" font-size="22" fill="#5C5470"></text><text x="670" y="540" text-anchor="middle" font-family="Inter" font-weight="800" font-size="22" fill="#5C5470">HOURS USED</text></svg></div><div class="chip" id="f38-t" style="left:260px;top:220px;font-size:44px">#2: ENGAGEMENT ≠ VALUE</div><div class="chip white" id="f38-q" style="left:1400px;top:420px;font-size:40px">WHY CAN'T<br>THEY STOP?</div></div></div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+<script>
+(function(){
+const tl = gsap.timeline({ paused: true });
+
+tl.fromTo("#f38-cam",{scale:1,x:0,y:0},{scale:1.07,x:0,y:0,duration:10.61,ease:"none"},0);
+tl.fromTo("#f38-t",{scale:0.5,opacity:0},{scale:1,opacity:1,duration:0.45,ease:"back.out(2)"},0.06);
+tl.fromTo("#f38-ch",{y:40,opacity:0},{y:0,opacity:1,duration:.55,ease:"power3.out"},0.20);
+tl.fromTo(".f38-ch-b",{scaleY:0},{scaleY:1,duration:.5,stagger:0.12,ease:"back.out(1.6)"},4.25);
+tl.fromTo("#f38-q",{scale:0.5,opacity:0},{scale:1,opacity:1,duration:0.45,ease:"back.out(2)"},8.19);
+window.__timelines = window.__timelines || {};
+window.__timelines["38-engagement"] = tl;
+})();
+</script>
+</template>

@@ -1,0 +1,1538 @@
+{
+  "version": 1,
+  "historyId": "201b42bf-0677-4234-b192-e3c5961b5a11",
+  "currentRevision": "1b2dd761-c52b-43cb-89a6-0a82cfa1aeda",
+  "pendingChanges": false,
+  "files": {
+    ".media/manifest.jsonl": {
+      "hash": "91517e91833f710748b73fb068f0a5a7be47284ecce45e3d989776c429572823",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/91/91517e91833f710748b73fb068f0a5a7be47284ecce45e3d989776c429572823"
+    },
+    "AGENTS.md": {
+      "hash": "1d4f0c8ca2507b94fd7c9df709fff01416adbd51a0f922b9d6ed2f40129147d5",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/1d/1d4f0c8ca2507b94fd7c9df709fff01416adbd51a0f922b9d6ed2f40129147d5"
+    },
+    "BRIEF.md": {
+      "hash": "8b8b244c96df06937101de4d2eabd3b70226a6550293078d10472b80de9f6a05",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/8b/8b8b244c96df06937101de4d2eabd3b70226a6550293078d10472b80de9f6a05"
+    },
+    "CLAUDE.md": {
+      "hash": "1d4f0c8ca2507b94fd7c9df709fff01416adbd51a0f922b9d6ed2f40129147d5",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/1d/1d4f0c8ca2507b94fd7c9df709fff01416adbd51a0f922b9d6ed2f40129147d5"
+    },
+    "SCRIPT.md": {
+      "hash": "90627a798dca86e253b35dfb9e775a97e9dc0e2c1c19c77ec38ac87c8c66db70",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/90/90627a798dca86e253b35dfb9e775a97e9dc0e2c1c19c77ec38ac87c8c66db70"
+    },
+    "STORYBOARD.md": {
+      "hash": "e1609ead6e0d566eee3577047e22108bd8fef7585357fcb0a7bdacf586417a01",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/e1/e1609ead6e0d566eee3577047e22108bd8fef7585357fcb0a7bdacf586417a01"
+    },
+    "assets/fonts/Inter-Black.otf": {
+      "hash": "1dc81aa64047bfb4246ece435105ec85944f575744d6d850ab7a287fe6b640e7",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/1d/1dc81aa64047bfb4246ece435105ec85944f575744d6d850ab7a287fe6b640e7"
+    },
+    "assets/fonts/Inter-Bold.otf": {
+      "hash": "00fd6f4691ee8884a33b46bf45851b341927c37c30064f558e1befb242971c49",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/00/00fd6f4691ee8884a33b46bf45851b341927c37c30064f558e1befb242971c49"
+    },
+    "assets/fonts/Inter-ExtraBold.otf": {
+      "hash": "2012ceaf1470372c415f95c00495a1ad1ebdcd1cd6a6225808f011d459a9b12a",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/20/2012ceaf1470372c415f95c00495a1ad1ebdcd1cd6a6225808f011d459a9b12a"
+    },
+    "assets/fonts/Inter-Medium.otf": {
+      "hash": "1e65171fccd6f445b7742728454620ec2867356c849af78e71bf2c4f0e3d97ba",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/1e/1e65171fccd6f445b7742728454620ec2867356c849af78e71bf2c4f0e3d97ba"
+    },
+    "assets/fonts/Inter-Regular.otf": {
+      "hash": "be6d709dcb730ddaf050cbdae6fe89bd56d5d14dc66885639bbf6f06bd03521b",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/be/be6d709dcb730ddaf050cbdae6fe89bd56d5d14dc66885639bbf6f06bd03521b"
+    },
+    "assets/fonts/Inter-SemiBold.otf": {
+      "hash": "bd68706b7bf8b3c580ae57685a2116bb1704b3a9998309ccfec7cd486f8a593e",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/bd/bd68706b7bf8b3c580ae57685a2116bb1704b3a9998309ccfec7cd486f8a593e"
+    },
+    "assets/voice/01.wav": {
+      "hash": "1d3ce90641653d440429b0b2cd5cb51985c1f164784c6352fe567639085b8561",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/1d/1d3ce90641653d440429b0b2cd5cb51985c1f164784c6352fe567639085b8561"
+    },
+    "assets/voice/02.wav": {
+      "hash": "ff821143434d2b0ec204c5bac5b4cdc71b3d39ffec161d6db56b41ef01b4483b",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/ff/ff821143434d2b0ec204c5bac5b4cdc71b3d39ffec161d6db56b41ef01b4483b"
+    },
+    "assets/voice/03.wav": {
+      "hash": "063777b4fdec0e3eee55bcd7de2c9bee7d085bc97cc490c191702038a777d34f",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/06/063777b4fdec0e3eee55bcd7de2c9bee7d085bc97cc490c191702038a777d34f"
+    },
+    "assets/voice/04.wav": {
+      "hash": "a6352e762f2275d37cfd99e3599f4289f624db8995f5fb9850a77de5f39b9386",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/a6/a6352e762f2275d37cfd99e3599f4289f624db8995f5fb9850a77de5f39b9386"
+    },
+    "assets/voice/05.wav": {
+      "hash": "0ed6d9d014a0e97bd63abb96025b867e4d08eee2cfd48795a025317eef4a22e0",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/0e/0ed6d9d014a0e97bd63abb96025b867e4d08eee2cfd48795a025317eef4a22e0"
+    },
+    "assets/voice/06.wav": {
+      "hash": "aa211b9cfa9cab0ef0276c0521cdee73466c4f688047f98c11b93f9d9d0e41dd",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/aa/aa211b9cfa9cab0ef0276c0521cdee73466c4f688047f98c11b93f9d9d0e41dd"
+    },
+    "assets/voice/07.wav": {
+      "hash": "fb03c1ee349dc26d91768ee5015d38004d8bf78ea485504f36e9995da8889d04",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/fb/fb03c1ee349dc26d91768ee5015d38004d8bf78ea485504f36e9995da8889d04"
+    },
+    "assets/voice/08.wav": {
+      "hash": "45f9dee3101c3ff94fb5942eb21a67fb1798013e614a768668691641f233b8ba",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/45/45f9dee3101c3ff94fb5942eb21a67fb1798013e614a768668691641f233b8ba"
+    },
+    "assets/voice/09.wav": {
+      "hash": "b12f7988edd0b8a60d61a8bece883bcfa7dc41a37e45a090cf5f081157cab94f",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/b1/b12f7988edd0b8a60d61a8bece883bcfa7dc41a37e45a090cf5f081157cab94f"
+    },
+    "assets/voice/10.wav": {
+      "hash": "c25cc0ba05ba4d8703152af680cada3fedc2e56ad97342e7e861910aaa20f412",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/c2/c25cc0ba05ba4d8703152af680cada3fedc2e56ad97342e7e861910aaa20f412"
+    },
+    "assets/voice/11.wav": {
+      "hash": "c8c4e2e75189b287ecd8b5be4a16abd609265e0a11fed81041c59ca47112441e",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/c8/c8c4e2e75189b287ecd8b5be4a16abd609265e0a11fed81041c59ca47112441e"
+    },
+    "assets/voice/12.wav": {
+      "hash": "2656876e6ab4c352bd495f384ba85074699f58d2500f33256c97eba2d8bd2b00",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/26/2656876e6ab4c352bd495f384ba85074699f58d2500f33256c97eba2d8bd2b00"
+    },
+    "assets/voice/13.wav": {
+      "hash": "df86a16e145b450f25e5f76c78d13f47b1fd4bc40b73af40d44c3810c1cddb94",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/df/df86a16e145b450f25e5f76c78d13f47b1fd4bc40b73af40d44c3810c1cddb94"
+    },
+    "assets/voice/14.wav": {
+      "hash": "db27f7ec09f774b573f8e4bd6184a3683ae8378f221c2cef5649b86de1a8399d",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/db/db27f7ec09f774b573f8e4bd6184a3683ae8378f221c2cef5649b86de1a8399d"
+    },
+    "assets/voice/15.wav": {
+      "hash": "2d52c20b485d50624717e6276d32189638844419c1ed8003bbdcf23890ea54ea",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/2d/2d52c20b485d50624717e6276d32189638844419c1ed8003bbdcf23890ea54ea"
+    },
+    "assets/voice/16.wav": {
+      "hash": "cbb350edf7445e201f0734e08936ef379e35533a5a997f15f10e9b9bed59b3d7",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/cb/cbb350edf7445e201f0734e08936ef379e35533a5a997f15f10e9b9bed59b3d7"
+    },
+    "assets/voice/17.wav": {
+      "hash": "091ee24b9f5b80ac437fb8e00086f7c7c74f2b6cc9bcae022c3f1ce0b75f39e5",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/09/091ee24b9f5b80ac437fb8e00086f7c7c74f2b6cc9bcae022c3f1ce0b75f39e5"
+    },
+    "assets/voice/18.wav": {
+      "hash": "eb2d6a7a10517a25450b3ccac2fa01824f751d252580e4979945976886fd4065",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/eb/eb2d6a7a10517a25450b3ccac2fa01824f751d252580e4979945976886fd4065"
+    },
+    "assets/voice/19.wav": {
+      "hash": "a23ad39317744e12293108c207f5c03402757f5e5983b6ea6a6814451024d6f7",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/a2/a23ad39317744e12293108c207f5c03402757f5e5983b6ea6a6814451024d6f7"
+    },
+    "assets/voice/20.wav": {
+      "hash": "c05ae2ae4de14df142ebbed33e6a00365c8821f5de4cacf8ca38c5efb304dd1c",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/c0/c05ae2ae4de14df142ebbed33e6a00365c8821f5de4cacf8ca38c5efb304dd1c"
+    },
+    "assets/voice/21.wav": {
+      "hash": "a2f6192e8983c006db74969b3a4c8c7e84ea07cdce1e423aebec9184d8db11a4",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/a2/a2f6192e8983c006db74969b3a4c8c7e84ea07cdce1e423aebec9184d8db11a4"
+    },
+    "assets/voice/22.wav": {
+      "hash": "95780e14d3b492bdb433d8f541d793f168c5aea1ff86a1e02147c7a7c08ce6aa",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/95/95780e14d3b492bdb433d8f541d793f168c5aea1ff86a1e02147c7a7c08ce6aa"
+    },
+    "assets/voice/23.wav": {
+      "hash": "3dd0aeec7d3548d6ffb43c87229e4bcd82fedd392444577889279f6ae7ab139a",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/3d/3dd0aeec7d3548d6ffb43c87229e4bcd82fedd392444577889279f6ae7ab139a"
+    },
+    "assets/voice/24.wav": {
+      "hash": "83ad4f88b86c12311370bb22d7e84cb8abbcf39b60cf17557c133bd505fd649e",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/83/83ad4f88b86c12311370bb22d7e84cb8abbcf39b60cf17557c133bd505fd649e"
+    },
+    "assets/voice/25.wav": {
+      "hash": "86a75f895e29d915c3951e29f8508cf9980f0ecae7c343663e5e1af0b416d028",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/86/86a75f895e29d915c3951e29f8508cf9980f0ecae7c343663e5e1af0b416d028"
+    },
+    "assets/voice/26.wav": {
+      "hash": "ce1da870e79ec36ec9b49155d8f35aab24207bce91d48b4577d0a862d1cf5334",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/ce/ce1da870e79ec36ec9b49155d8f35aab24207bce91d48b4577d0a862d1cf5334"
+    },
+    "assets/voice/27.wav": {
+      "hash": "b3301abaf6349178d63f72ca02ff6170a375cb0edbb76b44d5ac5e37bcb2798f",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/b3/b3301abaf6349178d63f72ca02ff6170a375cb0edbb76b44d5ac5e37bcb2798f"
+    },
+    "assets/voice/28.wav": {
+      "hash": "768249c8720143dcfe0adc6f1a3a7570254c1cf142d4aab9963eee8c229d76ff",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/76/768249c8720143dcfe0adc6f1a3a7570254c1cf142d4aab9963eee8c229d76ff"
+    },
+    "assets/voice/29.wav": {
+      "hash": "ed49c34179e9b90c0acd92ad539077f32e92dc26032ac7facae3144626dc1ae4",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/ed/ed49c34179e9b90c0acd92ad539077f32e92dc26032ac7facae3144626dc1ae4"
+    },
+    "assets/voice/30.wav": {
+      "hash": "0e7fae1eb94e85332330001239e5dd328569f706c337ae62c01459fd0b825470",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/0e/0e7fae1eb94e85332330001239e5dd328569f706c337ae62c01459fd0b825470"
+    },
+    "assets/voice/31.wav": {
+      "hash": "d39d3c50e781e35c154035e7e023207d8637c711ab4351db4002d15c80e39aa4",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/d3/d39d3c50e781e35c154035e7e023207d8637c711ab4351db4002d15c80e39aa4"
+    },
+    "assets/voice/32.wav": {
+      "hash": "127332b19c0f0bd1975ae3196e80f78bfee516f7c96582498380aba5e39f441b",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/12/127332b19c0f0bd1975ae3196e80f78bfee516f7c96582498380aba5e39f441b"
+    },
+    "assets/voice/33.wav": {
+      "hash": "61e62d96e571f909876a150dac0ff67357fd9199925f21301dae49cf040609a0",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/61/61e62d96e571f909876a150dac0ff67357fd9199925f21301dae49cf040609a0"
+    },
+    "assets/voice/34.wav": {
+      "hash": "29c3ed0aaf0ac9c540950449d5f2634bb41c873330f33adbd02eacf9cc04f2e2",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/29/29c3ed0aaf0ac9c540950449d5f2634bb41c873330f33adbd02eacf9cc04f2e2"
+    },
+    "assets/voice/35.wav": {
+      "hash": "076a304b62276b5c5f5c774ec93868f65744b365ddc55cd2343fc088914846cb",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/07/076a304b62276b5c5f5c774ec93868f65744b365ddc55cd2343fc088914846cb"
+    },
+    "assets/voice/36.wav": {
+      "hash": "7a471d27d0f999a7633e385246eecfd72dd75f5c17603546b675684d2e335583",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/7a/7a471d27d0f999a7633e385246eecfd72dd75f5c17603546b675684d2e335583"
+    },
+    "assets/voice/37.wav": {
+      "hash": "b665a169ab35c6578b2f51c111f210dbb33f005f612970584110594fe2bc6a73",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/b6/b665a169ab35c6578b2f51c111f210dbb33f005f612970584110594fe2bc6a73"
+    },
+    "assets/voice/38.wav": {
+      "hash": "f21b63e502ea1aef9d01d429f04d5dbc2468e3a28e91d846c7ca8790fe18b9b4",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/f2/f21b63e502ea1aef9d01d429f04d5dbc2468e3a28e91d846c7ca8790fe18b9b4"
+    },
+    "assets/voice/39.wav": {
+      "hash": "1cb5190f53b644bbc11becaf2c43537965c267f09bb4e7b06e088a4678595314",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/1c/1cb5190f53b644bbc11becaf2c43537965c267f09bb4e7b06e088a4678595314"
+    },
+    "assets/voice/40.wav": {
+      "hash": "a41bebf260ad4bcc2e26b89c4ef2a3772467dc329c40b4c2b622fa60391dca96",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/a4/a41bebf260ad4bcc2e26b89c4ef2a3772467dc329c40b4c2b622fa60391dca96"
+    },
+    "assets/voice/41.wav": {
+      "hash": "8cda91f9b38473d8195fa1abd15744db55410a18cba0183a7980ae7ad988d826",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/8c/8cda91f9b38473d8195fa1abd15744db55410a18cba0183a7980ae7ad988d826"
+    },
+    "assets/voice/42.wav": {
+      "hash": "0977a315783f4a35131015532e5e7dc6b0d001274f5ff37c4334de23ee58817b",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/09/0977a315783f4a35131015532e5e7dc6b0d001274f5ff37c4334de23ee58817b"
+    },
+    "audio_engine_meta.json": {
+      "hash": "e2dd04438b81b527fb6c248e947bc4b4bbaeb46453f59556663ad90fa9681d8f",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/e2/e2dd04438b81b527fb6c248e947bc4b4bbaeb46453f59556663ad90fa9681d8f"
+    },
+    "audio_meta.json": {
+      "hash": "b9fda2c8c807dfe8f1e8998fc442ecf843ed8a5a28e4b58f671e1122605bda5a",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/b9/b9fda2c8c807dfe8f1e8998fc442ecf843ed8a5a28e4b58f671e1122605bda5a"
+    },
+    "audio_request.json": {
+      "hash": "161347801a7b29facdc864d3ce481b8744953540ef5256c008cf072c802ad3e6",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/16/161347801a7b29facdc864d3ce481b8744953540ef5256c008cf072c802ad3e6"
+    },
+    "caption-overrides.json": {
+      "hash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/37/37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    "caption_groups.json": {
+      "hash": "b61ade97fb0f001d263d33bacd94175bc870ae85f62b1354631e956564c8bed9",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/b6/b61ade97fb0f001d263d33bacd94175bc870ae85f62b1354631e956564c8bed9"
+    },
+    "capture/extracted/tokens.json": {
+      "hash": "15913ead897a1daab807601c1115fb728a8bf4c552d030e095f28579ceeec29d",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/15/15913ead897a1daab807601c1115fb728a8bf4c552d030e095f28579ceeec29d"
+    },
+    "capture/extracted/visible-text.txt": {
+      "hash": "b35f1283581a40b81e376f3132a04848d4823660d43f7c00c08fcf8a2a28a7d1",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/b3/b35f1283581a40b81e376f3132a04848d4823660d43f7c00c08fcf8a2a28a7d1"
+    },
+    "compositions/captions.html": {
+      "hash": "d01a8e5b0cafd01ef2acb9668ac9d6cb05d13e0e3daa606fadc1fdc778835062",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/d0/d01a8e5b0cafd01ef2acb9668ac9d6cb05d13e0e3daa606fadc1fdc778835062"
+    },
+    "compositions/frames/01-cold-open.html": {
+      "hash": "0d170dda255b4c82a84d9defc50556b86b4ee175fefb379c181b50bf7cf31f19",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/0d/0d170dda255b4c82a84d9defc50556b86b4ee175fefb379c181b50bf7cf31f19"
+    },
+    "compositions/frames/02-any-character.html": {
+      "hash": "1afd98455d99e80ffb838954be2f53370bb960ee3953f9fac6d4854fcd3029f7",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/1a/1afd98455d99e80ffb838954be2f53370bb960ee3953f9fac6d4854fcd3029f7"
+    },
+    "compositions/frames/03-bankrupt.html": {
+      "hash": "bacf0ee8ffae758ebc500a5fe262a35fac77c378d44a3f81a17f717cc62e6d14",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/ba/bacf0ee8ffae758ebc500a5fe262a35fac77c378d44a3f81a17f717cc62e6d14"
+    },
+    "compositions/frames/04-the-question.html": {
+      "hash": "e9cd94e8635775ee51585eed3eb9babbdb092d1d74c6d34bf2a31ccdbcd2ba23",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/e9/e9cd94e8635775ee51585eed3eb9babbdb092d1d74c6d34bf2a31ccdbcd2ba23"
+    },
+    "compositions/frames/05-shazeer.html": {
+      "hash": "0d56410b7fec1783db1275d839cad6d57bda32be24b792c85cef2864412d7e4b",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/0d/0d56410b7fec1783db1275d839cad6d57bda32be24b792c85cef2864412d7e4b"
+    },
+    "compositions/frames/06-lamda.html": {
+      "hash": "77aec4216628837d662374f0dabba1e14e0ded99fbf7d20250fc8aa76710595c",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/77/77aec4216628837d662374f0dabba1e14e0ded99fbf7d20250fc8aa76710595c"
+    },
+    "compositions/frames/07-careful-google.html": {
+      "hash": "364111cd5b8d8b6d0c1f8a5a99bc8d984230e1668855104a5158ed6510fbedf3",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/36/364111cd5b8d8b6d0c1f8a5a99bc8d984230e1668855104a5158ed6510fbedf3"
+    },
+    "compositions/frames/08-they-left.html": {
+      "hash": "5c84305f1076aacb463e2f0a3507542611f63c89d45f427222f2de021ffa6a83",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/5c/5c84305f1076aacb463e2f0a3507542611f63c89d45f427222f2de021ffa6a83"
+    },
+    "compositions/frames/09-launch-2022.html": {
+      "hash": "ae30fc127fe4d47108c0bbd70b6249ea944fb92ab4f78f976e3889255e3648b6",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/ae/ae30fc127fe4d47108c0bbd70b6249ea944fb92ab4f78f976e3889255e3648b6"
+    },
+    "compositions/frames/10-create-character.html": {
+      "hash": "7f867a29084348d1431e68ebc249fb200e2e2accd849e599f47d2356f9acc7ed",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/7f/7f867a29084348d1431e68ebc249fb200e2e2accd849e599f47d2356f9acc7ed"
+    },
+    "compositions/frames/11-billion-valuation.html": {
+      "hash": "f6f9ad04b4088770a283a8c529d21a437d7abfcfe28b8863e7a8e77991bc6dc6",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/f6/f6f9ad04b4088770a283a8c529d21a437d7abfcfe28b8863e7a8e77991bc6dc6"
+    },
+    "compositions/frames/12-tool-vs-friend.html": {
+      "hash": "b2404920612e6ffc44824007aa891fb54a4ee0e46a395c26ca995afcef817e5c",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/b2/b2404920612e6ffc44824007aa891fb54a4ee0e46a395c26ca995afcef817e5c"
+    },
+    "compositions/frames/13-hooked.html": {
+      "hash": "4a44143f200b29de615d88d17e5b02f1c7626a54d020979c3d8732da480e9e10",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/4a/4a44143f200b29de615d88d17e5b02f1c7626a54d020979c3d8732da480e9e10"
+    },
+    "compositions/frames/14-always-there.html": {
+      "hash": "e87ffa88792a6ff1f1d4a8b8fb8112597006cdf458b1f026cc48772a3a1ab3d2",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/e8/e87ffa88792a6ff1f1d4a8b8fb8112597006cdf458b1f026cc48772a3a1ab3d2"
+    },
+    "compositions/frames/15-investor-dream.html": {
+      "hash": "d81b21441363fcb50c59f2eedd09b686662ff8d78aa42d9faaa0cdd3f5a36847",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/d8/d81b21441363fcb50c59f2eedd09b686662ff8d78aa42d9faaa0cdd3f5a36847"
+    },
+    "compositions/frames/16-the-seed.html": {
+      "hash": "7adb52ed18d05b9fd7741ecde368cd432287e5103a484130faed543b13db9359",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/7a/7adb52ed18d05b9fd7741ecde368cd432287e5103a484130faed543b13db9359"
+    },
+    "compositions/frames/17-compute-bill.html": {
+      "hash": "62fb9725bc1d71af6fdbe2a109de28640c86b306369af4e335b834e575ffc303",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/62/62fb9725bc1d71af6fdbe2a109de28640c86b306369af4e335b834e575ffc303"
+    },
+    "compositions/frames/18-free-users.html": {
+      "hash": "3864eed58375da9deef167f6de3fb43ec1dabf6d24b7c1ee1febdebc7e154a52",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/38/3864eed58375da9deef167f6de3fb43ec1dabf6d24b7c1ee1febdebc7e154a52"
+    },
+    "compositions/frames/19-google-deal.html": {
+      "hash": "ac9773de0b8aff389305f7c037f3c1152cb1a5d65124c9f2a15851fab5a92443",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/ac/ac9773de0b8aff389305f7c037f3c1152cb1a5d65124c9f2a15851fab5a92443"
+    },
+    "compositions/frames/20-reverse-acquihire.html": {
+      "hash": "429ddb31585d2a3a06b0c1d29c2f3100eb29edcc2266928d8fb30f1da095ebf1",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/42/429ddb31585d2a3a06b0c1d29c2f3100eb29edcc2266928d8fb30f1da095ebf1"
+    },
+    "compositions/frames/21-giants.html": {
+      "hash": "4b8bfd1f5921503085249ffb29928bfd633679cf7276edd0c7985fcd50e88078",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/4b/4b8bfd1f5921503085249ffb29928bfd633679cf7276edd0c7985fcd50e88078"
+    },
+    "compositions/frames/22-treadmill.html": {
+      "hash": "77ecd243a9d1644307d836b25061c959e550bcda464b4a372e7b76abd1ca819f",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/77/77ecd243a9d1644307d836b25061c959e550bcda464b4a372e7b76abd1ca819f"
+    },
+    "compositions/frames/23-plan-b.html": {
+      "hash": "b27b13d2ab5942d2831f95afd3444a79bd92e0d3738d048b551ddd05a8f4edeb",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/b2/b27b13d2ab5942d2831f95afd3444a79bd92e0d3738d048b551ddd05a8f4edeb"
+    },
+    "compositions/frames/24-not-money.html": {
+      "hash": "aa81944b66664c9d61cf69625274b0b174f6e4eda14b8f72d7f11b0e47c645f9",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/aa/aa81944b66664c9d61cf69625274b0b174f6e4eda14b8f72d7f11b0e47c645f9"
+    },
+    "compositions/frames/25-dark-turn.html": {
+      "hash": "6fd29d6883937f2f76ee19e611d6760a2935684a25a60dbccfdcda1263a006c7",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/6f/6fd29d6883937f2f76ee19e611d6760a2935684a25a60dbccfdcda1263a006c7"
+    },
+    "compositions/frames/26-first-lawsuit.html": {
+      "hash": "56add1788ac3e8864ca8cacaa25a13782f2a6603f2a4e431e71de2629fb1c4f5",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/56/56add1788ac3e8864ca8cacaa25a13782f2a6603f2a4e431e71de2629fb1c4f5"
+    },
+    "compositions/frames/27-more-lawsuits.html": {
+      "hash": "29661ab95e3f3df1677a8352fb5fbdf52d6d40fac6d8bb390ecf24b187b7fdd7",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/29/29661ab95e3f3df1677a8352fb5fbdf52d6d40fac6d8bb390ecf24b187b7fdd7"
+    },
+    "compositions/frames/28-safety-changes.html": {
+      "hash": "1cdf8e6172be1d4f026fd5f93405c2c6cb2dcb3e9fdf7fae0501520b4d21814f",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/1c/1cdf8e6172be1d4f026fd5f93405c2c6cb2dcb3e9fdf7fae0501520b4d21814f"
+    },
+    "compositions/frames/29-regulators.html": {
+      "hash": "f5b1b96ee20ca6c17d29910b6038c9c43e159f8907ac8b86cdee94efa4af195a",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/f5/f5b1b96ee20ca6c17d29910b6038c9c43e159f8907ac8b86cdee94efa4af195a"
+    },
+    "compositions/frames/30-parents.html": {
+      "hash": "45e371fe7a437cdba28d56e7d2c3fdfdbb2c970749c5783070907ceff8f2840c",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/45/45e371fe7a437cdba28d56e7d2c3fdfdbb2c970749c5783070907ceff8f2840c"
+    },
+    "compositions/frames/31-chapter-11.html": {
+      "hash": "269d780edc7f40b2f960ef59628124f7026a3a39102ef4ffb6ae383815195550",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/26/269d780edc7f40b2f960ef59628124f7026a3a39102ef4ffb6ae383815195550"
+    },
+    "compositions/frames/32-assets.html": {
+      "hash": "227768997c7f29a7c24fd25f49b59655e75284b2f2f8a2c8bf1fe4149bd41a66",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/22/227768997c7f29a7c24fd25f49b59655e75284b2f2f8a2c8bf1fe4149bd41a66"
+    },
+    "compositions/frames/33-runway.html": {
+      "hash": "868b16654ebf70278974f2381b9706e3f09f9829f31af63f5314711539e7325f",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/86/868b16654ebf70278974f2381b9706e3f09f9829f31af63f5314711539e7325f"
+    },
+    "compositions/frames/34-for-sale.html": {
+      "hash": "239ad8f4f456f37381fe8aa4eada6b94af303dbd20be86ccb202d2260844d899",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/23/239ad8f4f456f37381fe8aa4eada6b94af303dbd20be86ccb202d2260844d899"
+    },
+    "compositions/frames/35-your-chats.html": {
+      "hash": "09e1562e2a4297c8b516ee0ff05b5a590075b739f0432574b2dc830243f5e785",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/09/09e1562e2a4297c8b516ee0ff05b5a590075b739f0432574b2dc830243f5e785"
+    },
+    "compositions/frames/36-lesson.html": {
+      "hash": "3d89eccd00ebe69b60d19b5a2b51a62ebf012618a07376453ff742e25f82e4ef",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/3d/3d89eccd00ebe69b60d19b5a2b51a62ebf012618a07376453ff742e25f82e4ef"
+    },
+    "compositions/frames/37-people-moat.html": {
+      "hash": "1c0fc939c6d20974c79766a22b23639b2475f94f182f086f37c0ed67af83e729",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/1c/1c0fc939c6d20974c79766a22b23639b2475f94f182f086f37c0ed67af83e729"
+    },
+    "compositions/frames/38-engagement.html": {
+      "hash": "d75954557b87b15975fdab439e3603d157bcdf0ef105f2fcc98fb8870bf6e863",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/d7/d75954557b87b15975fdab439e3603d157bcdf0ef105f2fcc98fb8870bf6e863"
+    },
+    "compositions/frames/39-safety-business.html": {
+      "hash": "729f52959df65efc92009161cdeca731902410f44dd7431d634451797a628fa0",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/72/729f52959df65efc92009161cdeca731902410f44dd7431d634451797a628fa0"
+    },
+    "compositions/frames/40-companions.html": {
+      "hash": "c2b02b968061ede33b448e5c215df2842b4259c06efecc467e35fb29e203749c",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/c2/c2b02b968061ede33b448e5c215df2842b4259c06efecc467e35fb29e203749c"
+    },
+    "compositions/frames/41-final-cursor.html": {
+      "hash": "bc5f02b0f2e2ba84205b673a7ad8b6e974ae0f7879826ac38fd6b6dd643959b5",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/bc/bc5f02b0f2e2ba84205b673a7ad8b6e974ae0f7879826ac38fd6b6dd643959b5"
+    },
+    "compositions/frames/42-cta.html": {
+      "hash": "f0b7ae8c92bfcf74ea1926cbea88d6166f26485a47874a036dda9e44730b722d",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/f0/f0b7ae8c92bfcf74ea1926cbea88d6166f26485a47874a036dda9e44730b722d"
+    },
+    "frame.md": {
+      "hash": "06c34c68d0fbfed57823fc11ab9f31b9e01f8f1342f1f1c22585c81437c427b6",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/06/06c34c68d0fbfed57823fc11ab9f31b9e01f8f1342f1f1c22585c81437c427b6"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/93/9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "b1adcd8f303a77d28709dfca9b4337eafab807265e8e5dbd25453f50b106b341",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/b1/b1adcd8f303a77d28709dfca9b4337eafab807265e8e5dbd25453f50b106b341"
+    },
+    "meta.json": {
+      "hash": "35e7b6df93b1f8f560070e3221799c46a595167b541f00ae147b9da521fcc356",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/35/35e7b6df93b1f8f560070e3221799c46a595167b541f00ae147b9da521fcc356"
+    },
+    "package.json": {
+      "hash": "4f86843464028644789c7a399edc287aa1c4bc4540db407d575438ce61c69f1b",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/4f/4f86843464028644789c7a399edc287aa1c4bc4540db407d575438ce61c69f1b"
+    },
+    "voice.log": {
+      "hash": "b2686d9c326a2b5aab639672080c560cf54e38c065fced4d72da408ffe6c27c7",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/b2/b2686d9c326a2b5aab639672080c560cf54e38c065fced4d72da408ffe6c27c7"
+    },
+    "render.log": {
+      "hash": "3c6e1232566770c52d5a4a9a190add262e512013a8d68e7f670fa638be2305e1",
+      "content": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/3c/3c6e1232566770c52d5a4a9a190add262e512013a8d68e7f670fa638be2305e1"
+    }
+  },
+  "revisions": {
+    "1b2dd761-c52b-43cb-89a6-0a82cfa1aeda": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1792361625361,
+      "endedAt": 1792361625428,
+      "files": {
+        "compositions/frames/01-cold-open.html": {
+          "before": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/45/455e2fa2854b09444ddac56cc58198e55a10857ce33b1a5309780bfe7b08ead0",
+          "after": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/0d/0d170dda255b4c82a84d9defc50556b86b4ee175fefb379c181b50bf7cf31f19"
+        },
+        "compositions/frames/02-any-character.html": {
+          "before": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/bb/bb97736bb0d817aa36cdd215c58d3b0b3b1f4dff2e2ff1827b7fedc273d8f185",
+          "after": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/1a/1afd98455d99e80ffb838954be2f53370bb960ee3953f9fac6d4854fcd3029f7"
+        },
+        "compositions/frames/03-bankrupt.html": {
+          "before": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/7b/7ba921820301623f8687885fbef36091de5e5eeb784a5d824a3973ebe92a2981",
+          "after": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/ba/bacf0ee8ffae758ebc500a5fe262a35fac77c378d44a3f81a17f717cc62e6d14"
+        },
+        "compositions/frames/04-the-question.html": {
+          "before": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/6d/6d8d7679f86226d8e380f9316baa86b5afcd378aebd0b489d5d28b04ed8ef4a4",
+          "after": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/e9/e9cd94e8635775ee51585eed3eb9babbdb092d1d74c6d34bf2a31ccdbcd2ba23"
+        },
+        "compositions/frames/05-shazeer.html": {
+          "before": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/4b/4b6848356fbf04aa0fcf1911119b191e4efff19786b13087b02645a1bd7610b2",
+          "after": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/0d/0d56410b7fec1783db1275d839cad6d57bda32be24b792c85cef2864412d7e4b"
+        },
+        "compositions/frames/06-lamda.html": {
+          "before": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/1e/1e61df4df1030bc9199222e2251abafaff8ca899e9519e3e01ce45d5b650deb6",
+          "after": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/77/77aec4216628837d662374f0dabba1e14e0ded99fbf7d20250fc8aa76710595c"
+        },
+        "compositions/frames/07-careful-google.html": {
+          "before": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/6c/6cc862c418b47429985bbfd3b063ad2fbcb0ad44072b8be6f25746753629d3de",
+          "after": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/36/364111cd5b8d8b6d0c1f8a5a99bc8d984230e1668855104a5158ed6510fbedf3"
+        },
+        "compositions/frames/08-they-left.html": {
+          "before": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/66/669881e5983c974c6d783965711feaff8fbe0fc6542d5811f082dcb4178180de",
+          "after": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/5c/5c84305f1076aacb463e2f0a3507542611f63c89d45f427222f2de021ffa6a83"
+        },
+        "compositions/frames/09-launch-2022.html": {
+          "before": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/42/428c4ce670e6b05d95cfcbe422e0b9de3182a1a292ecc92af8eaee71588628d2",
+          "after": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/ae/ae30fc127fe4d47108c0bbd70b6249ea944fb92ab4f78f976e3889255e3648b6"
+        },
+        "compositions/frames/10-create-character.html": {
+          "before": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/b0/b0a595c7575da87526a029a7a6d6e6ed17b5acd6ccd47c1bae040d4916d7c033",
+          "after": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/7f/7f867a29084348d1431e68ebc249fb200e2e2accd849e599f47d2356f9acc7ed"
+        },
+        "compositions/frames/11-billion-valuation.html": {
+          "before": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/a1/a1c56bbb1009195cbc894ed2f418eb71187365c7a1884b2c452a1fa9ee4a5bea",
+          "after": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/f6/f6f9ad04b4088770a283a8c529d21a437d7abfcfe28b8863e7a8e77991bc6dc6"
+        },
+        "compositions/frames/12-tool-vs-friend.html": {
+          "before": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/cf/cf8b1da5e09785c8b8419880cf2c4db272d9a07e645fd89718df9eda42556aa6",
+          "after": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/b2/b2404920612e6ffc44824007aa891fb54a4ee0e46a395c26ca995afcef817e5c"
+        },
+        "compositions/frames/13-hooked.html": {
+          "before": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/d5/d55f8b0b66f2a6c92c012b79ce7de2de67799a24e5ae25da8e0b003b7e529e63",
+          "after": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/4a/4a44143f200b29de615d88d17e5b02f1c7626a54d020979c3d8732da480e9e10"
+        },
+        "compositions/frames/14-always-there.html": {
+          "before": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/23/231a4e409f00837cc5e3daed5d678a4f7f6bb1ad513b91a52ed722e05c0bf037",
+          "after": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/e8/e87ffa88792a6ff1f1d4a8b8fb8112597006cdf458b1f026cc48772a3a1ab3d2"
+        },
+        "compositions/frames/15-investor-dream.html": {
+          "before": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/c6/c6300ec16c12b6d92062f163b35db1d7827031300b544e1e5a02a4b334c772d0",
+          "after": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/d8/d81b21441363fcb50c59f2eedd09b686662ff8d78aa42d9faaa0cdd3f5a36847"
+        },
+        "compositions/frames/16-the-seed.html": {
+          "before": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/17/17c38b2318f6f9a50d64d68ec1100bb791a4916bdc66a9684355034fd00ffd5f",
+          "after": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/7a/7adb52ed18d05b9fd7741ecde368cd432287e5103a484130faed543b13db9359"
+        },
+        "compositions/frames/17-compute-bill.html": {
+          "before": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/0e/0e581f92cd6e78cd9978d96b3965e6edbd3739f25197ccc45417c796a59eb644",
+          "after": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/62/62fb9725bc1d71af6fdbe2a109de28640c86b306369af4e335b834e575ffc303"
+        },
+        "compositions/frames/18-free-users.html": {
+          "before": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/65/65a27fce644f82e82cc5db6d3a402f1d57f42a445a5ca2800ba9eaf81d20a2df",
+          "after": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/38/3864eed58375da9deef167f6de3fb43ec1dabf6d24b7c1ee1febdebc7e154a52"
+        },
+        "compositions/frames/19-google-deal.html": {
+          "before": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/b1/b14e195d17a88669fa4e39e689249b10743f7e894b09887981eb9224325e0c64",
+          "after": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/ac/ac9773de0b8aff389305f7c037f3c1152cb1a5d65124c9f2a15851fab5a92443"
+        },
+        "compositions/frames/20-reverse-acquihire.html": {
+          "before": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/42/425b51f1c7c2af5c4e3f1a63e369165c499de31011aeae4ed340ef7c517701fc",
+          "after": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/42/429ddb31585d2a3a06b0c1d29c2f3100eb29edcc2266928d8fb30f1da095ebf1"
+        },
+        "compositions/frames/21-giants.html": {
+          "before": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/f5/f58c6e633f1aaea6db4d46f92d7936ee7f4c1278fe1371cd9ee11c1ee5d154b1",
+          "after": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/4b/4b8bfd1f5921503085249ffb29928bfd633679cf7276edd0c7985fcd50e88078"
+        },
+        "compositions/frames/22-treadmill.html": {
+          "before": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/53/536e25c128e82ee81c58c89b187c7cc15510bb831f2313dccbd2d032947761c0",
+          "after": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/77/77ecd243a9d1644307d836b25061c959e550bcda464b4a372e7b76abd1ca819f"
+        },
+        "compositions/frames/23-plan-b.html": {
+          "before": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/16/16e1132a52faba40e4ce0df91b5b3274eb3ca49dbca38074517aaf14c08bd177",
+          "after": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/b2/b27b13d2ab5942d2831f95afd3444a79bd92e0d3738d048b551ddd05a8f4edeb"
+        },
+        "compositions/frames/24-not-money.html": {
+          "before": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/fa/fa249b1578b2d8dff9da7184fb55333d34a70f6c5bd07e08e49c59a7f0ca925a",
+          "after": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/aa/aa81944b66664c9d61cf69625274b0b174f6e4eda14b8f72d7f11b0e47c645f9"
+        },
+        "compositions/frames/25-dark-turn.html": {
+          "before": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/bf/bfb1f5ceed4f991578d95df6044f9f35f0c412d250f14a36020e6ed26dbf6f60",
+          "after": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/6f/6fd29d6883937f2f76ee19e611d6760a2935684a25a60dbccfdcda1263a006c7"
+        },
+        "compositions/frames/26-first-lawsuit.html": {
+          "before": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/fc/fc70bf5edc137b1d06a0376f2cd4efd5aa2f19154844f4cc8aa5d05be337dcc0",
+          "after": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/56/56add1788ac3e8864ca8cacaa25a13782f2a6603f2a4e431e71de2629fb1c4f5"
+        },
+        "compositions/frames/27-more-lawsuits.html": {
+          "before": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/f8/f8d54cfbe2962b387b1a23002e6a77dae2f00f9d0726346b14f0f306f9abc58c",
+          "after": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/29/29661ab95e3f3df1677a8352fb5fbdf52d6d40fac6d8bb390ecf24b187b7fdd7"
+        },
+        "compositions/frames/28-safety-changes.html": {
+          "before": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/b0/b0c92215dbbab9183ffea745e11ae8503dd16dcd0f7cb29e1b53e58680bda8e0",
+          "after": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/1c/1cdf8e6172be1d4f026fd5f93405c2c6cb2dcb3e9fdf7fae0501520b4d21814f"
+        },
+        "compositions/frames/29-regulators.html": {
+          "before": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/a8/a83f85cb7810d07d2c48e257c12975983a8bbc02448c069383576461cf714c46",
+          "after": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/f5/f5b1b96ee20ca6c17d29910b6038c9c43e159f8907ac8b86cdee94efa4af195a"
+        },
+        "compositions/frames/30-parents.html": {
+          "before": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/b3/b3c4182637ad253b752ba6fff95a0651345c7c604963390aaa6c4041467f9957",
+          "after": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/45/45e371fe7a437cdba28d56e7d2c3fdfdbb2c970749c5783070907ceff8f2840c"
+        },
+        "compositions/frames/31-chapter-11.html": {
+          "before": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/6f/6f2c029c7548869abb0dbb7847e6f960efcc8c419e8bb58405b05763ca92bde2",
+          "after": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/26/269d780edc7f40b2f960ef59628124f7026a3a39102ef4ffb6ae383815195550"
+        },
+        "compositions/frames/32-assets.html": {
+          "before": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/dc/dc391471e7121218f2ae165799b3133cda8af3ad3f9223725a839b0e3cc749bc",
+          "after": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/22/227768997c7f29a7c24fd25f49b59655e75284b2f2f8a2c8bf1fe4149bd41a66"
+        },
+        "compositions/frames/33-runway.html": {
+          "before": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/e1/e1fe4d0c5629a0cc2cd74dd881663101a110fe6ad36dc89e11ccac71daee1861",
+          "after": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/86/868b16654ebf70278974f2381b9706e3f09f9829f31af63f5314711539e7325f"
+        },
+        "compositions/frames/34-for-sale.html": {
+          "before": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/de/deb7f060f850a528f7e29f4e88756275b1413627c21b43d98ab75141917440b4",
+          "after": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/23/239ad8f4f456f37381fe8aa4eada6b94af303dbd20be86ccb202d2260844d899"
+        },
+        "compositions/frames/35-your-chats.html": {
+          "before": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/04/046dfcc7f6f567bfb33930dda05b632778457283050481fc9a77de3e048c85a7",
+          "after": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/09/09e1562e2a4297c8b516ee0ff05b5a590075b739f0432574b2dc830243f5e785"
+        },
+        "compositions/frames/36-lesson.html": {
+          "before": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/01/01d7283150fe3d527446c88dcb56cd2d4b21cac7868e21b60f815d4725597776",
+          "after": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/3d/3d89eccd00ebe69b60d19b5a2b51a62ebf012618a07376453ff742e25f82e4ef"
+        },
+        "compositions/frames/37-people-moat.html": {
+          "before": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/44/44019e0faa435e5b5d613b611f05611b598131019a96067e5cb4f5f4b0d1d696",
+          "after": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/1c/1c0fc939c6d20974c79766a22b23639b2475f94f182f086f37c0ed67af83e729"
+        },
+        "compositions/frames/38-engagement.html": {
+          "before": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/6f/6fffe586c028fb05db15e195b645c5c05fdce4c09bff0490119b8d30e26d75d3",
+          "after": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/d7/d75954557b87b15975fdab439e3603d157bcdf0ef105f2fcc98fb8870bf6e863"
+        },
+        "compositions/frames/39-safety-business.html": {
+          "before": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/e2/e24406fbcb9d644f5f5fef81c66ae5c0ff28312ac2514db0457fa819e22df88b",
+          "after": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/72/729f52959df65efc92009161cdeca731902410f44dd7431d634451797a628fa0"
+        },
+        "compositions/frames/40-companions.html": {
+          "before": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/f5/f5d2bef8d12d910649014d40c35c35d5a070c3216536eb66cb07f8be6d8863a0",
+          "after": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/c2/c2b02b968061ede33b448e5c215df2842b4259c06efecc467e35fb29e203749c"
+        },
+        "compositions/frames/41-final-cursor.html": {
+          "before": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/69/698d05e78e523c5d1c2180e7c539e7b636d8686378e6df8bf11738e994b23550",
+          "after": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/bc/bc5f02b0f2e2ba84205b673a7ad8b6e974ae0f7879826ac38fd6b6dd643959b5"
+        },
+        "render.log": {
+          "before": null,
+          "after": "/root/.cache/hyperframes/history/201b42bf-0677-4234-b192-e3c5961b5a11/blobs/3c/3c6e1232566770c52d5a4a9a190add262e512013a8d68e7f670fa638be2305e1"
+        }
+      }
+    }
+  },
+  "checks": {
+    "latest": {
+      "revision": null,
+      "id": "60efecee-270d-46fb-9e87-18718f59823b"
+    },
+    "revisions": {},
+    "unversioned": [
+      {
+        "id": "60efecee-270d-46fb-9e87-18718f59823b",
+        "scope": "project",
+        "report": "/home/user/-/videos/rise-ruin-character-ai/.hyperframes/artifacts/checks/60efecee-270d-46fb-9e87-18718f59823b.json",
+        "metadata": {
+          "ok": true,
+          "browserSkipped": false,
+          "options": {
+            "samples": 9,
+            "atTransitions": false,
+            "maxIssues": 80,
+            "collapseStatic": true,
+            "tolerance": 2,
+            "timeout": 3000,
+            "contrast": true,
+            "strict": false,
+            "snapshots": false,
+            "browserGpuMode": "auto"
+          }
+        },
+        "createdAt": 1792361549563,
+        "contentHash": "90b0b3191ddb43408d3a3d4903ab42f92c6899778c54d3c7b880679228e0ca68",
+        "revision": null,
+        "inputFingerprint": "cf5adfc6e12d2eab0879224a43ae6554c67ec8a99e499ae24b992a38dde74457",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      }
+    ]
+  },
+  "snapshots": {
+    "latest": {
+      "revision": null,
+      "id": "5bc65f2c-126a-47cc-9983-bca4e11f7b42-42"
+    },
+    "revisions": {},
+    "unversioned": [
+      {
+        "scope": "full",
+        "id": "5bc65f2c-126a-47cc-9983-bca4e11f7b42-0",
+        "image": "/home/user/-/videos/rise-ruin-character-ai/.hyperframes/artifacts/snapshots/f82b74ff-ba3a-4d2a-baa4-0e73136c9ab4/frame-00-at-8.64s.png",
+        "time": 8.64,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1792361571575,
+        "contentHash": "4c16fa7f265e8f9cba529c84ec2105124d5a2ca1c515552cafdd67be465f56ad",
+        "revision": null,
+        "inputFingerprint": "cf5adfc6e12d2eab0879224a43ae6554c67ec8a99e499ae24b992a38dde74457",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "5bc65f2c-126a-47cc-9983-bca4e11f7b42-1",
+        "image": "/home/user/-/videos/rise-ruin-character-ai/.hyperframes/artifacts/snapshots/f82b74ff-ba3a-4d2a-baa4-0e73136c9ab4/frame-01-at-20.25s.png",
+        "time": 20.25,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1792361571575,
+        "contentHash": "8371cb27595d4a7bba9d8cc508363ce0c7d0151fd9e939c52c3940a2a006d7e0",
+        "revision": null,
+        "inputFingerprint": "cf5adfc6e12d2eab0879224a43ae6554c67ec8a99e499ae24b992a38dde74457",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "5bc65f2c-126a-47cc-9983-bca4e11f7b42-2",
+        "image": "/home/user/-/videos/rise-ruin-character-ai/.hyperframes/artifacts/snapshots/f82b74ff-ba3a-4d2a-baa4-0e73136c9ab4/frame-02-at-27.46s.png",
+        "time": 27.46,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1792361571575,
+        "contentHash": "849e9ad05d28353961afdb8e3be201bcd40d63cbb8c73b77b89b0148eb2e05ff",
+        "revision": null,
+        "inputFingerprint": "cf5adfc6e12d2eab0879224a43ae6554c67ec8a99e499ae24b992a38dde74457",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "5bc65f2c-126a-47cc-9983-bca4e11f7b42-3",
+        "image": "/home/user/-/videos/rise-ruin-character-ai/.hyperframes/artifacts/snapshots/f82b74ff-ba3a-4d2a-baa4-0e73136c9ab4/frame-03-at-38.81s.png",
+        "time": 38.81,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1792361571575,
+        "contentHash": "1b0aaccd807d324a256c745e40fd26e1f8fda890b9798c28a357c0c94c951bca",
+        "revision": null,
+        "inputFingerprint": "cf5adfc6e12d2eab0879224a43ae6554c67ec8a99e499ae24b992a38dde74457",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "5bc65f2c-126a-47cc-9983-bca4e11f7b42-4",
+        "image": "/home/user/-/videos/rise-ruin-character-ai/.hyperframes/artifacts/snapshots/f82b74ff-ba3a-4d2a-baa4-0e73136c9ab4/frame-04-at-58.6s.png",
+        "time": 58.6,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1792361571575,
+        "contentHash": "c1360428f7aeee481ba6c258b112df2ad8a4e5991f2efe28c0a221515de75d6d",
+        "revision": null,
+        "inputFingerprint": "cf5adfc6e12d2eab0879224a43ae6554c67ec8a99e499ae24b992a38dde74457",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "5bc65f2c-126a-47cc-9983-bca4e11f7b42-5",
+        "image": "/home/user/-/videos/rise-ruin-character-ai/.hyperframes/artifacts/snapshots/f82b74ff-ba3a-4d2a-baa4-0e73136c9ab4/frame-05-at-79.69s.png",
+        "time": 79.69,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1792361571576,
+        "contentHash": "0f19ecb5d981eac315bb1895a3cc5ec91d1abce132699d3aa8d2e9ee93a50c9a",
+        "revision": null,
+        "inputFingerprint": "cf5adfc6e12d2eab0879224a43ae6554c67ec8a99e499ae24b992a38dde74457",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "5bc65f2c-126a-47cc-9983-bca4e11f7b42-6",
+        "image": "/home/user/-/videos/rise-ruin-character-ai/.hyperframes/artifacts/snapshots/f82b74ff-ba3a-4d2a-baa4-0e73136c9ab4/frame-06-at-96.65s.png",
+        "time": 96.65,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1792361571576,
+        "contentHash": "2f5d0ee45ff443024c65462b927bcde7c62424626579b959ccff2c6c29ba032c",
+        "revision": null,
+        "inputFingerprint": "cf5adfc6e12d2eab0879224a43ae6554c67ec8a99e499ae24b992a38dde74457",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "5bc65f2c-126a-47cc-9983-bca4e11f7b42-7",
+        "image": "/home/user/-/videos/rise-ruin-character-ai/.hyperframes/artifacts/snapshots/f82b74ff-ba3a-4d2a-baa4-0e73136c9ab4/frame-07-at-101.63s.png",
+        "time": 101.63,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1792361571576,
+        "contentHash": "8d4ce57f7902a66219e83ecc55d9beec01c76f0cc7f8414db5fd95c3fe7fff1d",
+        "revision": null,
+        "inputFingerprint": "cf5adfc6e12d2eab0879224a43ae6554c67ec8a99e499ae24b992a38dde74457",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "5bc65f2c-126a-47cc-9983-bca4e11f7b42-8",
+        "image": "/home/user/-/videos/rise-ruin-character-ai/.hyperframes/artifacts/snapshots/f82b74ff-ba3a-4d2a-baa4-0e73136c9ab4/frame-08-at-115.28s.png",
+        "time": 115.28,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1792361571576,
+        "contentHash": "07a232b835a00bf9be6162e2edd6851e0bb13f81e1f04323c0eb66fcb40f675c",
+        "revision": null,
+        "inputFingerprint": "cf5adfc6e12d2eab0879224a43ae6554c67ec8a99e499ae24b992a38dde74457",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "5bc65f2c-126a-47cc-9983-bca4e11f7b42-9",
+        "image": "/home/user/-/videos/rise-ruin-character-ai/.hyperframes/artifacts/snapshots/f82b74ff-ba3a-4d2a-baa4-0e73136c9ab4/frame-09-at-131.99s.png",
+        "time": 131.99,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1792361571576,
+        "contentHash": "63fe9c0c1cb7986882e7b422c768f1824262e7863fa6a3d8e11ee26461e02789",
+        "revision": null,
+        "inputFingerprint": "cf5adfc6e12d2eab0879224a43ae6554c67ec8a99e499ae24b992a38dde74457",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "5bc65f2c-126a-47cc-9983-bca4e11f7b42-10",
+        "image": "/home/user/-/videos/rise-ruin-character-ai/.hyperframes/artifacts/snapshots/f82b74ff-ba3a-4d2a-baa4-0e73136c9ab4/frame-10-at-148.33s.png",
+        "time": 148.33,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1792361571576,
+        "contentHash": "3e6bca845cb37fb7c1f20815cfc240d83cbd4562f952354b501c7d90e5ecae50",
+        "revision": null,
+        "inputFingerprint": "cf5adfc6e12d2eab0879224a43ae6554c67ec8a99e499ae24b992a38dde74457",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "5bc65f2c-126a-47cc-9983-bca4e11f7b42-11",
+        "image": "/home/user/-/videos/rise-ruin-character-ai/.hyperframes/artifacts/snapshots/f82b74ff-ba3a-4d2a-baa4-0e73136c9ab4/frame-11-at-168.43s.png",
+        "time": 168.43,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1792361571576,
+        "contentHash": "50276bafc0eacba88e45b29c8bae1b96708311e424f16020003f30daed27eaf7",
+        "revision": null,
+        "inputFingerprint": "cf5adfc6e12d2eab0879224a43ae6554c67ec8a99e499ae24b992a38dde74457",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "5bc65f2c-126a-47cc-9983-bca4e11f7b42-12",
+        "image": "/home/user/-/videos/rise-ruin-character-ai/.hyperframes/artifacts/snapshots/f82b74ff-ba3a-4d2a-baa4-0e73136c9ab4/frame-12-at-184.96s.png",
+        "time": 184.96,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1792361571576,
+        "contentHash": "a82a32a1e078371484aa1cadbee211c252bca7aad99e0c0c99acdf2b29855682",
+        "revision": null,
+        "inputFingerprint": "cf5adfc6e12d2eab0879224a43ae6554c67ec8a99e499ae24b992a38dde74457",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "5bc65f2c-126a-47cc-9983-bca4e11f7b42-13",
+        "image": "/home/user/-/videos/rise-ruin-character-ai/.hyperframes/artifacts/snapshots/f82b74ff-ba3a-4d2a-baa4-0e73136c9ab4/frame-13-at-199.88s.png",
+        "time": 199.88,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1792361571576,
+        "contentHash": "b70646a0e38679283e9841373ebd87ed818979d1c1300fa72f647512e87ac72b",
+        "revision": null,
+        "inputFingerprint": "cf5adfc6e12d2eab0879224a43ae6554c67ec8a99e499ae24b992a38dde74457",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "5bc65f2c-126a-47cc-9983-bca4e11f7b42-14",
+        "image": "/home/user/-/videos/rise-ruin-character-ai/.hyperframes/artifacts/snapshots/f82b74ff-ba3a-4d2a-baa4-0e73136c9ab4/frame-14-at-207.72s.png",
+        "time": 207.72,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1792361571576,
+        "contentHash": "735a6207fc6b6f11463f29d0f1b976d7536289e2fe74cf475ddc6c93f530ee41",
+        "revision": null,
+        "inputFingerprint": "cf5adfc6e12d2eab0879224a43ae6554c67ec8a99e499ae24b992a38dde74457",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "5bc65f2c-126a-47cc-9983-bca4e11f7b42-15",
+        "image": "/home/user/-/videos/rise-ruin-character-ai/.hyperframes/artifacts/snapshots/f82b74ff-ba3a-4d2a-baa4-0e73136c9ab4/frame-15-at-211.89s.png",
+        "time": 211.89,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1792361571576,
+        "contentHash": "e4e77c8fc3c3a6af7ff8ad4dd61c47efc820fcd148d0a372115b85a25d88235c",
+        "revision": null,
+        "inputFingerprint": "cf5adfc6e12d2eab0879224a43ae6554c67ec8a99e499ae24b992a38dde74457",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "5bc65f2c-126a-47cc-9983-bca4e11f7b42-16",
+        "image": "/home/user/-/videos/rise-ruin-character-ai/.hyperframes/artifacts/snapshots/f82b74ff-ba3a-4d2a-baa4-0e73136c9ab4/frame-16-at-223.26s.png",
+        "time": 223.26,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1792361571576,
+        "contentHash": "7d5bddeb4e87e0782836e2ed897e01ac13fb16c70e8f92a24694804cd65e2532",
+        "revision": null,
+        "inputFingerprint": "cf5adfc6e12d2eab0879224a43ae6554c67ec8a99e499ae24b992a38dde74457",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "5bc65f2c-126a-47cc-9983-bca4e11f7b42-17",
+        "image": "/home/user/-/videos/rise-ruin-character-ai/.hyperframes/artifacts/snapshots/f82b74ff-ba3a-4d2a-baa4-0e73136c9ab4/frame-17-at-233.96s.png",
+        "time": 233.96,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1792361571576,
+        "contentHash": "cc2e46dbbb6fc89dfeac3a6fec4b60f0cd330205710feeedf74c45316fca7fe1",
+        "revision": null,
+        "inputFingerprint": "cf5adfc6e12d2eab0879224a43ae6554c67ec8a99e499ae24b992a38dde74457",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "5bc65f2c-126a-47cc-9983-bca4e11f7b42-18",
+        "image": "/home/user/-/videos/rise-ruin-character-ai/.hyperframes/artifacts/snapshots/f82b74ff-ba3a-4d2a-baa4-0e73136c9ab4/frame-18-at-250.77s.png",
+        "time": 250.77,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1792361571576,
+        "contentHash": "1b6238025c244cd817848ac3bcaa86f2b07df4597ff02b35cac93fb304ad5c11",
+        "revision": null,
+        "inputFingerprint": "cf5adfc6e12d2eab0879224a43ae6554c67ec8a99e499ae24b992a38dde74457",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "5bc65f2c-126a-47cc-9983-bca4e11f7b42-19",
+        "image": "/home/user/-/videos/rise-ruin-character-ai/.hyperframes/artifacts/snapshots/f82b74ff-ba3a-4d2a-baa4-0e73136c9ab4/frame-19-at-266.42s.png",
+        "time": 266.42,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1792361571576,
+        "contentHash": "0c3b067edcfe34743816c8892c6e073b40d0bf1426f9ca9d321ef692dbf18b0f",
+        "revision": null,
+        "inputFingerprint": "cf5adfc6e12d2eab0879224a43ae6554c67ec8a99e499ae24b992a38dde74457",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "5bc65f2c-126a-47cc-9983-bca4e11f7b42-20",
+        "image": "/home/user/-/videos/rise-ruin-character-ai/.hyperframes/artifacts/snapshots/f82b74ff-ba3a-4d2a-baa4-0e73136c9ab4/frame-20-at-283.35s.png",
+        "time": 283.35,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1792361571576,
+        "contentHash": "7d37ba8e618463c975bdcca5cc3f6d36ac50271811011b7e212397daae3ed75c",
+        "revision": null,
+        "inputFingerprint": "cf5adfc6e12d2eab0879224a43ae6554c67ec8a99e499ae24b992a38dde74457",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "5bc65f2c-126a-47cc-9983-bca4e11f7b42-21",
+        "image": "/home/user/-/videos/rise-ruin-character-ai/.hyperframes/artifacts/snapshots/f82b74ff-ba3a-4d2a-baa4-0e73136c9ab4/frame-21-at-299.6s.png",
+        "time": 299.6,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1792361571576,
+        "contentHash": "81ec5c9b9d81ae5b6ad4c96347e5fad01cb889d7440885b55f5186a8b15a2afd",
+        "revision": null,
+        "inputFingerprint": "cf5adfc6e12d2eab0879224a43ae6554c67ec8a99e499ae24b992a38dde74457",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "5bc65f2c-126a-47cc-9983-bca4e11f7b42-22",
+        "image": "/home/user/-/videos/rise-ruin-character-ai/.hyperframes/artifacts/snapshots/f82b74ff-ba3a-4d2a-baa4-0e73136c9ab4/frame-22-at-306.64s.png",
+        "time": 306.64,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1792361571576,
+        "contentHash": "6552a17cbce1ce8c5bfdd7c7ec714dab3299c8b32aff466fed783c53a306bfaf",
+        "revision": null,
+        "inputFingerprint": "cf5adfc6e12d2eab0879224a43ae6554c67ec8a99e499ae24b992a38dde74457",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "5bc65f2c-126a-47cc-9983-bca4e11f7b42-23",
+        "image": "/home/user/-/videos/rise-ruin-character-ai/.hyperframes/artifacts/snapshots/f82b74ff-ba3a-4d2a-baa4-0e73136c9ab4/frame-23-at-320.39s.png",
+        "time": 320.39,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1792361571576,
+        "contentHash": "18e14f413caad11664019883d965d025d7c8f8d1551b60669af84698b0960c1a",
+        "revision": null,
+        "inputFingerprint": "cf5adfc6e12d2eab0879224a43ae6554c67ec8a99e499ae24b992a38dde74457",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "5bc65f2c-126a-47cc-9983-bca4e11f7b42-24",
+        "image": "/home/user/-/videos/rise-ruin-character-ai/.hyperframes/artifacts/snapshots/f82b74ff-ba3a-4d2a-baa4-0e73136c9ab4/frame-24-at-325s.png",
+        "time": 325,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1792361571576,
+        "contentHash": "c2a5b85e5c194407995b93ea26f4aab740977c0bfa68e9ffd092a316b163334f",
+        "revision": null,
+        "inputFingerprint": "cf5adfc6e12d2eab0879224a43ae6554c67ec8a99e499ae24b992a38dde74457",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "5bc65f2c-126a-47cc-9983-bca4e11f7b42-25",
+        "image": "/home/user/-/videos/rise-ruin-character-ai/.hyperframes/artifacts/snapshots/f82b74ff-ba3a-4d2a-baa4-0e73136c9ab4/frame-25-at-337.63s.png",
+        "time": 337.63,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1792361571576,
+        "contentHash": "d4b5bc2e5d75a5664230458b17356d80a861de486687880682f340db6c32a1dc",
+        "revision": null,
+        "inputFingerprint": "cf5adfc6e12d2eab0879224a43ae6554c67ec8a99e499ae24b992a38dde74457",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "5bc65f2c-126a-47cc-9983-bca4e11f7b42-26",
+        "image": "/home/user/-/videos/rise-ruin-character-ai/.hyperframes/artifacts/snapshots/f82b74ff-ba3a-4d2a-baa4-0e73136c9ab4/frame-26-at-349.29s.png",
+        "time": 349.29,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1792361571576,
+        "contentHash": "8819cf856557d76fec9f19137643c8724e434142d170adcba817ee265dfa4f52",
+        "revision": null,
+        "inputFingerprint": "cf5adfc6e12d2eab0879224a43ae6554c67ec8a99e499ae24b992a38dde74457",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "5bc65f2c-126a-47cc-9983-bca4e11f7b42-27",
+        "image": "/home/user/-/videos/rise-ruin-character-ai/.hyperframes/artifacts/snapshots/f82b74ff-ba3a-4d2a-baa4-0e73136c9ab4/frame-27-at-368.74s.png",
+        "time": 368.74,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1792361571576,
+        "contentHash": "94f23fe63b8fb1be7cbcf5dc87998b8698dff89fefb5aa4d0cfd7d102bfee9d7",
+        "revision": null,
+        "inputFingerprint": "cf5adfc6e12d2eab0879224a43ae6554c67ec8a99e499ae24b992a38dde74457",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "5bc65f2c-126a-47cc-9983-bca4e11f7b42-28",
+        "image": "/home/user/-/videos/rise-ruin-character-ai/.hyperframes/artifacts/snapshots/f82b74ff-ba3a-4d2a-baa4-0e73136c9ab4/frame-28-at-385.3s.png",
+        "time": 385.3,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1792361571576,
+        "contentHash": "4e0f0a7bf5a1a8a322f7352639e3feb4f4363605a842d4c72e3306710695fcc5",
+        "revision": null,
+        "inputFingerprint": "cf5adfc6e12d2eab0879224a43ae6554c67ec8a99e499ae24b992a38dde74457",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "5bc65f2c-126a-47cc-9983-bca4e11f7b42-29",
+        "image": "/home/user/-/videos/rise-ruin-character-ai/.hyperframes/artifacts/snapshots/f82b74ff-ba3a-4d2a-baa4-0e73136c9ab4/frame-29-at-404.69s.png",
+        "time": 404.69,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1792361571576,
+        "contentHash": "c4d360aa25afe43fccb60e6f3545ef86e1abf477e5c7b58e917b6ab61be99eba",
+        "revision": null,
+        "inputFingerprint": "cf5adfc6e12d2eab0879224a43ae6554c67ec8a99e499ae24b992a38dde74457",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "5bc65f2c-126a-47cc-9983-bca4e11f7b42-30",
+        "image": "/home/user/-/videos/rise-ruin-character-ai/.hyperframes/artifacts/snapshots/f82b74ff-ba3a-4d2a-baa4-0e73136c9ab4/frame-30-at-414.36s.png",
+        "time": 414.36,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1792361571576,
+        "contentHash": "df7d2087a6be3aabb4494d22fe7f137dc79818f952f7040d1e40351805892b6f",
+        "revision": null,
+        "inputFingerprint": "cf5adfc6e12d2eab0879224a43ae6554c67ec8a99e499ae24b992a38dde74457",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "5bc65f2c-126a-47cc-9983-bca4e11f7b42-31",
+        "image": "/home/user/-/videos/rise-ruin-character-ai/.hyperframes/artifacts/snapshots/f82b74ff-ba3a-4d2a-baa4-0e73136c9ab4/frame-31-at-429.95s.png",
+        "time": 429.95,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1792361571576,
+        "contentHash": "72c22f9edc187787d446da3b5881723512c24da754a53fec05e6013ee9c7e2a3",
+        "revision": null,
+        "inputFingerprint": "cf5adfc6e12d2eab0879224a43ae6554c67ec8a99e499ae24b992a38dde74457",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "5bc65f2c-126a-47cc-9983-bca4e11f7b42-32",
+        "image": "/home/user/-/videos/rise-ruin-character-ai/.hyperframes/artifacts/snapshots/f82b74ff-ba3a-4d2a-baa4-0e73136c9ab4/frame-32-at-449.1s.png",
+        "time": 449.1,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1792361571576,
+        "contentHash": "1d62836bac9c28d0b62fc3f1b8f1254c21e04943475639f6a4e1a6173d0825e3",
+        "revision": null,
+        "inputFingerprint": "cf5adfc6e12d2eab0879224a43ae6554c67ec8a99e499ae24b992a38dde74457",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "5bc65f2c-126a-47cc-9983-bca4e11f7b42-33",
+        "image": "/home/user/-/videos/rise-ruin-character-ai/.hyperframes/artifacts/snapshots/f82b74ff-ba3a-4d2a-baa4-0e73136c9ab4/frame-33-at-464.13s.png",
+        "time": 464.13,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1792361571576,
+        "contentHash": "e75728cf2e654cb257f918591d5dc6d17e1dd4f0c95fe848f4b03870f20e417b",
+        "revision": null,
+        "inputFingerprint": "cf5adfc6e12d2eab0879224a43ae6554c67ec8a99e499ae24b992a38dde74457",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "5bc65f2c-126a-47cc-9983-bca4e11f7b42-34",
+        "image": "/home/user/-/videos/rise-ruin-character-ai/.hyperframes/artifacts/snapshots/f82b74ff-ba3a-4d2a-baa4-0e73136c9ab4/frame-34-at-482.61s.png",
+        "time": 482.61,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1792361571576,
+        "contentHash": "2a31485d9bef110c9d1135c70c558a77ab81feb9763cc886f5c6ebb787f000b9",
+        "revision": null,
+        "inputFingerprint": "cf5adfc6e12d2eab0879224a43ae6554c67ec8a99e499ae24b992a38dde74457",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "5bc65f2c-126a-47cc-9983-bca4e11f7b42-35",
+        "image": "/home/user/-/videos/rise-ruin-character-ai/.hyperframes/artifacts/snapshots/f82b74ff-ba3a-4d2a-baa4-0e73136c9ab4/frame-35-at-487.18s.png",
+        "time": 487.18,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1792361571576,
+        "contentHash": "939b65c417c91e030c0020d864be4461b84a9ec6981f1103bad7a9f1dcb16fe5",
+        "revision": null,
+        "inputFingerprint": "cf5adfc6e12d2eab0879224a43ae6554c67ec8a99e499ae24b992a38dde74457",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "5bc65f2c-126a-47cc-9983-bca4e11f7b42-36",
+        "image": "/home/user/-/videos/rise-ruin-character-ai/.hyperframes/artifacts/snapshots/f82b74ff-ba3a-4d2a-baa4-0e73136c9ab4/frame-36-at-496.34s.png",
+        "time": 496.34,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1792361571576,
+        "contentHash": "be9b2ace12dd92cebc84fd279df8bf6e17466942027fe6a9a9e325316ab7a8cc",
+        "revision": null,
+        "inputFingerprint": "cf5adfc6e12d2eab0879224a43ae6554c67ec8a99e499ae24b992a38dde74457",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "5bc65f2c-126a-47cc-9983-bca4e11f7b42-37",
+        "image": "/home/user/-/videos/rise-ruin-character-ai/.hyperframes/artifacts/snapshots/f82b74ff-ba3a-4d2a-baa4-0e73136c9ab4/frame-37-at-506.92s.png",
+        "time": 506.92,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1792361571577,
+        "contentHash": "9d0810261d9681fc797bb97889f49ea8f9f99bc456d3378c706d1adafaa4c1ef",
+        "revision": null,
+        "inputFingerprint": "cf5adfc6e12d2eab0879224a43ae6554c67ec8a99e499ae24b992a38dde74457",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "5bc65f2c-126a-47cc-9983-bca4e11f7b42-38",
+        "image": "/home/user/-/videos/rise-ruin-character-ai/.hyperframes/artifacts/snapshots/f82b74ff-ba3a-4d2a-baa4-0e73136c9ab4/frame-38-at-517.15s.png",
+        "time": 517.15,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1792361571577,
+        "contentHash": "d4bd2f03b4863b5e37358307d2a03a6a1b269e73c801c9eaa6c596e140985a46",
+        "revision": null,
+        "inputFingerprint": "cf5adfc6e12d2eab0879224a43ae6554c67ec8a99e499ae24b992a38dde74457",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "5bc65f2c-126a-47cc-9983-bca4e11f7b42-39",
+        "image": "/home/user/-/videos/rise-ruin-character-ai/.hyperframes/artifacts/snapshots/f82b74ff-ba3a-4d2a-baa4-0e73136c9ab4/frame-39-at-535.1s.png",
+        "time": 535.1,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1792361571577,
+        "contentHash": "fc6487fd1d18bf6e3a5e190694cb586dcae7c48fa6caacde7ccac0cae64161da",
+        "revision": null,
+        "inputFingerprint": "cf5adfc6e12d2eab0879224a43ae6554c67ec8a99e499ae24b992a38dde74457",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "5bc65f2c-126a-47cc-9983-bca4e11f7b42-40",
+        "image": "/home/user/-/videos/rise-ruin-character-ai/.hyperframes/artifacts/snapshots/f82b74ff-ba3a-4d2a-baa4-0e73136c9ab4/frame-40-at-543.51s.png",
+        "time": 543.51,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1792361571577,
+        "contentHash": "51d2a6a37075a8e2d4456a041472e5a7d3c24803df98cd2d1064a7031176cc74",
+        "revision": null,
+        "inputFingerprint": "cf5adfc6e12d2eab0879224a43ae6554c67ec8a99e499ae24b992a38dde74457",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "5bc65f2c-126a-47cc-9983-bca4e11f7b42-41",
+        "image": "/home/user/-/videos/rise-ruin-character-ai/.hyperframes/artifacts/snapshots/f82b74ff-ba3a-4d2a-baa4-0e73136c9ab4/frame-41-at-551.45s.png",
+        "time": 551.45,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1792361571577,
+        "contentHash": "567522d7cd1594466fb861ea7662b66a6fe0973f96a691ab9f95582d3e13e27f",
+        "revision": null,
+        "inputFingerprint": "cf5adfc6e12d2eab0879224a43ae6554c67ec8a99e499ae24b992a38dde74457",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "5bc65f2c-126a-47cc-9983-bca4e11f7b42-42",
+        "image": "/home/user/-/videos/rise-ruin-character-ai/.hyperframes/artifacts/snapshots/f82b74ff-ba3a-4d2a-baa4-0e73136c9ab4/frame-42-at-536.166s.png",
+        "time": 536.166,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1792361571577,
+        "contentHash": "39622087d2c1029891b0b47484d70f42fbfa9109588411b0540110c965a699b0",
+        "revision": null,
+        "inputFingerprint": "cf5adfc6e12d2eab0879224a43ae6554c67ec8a99e499ae24b992a38dde74457",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      }
+    ]
+  }
+}

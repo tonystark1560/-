@@ -1,0 +1,37 @@
+<template>
+<style>@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Regular.otf') format('opentype');font-weight:400;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Medium.otf') format('opentype');font-weight:500;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-SemiBold.otf') format('opentype');font-weight:600;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Bold.otf') format('opentype');font-weight:700;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-ExtraBold.otf') format('opentype');font-weight:800;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Black.otf') format('opentype');font-weight:900;font-style:normal;}
+#root{position:absolute;inset:0;width:1920px;height:1080px;overflow:hidden;font-family:'Inter',sans-serif;}
+
+.cam{position:absolute;inset:0;transform-origin:50% 45%;}
+.card{position:absolute;background:#FFFFFF;border-radius:20px;box-shadow:0 14px 0 rgba(30,27,46,.12),0 20px 40px rgba(30,27,46,.18);}
+.lbl{font-weight:900;text-transform:uppercase;letter-spacing:.02em;color:#1E1B2E;}
+.chip{position:absolute;padding:12px 26px;border-radius:12px;font-weight:900;font-size:30px;letter-spacing:.04em;text-transform:uppercase;color:#1E1B2E;background:#FFC83D;box-shadow:0 6px 0 rgba(30,27,46,.25);}
+.chip.red{background:#E5484D;color:#fff;} .chip.dark{background:#1E1B2E;color:#fff;} .chip.white{background:#fff;}
+.stampx{position:absolute;padding:16px 36px;border:10px solid #E5484D;color:#E5484D;font-weight:900;font-size:84px;border-radius:18px;letter-spacing:.04em;background:rgba(255,255,255,.85);}
+.big{position:absolute;font-weight:900;text-transform:uppercase;line-height:.95;letter-spacing:-.01em;color:#1E1B2E;}
+.bubble{position:absolute;padding:16px 26px;border-radius:24px;background:#fff;font-weight:700;font-size:28px;color:#1E1B2E;box-shadow:0 6px 0 rgba(30,27,46,.15);}
+.bubble.me{background:#7950F2;color:#fff;}
+</style>
+<div id="root" data-composition-id="39-safety-business" data-width="1920" data-height="1080">
+<div class="clip" id="f39-bg" data-start="0" data-duration="10.157" data-track-index="0" style="position:absolute;inset:0;overflow:hidden"><div style="position:absolute;inset:0;background:linear-gradient(180deg,#BFE3F5 0%,#F6E7C8 70%)"></div><div id="f39-sun" style="position:absolute;left:1560px;top:90px;width:170px;height:170px;border-radius:50%;background:#FFE08A;box-shadow:0 0 80px #FFE08A"></div><svg style="position:absolute;left:0;top:0" width="1920" height="1080"><path d="M0 760 Q 400 640 860 740 T 1920 700 L1920 1080 L0 1080 Z" fill="#8FBF73"/><path d="M0 860 Q 520 780 1100 860 T 1920 840 L1920 1080 L0 1080 Z" fill="#6FA45A"/></svg></div>
+<div class="clip" id="f39-stage" data-start="0" data-duration="10.157" data-track-index="1" style="position:absolute;inset:0"><div class="cam" id="f39-cam"><svg id="f39-sc" style="position:absolute;left:560px;top:260px;overflow:visible" width="800" height="520"><rect x="390" y="80" width="20" height="400" fill="#1E1B2E"/><rect x="300" y="470" width="200" height="30" rx="10" fill="#1E1B2E"/><g id="f39-beam"><rect x="40" y="70" width="720" height="18" rx="9" fill="#1E1B2E"/><rect x="40" y="88" width="200" height="80" rx="12" fill="#FFC83D"/><rect x="560" y="88" width="200" height="80" rx="12" fill="#20C997"/><text x="140" y="140" text-anchor="middle" font-family="Inter" font-weight="900" font-size="28" fill="#1E1B2E">GROWTH</text><text x="660" y="140" text-anchor="middle" font-family="Inter" font-weight="900" font-size="28" fill="#fff">SAFETY</text></g></svg><div class="chip" id="f39-t" style="left:260px;top:180px;font-size:44px">#3: SAFETY IS THE BUSINESS</div></div></div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+<script>
+(function(){
+const tl = gsap.timeline({ paused: true });
+
+tl.fromTo("#f39-cam",{scale:1,x:0,y:0},{scale:1.07,x:0,y:0,duration:10.16,ease:"none"},0);
+tl.fromTo("#f39-t",{scale:0.5,opacity:0},{scale:1,opacity:1,duration:0.45,ease:"back.out(2)"},0.23);
+tl.fromTo("#f39-sc",{y:40,opacity:0},{y:0,opacity:1,duration:.55,ease:"power3.out"},0.20);
+tl.fromTo("#f39-beam",{rotation:-12,svgOrigin:"400 80"},{rotation:12,svgOrigin:"400 80",duration:1.0,ease:"elastic.out(1,.5)"},7.08);
+window.__timelines = window.__timelines || {};
+window.__timelines["39-safety-business"] = tl;
+})();
+</script>
+</template>
