@@ -1,0 +1,4 @@
+.hyperframes/artifacts/
+renders/work-*/
+*.log
+renders/*.mp4
