@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="70%"><stop offset="0" stop-color="#1B1F5E"/><stop offset="1" stop-color="#05061A"/></radialGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#22E5FF"/><stop offset="1" stop-color="#A855F7"/></linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="10" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+  <g stroke="url(#neon)" stroke-width="16" stroke-linecap="round" fill="none" filter="url(#glow)">
+    <!-- pins -->
+    <path d="M330 220 V160 M400 220 V140 M470 220 V160 M330 580 V640 M400 580 V660 M470 580 V640 M220 330 H160 M220 400 H140 M220 470 H160 M580 330 H640 M580 400 H660 M580 470 H640"/>
+    <rect x="220" y="220" width="360" height="360" rx="48" stroke-width="22"/>
+  </g>
+  <g fill="#22E5FF" filter="url(#glow)">
+    <circle cx="400" cy="140" r="16"/><circle cx="400" cy="660" r="16"/><circle cx="140" cy="400" r="16"/><circle cx="660" cy="400" r="16"/>
+  </g>
+  <text x="400" y="450" text-anchor="middle" font-family="Inter" font-weight="900" font-size="150" fill="#FFFFFF" filter="url(#glow)">AI</text>
+</svg>

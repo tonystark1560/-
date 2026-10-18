@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="70%"><stop offset="0" stop-color="#14734F"/><stop offset="1" stop-color="#062619"/></radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFE38A"/><stop offset="0.55" stop-color="#F2B92E"/><stop offset="1" stop-color="#C98A10"/></linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+  <!-- open shackle -->
+  <path d="M290 380 V250 A110 110 0 0 1 510 250 V275" fill="none" stroke="url(#gold)" stroke-width="56" stroke-linecap="round" transform="translate(0 -20)"/>
+  <!-- lock body -->
+  <rect x="210" y="360" width="380" height="290" rx="56" fill="url(#gold)"/>
+  <rect x="210" y="360" width="380" height="290" rx="56" fill="none" stroke="#FFF2C4" stroke-opacity=".5" stroke-width="6"/>
+  <text x="400" y="595" text-anchor="middle" font-family="Inter" font-weight="900" font-size="240" fill="#0A3F2B">$</text>
+</svg>

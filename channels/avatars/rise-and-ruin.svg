@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="70%"><stop offset="0" stop-color="#2A1414"/><stop offset="1" stop-color="#0A0A0A"/></radialGradient>
+    <linearGradient id="red" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FF4D4D"/><stop offset="1" stop-color="#B30000"/></linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+  <g stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <polyline points="150,560 260,470 330,510 450,300 520,250" stroke="#FFFFFF" stroke-width="40"/>
+    <polyline points="520,250 600,560" stroke="url(#red)" stroke-width="40"/>
+    <polyline points="548,515 602,572 652,512" stroke="#FF3B3B" stroke-width="40"/>
+  </g>
+  <circle cx="520" cy="250" r="30" fill="#F5C542"/>
+  <text x="400" y="680" text-anchor="middle" font-family="Inter" font-weight="900" font-size="78" letter-spacing="6" fill="#FFFFFF">RISE<tspan fill="#FF3B3B">&amp;</tspan>RUIN</text>
+</svg>
