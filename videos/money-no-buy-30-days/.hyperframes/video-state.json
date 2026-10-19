@@ -1602,5 +1602,16 @@
         "attribution": "unversioned"
       }
     ]
-  }
+  },
+  "renders": {
+    "latest": {
+      "id": "c037128e-01b0-4895-8c71-fbb340c30fc2",
+      "completedAt": 1792370558896,
+      "output": "/home/user/-/videos/money-no-buy-30-days/renders/money-no-buy-30-days.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
 }
