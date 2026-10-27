@@ -283,14 +283,15 @@ class Ep:
             hud.append(f'<div class="bub" id="{p}-b{i}" style="left:{x}px;top:{y}px">{text}</div>')
             js.append(pop(f"#{p}-b{i}", cue(w)))
         # ambient
-        js.append(push(f"#{p}-cam", d, f.get("zoom", 1.06)))
+        z0 = f.get("base", 1.22)
+        js.append(f'tl.fromTo("#{p}-cam",{{scale:{z0}}},{{scale:{z0 * f.get("zoom", 1.06):.3f},duration:{d:.2f},ease:"none"}},0);')
         for i in range(len(f.get("dimmers", []))):
             js.append(f'tl.fromTo("#{p}-d{i}",{{rotation:-2}},{{rotation:2,duration:{d/2:.2f},ease:"sine.inOut"}},0);tl.to("#{p}-d{i}",{{rotation:-1,duration:{d/2:.2f},ease:"sine.inOut"}},{d/2:.2f});')
         if light:
             js.append(f'tl.fromTo("#{p}-pool",{{opacity:.85}},{{opacity:1,duration:{d:.2f},ease:"none"}},0);')
         for ev in f.get("ev", []):
             js += self.action(p, n, d, cue, f, *ev)
-        P.write(n, CSS, f'<div class="cam" id="{p}-cam" style="position:absolute;inset:0;transform-origin:50% 45%">{"".join(cam)}</div>{"".join(hud)}', js)
+        P.write(n, CSS, f'<div class="cam" id="{p}-cam" style="position:absolute;inset:0;transform-origin:50% 18%">{"".join(cam)}</div>{"".join(hud)}', js)
 
     def action(self, p, n, d, cue, f, w, act, arg=None):
         t = cue(w) if isinstance(w, str) else float(w)

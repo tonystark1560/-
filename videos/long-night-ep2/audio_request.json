@@ -1,0 +1,54 @@
+{
+  "provider": "auto",
+  "speed": "1.05",
+  "lines": [
+    {
+      "id": "01",
+      "text": "In the long dark, light is ammo. And Cole is running low."
+    },
+    {
+      "id": "02",
+      "text": "Matches: twenty-three. Lamp oil: four liters. Flares: four. Batteries: two."
+    },
+    {
+      "id": "03",
+      "text": "His nearest neighbor is Ruth, a retired nurse, three miles up the creek. Her chimney hasn't smoked in two days."
+    },
+    {
+      "id": "04",
+      "text": "Cole straps on a headlamp. Bear goes first. Bear always goes first."
+    },
+    {
+      "id": "05",
+      "text": "Halfway there, the headlamp starts to dim. Cole didn't touch it. The batteries are brand new."
+    },
+    {
+      "id": "06",
+      "text": "Rule two: they drink light. And electric light goes first."
+    },
+    {
+      "id": "07",
+      "text": "Ruth's cabin is dark. But through the window there's a tiny glow. A circle of candles on the floor. And Ruth, sitting in the middle. Alive."
+    },
+    {
+      "id": "08",
+      "text": "Three days, she whispers. They've been at the window for three days. Don't let the candles go out."
+    },
+    {
+      "id": "09",
+      "text": "Cole counts. Four candles left. Each one already half gone."
+    },
+    {
+      "id": "10",
+      "text": "Then Bear whines. Behind them, one candle flame bends sideways. There's no wind."
+    },
+    {
+      "id": "11",
+      "text": "And it goes out."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "voice": "am_onyx"
+}

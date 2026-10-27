@@ -1,0 +1,40 @@
+<template>
+<style>@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Regular.otf') format('opentype');font-weight:400;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Medium.otf') format('opentype');font-weight:500;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-SemiBold.otf') format('opentype');font-weight:600;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Bold.otf') format('opentype');font-weight:700;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-ExtraBold.otf') format('opentype');font-weight:800;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Black.otf') format('opentype');font-weight:900;font-style:normal;}
+#root{position:absolute;inset:0;width:1080px;height:1920px;overflow:hidden;font-family:'Inter',sans-serif;}
+
+.hud-loc{position:absolute;left:0;right:0;top:70px;text-align:center;font-weight:800;font-size:30px;letter-spacing:.22em;color:#8A93A3;text-transform:uppercase;}
+.hud-row{position:absolute;left:0;right:0;top:122px;display:flex;justify-content:center;gap:16px;}
+.ctr{display:flex;align-items:center;gap:10px;padding:10px 18px;border-radius:10px;background:rgba(10,14,22,.78);border:2px solid rgba(255,255,255,.12);font-weight:900;font-size:28px;letter-spacing:.08em;color:#F2F4F8;}
+.ctr b{color:#FFC83D;}
+.tag{position:absolute;left:50%;padding:12px 26px;border-radius:10px;font-weight:900;font-size:36px;letter-spacing:.06em;text-transform:uppercase;color:#fff;background:#FF3B30;white-space:nowrap;box-shadow:0 8px 0 rgba(0,0,0,.35);}
+.tag.gold{background:#FFC83D;color:#111;} .tag.white{background:#fff;color:#111;} .tag.green{background:#3CF2A0;color:#062;}
+.card{position:absolute;left:70px;right:70px;padding:50px 40px;border-radius:24px;background:rgba(8,11,18,.92);border:3px solid rgba(255,255,255,.14);text-align:center;font-weight:900;font-size:72px;line-height:1.05;color:#fff;text-transform:uppercase;}
+.card em{font-style:normal;color:#FFC83D;} .card i{font-style:normal;color:#FF3B30;}
+.bub{position:absolute;padding:14px 26px;border-radius:26px;background:#fff;font-weight:900;font-size:40px;color:#111;text-transform:uppercase;white-space:nowrap;box-shadow:0 8px 0 rgba(0,0,0,.35);}
+.dark{position:absolute;border-radius:50%;background:radial-gradient(circle,rgba(4,6,11,0) 42%,rgba(4,6,11,.55) 62%,rgba(4,6,11,.93) 74%);box-shadow:0 0 0 3000px rgba(4,6,11,.93);}
+.pool{position:absolute;border-radius:50%;}
+.dim{position:absolute;filter:blur(1.5px);transform-origin:50% 100%;}
+</style>
+<div id="root" data-composition-id="02-beat02" data-width="1080" data-height="1920" data-duration="8.502">
+<div class="clip" id="f02-bg" data-start="0" data-duration="8.502" data-track-index="0" style="position:absolute;inset:0;overflow:hidden"></div>
+<div class="clip" id="f02-stage" data-start="0" data-duration="8.502" data-track-index="1" style="position:absolute;inset:0"><div class="cam" id="f02-cam" style="position:absolute;inset:0;transform-origin:50% 18%"><div style="position:absolute;inset:0"><svg width="1080" height="1920"><defs><linearGradient id="ssg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1A2140"/><stop offset=".55" stop-color="#7A4A6A"/><stop offset=".72" stop-color="#E8875A"/></linearGradient></defs><rect width="1080" height="1920" fill="url(#ssg)"/><circle id="f02-sun" cx="540" cy="1120" r="110" fill="#FFD27A"/><path d="M-40 984.0 L-125 1240 L45 1240 Z" fill="#1A1424"/><path d="M-40 920 L-97 1125 L17 1125 Z" fill="#1A1424"/><path d="M100 944.0 L15 1240 L185 1240 Z" fill="#1A1424"/><path d="M100 870 L43 1107 L157 1107 Z" fill="#1A1424"/><path d="M240 904.0 L155 1240 L325 1240 Z" fill="#1A1424"/><path d="M240 820 L183 1089 L297 1089 Z" fill="#1A1424"/><path d="M380 964.0 L295 1240 L465 1240 Z" fill="#1A1424"/><path d="M380 895 L323 1116 L437 1116 Z" fill="#1A1424"/><path d="M520 924.0 L435 1240 L605 1240 Z" fill="#1A1424"/><path d="M520 845 L463 1098 L577 1098 Z" fill="#1A1424"/><path d="M660 984.0 L575 1240 L745 1240 Z" fill="#1A1424"/><path d="M660 920 L603 1125 L717 1125 Z" fill="#1A1424"/><path d="M800 944.0 L715 1240 L885 1240 Z" fill="#1A1424"/><path d="M800 870 L743 1107 L857 1107 Z" fill="#1A1424"/><path d="M940 904.0 L855 1240 L1025 1240 Z" fill="#1A1424"/><path d="M940 820 L883 1089 L997 1089 Z" fill="#1A1424"/><path d="M1080 964.0 L995 1240 L1165 1240 Z" fill="#1A1424"/><path d="M1080 895 L1023 1116 L1137 1116 Z" fill="#1A1424"/><path d="M0 1260 Q 300 1220 560 1260 T 1080 1240 L1080 1920 L0 1920 Z" fill="#A48FA8"/><path d="M0 1320 Q 400 1280 760 1330 T 1080 1310 L1080 1920 L0 1920 Z" fill="#C9B6C8"/></svg></div></div><div class="hud-loc" id="f02-loc">Brooks Range, Alaska · Nov 18</div><div class="tag gold" id="f02-tag0" style="top:230px">Sunset 1:42 PM</div><div class="tag " id="f02-tag1" style="top:320px">64 days of dark</div></div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+<script>
+(function(){
+const tl = gsap.timeline({ paused: true });
+
+tl.fromTo("#f02-tag0",{scale:.4,opacity:0,xPercent:-50,x:0},{scale:1,opacity:1,xPercent:-50,duration:.35,ease:"back.out(2.5)"},3.19);
+tl.fromTo("#f02-tag1",{scale:.4,opacity:0,xPercent:-50,x:0},{scale:1,opacity:1,xPercent:-50,duration:.35,ease:"back.out(2.5)"},4.00);
+tl.fromTo("#f02-cam",{scale:1.22},{scale:1.293,duration:8.00,ease:"none"},0);
+tl.to("#f02-sun",{attr:{cy:1440},duration:4.31,ease:"power1.in"},3.19);
+window.__timelines = window.__timelines || {};
+window.__timelines["02-beat02"] = tl;
+})();
+</script>
+</template>

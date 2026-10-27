@@ -1,0 +1,673 @@
+{
+  "version": 1,
+  "historyId": "d4a3636f-ea9f-490d-93b3-82981b4e4f28",
+  "currentRevision": "d8913216-5aae-426f-869c-8a5a156f3cf0",
+  "pendingChanges": false,
+  "files": {
+    ".media/manifest.jsonl": {
+      "hash": "606ddaaffa378cf16dd128ae51afab5f4088c751ed4e7b01aa20550c0b63851c",
+      "content": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/60/606ddaaffa378cf16dd128ae51afab5f4088c751ed4e7b01aa20550c0b63851c"
+    },
+    "AGENTS.md": {
+      "hash": "1b36171117cb7c18f4100a0db6a3782ff2e096115995733200445cc2e80a4060",
+      "content": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/1b/1b36171117cb7c18f4100a0db6a3782ff2e096115995733200445cc2e80a4060"
+    },
+    "BRIEF.md": {
+      "hash": "f362b6a618d3fab7ca6f5d76c46418745f6a97d382a0fd3d2b1cddd84e17e360",
+      "content": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/f3/f362b6a618d3fab7ca6f5d76c46418745f6a97d382a0fd3d2b1cddd84e17e360"
+    },
+    "CLAUDE.md": {
+      "hash": "1b36171117cb7c18f4100a0db6a3782ff2e096115995733200445cc2e80a4060",
+      "content": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/1b/1b36171117cb7c18f4100a0db6a3782ff2e096115995733200445cc2e80a4060"
+    },
+    "SCRIPT.md": {
+      "hash": "8bd7bcb63415accc403d622344b234cd4c714bb5d4fd17289170828dd2a29e79",
+      "content": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/8b/8bd7bcb63415accc403d622344b234cd4c714bb5d4fd17289170828dd2a29e79"
+    },
+    "STORYBOARD.md": {
+      "hash": "9d84d88640cb64200c9cca23cce2a1998605aae3c6173027701ca1f99b0c9af2",
+      "content": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/9d/9d84d88640cb64200c9cca23cce2a1998605aae3c6173027701ca1f99b0c9af2"
+    },
+    "assets/fonts/Inter-Black.otf": {
+      "hash": "1dc81aa64047bfb4246ece435105ec85944f575744d6d850ab7a287fe6b640e7",
+      "content": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/1d/1dc81aa64047bfb4246ece435105ec85944f575744d6d850ab7a287fe6b640e7"
+    },
+    "assets/fonts/Inter-Bold.otf": {
+      "hash": "00fd6f4691ee8884a33b46bf45851b341927c37c30064f558e1befb242971c49",
+      "content": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/00/00fd6f4691ee8884a33b46bf45851b341927c37c30064f558e1befb242971c49"
+    },
+    "assets/fonts/Inter-ExtraBold.otf": {
+      "hash": "2012ceaf1470372c415f95c00495a1ad1ebdcd1cd6a6225808f011d459a9b12a",
+      "content": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/20/2012ceaf1470372c415f95c00495a1ad1ebdcd1cd6a6225808f011d459a9b12a"
+    },
+    "assets/fonts/Inter-Medium.otf": {
+      "hash": "1e65171fccd6f445b7742728454620ec2867356c849af78e71bf2c4f0e3d97ba",
+      "content": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/1e/1e65171fccd6f445b7742728454620ec2867356c849af78e71bf2c4f0e3d97ba"
+    },
+    "assets/fonts/Inter-Regular.otf": {
+      "hash": "be6d709dcb730ddaf050cbdae6fe89bd56d5d14dc66885639bbf6f06bd03521b",
+      "content": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/be/be6d709dcb730ddaf050cbdae6fe89bd56d5d14dc66885639bbf6f06bd03521b"
+    },
+    "assets/fonts/Inter-SemiBold.otf": {
+      "hash": "bd68706b7bf8b3c580ae57685a2116bb1704b3a9998309ccfec7cd486f8a593e",
+      "content": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/bd/bd68706b7bf8b3c580ae57685a2116bb1704b3a9998309ccfec7cd486f8a593e"
+    },
+    "assets/voice/01.wav": {
+      "hash": "fba3c79da79471eef144e4cc8ecd4e6f5a3bcd8ccf5ec0b9ba2a18568ae57514",
+      "content": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/fb/fba3c79da79471eef144e4cc8ecd4e6f5a3bcd8ccf5ec0b9ba2a18568ae57514"
+    },
+    "assets/voice/02.wav": {
+      "hash": "6291e69ff2f37517e2bfacdb1081ab24365babaa2f02575137bb406fb933795a",
+      "content": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/62/6291e69ff2f37517e2bfacdb1081ab24365babaa2f02575137bb406fb933795a"
+    },
+    "assets/voice/03.wav": {
+      "hash": "62c04780d031f4b09057258ffb67e887161f0df8eabc3c209b80ef69a27d8d37",
+      "content": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/62/62c04780d031f4b09057258ffb67e887161f0df8eabc3c209b80ef69a27d8d37"
+    },
+    "assets/voice/04.wav": {
+      "hash": "8a8d5419c814e8f8490d364fc161fccbb9bbeca2b954a0232cc446e25414c72a",
+      "content": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/8a/8a8d5419c814e8f8490d364fc161fccbb9bbeca2b954a0232cc446e25414c72a"
+    },
+    "assets/voice/05.wav": {
+      "hash": "6040158e8cdd4f1884f3d6a50704e14470a597501b31484a06b0ee967704ff0d",
+      "content": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/60/6040158e8cdd4f1884f3d6a50704e14470a597501b31484a06b0ee967704ff0d"
+    },
+    "assets/voice/06.wav": {
+      "hash": "54b3021651eaaba1f3583a44325310e4b0eceb0b114ef3819d8827f49655603e",
+      "content": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/54/54b3021651eaaba1f3583a44325310e4b0eceb0b114ef3819d8827f49655603e"
+    },
+    "assets/voice/07.wav": {
+      "hash": "ce86d8ab205d070cfaada5f4c28eaa5fb6741e72e5647bb6e0d256d33a902256",
+      "content": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/ce/ce86d8ab205d070cfaada5f4c28eaa5fb6741e72e5647bb6e0d256d33a902256"
+    },
+    "assets/voice/08.wav": {
+      "hash": "bc906bbc3ec9be3ec4a40884d19bdd862a207642904708e6a16603a5b7763093",
+      "content": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/bc/bc906bbc3ec9be3ec4a40884d19bdd862a207642904708e6a16603a5b7763093"
+    },
+    "assets/voice/09.wav": {
+      "hash": "c0094dab940c1042d74d0971ee9e441ca16787abebcc6e7cd0e8135dcd314786",
+      "content": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/c0/c0094dab940c1042d74d0971ee9e441ca16787abebcc6e7cd0e8135dcd314786"
+    },
+    "assets/voice/10.wav": {
+      "hash": "c9e6433ae8d63a99657296b322f3d1a1facc1e65e654fb37a78233815bbfa4b5",
+      "content": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/c9/c9e6433ae8d63a99657296b322f3d1a1facc1e65e654fb37a78233815bbfa4b5"
+    },
+    "assets/voice/11.wav": {
+      "hash": "e0a986e4ed857d1777376b2830dc105a64a32f42d123f6caa54f53456a2a5643",
+      "content": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/e0/e0a986e4ed857d1777376b2830dc105a64a32f42d123f6caa54f53456a2a5643"
+    },
+    "assets/voice/12.wav": {
+      "hash": "6d2348c761c286b58702b66510ac359bb89d569a10a7312faf50a5e80c2c6a83",
+      "content": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/6d/6d2348c761c286b58702b66510ac359bb89d569a10a7312faf50a5e80c2c6a83"
+    },
+    "audio_engine_meta.json": {
+      "hash": "5111a98275a24de37ce081f9438abb503fc774e197ea89d7411f18b49d5657d9",
+      "content": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/51/5111a98275a24de37ce081f9438abb503fc774e197ea89d7411f18b49d5657d9"
+    },
+    "audio_meta.json": {
+      "hash": "d0a287dd5f9497550b60b50b9e925abfd88fcf8a8333e68462f81735ea80bb89",
+      "content": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/d0/d0a287dd5f9497550b60b50b9e925abfd88fcf8a8333e68462f81735ea80bb89"
+    },
+    "audio_request.json": {
+      "hash": "cfd925638bfb1174db344dde80be825465f0ec78aaf6b9eee455e3d355e74822",
+      "content": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/cf/cfd925638bfb1174db344dde80be825465f0ec78aaf6b9eee455e3d355e74822"
+    },
+    "caption-overrides.json": {
+      "hash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "content": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/37/37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    "caption_groups.json": {
+      "hash": "75375f1a6af137ac1380582c244e2a56f37b71d2c4f5a35cd36c7013b1c152e6",
+      "content": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/75/75375f1a6af137ac1380582c244e2a56f37b71d2c4f5a35cd36c7013b1c152e6"
+    },
+    "capture/extracted/tokens.json": {
+      "hash": "a04e53cba2c125859558914675d10e7b720039c9c4c32001b0f496aa52bbf113",
+      "content": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/a0/a04e53cba2c125859558914675d10e7b720039c9c4c32001b0f496aa52bbf113"
+    },
+    "capture/extracted/visible-text.txt": {
+      "hash": "b61f48be53c9c0cf1f195f81706c0cb341e75ed70386e1b870b9f6f4d811e03a",
+      "content": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/b6/b61f48be53c9c0cf1f195f81706c0cb341e75ed70386e1b870b9f6f4d811e03a"
+    },
+    "compositions/captions.html": {
+      "hash": "ddbb926699d9cd753d0600b31cd3d0f2e109fada0800fc1e81ff8ecf67bafc0d",
+      "content": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/dd/ddbb926699d9cd753d0600b31cd3d0f2e109fada0800fc1e81ff8ecf67bafc0d"
+    },
+    "compositions/frames/01-beat01.html": {
+      "hash": "08d737c26260a0868fe15cc76bc057d0563b739bc91f6fa16f99986cd23e2a9c",
+      "content": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/08/08d737c26260a0868fe15cc76bc057d0563b739bc91f6fa16f99986cd23e2a9c"
+    },
+    "compositions/frames/02-beat02.html": {
+      "hash": "7c2d0c3ffdede47979463555346f23cb1e6ddc21e37e2ab610a23177aab753cf",
+      "content": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/7c/7c2d0c3ffdede47979463555346f23cb1e6ddc21e37e2ab610a23177aab753cf"
+    },
+    "compositions/frames/03-beat03.html": {
+      "hash": "463f5a3cd496b1ea86d4ac6cb85640b35761e262e25ce4187de222d84eed7cd5",
+      "content": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/46/463f5a3cd496b1ea86d4ac6cb85640b35761e262e25ce4187de222d84eed7cd5"
+    },
+    "compositions/frames/04-beat04.html": {
+      "hash": "83645368d17ec46a5be84dc9b4e48822a212b956d3ea0cb946fa2985c7180c21",
+      "content": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/83/83645368d17ec46a5be84dc9b4e48822a212b956d3ea0cb946fa2985c7180c21"
+    },
+    "compositions/frames/05-beat05.html": {
+      "hash": "16819b00c59dd0b3c7d61956a0278538f53595e13a3e3091db519970d783cc42",
+      "content": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/16/16819b00c59dd0b3c7d61956a0278538f53595e13a3e3091db519970d783cc42"
+    },
+    "compositions/frames/06-beat06.html": {
+      "hash": "0840cc3344c0fcb2d6b6677d3ad12ba5590bcf8a3a1db9ce78db484209906a15",
+      "content": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/08/0840cc3344c0fcb2d6b6677d3ad12ba5590bcf8a3a1db9ce78db484209906a15"
+    },
+    "compositions/frames/07-beat07.html": {
+      "hash": "9d893199ade68314052aeac107e43b839d5c1a1ceefa09380c4fd39a626f90df",
+      "content": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/9d/9d893199ade68314052aeac107e43b839d5c1a1ceefa09380c4fd39a626f90df"
+    },
+    "compositions/frames/08-beat08.html": {
+      "hash": "87d35471b93f5638d3263dc51c2cbc222e6ac06689317e860193e6e2a167a8f8",
+      "content": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/87/87d35471b93f5638d3263dc51c2cbc222e6ac06689317e860193e6e2a167a8f8"
+    },
+    "compositions/frames/09-beat09.html": {
+      "hash": "2fcdef3cd20c0c324b5474d03519979128bb3b40e9911fe80e67b3fef3186d6b",
+      "content": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/2f/2fcdef3cd20c0c324b5474d03519979128bb3b40e9911fe80e67b3fef3186d6b"
+    },
+    "compositions/frames/10-beat10.html": {
+      "hash": "f773ae163b49e39a81a9388a07af700e9541916c3237604f95c38b9e1fbcd104",
+      "content": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/f7/f773ae163b49e39a81a9388a07af700e9541916c3237604f95c38b9e1fbcd104"
+    },
+    "compositions/frames/11-beat11.html": {
+      "hash": "619888fb82c0411aaa82d7069befc2d511d2bb9af04c2151c176e8d99510403c",
+      "content": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/61/619888fb82c0411aaa82d7069befc2d511d2bb9af04c2151c176e8d99510403c"
+    },
+    "compositions/frames/12-beat12.html": {
+      "hash": "5080f9196721f0b58813c11b07a79a1065041899a8e802257821ca417161da9d",
+      "content": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/50/5080f9196721f0b58813c11b07a79a1065041899a8e802257821ca417161da9d"
+    },
+    "frame.md": {
+      "hash": "a9d3667bda0cd029c271111831d870528d4c58ddb89191e9264b73ed82abc711",
+      "content": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/a9/a9d3667bda0cd029c271111831d870528d4c58ddb89191e9264b73ed82abc711"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/93/9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "05506e117648ff68a126cff84b1bc9fd5d0c8de56e6cc0cddade9e23449863d1",
+      "content": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/05/05506e117648ff68a126cff84b1bc9fd5d0c8de56e6cc0cddade9e23449863d1"
+    },
+    "meta.json": {
+      "hash": "4423e7880d2d22d7d84e5f833777375604573a1470034476ca2483a2a9b5d3da",
+      "content": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/44/4423e7880d2d22d7d84e5f833777375604573a1470034476ca2483a2a9b5d3da"
+    },
+    "package.json": {
+      "hash": "ef1630e90f816683ef54d389b3c15cd9f4dbe65a40843bad01a5d727f28f61e9",
+      "content": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/ef/ef1630e90f816683ef54d389b3c15cd9f4dbe65a40843bad01a5d727f28f61e9"
+    },
+    "voice.log": {
+      "hash": "f072fa18aeba6d56039aeadcf7a1b11d3cde0dd4784ee3e9e7420ae44383a6b4",
+      "content": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/f0/f072fa18aeba6d56039aeadcf7a1b11d3cde0dd4784ee3e9e7420ae44383a6b4"
+    },
+    "build.log": {
+      "hash": "dc0ecdeeacdaa3478e745415142ad7772fc7cf2a3ffe537de80b13fe0e8cc84c",
+      "content": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/dc/dc0ecdeeacdaa3478e745415142ad7772fc7cf2a3ffe537de80b13fe0e8cc84c"
+    },
+    "render.log": {
+      "hash": "7d5b31faf511f887335738db18290d746f638eb234b450412707add68e5e6331",
+      "content": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/7d/7d5b31faf511f887335738db18290d746f638eb234b450412707add68e5e6331"
+    }
+  },
+  "revisions": {
+    "d46a6f60-bd55-423c-8377-7f39992c6fe0": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1793096932367,
+      "endedAt": 1793096932420,
+      "files": {
+        "compositions/frames/01-beat01.html": {
+          "before": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/fa/fa3d1dec13377e4132bf57a92d5325df8ef93f29c56669f4999dbf06bb393b8b",
+          "after": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/08/08d737c26260a0868fe15cc76bc057d0563b739bc91f6fa16f99986cd23e2a9c"
+        },
+        "compositions/frames/02-beat02.html": {
+          "before": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/4c/4c203f00a9a5c2d1c4dc435079d6c9c943f31bddc19b8bad420630c29f8b7f00",
+          "after": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/7c/7c2d0c3ffdede47979463555346f23cb1e6ddc21e37e2ab610a23177aab753cf"
+        },
+        "compositions/frames/03-beat03.html": {
+          "before": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/1a/1a4b6536ae1dd25e22abd991d13fbe5aa641036ef66a3677395b1c1bed0a9268",
+          "after": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/46/463f5a3cd496b1ea86d4ac6cb85640b35761e262e25ce4187de222d84eed7cd5"
+        },
+        "compositions/frames/04-beat04.html": {
+          "before": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/d0/d0b32b3c16a3f65f792fcbf36fccebaebe08a58cd66dd939934adff153e98b70",
+          "after": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/83/83645368d17ec46a5be84dc9b4e48822a212b956d3ea0cb946fa2985c7180c21"
+        },
+        "compositions/frames/05-beat05.html": {
+          "before": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/6d/6d820975cc8d09aaef0f87dd21a32ad51583055c10f6b23181ad36b3e6dba649",
+          "after": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/16/16819b00c59dd0b3c7d61956a0278538f53595e13a3e3091db519970d783cc42"
+        },
+        "compositions/frames/06-beat06.html": {
+          "before": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/ff/ff3ecc6743f11d569d24f655d2c689722cccda598be5530e19f317a37c2e1e6d",
+          "after": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/08/0840cc3344c0fcb2d6b6677d3ad12ba5590bcf8a3a1db9ce78db484209906a15"
+        },
+        "compositions/frames/07-beat07.html": {
+          "before": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/ba/baeb484d607f2ef75616ab83a5664833b153f6060d199efd4299218d56267738",
+          "after": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/9d/9d893199ade68314052aeac107e43b839d5c1a1ceefa09380c4fd39a626f90df"
+        },
+        "compositions/frames/08-beat08.html": {
+          "before": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/12/12735efea70d7131cff749ae79b6e19b718dfb36d265da16b8cf78c44c2cf7f9",
+          "after": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/87/87d35471b93f5638d3263dc51c2cbc222e6ac06689317e860193e6e2a167a8f8"
+        },
+        "compositions/frames/09-beat09.html": {
+          "before": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/9d/9dcbb9ad43c0149edd63930ae9a16277f3abeb51a28d18375b60331029c4caa9",
+          "after": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/2f/2fcdef3cd20c0c324b5474d03519979128bb3b40e9911fe80e67b3fef3186d6b"
+        },
+        "compositions/frames/10-beat10.html": {
+          "before": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/dc/dc3dbb77e3d3b1e9993d39b9738aabc1644e953d7b5154afd1ff76f8dd0429df",
+          "after": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/f7/f773ae163b49e39a81a9388a07af700e9541916c3237604f95c38b9e1fbcd104"
+        },
+        "compositions/frames/11-beat11.html": {
+          "before": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/41/4197169ac6e36de9dadf2b2af531f7e4ccbaec7514657d8e08ca3a4d6e3d422c",
+          "after": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/61/619888fb82c0411aaa82d7069befc2d511d2bb9af04c2151c176e8d99510403c"
+        },
+        "compositions/frames/12-beat12.html": {
+          "before": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/6c/6c816b5c9abf6907ad4467712c63f288d5b7d7f11ac1867b85e6dd7c26bcab53",
+          "after": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/50/5080f9196721f0b58813c11b07a79a1065041899a8e802257821ca417161da9d"
+        }
+      }
+    },
+    "d8913216-5aae-426f-869c-8a5a156f3cf0": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1793096957462,
+      "endedAt": 1793096957473,
+      "files": {
+        "build.log": {
+          "before": null,
+          "after": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/dc/dc0ecdeeacdaa3478e745415142ad7772fc7cf2a3ffe537de80b13fe0e8cc84c"
+        },
+        "render.log": {
+          "before": null,
+          "after": "/root/.cache/hyperframes/history/d4a3636f-ea9f-490d-93b3-82981b4e4f28/blobs/7d/7d5b31faf511f887335738db18290d746f638eb234b450412707add68e5e6331"
+        }
+      }
+    }
+  },
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": {
+      "revision": "d46a6f60-bd55-423c-8377-7f39992c6fe0",
+      "id": "970726d3-ff9c-4022-9d39-34df444ee207-4"
+    },
+    "revisions": {
+      "d46a6f60-bd55-423c-8377-7f39992c6fe0": [
+        {
+          "scope": "full",
+          "id": "970726d3-ff9c-4022-9d39-34df444ee207-0",
+          "image": "/home/user/-/videos/long-night-ep1/.hyperframes/artifacts/snapshots/3aaa00e9-282a-4305-abce-900ddb4b3112/frame-00-at-4.6s.png",
+          "time": 4.6,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793096939386,
+          "contentHash": "9db0f7e27ce03101350462610150a9468f67e92fca6560a021b9fbca5a584cff",
+          "revision": "d46a6f60-bd55-423c-8377-7f39992c6fe0",
+          "inputFingerprint": "93b19e88f957f4ae56a61e3d1053811caa7215d12f34ac3d3346f5f8c8b4a516",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "970726d3-ff9c-4022-9d39-34df444ee207-1",
+          "image": "/home/user/-/videos/long-night-ep1/.hyperframes/artifacts/snapshots/3aaa00e9-282a-4305-abce-900ddb4b3112/frame-01-at-40s.png",
+          "time": 40,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793096939386,
+          "contentHash": "15595cc1f54d1846e96a4135806a7c4ccc27d193ef77dfd43e4b9886f0d15670",
+          "revision": "d46a6f60-bd55-423c-8377-7f39992c6fe0",
+          "inputFingerprint": "93b19e88f957f4ae56a61e3d1053811caa7215d12f34ac3d3346f5f8c8b4a516",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "970726d3-ff9c-4022-9d39-34df444ee207-2",
+          "image": "/home/user/-/videos/long-night-ep1/.hyperframes/artifacts/snapshots/3aaa00e9-282a-4305-abce-900ddb4b3112/frame-02-at-58s.png",
+          "time": 58,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793096939387,
+          "contentHash": "2b9a934cbb4b97b9242025959dcc727595735576315bce9f5715003dce5fb1f2",
+          "revision": "d46a6f60-bd55-423c-8377-7f39992c6fe0",
+          "inputFingerprint": "93b19e88f957f4ae56a61e3d1053811caa7215d12f34ac3d3346f5f8c8b4a516",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "970726d3-ff9c-4022-9d39-34df444ee207-3",
+          "image": "/home/user/-/videos/long-night-ep1/.hyperframes/artifacts/snapshots/3aaa00e9-282a-4305-abce-900ddb4b3112/frame-03-at-62s.png",
+          "time": 62,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793096939387,
+          "contentHash": "623d99882aed8fd4e80ffaccdee9c1ee01fa7a26f0ba55f221cd4379df2b868b",
+          "revision": "d46a6f60-bd55-423c-8377-7f39992c6fe0",
+          "inputFingerprint": "93b19e88f957f4ae56a61e3d1053811caa7215d12f34ac3d3346f5f8c8b4a516",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "970726d3-ff9c-4022-9d39-34df444ee207-4",
+          "image": "/home/user/-/videos/long-night-ep1/.hyperframes/artifacts/snapshots/3aaa00e9-282a-4305-abce-900ddb4b3112/frame-04-at-72.473s.png",
+          "time": 72.473,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793096939387,
+          "contentHash": "5a887a7ce0a3a289cf4d20232458d86b0bd2c46b990fbda1552b21355550bb51",
+          "revision": "d46a6f60-bd55-423c-8377-7f39992c6fe0",
+          "inputFingerprint": "93b19e88f957f4ae56a61e3d1053811caa7215d12f34ac3d3346f5f8c8b4a516",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ]
+    },
+    "unversioned": [
+      {
+        "scope": "full",
+        "id": "f01a94bc-9ab8-4c2c-b166-b69dc6363cbd-0",
+        "image": "/home/user/-/videos/long-night-ep1/.hyperframes/artifacts/snapshots/214ca992-1b39-4c0a-a99e-5d550429f609/frame-00-at-4.65s.png",
+        "time": 4.65,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793096904129,
+        "contentHash": "8732474e248e0411a7005271f7c292118ab5104c6c1b76c67ef2d4799d9a7a8d",
+        "revision": null,
+        "inputFingerprint": "344ac8c33285e62023495bc682d0bb598b0cbf45da8fde34e7754fd9c799a495",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "f01a94bc-9ab8-4c2c-b166-b69dc6363cbd-1",
+        "image": "/home/user/-/videos/long-night-ep1/.hyperframes/artifacts/snapshots/214ca992-1b39-4c0a-a99e-5d550429f609/frame-01-at-12.12s.png",
+        "time": 12.12,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793096904129,
+        "contentHash": "e719c1ecce32cddd062fe8710a9c75d9367a42ea4ed66b95147b726f37fd2530",
+        "revision": null,
+        "inputFingerprint": "344ac8c33285e62023495bc682d0bb598b0cbf45da8fde34e7754fd9c799a495",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "f01a94bc-9ab8-4c2c-b166-b69dc6363cbd-2",
+        "image": "/home/user/-/videos/long-night-ep1/.hyperframes/artifacts/snapshots/214ca992-1b39-4c0a-a99e-5d550429f609/frame-02-at-19.44s.png",
+        "time": 19.44,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793096904129,
+        "contentHash": "2c72640505fe771997c2e9b1f0dacbf21bc37273c665a006a88e9cd9ce7818f8",
+        "revision": null,
+        "inputFingerprint": "344ac8c33285e62023495bc682d0bb598b0cbf45da8fde34e7754fd9c799a495",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "f01a94bc-9ab8-4c2c-b166-b69dc6363cbd-3",
+        "image": "/home/user/-/videos/long-night-ep1/.hyperframes/artifacts/snapshots/214ca992-1b39-4c0a-a99e-5d550429f609/frame-03-at-27.06s.png",
+        "time": 27.06,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793096904129,
+        "contentHash": "d87cf1334d27f9679fe43848b46bc1810c5d64097bb5fe5d01869759dfe32301",
+        "revision": null,
+        "inputFingerprint": "344ac8c33285e62023495bc682d0bb598b0cbf45da8fde34e7754fd9c799a495",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "f01a94bc-9ab8-4c2c-b166-b69dc6363cbd-4",
+        "image": "/home/user/-/videos/long-night-ep1/.hyperframes/artifacts/snapshots/214ca992-1b39-4c0a-a99e-5d550429f609/frame-04-at-34.33s.png",
+        "time": 34.33,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793096904129,
+        "contentHash": "d6a4f12e58265ea953d0a9824fbabf926d9a8bee8b7a080e012aff9786dc2868",
+        "revision": null,
+        "inputFingerprint": "344ac8c33285e62023495bc682d0bb598b0cbf45da8fde34e7754fd9c799a495",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "f01a94bc-9ab8-4c2c-b166-b69dc6363cbd-5",
+        "image": "/home/user/-/videos/long-night-ep1/.hyperframes/artifacts/snapshots/214ca992-1b39-4c0a-a99e-5d550429f609/frame-05-at-40.27s.png",
+        "time": 40.27,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793096904129,
+        "contentHash": "7f797f34ae76c13277991b12d159744d53ac8cf2480fb345b96a6d4705490a9f",
+        "revision": null,
+        "inputFingerprint": "344ac8c33285e62023495bc682d0bb598b0cbf45da8fde34e7754fd9c799a495",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "f01a94bc-9ab8-4c2c-b166-b69dc6363cbd-6",
+        "image": "/home/user/-/videos/long-night-ep1/.hyperframes/artifacts/snapshots/214ca992-1b39-4c0a-a99e-5d550429f609/frame-06-at-46.96s.png",
+        "time": 46.96,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793096904129,
+        "contentHash": "e0e86d8248d20c382dee51d2083aa06405eae00e2c0215544e4a240d51cf43fb",
+        "revision": null,
+        "inputFingerprint": "344ac8c33285e62023495bc682d0bb598b0cbf45da8fde34e7754fd9c799a495",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "f01a94bc-9ab8-4c2c-b166-b69dc6363cbd-7",
+        "image": "/home/user/-/videos/long-night-ep1/.hyperframes/artifacts/snapshots/214ca992-1b39-4c0a-a99e-5d550429f609/frame-07-at-52.53s.png",
+        "time": 52.53,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793096904129,
+        "contentHash": "7dc3ecb3ef6f2dd107f21b65af84e6dc1eb23b0d8b1e6b9e4b6d27df0d125cb8",
+        "revision": null,
+        "inputFingerprint": "344ac8c33285e62023495bc682d0bb598b0cbf45da8fde34e7754fd9c799a495",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "f01a94bc-9ab8-4c2c-b166-b69dc6363cbd-8",
+        "image": "/home/user/-/videos/long-night-ep1/.hyperframes/artifacts/snapshots/214ca992-1b39-4c0a-a99e-5d550429f609/frame-08-at-57.92s.png",
+        "time": 57.92,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793096904129,
+        "contentHash": "35e951bb6eef88c457bc7628d33679c847ea750f977675bd58caed479f68d61f",
+        "revision": null,
+        "inputFingerprint": "344ac8c33285e62023495bc682d0bb598b0cbf45da8fde34e7754fd9c799a495",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "f01a94bc-9ab8-4c2c-b166-b69dc6363cbd-9",
+        "image": "/home/user/-/videos/long-night-ep1/.hyperframes/artifacts/snapshots/214ca992-1b39-4c0a-a99e-5d550429f609/frame-09-at-62.67s.png",
+        "time": 62.67,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793096904129,
+        "contentHash": "6a53981e2df633f44ccc7527604570c9995ff02e784b13863f0ec6719ac1f2b1",
+        "revision": null,
+        "inputFingerprint": "344ac8c33285e62023495bc682d0bb598b0cbf45da8fde34e7754fd9c799a495",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "f01a94bc-9ab8-4c2c-b166-b69dc6363cbd-10",
+        "image": "/home/user/-/videos/long-night-ep1/.hyperframes/artifacts/snapshots/214ca992-1b39-4c0a-a99e-5d550429f609/frame-10-at-69.33s.png",
+        "time": 69.33,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793096904129,
+        "contentHash": "768c366c69c6faea6879b08dc99f7f33ca47509982f837198df78f621f03e6e1",
+        "revision": null,
+        "inputFingerprint": "344ac8c33285e62023495bc682d0bb598b0cbf45da8fde34e7754fd9c799a495",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "f01a94bc-9ab8-4c2c-b166-b69dc6363cbd-11",
+        "image": "/home/user/-/videos/long-night-ep1/.hyperframes/artifacts/snapshots/214ca992-1b39-4c0a-a99e-5d550429f609/frame-11-at-73.84s.png",
+        "time": 73.84,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793096904129,
+        "contentHash": "5ea4cd504341f119da88b4c5dbd61e9804869eeea1f039f8dbb86c2e7de93bef",
+        "revision": null,
+        "inputFingerprint": "344ac8c33285e62023495bc682d0bb598b0cbf45da8fde34e7754fd9c799a495",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "f01a94bc-9ab8-4c2c-b166-b69dc6363cbd-12",
+        "image": "/home/user/-/videos/long-night-ep1/.hyperframes/artifacts/snapshots/214ca992-1b39-4c0a-a99e-5d550429f609/frame-12-at-72.473s.png",
+        "time": 72.473,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793096904129,
+        "contentHash": "5a887a7ce0a3a289cf4d20232458d86b0bd2c46b990fbda1552b21355550bb51",
+        "revision": null,
+        "inputFingerprint": "344ac8c33285e62023495bc682d0bb598b0cbf45da8fde34e7754fd9c799a495",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      }
+    ]
+  }
+}
