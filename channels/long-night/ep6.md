@@ -1,0 +1,31 @@
+# The Dimmers · Part 6: Sunrise
+
+**Канал:** Rules of the Long Night · **Формат:** 9:16 Shorts/TikTok
+
+## Сценарий
+
+When the last town light goes out, you don't run away from it. You run toward it.
+
+Kettle Creek airstrip. Floodlights flickering. Twelve survivors in a hangar. Fuel for twenty minutes.
+
+The dark surrounds the hangar like water around a sinking boat.
+
+Cole does the math. Twenty minutes of fuel. Two flares. Four candles. And a snowmachine with a full tank.
+
+He drives the snowmachine to the middle of the runway. Ruth splashes the fuel. Cole lights a flare.
+
+The fire goes up thirty feet. The shadows scream. The whole airstrip turns orange.
+
+But fire burns fast. Ten minutes. Five. The flames start to shrink. The dark leans in.
+
+Bear stands at the edge of the light, barking at the shadows. He doesn't back down. Not one step.
+
+Then Ruth looks at her watch. Cole, what's the date? January twenty-first. The end of the long night.
+
+On the horizon, a thin gold line. The first sunrise in sixty-four days.
+
+The sunlight hits the snow. And the shadows don't retreat. They burn. Every last one.
+
+Final rule: in the long dark, light is ammo. Never waste it. Because next winter is only three hundred days away.
+
+---

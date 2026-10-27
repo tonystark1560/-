@@ -5,6 +5,7 @@ usage: setup_episode.py <project_dir> <channel_script.md> <slugs_csv> <title> <m
 import os, re, sys, json
 
 prj, src, slugs_csv, title, message, voice, speed = sys.argv[1:8]
+fmt = sys.argv[8] if len(sys.argv) > 8 else "1920x1080"
 text = open(src).read()
 body = text[text.index("## Сценарий"):]
 body = body[:body.index("\n---\n")] if "\n---\n" in body else body
@@ -21,10 +22,10 @@ workflow: faceless-explainer
 flow: automation
 storyboard: no
 message: "{message}"
-destination: youtube
-aspect: 1920x1080
+destination: {"shorts" if fmt == "1080x1920" else "youtube"}
+aspect: {fmt}
 language: en
-length: 510s
+length: 75s
 angle: narrative
 ---
 
@@ -38,8 +39,8 @@ Full long-form episode "{title}" from {src}. The user asked for the whole video 
 - No company logos; names as plain text only.
 """)
 sb = [f"""---
-format: 1920x1080
-duration: 510s
+format: {fmt}
+duration: 75s
 message: "{message}"
 mode: autonomous
 music: none

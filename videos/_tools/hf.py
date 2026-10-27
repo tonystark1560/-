@@ -13,6 +13,8 @@ class Project:
         self.out = os.path.join(root, "compositions", "frames")
         os.makedirs(self.out, exist_ok=True)
         sb = open(os.path.join(root, "STORYBOARD.md")).read()
+        m = re.search(r"format: (\d+)x(\d+)", sb)
+        self.w, self.h = (int(m.group(1)), int(m.group(2))) if m else (1920, 1080)
         self.frames = {int(n): (slug, float(d)) for n, d, slug in
                        re.findall(r"## Frame (\d+) .*?- duration: ([\d.]+)s.*?- src: compositions/frames/\d+-([a-z0-9-]+)\.html", sb, re.S)}
         meta = json.load(open(os.path.join(root, "audio_meta.json")))
@@ -37,9 +39,9 @@ class Project:
         p = f"f{n:02d}"
         doc = f"""<template>
 <style>{FONTS}
-#root{{position:absolute;inset:0;width:1920px;height:1080px;overflow:hidden;font-family:'Inter',sans-serif;}}
+#root{{position:absolute;inset:0;width:{self.w}px;height:{self.h}px;overflow:hidden;font-family:'Inter',sans-serif;}}
 {css}</style>
-<div id="root" data-composition-id="{fid}" data-width="1920" data-height="1080">
+<div id="root" data-composition-id="{fid}" data-width="{self.w}" data-height="{self.h}">
 <div class="clip" id="{p}-bg" data-start="0" data-duration="{d}" data-track-index="0" style="position:absolute;inset:0;overflow:hidden">{bg_html}</div>
 <div class="clip" id="{p}-stage" data-start="0" data-duration="{d}" data-track-index="1" style="position:absolute;inset:0">{html}</div>
 </div>
