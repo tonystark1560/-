@@ -669,5 +669,16 @@
         "attribution": "unversioned"
       }
     ]
-  }
+  },
+  "renders": {
+    "latest": {
+      "id": "6897a361-035c-401a-a552-2f8575eafc4e",
+      "completedAt": 1793097231118,
+      "output": "/home/user/-/videos/long-night-ep1/renders/the-dimmers-part-1.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
 }
