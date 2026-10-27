@@ -1,0 +1,58 @@
+{
+  "provider": "auto",
+  "speed": "1.05",
+  "lines": [
+    {
+      "id": "01",
+      "text": "If your lantern flickers when there's no wind… step into the light. And don't look at the dark."
+    },
+    {
+      "id": "02",
+      "text": "Brooks Range, Alaska. November eighteenth. The sun sets at one forty-two p.m. It won't rise again for sixty-four days."
+    },
+    {
+      "id": "03",
+      "text": "Cole has survived eleven polar nights out here. Just him, a woodstove, and Bear, a husky who's afraid of nothing."
+    },
+    {
+      "id": "04",
+      "text": "Tonight the radio crackles. Kettle Creek, forty miles south, reports a blackout. Then another town. Then the radio goes silent."
+    },
+    {
+      "id": "05",
+      "text": "At nine fourteen, Bear stops eating. He stares at the window. And growls. A sound Cole has never heard from him."
+    },
+    {
+      "id": "06",
+      "text": "Cole takes the lantern out to the porch. The snow is empty. No wind. Nothing moves."
+    },
+    {
+      "id": "07",
+      "text": "Then the lantern flickers. Once. Twice. The flame bends toward the dark, like something out there is breathing it in."
+    },
+    {
+      "id": "08",
+      "text": "At the very edge of the light, the shadows are wrong. Too thick. And they're leaning closer."
+    },
+    {
+      "id": "09",
+      "text": "Bear barks once. Cole fires a flare into the snow. Red light floods the yard."
+    },
+    {
+      "id": "10",
+      "text": "The shadows snap back. Fast. Like a hand pulled from a hot stove."
+    },
+    {
+      "id": "11",
+      "text": "In the morning dark, Cole finds tracks. Long. Thin. They circle the cabin, and stop exactly where the light ended."
+    },
+    {
+      "id": "12",
+      "text": "Rule one: they can't cross the light. Part two: count your matches."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "voice": "am_onyx"
+}
