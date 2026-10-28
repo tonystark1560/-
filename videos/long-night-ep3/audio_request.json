@@ -1,0 +1,54 @@
+{
+  "provider": "auto",
+  "speed": "1.05",
+  "lines": [
+    {
+      "id": "01",
+      "text": "When the candle dies, the room gets colder. And the corner of the cabin gets closer."
+    },
+    {
+      "id": "02",
+      "text": "Cole doesn't think. He rips down the curtains, soaks them in lamp oil, and lights them."
+    },
+    {
+      "id": "03",
+      "text": "The flames roar. The dark in the corner shrieks, a sound like ice cracking across a lake."
+    },
+    {
+      "id": "04",
+      "text": "Rule three: they hate fire more than anything. Real flame. Not batteries."
+    },
+    {
+      "id": "05",
+      "text": "Ruth grabs her coat. Your cabin has a generator? Cole nods. Then we go. Now."
+    },
+    {
+      "id": "06",
+      "text": "Three miles. One torch. Four flares. And a husky running ahead, barking at every shadow that moves."
+    },
+    {
+      "id": "07",
+      "text": "Halfway home, Bear stops dead. Cole lifts the torch. The trail ahead is pitch black. The shadows are lying across it like a wall."
+    },
+    {
+      "id": "08",
+      "text": "Cole fires a flare straight into it. The wall splits open. They run through the gap."
+    },
+    {
+      "id": "09",
+      "text": "Back at the cabin, Cole yanks the generator cord. It coughs. Then roars. Floodlights snap on."
+    },
+    {
+      "id": "10",
+      "text": "For the first time in days, Ruth laughs. Then Cole smells it. Gasoline. The fuel line is leaking."
+    },
+    {
+      "id": "11",
+      "text": "The gauge reads six hours."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "voice": "am_onyx"
+}

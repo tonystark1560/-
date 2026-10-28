@@ -9,7 +9,7 @@ music: none
 ## Frame 1 — Beat01
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 10.450s
 - transition_in: cut
 - status: animated
 - voiceover: "When the candle dies, the room gets colder. And the corner of the cabin gets closer."
@@ -18,7 +18,7 @@ music: none
 ## Frame 2 — Beat02
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 10.450s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Cole doesn't think. He rips down the curtains, soaks them in lamp oil, and lights them."
@@ -27,7 +27,7 @@ music: none
 ## Frame 3 — Beat03
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 10.450s
 - transition_in: crossfade
 - status: animated
 - voiceover: "The flames roar. The dark in the corner shrieks, a sound like ice cracking across a lake."
@@ -36,7 +36,7 @@ music: none
 ## Frame 4 — Beat04
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 10.450s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Rule three: they hate fire more than anything. Real flame. Not batteries."
@@ -45,7 +45,7 @@ music: none
 ## Frame 5 — Beat05
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 5.378s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Ruth grabs her coat. Your cabin has a generator? Cole nods. Then we go. Now."
@@ -54,7 +54,7 @@ music: none
 ## Frame 6 — Beat06
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 6.274s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Three miles. One torch. Four flares. And a husky running ahead, barking at every shadow that moves."
@@ -63,7 +63,7 @@ music: none
 ## Frame 7 — Beat07
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 7.746s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Halfway home, Bear stops dead. Cole lifts the torch. The trail ahead is pitch black. The shadows are lying across it like a wall."
@@ -72,7 +72,7 @@ music: none
 ## Frame 8 — Beat08
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 5.250s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Cole fires a flare straight into it. The wall splits open. They run through the gap."
@@ -81,7 +81,7 @@ music: none
 ## Frame 9 — Beat09
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 5.911s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Back at the cabin, Cole yanks the generator cord. It coughs. Then roars. Floodlights snap on."
@@ -90,7 +90,7 @@ music: none
 ## Frame 10 — Beat10
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 6.125s
 - transition_in: crossfade
 - status: animated
 - voiceover: "For the first time in days, Ruth laughs. Then Cole smells it. Gasoline. The fuel line is leaking."
@@ -99,7 +99,7 @@ music: none
 ## Frame 11 — Beat11
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 2.690s
 - transition_in: crossfade
 - status: animated
 - voiceover: "The gauge reads six hours."
