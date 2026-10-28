@@ -274,7 +274,7 @@ class Ep:
         ctr = dict(self.counters)
         ctr.update(f.get("counters", {}))
         if ctr and not f.get("nohud"):
-            hud.append('<div class="hud-row">' + "".join(f'<div class="ctr" id="{p}-c-{k}">{LABELS.get(k, k)} <b id="{p}-cv-{k}">{v}</b></div>' for k, v in ctr.items()) + '</div>')
+            hud.append(f'<div class="hud-row"{" style=\"transform:scale(.8)\"" if LABELS and len(ctr) >= 5 else ""}>' + "".join(f'<div class="ctr" id="{p}-c-{k}">{LABELS.get(k, k)} <b id="{p}-cv-{k}">{v}</b></div>' for k, v in ctr.items()) + '</div>')
         for i, (text, w, col) in enumerate(f.get("tags", [])):
             hud.append(f'<div class="tag {col}" id="{p}-tag{i}" style="top:{230 + i*90}px">{text}</div>')
             js.append(f'tl.fromTo("#{p}-tag{i}",{{scale:.4,opacity:0,xPercent:-50,x:0}},{{scale:1,opacity:1,xPercent:-50,duration:.35,ease:"back.out(2.5)"}},{cue(w):.2f});')

@@ -1,0 +1,38 @@
+<template>
+<style>@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Regular.otf') format('opentype');font-weight:400;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Medium.otf') format('opentype');font-weight:500;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-SemiBold.otf') format('opentype');font-weight:600;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Bold.otf') format('opentype');font-weight:700;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-ExtraBold.otf') format('opentype');font-weight:800;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Black.otf') format('opentype');font-weight:900;font-style:normal;}
+#root{position:absolute;inset:0;width:1080px;height:1920px;overflow:hidden;font-family:'Inter',sans-serif;}
+
+.hud-loc{position:absolute;left:0;right:0;top:70px;text-align:center;font-weight:800;font-size:30px;letter-spacing:.22em;color:#8A93A3;text-transform:uppercase;}
+.hud-row{position:absolute;left:0;right:0;top:122px;display:flex;justify-content:center;gap:16px;}
+.ctr{display:flex;align-items:center;gap:10px;padding:10px 18px;border-radius:10px;background:rgba(10,14,22,.78);border:2px solid rgba(255,255,255,.12);font-weight:900;font-size:28px;letter-spacing:.08em;color:#F2F4F8;}
+.ctr b{color:#FFC83D;}
+.tag{position:absolute;left:50%;padding:12px 26px;border-radius:10px;font-weight:900;font-size:36px;letter-spacing:.06em;text-transform:uppercase;color:#fff;background:#FF3B30;white-space:nowrap;box-shadow:0 8px 0 rgba(0,0,0,.35);}
+.tag.gold{background:#FFC83D;color:#111;} .tag.white{background:#fff;color:#111;} .tag.green{background:#3CF2A0;color:#062;}
+.card{position:absolute;left:70px;right:70px;padding:50px 40px;border-radius:24px;background:rgba(8,11,18,.92);border:3px solid rgba(255,255,255,.14);text-align:center;font-weight:900;font-size:72px;line-height:1.05;color:#fff;text-transform:uppercase;}
+.card em{font-style:normal;color:#FFC83D;} .card i{font-style:normal;color:#FF3B30;}
+.bub{position:absolute;padding:14px 26px;border-radius:26px;background:#fff;font-weight:900;font-size:40px;color:#111;text-transform:uppercase;white-space:nowrap;box-shadow:0 8px 0 rgba(0,0,0,.35);}
+.dark{position:absolute;border-radius:50%;background:radial-gradient(circle,rgba(4,6,11,0) 42%,rgba(4,6,11,.55) 62%,rgba(4,6,11,.93) 74%);box-shadow:0 0 0 3000px rgba(4,6,11,.93);}
+.pool{position:absolute;border-radius:50%;}
+.dim{position:absolute;filter:blur(1.5px);transform-origin:50% 100%;}
+</style>
+<div id="root" data-composition-id="01-beat01" data-width="1080" data-height="1920" data-duration="4.552">
+<div class="clip" id="f01-bg" data-start="0" data-duration="4.552" data-track-index="0" style="position:absolute;inset:0;overflow:hidden"></div>
+<div class="clip" id="f01-stage" data-start="0" data-duration="4.552" data-track-index="1" style="position:absolute;inset:0"><div class="cam" id="f01-cam" style="position:absolute;inset:0;transform-origin:50% 18%"><div style="position:absolute;inset:0"><svg width="1080" height="1920"><rect width="1080" height="1920" fill="#04060B"/></svg></div><div id="f01-m" style="position:absolute;left:520px;top:760px"><div style="width:22px;height:300px;background:#D9B27C;border-radius:6px"></div><div style="position:absolute;left:-6px;top:-30px;width:34px;height:44px;border-radius:50%;background:#7A1E14"></div><div id="f01-m-fl" style="position:absolute;left:-34px;top:-130px;width:90px;height:130px;border-radius:50% 50% 50% 50%/60% 60% 40% 40%;background:radial-gradient(circle at 50% 70%,#FFF3C4 0,#FFB347 40%,rgba(255,120,30,0) 75%)"></div></div></div><div class="hud-loc" id="f01-loc">Правило 2</div><div class="tag gold" id="f01-tag0" style="top:230px">Свет = патроны</div></div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+<script>
+(function(){
+const tl = gsap.timeline({ paused: true });
+
+tl.fromTo("#f01-tag0",{scale:.4,opacity:0,xPercent:-50,x:0},{scale:1,opacity:1,xPercent:-50,duration:.35,ease:"back.out(2.5)"},1.50);
+tl.fromTo("#f01-cam",{scale:1.22},{scale:1.293,duration:4.05,ease:"none"},0);
+window.__timelines = window.__timelines || {};
+window.__timelines["01-beat01"] = tl;
+})();
+</script>
+</template>

@@ -207,5 +207,16 @@
     "latest": null,
     "revisions": {},
     "unversioned": []
-  }
+  },
+  "renders": {
+    "latest": {
+      "id": "64aa5a22-500f-4598-8066-8a5171e194bb",
+      "completedAt": 1793230635383,
+      "output": "/home/user/-/videos/long-night-ep4/renders/the-dimmers-part-4.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
 }
