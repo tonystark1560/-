@@ -200,10 +200,10 @@ def prop(kind, ident, x, y, s=1.0, o=None):
                 f'<circle id="{ident}-hl" cx="392" cy="140" r="16" fill="#FFF3C4"/><rect x="420" y="150" width="140" height="50" rx="10" fill="#6B4423"/></svg>')
     if kind == "gauge":
         return (f'<div id="{ident}" style="position:absolute;left:{x}px;top:{y}px;width:420px;height:420px;border-radius:50%;background:#111;border:12px solid #444;display:flex;align-items:center;justify-content:center;flex-direction:column">'
-                f'<div style="font-weight:900;font-size:40px;color:{C["gray"]}">FUEL</div><div id="{ident}-v" style="font-weight:900;font-size:110px;color:{C["red"]}">{o.get("v", "6H")}</div></div>')
+                f'<div style="font-weight:900;font-size:40px;color:{C["gray"]}">{WORDS.get("FUEL", "FUEL")}</div><div id="{ident}-v" style="font-weight:900;font-size:110px;color:{C["red"]}">{o.get("v", "6H")}</div></div>')
     if kind == "watch":
         return (f'<div id="{ident}" style="position:absolute;left:{x}px;top:{y}px;width:460px;height:460px;border-radius:50%;background:#1A1A1A;border:20px solid #7A6A50;display:flex;align-items:center;justify-content:center;flex-direction:column">'
-                f'<div style="font-weight:900;font-size:56px;color:{C["gray"]}">JAN</div><div style="font-weight:900;font-size:180px;color:{C["gold"]};line-height:1">21</div></div>')
+                f'<div style="font-weight:900;font-size:56px;color:{C["gray"]}">{WORDS.get("JAN", "JAN")}</div><div style="font-weight:900;font-size:180px;color:{C["gold"]};line-height:1">21</div></div>')
     if kind == "items":
         its = o.get("items", [])
         return "".join(f'<div class="ctr" id="{ident}-{i}" style="position:absolute;left:{x}px;top:{y + i*130}px;font-size:46px;padding:20px 30px">{t}</div>' for i, t in enumerate(its))
@@ -229,6 +229,9 @@ def prop(kind, ident, x, y, s=1.0, o=None):
         return (f'<div id="{ident}-a" style="position:absolute;left:{x}px;top:{y}px;width:{W//2}px;height:260px;background:#020306;filter:blur(6px);border-radius:40px"></div>'
                 f'<div id="{ident}-b" style="position:absolute;left:{x + W//2}px;top:{y}px;width:{W//2}px;height:260px;background:#020306;filter:blur(6px);border-radius:40px"></div>')
     raise ValueError(kind)
+
+
+LABELS, WORDS = {}, {}
 
 
 # ---------------- frame builder ----------------
@@ -271,7 +274,7 @@ class Ep:
         ctr = dict(self.counters)
         ctr.update(f.get("counters", {}))
         if ctr and not f.get("nohud"):
-            hud.append('<div class="hud-row">' + "".join(f'<div class="ctr" id="{p}-c-{k}">{k} <b id="{p}-cv-{k}">{v}</b></div>' for k, v in ctr.items()) + '</div>')
+            hud.append('<div class="hud-row">' + "".join(f'<div class="ctr" id="{p}-c-{k}">{LABELS.get(k, k)} <b id="{p}-cv-{k}">{v}</b></div>' for k, v in ctr.items()) + '</div>')
         for i, (text, w, col) in enumerate(f.get("tags", [])):
             hud.append(f'<div class="tag {col}" id="{p}-tag{i}" style="top:{230 + i*90}px">{text}</div>')
             js.append(f'tl.fromTo("#{p}-tag{i}",{{scale:.4,opacity:0,xPercent:-50,x:0}},{{scale:1,opacity:1,xPercent:-50,duration:.35,ease:"back.out(2.5)"}},{cue(w):.2f});')

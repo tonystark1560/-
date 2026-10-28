@@ -1,0 +1,1561 @@
+{
+  "total_duration_s": 56.021,
+  "width": 1080,
+  "height": 1920,
+  "groups": [
+    {
+      "id": "caption-group-0",
+      "frame": 1,
+      "start": 0.06,
+      "end": 0.36,
+      "text": "In the",
+      "words": [
+        {
+          "id": "caption-word-0-0",
+          "text": "In",
+          "start": 0.06,
+          "end": 0.14
+        },
+        {
+          "id": "caption-word-0-1",
+          "text": "the",
+          "start": 0.14,
+          "end": 0.36
+        }
+      ]
+    },
+    {
+      "id": "caption-group-1",
+      "frame": 1,
+      "start": 0.36,
+      "end": 0.94,
+      "text": "long dark",
+      "words": [
+        {
+          "id": "caption-word-1-0",
+          "text": "long",
+          "start": 0.36,
+          "end": 0.65
+        },
+        {
+          "id": "caption-word-1-1",
+          "text": "dark",
+          "start": 0.65,
+          "end": 0.94
+        }
+      ]
+    },
+    {
+      "id": "caption-group-2",
+      "frame": 1,
+      "start": 0.94,
+      "end": 1.44,
+      "text": "light is",
+      "words": [
+        {
+          "id": "caption-word-2-0",
+          "text": "light",
+          "start": 0.94,
+          "end": 1.29
+        },
+        {
+          "id": "caption-word-2-1",
+          "text": "is",
+          "start": 1.3,
+          "end": 1.44
+        }
+      ]
+    },
+    {
+      "id": "caption-group-3",
+      "frame": 1,
+      "start": 1.44,
+      "end": 2,
+      "text": "ammo and",
+      "words": [
+        {
+          "id": "caption-word-3-0",
+          "text": "ammo",
+          "start": 1.44,
+          "end": 1.68
+        },
+        {
+          "id": "caption-word-3-1",
+          "text": "and",
+          "start": 1.82,
+          "end": 2
+        }
+      ]
+    },
+    {
+      "id": "caption-group-4",
+      "frame": 1,
+      "start": 2,
+      "end": 3.02,
+      "text": "coal is running",
+      "words": [
+        {
+          "id": "caption-word-4-0",
+          "text": "coal",
+          "start": 2,
+          "end": 2.31
+        },
+        {
+          "id": "caption-word-4-1",
+          "text": "is",
+          "start": 2.31,
+          "end": 2.47
+        },
+        {
+          "id": "caption-word-4-2",
+          "text": "running",
+          "start": 2.47,
+          "end": 3.02
+        }
+      ]
+    },
+    {
+      "id": "caption-group-5",
+      "frame": 1,
+      "start": 3.02,
+      "end": 3.4,
+      "text": "low.",
+      "words": [
+        {
+          "id": "caption-word-5-0",
+          "text": "low.",
+          "start": 3.02,
+          "end": 3.28
+        }
+      ]
+    },
+    {
+      "id": "caption-group-6",
+      "frame": 2,
+      "start": 4.309,
+      "end": 5.999,
+      "text": "Matches 23 lamp oil",
+      "words": [
+        {
+          "id": "caption-word-6-0",
+          "text": "Matches",
+          "start": 4.309,
+          "end": 4.849
+        },
+        {
+          "id": "caption-word-6-1",
+          "text": "23",
+          "start": 4.849,
+          "end": 5.349
+        },
+        {
+          "id": "caption-word-6-2",
+          "text": "lamp",
+          "start": 5.349,
+          "end": 5.679
+        },
+        {
+          "id": "caption-word-6-3",
+          "text": "oil",
+          "start": 5.679,
+          "end": 5.879
+        }
+      ]
+    },
+    {
+      "id": "caption-group-7",
+      "frame": 2,
+      "start": 6.009,
+      "end": 6.879,
+      "text": "4 liters,",
+      "words": [
+        {
+          "id": "caption-word-7-0",
+          "text": "4",
+          "start": 6.009,
+          "end": 6.179
+        },
+        {
+          "id": "caption-word-7-1",
+          "text": "liters,",
+          "start": 6.179,
+          "end": 6.879
+        }
+      ]
+    },
+    {
+      "id": "caption-group-8",
+      "frame": 2,
+      "start": 6.879,
+      "end": 8.289,
+      "text": "flares 4 batteries",
+      "words": [
+        {
+          "id": "caption-word-8-0",
+          "text": "flares",
+          "start": 6.879,
+          "end": 7.349
+        },
+        {
+          "id": "caption-word-8-1",
+          "text": "4",
+          "start": 7.349,
+          "end": 7.579
+        },
+        {
+          "id": "caption-word-8-2",
+          "text": "batteries",
+          "start": 7.579,
+          "end": 8.289
+        }
+      ]
+    },
+    {
+      "id": "caption-group-9",
+      "frame": 2,
+      "start": 8.289,
+      "end": 8.669,
+      "text": "2.",
+      "words": [
+        {
+          "id": "caption-word-9-0",
+          "text": "2.",
+          "start": 8.289,
+          "end": 8.549
+        }
+      ]
+    },
+    {
+      "id": "caption-group-10",
+      "frame": 3,
+      "start": 9.6,
+      "end": 10.08,
+      "text": "His nearest",
+      "words": [
+        {
+          "id": "caption-word-10-0",
+          "text": "His",
+          "start": 9.6,
+          "end": 9.7
+        },
+        {
+          "id": "caption-word-10-1",
+          "text": "nearest",
+          "start": 9.71,
+          "end": 10
+        }
+      ]
+    },
+    {
+      "id": "caption-group-11",
+      "frame": 3,
+      "start": 10.08,
+      "end": 10.63,
+      "text": "neighbor is",
+      "words": [
+        {
+          "id": "caption-word-11-0",
+          "text": "neighbor",
+          "start": 10.08,
+          "end": 10.48
+        },
+        {
+          "id": "caption-word-11-1",
+          "text": "is",
+          "start": 10.56,
+          "end": 10.63
+        }
+      ]
+    },
+    {
+      "id": "caption-group-12",
+      "frame": 3,
+      "start": 10.63,
+      "end": 10.99,
+      "text": "Ruth,",
+      "words": [
+        {
+          "id": "caption-word-12-0",
+          "text": "Ruth,",
+          "start": 10.63,
+          "end": 10.94
+        }
+      ]
+    },
+    {
+      "id": "caption-group-13",
+      "frame": 3,
+      "start": 10.99,
+      "end": 12.1,
+      "text": "a retired nurse",
+      "words": [
+        {
+          "id": "caption-word-13-0",
+          "text": "a",
+          "start": 10.99,
+          "end": 11.06
+        },
+        {
+          "id": "caption-word-13-1",
+          "text": "retired",
+          "start": 11.06,
+          "end": 11.65
+        },
+        {
+          "id": "caption-word-13-2",
+          "text": "nurse",
+          "start": 11.65,
+          "end": 11.98
+        }
+      ]
+    },
+    {
+      "id": "caption-group-14",
+      "frame": 3,
+      "start": 12.18,
+      "end": 12.66,
+      "text": "three miles",
+      "words": [
+        {
+          "id": "caption-word-14-0",
+          "text": "three",
+          "start": 12.18,
+          "end": 12.34
+        },
+        {
+          "id": "caption-word-14-1",
+          "text": "miles",
+          "start": 12.34,
+          "end": 12.66
+        }
+      ]
+    },
+    {
+      "id": "caption-group-15",
+      "frame": 3,
+      "start": 12.66,
+      "end": 13.72,
+      "text": "up the creek.",
+      "words": [
+        {
+          "id": "caption-word-15-0",
+          "text": "up",
+          "start": 12.66,
+          "end": 12.7
+        },
+        {
+          "id": "caption-word-15-1",
+          "text": "the",
+          "start": 12.8,
+          "end": 13.06
+        },
+        {
+          "id": "caption-word-15-2",
+          "text": "creek.",
+          "start": 13.06,
+          "end": 13.66
+        }
+      ]
+    },
+    {
+      "id": "caption-group-16",
+      "frame": 3,
+      "start": 13.72,
+      "end": 14.27,
+      "text": "Her chimney",
+      "words": [
+        {
+          "id": "caption-word-16-0",
+          "text": "Her",
+          "start": 13.72,
+          "end": 13.84
+        },
+        {
+          "id": "caption-word-16-1",
+          "text": "chimney",
+          "start": 13.84,
+          "end": 14.27
+        }
+      ]
+    },
+    {
+      "id": "caption-group-17",
+      "frame": 3,
+      "start": 14.27,
+      "end": 15.05,
+      "text": "hasn't smoked",
+      "words": [
+        {
+          "id": "caption-word-17-0",
+          "text": "hasn't",
+          "start": 14.27,
+          "end": 14.61
+        },
+        {
+          "id": "caption-word-17-1",
+          "text": "smoked",
+          "start": 14.64,
+          "end": 14.93
+        }
+      ]
+    },
+    {
+      "id": "caption-group-18",
+      "frame": 3,
+      "start": 15.06,
+      "end": 15.74,
+      "text": "in two days.",
+      "words": [
+        {
+          "id": "caption-word-18-0",
+          "text": "in",
+          "start": 15.06,
+          "end": 15.13
+        },
+        {
+          "id": "caption-word-18-1",
+          "text": "two",
+          "start": 15.13,
+          "end": 15.28
+        },
+        {
+          "id": "caption-word-18-2",
+          "text": "days.",
+          "start": 15.4,
+          "end": 15.62
+        }
+      ]
+    },
+    {
+      "id": "caption-group-19",
+      "frame": 4,
+      "start": 16.649,
+      "end": 17.249,
+      "text": "Coal straps",
+      "words": [
+        {
+          "id": "caption-word-19-0",
+          "text": "Coal",
+          "start": 16.649,
+          "end": 16.809
+        },
+        {
+          "id": "caption-word-19-1",
+          "text": "straps",
+          "start": 16.809,
+          "end": 17.139
+        }
+      ]
+    },
+    {
+      "id": "caption-group-20",
+      "frame": 4,
+      "start": 17.249,
+      "end": 17.419,
+      "text": "on a",
+      "words": [
+        {
+          "id": "caption-word-20-0",
+          "text": "on",
+          "start": 17.249,
+          "end": 17.349
+        },
+        {
+          "id": "caption-word-20-1",
+          "text": "a",
+          "start": 17.349,
+          "end": 17.409
+        }
+      ]
+    },
+    {
+      "id": "caption-group-21",
+      "frame": 4,
+      "start": 17.419,
+      "end": 18.119,
+      "text": "headlamp,",
+      "words": [
+        {
+          "id": "caption-word-21-0",
+          "text": "headlamp,",
+          "start": 17.419,
+          "end": 18.119
+        }
+      ]
+    },
+    {
+      "id": "caption-group-22",
+      "frame": 4,
+      "start": 18.119,
+      "end": 18.599,
+      "text": "bear goes",
+      "words": [
+        {
+          "id": "caption-word-22-0",
+          "text": "bear",
+          "start": 18.119,
+          "end": 18.359
+        },
+        {
+          "id": "caption-word-22-1",
+          "text": "goes",
+          "start": 18.359,
+          "end": 18.599
+        }
+      ]
+    },
+    {
+      "id": "caption-group-23",
+      "frame": 4,
+      "start": 18.599,
+      "end": 19.019,
+      "text": "first,",
+      "words": [
+        {
+          "id": "caption-word-23-0",
+          "text": "first,",
+          "start": 18.599,
+          "end": 18.929
+        }
+      ]
+    },
+    {
+      "id": "caption-group-24",
+      "frame": 4,
+      "start": 19.019,
+      "end": 19.589,
+      "text": "bear always",
+      "words": [
+        {
+          "id": "caption-word-24-0",
+          "text": "bear",
+          "start": 19.019,
+          "end": 19.199
+        },
+        {
+          "id": "caption-word-24-1",
+          "text": "always",
+          "start": 19.209,
+          "end": 19.529
+        }
+      ]
+    },
+    {
+      "id": "caption-group-25",
+      "frame": 4,
+      "start": 19.589,
+      "end": 20.349,
+      "text": "goes first.",
+      "words": [
+        {
+          "id": "caption-word-25-0",
+          "text": "goes",
+          "start": 19.589,
+          "end": 19.769
+        },
+        {
+          "id": "caption-word-25-1",
+          "text": "first.",
+          "start": 19.919,
+          "end": 20.229
+        }
+      ]
+    },
+    {
+      "id": "caption-group-26",
+      "frame": 5,
+      "start": 21.41,
+      "end": 22.08,
+      "text": "Halfway there",
+      "words": [
+        {
+          "id": "caption-word-26-0",
+          "text": "Halfway",
+          "start": 21.41,
+          "end": 21.74
+        },
+        {
+          "id": "caption-word-26-1",
+          "text": "there",
+          "start": 21.76,
+          "end": 22.03
+        }
+      ]
+    },
+    {
+      "id": "caption-group-27",
+      "frame": 5,
+      "start": 22.08,
+      "end": 23.14,
+      "text": "the headlamp starts",
+      "words": [
+        {
+          "id": "caption-word-27-0",
+          "text": "the",
+          "start": 22.08,
+          "end": 22.26
+        },
+        {
+          "id": "caption-word-27-1",
+          "text": "headlamp",
+          "start": 22.26,
+          "end": 22.72
+        },
+        {
+          "id": "caption-word-27-2",
+          "text": "starts",
+          "start": 22.79,
+          "end": 23.14
+        }
+      ]
+    },
+    {
+      "id": "caption-group-28",
+      "frame": 5,
+      "start": 23.14,
+      "end": 23.59,
+      "text": "to dim,",
+      "words": [
+        {
+          "id": "caption-word-28-0",
+          "text": "to",
+          "start": 23.14,
+          "end": 23.26
+        },
+        {
+          "id": "caption-word-28-1",
+          "text": "dim,",
+          "start": 23.26,
+          "end": 23.59
+        }
+      ]
+    },
+    {
+      "id": "caption-group-29",
+      "frame": 5,
+      "start": 23.59,
+      "end": 24.13,
+      "text": "coal didn't",
+      "words": [
+        {
+          "id": "caption-word-29-0",
+          "text": "coal",
+          "start": 23.59,
+          "end": 23.8
+        },
+        {
+          "id": "caption-word-29-1",
+          "text": "didn't",
+          "start": 23.81,
+          "end": 24.11
+        }
+      ]
+    },
+    {
+      "id": "caption-group-30",
+      "frame": 5,
+      "start": 24.13,
+      "end": 24.67,
+      "text": "touch it,",
+      "words": [
+        {
+          "id": "caption-word-30-0",
+          "text": "touch",
+          "start": 24.13,
+          "end": 24.42
+        },
+        {
+          "id": "caption-word-30-1",
+          "text": "it,",
+          "start": 24.42,
+          "end": 24.55
+        }
+      ]
+    },
+    {
+      "id": "caption-group-31",
+      "frame": 5,
+      "start": 24.71,
+      "end": 25.29,
+      "text": "the batteries",
+      "words": [
+        {
+          "id": "caption-word-31-0",
+          "text": "the",
+          "start": 24.71,
+          "end": 24.83
+        },
+        {
+          "id": "caption-word-31-1",
+          "text": "batteries",
+          "start": 24.83,
+          "end": 25.29
+        }
+      ]
+    },
+    {
+      "id": "caption-group-32",
+      "frame": 5,
+      "start": 25.29,
+      "end": 26.17,
+      "text": "are brand new.",
+      "words": [
+        {
+          "id": "caption-word-32-0",
+          "text": "are",
+          "start": 25.29,
+          "end": 25.44
+        },
+        {
+          "id": "caption-word-32-1",
+          "text": "brand",
+          "start": 25.44,
+          "end": 25.72
+        },
+        {
+          "id": "caption-word-32-2",
+          "text": "new.",
+          "start": 25.72,
+          "end": 26.05
+        }
+      ]
+    },
+    {
+      "id": "caption-group-33",
+      "frame": 6,
+      "start": 27.142,
+      "end": 27.632,
+      "text": "Rule 2,",
+      "words": [
+        {
+          "id": "caption-word-33-0",
+          "text": "Rule",
+          "start": 27.142,
+          "end": 27.332
+        },
+        {
+          "id": "caption-word-33-1",
+          "text": "2,",
+          "start": 27.332,
+          "end": 27.632
+        }
+      ]
+    },
+    {
+      "id": "caption-group-34",
+      "frame": 6,
+      "start": 27.632,
+      "end": 28.652,
+      "text": "they drink light,",
+      "words": [
+        {
+          "id": "caption-word-34-0",
+          "text": "they",
+          "start": 27.632,
+          "end": 27.832
+        },
+        {
+          "id": "caption-word-34-1",
+          "text": "drink",
+          "start": 27.882,
+          "end": 28.192
+        },
+        {
+          "id": "caption-word-34-2",
+          "text": "light,",
+          "start": 28.192,
+          "end": 28.652
+        }
+      ]
+    },
+    {
+      "id": "caption-group-35",
+      "frame": 6,
+      "start": 28.652,
+      "end": 29.672,
+      "text": "and electric light",
+      "words": [
+        {
+          "id": "caption-word-35-0",
+          "text": "and",
+          "start": 28.652,
+          "end": 28.842
+        },
+        {
+          "id": "caption-word-35-1",
+          "text": "electric",
+          "start": 28.842,
+          "end": 29.362
+        },
+        {
+          "id": "caption-word-35-2",
+          "text": "light",
+          "start": 29.362,
+          "end": 29.672
+        }
+      ]
+    },
+    {
+      "id": "caption-group-36",
+      "frame": 6,
+      "start": 29.672,
+      "end": 30.402,
+      "text": "goes first.",
+      "words": [
+        {
+          "id": "caption-word-36-0",
+          "text": "goes",
+          "start": 29.672,
+          "end": 29.942
+        },
+        {
+          "id": "caption-word-36-1",
+          "text": "first.",
+          "start": 29.942,
+          "end": 30.282
+        }
+      ]
+    },
+    {
+      "id": "caption-group-37",
+      "frame": 7,
+      "start": 31.284,
+      "end": 31.814,
+      "text": "Ruth's cabin",
+      "words": [
+        {
+          "id": "caption-word-37-0",
+          "text": "Ruth's",
+          "start": 31.284,
+          "end": 31.484
+        },
+        {
+          "id": "caption-word-37-1",
+          "text": "cabin",
+          "start": 31.604,
+          "end": 31.814
+        }
+      ]
+    },
+    {
+      "id": "caption-group-38",
+      "frame": 7,
+      "start": 31.814,
+      "end": 32.124,
+      "text": "is dark",
+      "words": [
+        {
+          "id": "caption-word-38-0",
+          "text": "is",
+          "start": 31.814,
+          "end": 31.914
+        },
+        {
+          "id": "caption-word-38-1",
+          "text": "dark",
+          "start": 31.914,
+          "end": 32.124
+        }
+      ]
+    },
+    {
+      "id": "caption-group-39",
+      "frame": 7,
+      "start": 32.124,
+      "end": 32.634,
+      "text": "but through",
+      "words": [
+        {
+          "id": "caption-word-39-0",
+          "text": "but",
+          "start": 32.124,
+          "end": 32.274
+        },
+        {
+          "id": "caption-word-39-1",
+          "text": "through",
+          "start": 32.274,
+          "end": 32.514
+        }
+      ]
+    },
+    {
+      "id": "caption-group-40",
+      "frame": 7,
+      "start": 32.644,
+      "end": 33.674,
+      "text": "the window there's",
+      "words": [
+        {
+          "id": "caption-word-40-0",
+          "text": "the",
+          "start": 32.644,
+          "end": 32.784
+        },
+        {
+          "id": "caption-word-40-1",
+          "text": "window",
+          "start": 32.784,
+          "end": 33.134
+        },
+        {
+          "id": "caption-word-40-2",
+          "text": "there's",
+          "start": 33.144,
+          "end": 33.674
+        }
+      ]
+    },
+    {
+      "id": "caption-group-41",
+      "frame": 7,
+      "start": 33.674,
+      "end": 34.044,
+      "text": "a tiny",
+      "words": [
+        {
+          "id": "caption-word-41-0",
+          "text": "a",
+          "start": 33.674,
+          "end": 33.704
+        },
+        {
+          "id": "caption-word-41-1",
+          "text": "tiny",
+          "start": 33.774,
+          "end": 34.044
+        }
+      ]
+    },
+    {
+      "id": "caption-group-42",
+      "frame": 7,
+      "start": 34.044,
+      "end": 34.454,
+      "text": "glow,",
+      "words": [
+        {
+          "id": "caption-word-42-0",
+          "text": "glow,",
+          "start": 34.044,
+          "end": 34.454
+        }
+      ]
+    },
+    {
+      "id": "caption-group-43",
+      "frame": 7,
+      "start": 34.454,
+      "end": 34.794,
+      "text": "a circle",
+      "words": [
+        {
+          "id": "caption-word-43-0",
+          "text": "a",
+          "start": 34.454,
+          "end": 34.504
+        },
+        {
+          "id": "caption-word-43-1",
+          "text": "circle",
+          "start": 34.504,
+          "end": 34.794
+        }
+      ]
+    },
+    {
+      "id": "caption-group-44",
+      "frame": 7,
+      "start": 34.794,
+      "end": 35.264,
+      "text": "of candles",
+      "words": [
+        {
+          "id": "caption-word-44-0",
+          "text": "of",
+          "start": 34.794,
+          "end": 34.804
+        },
+        {
+          "id": "caption-word-44-1",
+          "text": "candles",
+          "start": 34.944,
+          "end": 35.254
+        }
+      ]
+    },
+    {
+      "id": "caption-group-45",
+      "frame": 7,
+      "start": 35.264,
+      "end": 35.684,
+      "text": "on the",
+      "words": [
+        {
+          "id": "caption-word-45-0",
+          "text": "on",
+          "start": 35.264,
+          "end": 35.444
+        },
+        {
+          "id": "caption-word-45-1",
+          "text": "the",
+          "start": 35.484,
+          "end": 35.604
+        }
+      ]
+    },
+    {
+      "id": "caption-group-46",
+      "frame": 7,
+      "start": 35.684,
+      "end": 36.104,
+      "text": "floor and",
+      "words": [
+        {
+          "id": "caption-word-46-0",
+          "text": "floor",
+          "start": 35.684,
+          "end": 35.924
+        },
+        {
+          "id": "caption-word-46-1",
+          "text": "and",
+          "start": 35.924,
+          "end": 36.104
+        }
+      ]
+    },
+    {
+      "id": "caption-group-47",
+      "frame": 7,
+      "start": 36.104,
+      "end": 36.834,
+      "text": "Ruth sitting",
+      "words": [
+        {
+          "id": "caption-word-47-0",
+          "text": "Ruth",
+          "start": 36.104,
+          "end": 36.344
+        },
+        {
+          "id": "caption-word-47-1",
+          "text": "sitting",
+          "start": 36.344,
+          "end": 36.714
+        }
+      ]
+    },
+    {
+      "id": "caption-group-48",
+      "frame": 7,
+      "start": 36.834,
+      "end": 37.064,
+      "text": "in the",
+      "words": [
+        {
+          "id": "caption-word-48-0",
+          "text": "in",
+          "start": 36.834,
+          "end": 36.884
+        },
+        {
+          "id": "caption-word-48-1",
+          "text": "the",
+          "start": 36.884,
+          "end": 37.064
+        }
+      ]
+    },
+    {
+      "id": "caption-group-49",
+      "frame": 7,
+      "start": 37.064,
+      "end": 37.544,
+      "text": "middle,",
+      "words": [
+        {
+          "id": "caption-word-49-0",
+          "text": "middle,",
+          "start": 37.064,
+          "end": 37.544
+        }
+      ]
+    },
+    {
+      "id": "caption-group-50",
+      "frame": 7,
+      "start": 37.544,
+      "end": 38.164,
+      "text": "alive.",
+      "words": [
+        {
+          "id": "caption-word-50-0",
+          "text": "alive.",
+          "start": 37.544,
+          "end": 38.044
+        }
+      ]
+    },
+    {
+      "id": "caption-group-51",
+      "frame": 8,
+      "start": 39.165,
+      "end": 39.645,
+      "text": "Three days,",
+      "words": [
+        {
+          "id": "caption-word-51-0",
+          "text": "Three",
+          "start": 39.165,
+          "end": 39.335
+        },
+        {
+          "id": "caption-word-51-1",
+          "text": "days,",
+          "start": 39.355,
+          "end": 39.615
+        }
+      ]
+    },
+    {
+      "id": "caption-group-52",
+      "frame": 8,
+      "start": 39.645,
+      "end": 40.395,
+      "text": "she whispers.",
+      "words": [
+        {
+          "id": "caption-word-52-0",
+          "text": "she",
+          "start": 39.645,
+          "end": 39.795
+        },
+        {
+          "id": "caption-word-52-1",
+          "text": "whispers.",
+          "start": 39.795,
+          "end": 40.275
+        }
+      ]
+    },
+    {
+      "id": "caption-group-53",
+      "frame": 8,
+      "start": 40.485,
+      "end": 40.915,
+      "text": "They've been",
+      "words": [
+        {
+          "id": "caption-word-53-0",
+          "text": "They've",
+          "start": 40.485,
+          "end": 40.725
+        },
+        {
+          "id": "caption-word-53-1",
+          "text": "been",
+          "start": 40.725,
+          "end": 40.915
+        }
+      ]
+    },
+    {
+      "id": "caption-group-54",
+      "frame": 8,
+      "start": 40.915,
+      "end": 41.145,
+      "text": "at the",
+      "words": [
+        {
+          "id": "caption-word-54-0",
+          "text": "at",
+          "start": 40.915,
+          "end": 41.005
+        },
+        {
+          "id": "caption-word-54-1",
+          "text": "the",
+          "start": 41.005,
+          "end": 41.145
+        }
+      ]
+    },
+    {
+      "id": "caption-group-55",
+      "frame": 8,
+      "start": 41.145,
+      "end": 41.565,
+      "text": "window for",
+      "words": [
+        {
+          "id": "caption-word-55-0",
+          "text": "window",
+          "start": 41.145,
+          "end": 41.425
+        },
+        {
+          "id": "caption-word-55-1",
+          "text": "for",
+          "start": 41.425,
+          "end": 41.555
+        }
+      ]
+    },
+    {
+      "id": "caption-group-56",
+      "frame": 8,
+      "start": 41.565,
+      "end": 42.265,
+      "text": "three days.",
+      "words": [
+        {
+          "id": "caption-word-56-0",
+          "text": "three",
+          "start": 41.565,
+          "end": 41.805
+        },
+        {
+          "id": "caption-word-56-1",
+          "text": "days.",
+          "start": 41.805,
+          "end": 42.175
+        }
+      ]
+    },
+    {
+      "id": "caption-group-57",
+      "frame": 8,
+      "start": 42.265,
+      "end": 42.625,
+      "text": "Don't let",
+      "words": [
+        {
+          "id": "caption-word-57-0",
+          "text": "Don't",
+          "start": 42.265,
+          "end": 42.425
+        },
+        {
+          "id": "caption-word-57-1",
+          "text": "let",
+          "start": 42.455,
+          "end": 42.625
+        }
+      ]
+    },
+    {
+      "id": "caption-group-58",
+      "frame": 8,
+      "start": 42.625,
+      "end": 43.195,
+      "text": "the candles",
+      "words": [
+        {
+          "id": "caption-word-58-0",
+          "text": "the",
+          "start": 42.625,
+          "end": 42.785
+        },
+        {
+          "id": "caption-word-58-1",
+          "text": "candles",
+          "start": 42.785,
+          "end": 43.195
+        }
+      ]
+    },
+    {
+      "id": "caption-group-59",
+      "frame": 8,
+      "start": 43.195,
+      "end": 43.785,
+      "text": "go out.",
+      "words": [
+        {
+          "id": "caption-word-59-0",
+          "text": "go",
+          "start": 43.195,
+          "end": 43.305
+        },
+        {
+          "id": "caption-word-59-1",
+          "text": "out.",
+          "start": 43.305,
+          "end": 43.665
+        }
+      ]
+    },
+    {
+      "id": "caption-group-60",
+      "frame": 9,
+      "start": 44.734,
+      "end": 45.454,
+      "text": "Cole counts",
+      "words": [
+        {
+          "id": "caption-word-60-0",
+          "text": "Cole",
+          "start": 44.734,
+          "end": 44.924
+        },
+        {
+          "id": "caption-word-60-1",
+          "text": "counts",
+          "start": 44.984,
+          "end": 45.344
+        }
+      ]
+    },
+    {
+      "id": "caption-group-61",
+      "frame": 9,
+      "start": 45.454,
+      "end": 46.724,
+      "text": "4 candles left,",
+      "words": [
+        {
+          "id": "caption-word-61-0",
+          "text": "4",
+          "start": 45.454,
+          "end": 45.694
+        },
+        {
+          "id": "caption-word-61-1",
+          "text": "candles",
+          "start": 45.694,
+          "end": 46.274
+        },
+        {
+          "id": "caption-word-61-2",
+          "text": "left,",
+          "start": 46.274,
+          "end": 46.684
+        }
+      ]
+    },
+    {
+      "id": "caption-group-62",
+      "frame": 9,
+      "start": 46.724,
+      "end": 47.094,
+      "text": "each one",
+      "words": [
+        {
+          "id": "caption-word-62-0",
+          "text": "each",
+          "start": 46.724,
+          "end": 46.934
+        },
+        {
+          "id": "caption-word-62-1",
+          "text": "one",
+          "start": 46.934,
+          "end": 47.094
+        }
+      ]
+    },
+    {
+      "id": "caption-group-63",
+      "frame": 9,
+      "start": 47.094,
+      "end": 48.044,
+      "text": "already half gone.",
+      "words": [
+        {
+          "id": "caption-word-63-0",
+          "text": "already",
+          "start": 47.094,
+          "end": 47.424
+        },
+        {
+          "id": "caption-word-63-1",
+          "text": "half",
+          "start": 47.554,
+          "end": 47.674
+        },
+        {
+          "id": "caption-word-63-2",
+          "text": "gone.",
+          "start": 47.674,
+          "end": 47.924
+        }
+      ]
+    },
+    {
+      "id": "caption-group-64",
+      "frame": 10,
+      "start": 48.995,
+      "end": 49.455,
+      "text": "Then bear",
+      "words": [
+        {
+          "id": "caption-word-64-0",
+          "text": "Then",
+          "start": 48.995,
+          "end": 49.195
+        },
+        {
+          "id": "caption-word-64-1",
+          "text": "bear",
+          "start": 49.195,
+          "end": 49.455
+        }
+      ]
+    },
+    {
+      "id": "caption-group-65",
+      "frame": 10,
+      "start": 49.455,
+      "end": 49.975,
+      "text": "whines,",
+      "words": [
+        {
+          "id": "caption-word-65-0",
+          "text": "whines,",
+          "start": 49.455,
+          "end": 49.975
+        }
+      ]
+    },
+    {
+      "id": "caption-group-66",
+      "frame": 10,
+      "start": 49.975,
+      "end": 50.705,
+      "text": "behind them",
+      "words": [
+        {
+          "id": "caption-word-66-0",
+          "text": "behind",
+          "start": 49.975,
+          "end": 50.365
+        },
+        {
+          "id": "caption-word-66-1",
+          "text": "them",
+          "start": 50.365,
+          "end": 50.595
+        }
+      ]
+    },
+    {
+      "id": "caption-group-67",
+      "frame": 10,
+      "start": 50.705,
+      "end": 51.205,
+      "text": "one candle",
+      "words": [
+        {
+          "id": "caption-word-67-0",
+          "text": "one",
+          "start": 50.705,
+          "end": 50.815
+        },
+        {
+          "id": "caption-word-67-1",
+          "text": "candle",
+          "start": 50.815,
+          "end": 51.205
+        }
+      ]
+    },
+    {
+      "id": "caption-group-68",
+      "frame": 10,
+      "start": 51.205,
+      "end": 52.505,
+      "text": "flame bends sideways,",
+      "words": [
+        {
+          "id": "caption-word-68-0",
+          "text": "flame",
+          "start": 51.205,
+          "end": 51.525
+        },
+        {
+          "id": "caption-word-68-1",
+          "text": "bends",
+          "start": 51.525,
+          "end": 51.845
+        },
+        {
+          "id": "caption-word-68-2",
+          "text": "sideways,",
+          "start": 51.845,
+          "end": 52.435
+        }
+      ]
+    },
+    {
+      "id": "caption-group-69",
+      "frame": 10,
+      "start": 52.505,
+      "end": 53.415,
+      "text": "there's no wind.",
+      "words": [
+        {
+          "id": "caption-word-69-0",
+          "text": "there's",
+          "start": 52.505,
+          "end": 52.865
+        },
+        {
+          "id": "caption-word-69-1",
+          "text": "no",
+          "start": 52.875,
+          "end": 52.995
+        },
+        {
+          "id": "caption-word-69-2",
+          "text": "wind.",
+          "start": 52.995,
+          "end": 53.295
+        }
+      ]
+    },
+    {
+      "id": "caption-group-70",
+      "frame": 11,
+      "start": 54.36,
+      "end": 54.67,
+      "text": "and it",
+      "words": [
+        {
+          "id": "caption-word-70-0",
+          "text": "and",
+          "start": 54.36,
+          "end": 54.49
+        },
+        {
+          "id": "caption-word-70-1",
+          "text": "it",
+          "start": 54.49,
+          "end": 54.55
+        }
+      ]
+    },
+    {
+      "id": "caption-group-71",
+      "frame": 11,
+      "start": 54.68,
+      "end": 55.44,
+      "text": "goes out.",
+      "words": [
+        {
+          "id": "caption-word-71-0",
+          "text": "goes",
+          "start": 54.68,
+          "end": 54.92
+        },
+        {
+          "id": "caption-word-71-1",
+          "text": "out.",
+          "start": 54.92,
+          "end": 55.32
+        }
+      ]
+    }
+  ]
+}

@@ -9,7 +9,7 @@ music: none
 ## Frame 1 — Beat01
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 4.269s
 - transition_in: cut
 - status: animated
 - voiceover: "In the long dark, light is ammo. And Cole is running low."
@@ -18,7 +18,7 @@ music: none
 ## Frame 2 — Beat02
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 5.271s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Matches: twenty-three. Lamp oil: four liters. Flares: four. Batteries: two."
@@ -27,7 +27,7 @@ music: none
 ## Frame 3 — Beat03
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 6.999s
 - transition_in: crossfade
 - status: animated
 - voiceover: "His nearest neighbor is Ruth, a retired nurse, three miles up the creek. Her chimney hasn't smoked in two days."
@@ -36,7 +36,7 @@ music: none
 ## Frame 4 — Beat04
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 4.781s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Cole straps on a headlamp. Bear goes first. Bear always goes first."
@@ -45,7 +45,7 @@ music: none
 ## Frame 5 — Beat05
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 5.762s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Halfway there, the headlamp starts to dim. Cole didn't touch it. The batteries are brand new."
@@ -54,7 +54,7 @@ music: none
 ## Frame 6 — Beat06
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 4.162s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Rule two: they drink light. And electric light goes first."
@@ -63,7 +63,7 @@ music: none
 ## Frame 7 — Beat07
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 7.831s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Ruth's cabin is dark. But through the window there's a tiny glow. A circle of candles on the floor. And Ruth, sitting in the middle. Alive."
@@ -72,7 +72,7 @@ music: none
 ## Frame 8 — Beat08
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 5.549s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Three days, she whispers. They've been at the window for three days. Don't let the candles go out."
@@ -81,7 +81,7 @@ music: none
 ## Frame 9 — Beat09
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 4.311s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Cole counts. Four candles left. Each one already half gone."
@@ -90,7 +90,7 @@ music: none
 ## Frame 10 — Beat10
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 5.335s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Then Bear whines. Behind them, one candle flame bends sideways. There's no wind."
@@ -99,7 +99,7 @@ music: none
 ## Frame 11 — Beat11
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 1.751s
 - transition_in: crossfade
 - status: animated
 - voiceover: "And it goes out."
