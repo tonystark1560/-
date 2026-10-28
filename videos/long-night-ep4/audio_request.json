@@ -1,0 +1,50 @@
+{
+  "provider": "auto",
+  "speed": "1.05",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Six hours of power. Then the dark wins. Cole needs a better plan."
+    },
+    {
+      "id": "02",
+      "text": "On the radio, a voice breaks through the static. Kettle Creek airstrip. We have floodlights and fuel. Anyone out there, come south."
+    },
+    {
+      "id": "03",
+      "text": "Forty miles. In the dark. On a snowmachine with one headlight."
+    },
+    {
+      "id": "04",
+      "text": "Ruth packs the last candles. Cole straps on the last three flares. Bear rides in the sled, ears up."
+    },
+    {
+      "id": "05",
+      "text": "Rule four: never travel in the dark. Unless the dark is coming for you anyway."
+    },
+    {
+      "id": "06",
+      "text": "Mile ten. The trees press in close. The headlight starts to flicker."
+    },
+    {
+      "id": "07",
+      "text": "Mile eighteen. Something is running alongside them. They can't see it. But the snow beside the trail is being pushed down. Step. Step. Step."
+    },
+    {
+      "id": "08",
+      "text": "Mile twenty-one. The headlight dies."
+    },
+    {
+      "id": "09",
+      "text": "Total darkness. Cole fumbles for a flare. His gloves are too thick. Ruth screams his name."
+    },
+    {
+      "id": "10",
+      "text": "And then the sled is empty. Bear has jumped out. He's gone, into the dark."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "voice": "am_onyx"
+}
