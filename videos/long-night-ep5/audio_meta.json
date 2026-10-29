@@ -1,522 +1,1116 @@
 {
-  "bgm": null,
-  "bgm_pending": false,
-  "voices": [
+ "bgm": null,
+ "bgm_pending": false,
+ "voices": [
+  {
+   "frame": 1,
+   "path": "assets/voice/01.wav",
+   "duration_s": 4.629,
+   "words": [
     {
-      "frame": 1,
-      "path": "assets/voice/01.wav",
-      "duration_s": 4.629,
-      "words": []
+     "id": "w0",
+     "text": "You",
+     "start": 0.07,
+     "end": 0.15
     },
     {
-      "frame": 2,
-      "path": "assets/voice/02.wav",
-      "duration_s": 4.416,
-      "words": []
+     "id": "w1",
+     "text": "never",
+     "start": 0.15,
+     "end": 0.41
     },
     {
-      "frame": 3,
-      "path": "assets/voice/03.wav",
-      "duration_s": 3.883,
-      "words": []
+     "id": "w2",
+     "text": "chase",
+     "start": 0.41,
+     "end": 0.66
     },
     {
-      "frame": 4,
-      "path": "assets/voice/04.wav",
-      "duration_s": 5.013,
-      "words": []
+     "id": "w3",
+     "text": "your",
+     "start": 0.71,
+     "end": 0.87
     },
     {
-      "frame": 5,
-      "path": "assets/voice/05.wav",
-      "duration_s": 5.419,
-      "words": [
-        {
-          "id": "w0",
-          "text": "They",
-          "start": 0.05,
-          "end": 0.12
-        },
-        {
-          "id": "w1",
-          "text": "follow,",
-          "start": 0.23,
-          "end": 0.56
-        },
-        {
-          "id": "w2",
-          "text": "the",
-          "start": 0.56,
-          "end": 0.69
-        },
-        {
-          "id": "w3",
-          "text": "snow",
-          "start": 0.72,
-          "end": 0.89
-        },
-        {
-          "id": "w4",
-          "text": "under",
-          "start": 0.89,
-          "end": 1.12
-        },
-        {
-          "id": "w5",
-          "text": "their",
-          "start": 1.12,
-          "end": 1.31
-        },
-        {
-          "id": "w6",
-          "text": "boots",
-          "start": 1.37,
-          "end": 1.55
-        },
-        {
-          "id": "w7",
-          "text": "turns",
-          "start": 1.65,
-          "end": 1.88
-        },
-        {
-          "id": "w8",
-          "text": "hard",
-          "start": 1.99,
-          "end": 2.28
-        },
-        {
-          "id": "w9",
-          "text": "and",
-          "start": 2.28,
-          "end": 2.52
-        },
-        {
-          "id": "w10",
-          "text": "smooth,",
-          "start": 2.52,
-          "end": 3.14
-        },
-        {
-          "id": "w11",
-          "text": "a",
-          "start": 3.14,
-          "end": 3.25
-        },
-        {
-          "id": "w12",
-          "text": "frozen",
-          "start": 3.25,
-          "end": 3.65
-        },
-        {
-          "id": "w13",
-          "text": "river",
-          "start": 3.65,
-          "end": 3.97
-        },
-        {
-          "id": "w14",
-          "text": "and",
-          "start": 4.08,
-          "end": 4.17
-        },
-        {
-          "id": "w15",
-          "text": "it's",
-          "start": 4.17,
-          "end": 4.36
-        },
-        {
-          "id": "w16",
-          "text": "shining.",
-          "start": 4.36,
-          "end": 4.82
-        }
-      ]
+     "id": "w4",
+     "text": "dog",
+     "start": 0.87,
+     "end": 1.02
     },
     {
-      "frame": 6,
-      "path": "assets/voice/06.wav",
-      "duration_s": 5.696,
-      "words": []
+     "id": "w5",
+     "text": "into",
+     "start": 1.02,
+     "end": 1.17
     },
     {
-      "frame": 7,
-      "path": "assets/voice/07.wav",
-      "duration_s": 5.568,
-      "words": []
+     "id": "w6",
+     "text": "the",
+     "start": 1.22,
+     "end": 1.35
     },
     {
-      "frame": 8,
-      "path": "assets/voice/08.wav",
-      "duration_s": 5.504,
-      "words": [
-        {
-          "id": "w0",
-          "text": "They",
-          "start": 0.05,
-          "end": 0.22
-        },
-        {
-          "id": "w1",
-          "text": "walked",
-          "start": 0.22,
-          "end": 0.55
-        },
-        {
-          "id": "w2",
-          "text": "the",
-          "start": 0.55,
-          "end": 0.71
-        },
-        {
-          "id": "w3",
-          "text": "river",
-          "start": 0.71,
-          "end": 0.91
-        },
-        {
-          "id": "w4",
-          "text": "south",
-          "start": 1.06,
-          "end": 1.25
-        },
-        {
-          "id": "w5",
-          "text": "for",
-          "start": 1.25,
-          "end": 1.41
-        },
-        {
-          "id": "w6",
-          "text": "hours,",
-          "start": 1.41,
-          "end": 1.84
-        },
-        {
-          "id": "w7",
-          "text": "on",
-          "start": 1.84,
-          "end": 1.96
-        },
-        {
-          "id": "w8",
-          "text": "both",
-          "start": 1.96,
-          "end": 2.04
-        },
-        {
-          "id": "w9",
-          "text": "banks",
-          "start": 2.19,
-          "end": 2.47
-        },
-        {
-          "id": "w10",
-          "text": "the",
-          "start": 2.54,
-          "end": 2.67
-        },
-        {
-          "id": "w11",
-          "text": "dark",
-          "start": 2.67,
-          "end": 2.88
-        },
-        {
-          "id": "w12",
-          "text": "moves",
-          "start": 2.88,
-          "end": 3.24
-        },
-        {
-          "id": "w13",
-          "text": "with",
-          "start": 3.24,
-          "end": 3.53
-        },
-        {
-          "id": "w14",
-          "text": "them,",
-          "start": 3.53,
-          "end": 3.88
-        },
-        {
-          "id": "w15",
-          "text": "watching,",
-          "start": 3.9,
-          "end": 4.6
-        },
-        {
-          "id": "w16",
-          "text": "waiting.",
-          "start": 4.65,
-          "end": 4.94
-        }
-      ]
+     "id": "w7",
+     "text": "dark.",
+     "start": 1.39,
+     "end": 1.62
     },
     {
-      "frame": 9,
-      "path": "assets/voice/09.wav",
-      "duration_s": 4.416,
-      "words": [
-        {
-          "id": "w0",
-          "text": "Then",
-          "start": 0.07,
-          "end": 0.28
-        },
-        {
-          "id": "w1",
-          "text": "the",
-          "start": 0.36,
-          "end": 0.49
-        },
-        {
-          "id": "w2",
-          "text": "sky",
-          "start": 0.49,
-          "end": 0.58
-        },
-        {
-          "id": "w3",
-          "text": "explodes",
-          "start": 0.79,
-          "end": 1.22
-        },
-        {
-          "id": "w4",
-          "text": "in",
-          "start": 1.27,
-          "end": 1.4
-        },
-        {
-          "id": "w5",
-          "text": "green,",
-          "start": 1.4,
-          "end": 1.91
-        },
-        {
-          "id": "w6",
-          "text": "Aurora,",
-          "start": 1.91,
-          "end": 2.5
-        },
-        {
-          "id": "w7",
-          "text": "the",
-          "start": 2.51,
-          "end": 2.67
-        },
-        {
-          "id": "w8",
-          "text": "whole",
-          "start": 2.67,
-          "end": 2.95
-        },
-        {
-          "id": "w9",
-          "text": "sky",
-          "start": 2.95,
-          "end": 3.11
-        },
-        {
-          "id": "w10",
-          "text": "is",
-          "start": 3.11,
-          "end": 3.22
-        },
-        {
-          "id": "w11",
-          "text": "glowing.",
-          "start": 3.22,
-          "end": 3.79
-        }
-      ]
+     "id": "w8",
+     "text": "Everyone",
+     "start": 1.85,
+     "end": 2.21
     },
     {
-      "frame": 10,
-      "path": "assets/voice/10.wav",
-      "duration_s": 4.139,
-      "words": [
-        {
-          "id": "w0",
-          "text": "Under",
-          "start": 0.05,
-          "end": 0.27
-        },
-        {
-          "id": "w1",
-          "text": "the",
-          "start": 0.27,
-          "end": 0.43
-        },
-        {
-          "id": "w2",
-          "text": "northern",
-          "start": 0.43,
-          "end": 0.8
-        },
-        {
-          "id": "w3",
-          "text": "lights",
-          "start": 0.97,
-          "end": 1.18
-        },
-        {
-          "id": "w4",
-          "text": "the",
-          "start": 1.18,
-          "end": 1.34
-        },
-        {
-          "id": "w5",
-          "text": "shadows",
-          "start": 1.34,
-          "end": 1.71
-        },
-        {
-          "id": "w6",
-          "text": "fall",
-          "start": 1.72,
-          "end": 1.94
-        },
-        {
-          "id": "w7",
-          "text": "back,",
-          "start": 1.94,
-          "end": 2.3
-        },
-        {
-          "id": "w8",
-          "text": "for",
-          "start": 2.3,
-          "end": 2.46
-        },
-        {
-          "id": "w9",
-          "text": "one",
-          "start": 2.46,
-          "end": 2.62
-        },
-        {
-          "id": "w10",
-          "text": "hour",
-          "start": 2.62,
-          "end": 2.83
-        },
-        {
-          "id": "w11",
-          "text": "they're",
-          "start": 2.83,
-          "end": 3.2
-        },
-        {
-          "id": "w12",
-          "text": "safe.",
-          "start": 3.2,
-          "end": 3.44
-        }
-      ]
+     "id": "w9",
+     "text": "knows",
+     "start": 2.21,
+     "end": 2.45
     },
     {
-      "frame": 11,
-      "path": "assets/voice/11.wav",
-      "duration_s": 4.608,
-      "words": [
-        {
-          "id": "w0",
-          "text": "Then",
-          "start": 0.06,
-          "end": 0.21
-        },
-        {
-          "id": "w1",
-          "text": "Ruth",
-          "start": 0.21,
-          "end": 0.33
-        },
-        {
-          "id": "w2",
-          "text": "points",
-          "start": 0.49,
-          "end": 0.73
-        },
-        {
-          "id": "w3",
-          "text": "ahead,",
-          "start": 0.73,
-          "end": 1.03
-        },
-        {
-          "id": "w4",
-          "text": "the",
-          "start": 1.14,
-          "end": 1.3
-        },
-        {
-          "id": "w5",
-          "text": "lights",
-          "start": 1.3,
-          "end": 1.66
-        },
-        {
-          "id": "w6",
-          "text": "of",
-          "start": 1.69,
-          "end": 1.79
-        },
-        {
-          "id": "w7",
-          "text": "Kettle",
-          "start": 1.79,
-          "end": 2.15
-        },
-        {
-          "id": "w8",
-          "text": "Creek.",
-          "start": 2.15,
-          "end": 2.66
-        },
-        {
-          "id": "w9",
-          "text": "One",
-          "start": 2.72,
-          "end": 2.8
-        },
-        {
-          "id": "w10",
-          "text": "by",
-          "start": 2.8,
-          "end": 2.89
-        },
-        {
-          "id": "w11",
-          "text": "one,",
-          "start": 2.89,
-          "end": 3.12
-        },
-        {
-          "id": "w12",
-          "text": "they're",
-          "start": 3.15,
-          "end": 3.45
-        },
-        {
-          "id": "w13",
-          "text": "going",
-          "start": 3.45,
-          "end": 3.68
-        },
-        {
-          "id": "w14",
-          "text": "out.",
-          "start": 3.69,
-          "end": 4.02
-        }
-      ]
+     "id": "w10",
+     "text": "that.",
+     "start": 2.49,
+     "end": 2.88
+    },
+    {
+     "id": "w11",
+     "text": "Cole",
+     "start": 2.95,
+     "end": 3.16
+    },
+    {
+     "id": "w12",
+     "text": "does",
+     "start": 3.16,
+     "end": 3.44
+    },
+    {
+     "id": "w13",
+     "text": "it",
+     "start": 3.44,
+     "end": 3.55
+    },
+    {
+     "id": "w14",
+     "text": "anyway.",
+     "start": 3.59,
+     "end": 4.21
     }
-  ],
-  "sfx": []
+   ]
+  },
+  {
+   "frame": 2,
+   "path": "assets/voice/02.wav",
+   "duration_s": 4.416,
+   "words": [
+    {
+     "id": "w0",
+     "text": "He",
+     "start": 0.08,
+     "end": 0.11
+    },
+    {
+     "id": "w1",
+     "text": "lights",
+     "start": 0.11,
+     "end": 0.44
+    },
+    {
+     "id": "w2",
+     "text": "a",
+     "start": 0.44,
+     "end": 0.45
+    },
+    {
+     "id": "w3",
+     "text": "flare,",
+     "start": 0.57,
+     "end": 0.87
+    },
+    {
+     "id": "w4",
+     "text": "red",
+     "start": 0.87,
+     "end": 1.02
+    },
+    {
+     "id": "w5",
+     "text": "light,",
+     "start": 1.03,
+     "end": 1.46
+    },
+    {
+     "id": "w6",
+     "text": "20",
+     "start": 1.52,
+     "end": 1.75
+    },
+    {
+     "id": "w7",
+     "text": "yards",
+     "start": 1.75,
+     "end": 1.94
+    },
+    {
+     "id": "w8",
+     "text": "of",
+     "start": 1.98,
+     "end": 2.1
+    },
+    {
+     "id": "w9",
+     "text": "safety.",
+     "start": 2.1,
+     "end": 2.8
+    },
+    {
+     "id": "w10",
+     "text": "Beyond",
+     "start": 2.88,
+     "end": 3.11
+    },
+    {
+     "id": "w11",
+     "text": "it,",
+     "start": 3.17,
+     "end": 3.41
+    },
+    {
+     "id": "w12",
+     "text": "nothing.",
+     "start": 3.41,
+     "end": 4.04
+    }
+   ]
+  },
+  {
+   "frame": 3,
+   "path": "assets/voice/03.wav",
+   "duration_s": 3.883,
+   "words": [
+    {
+     "id": "w0",
+     "text": "Then",
+     "start": 0.08,
+     "end": 0.29
+    },
+    {
+     "id": "w1",
+     "text": "he",
+     "start": 0.29,
+     "end": 0.43
+    },
+    {
+     "id": "w2",
+     "text": "hears",
+     "start": 0.43,
+     "end": 0.78
+    },
+    {
+     "id": "w3",
+     "text": "it",
+     "start": 0.78,
+     "end": 0.93
+    },
+    {
+     "id": "w4",
+     "text": "a",
+     "start": 0.93,
+     "end": 1
+    },
+    {
+     "id": "w5",
+     "text": "bark",
+     "start": 1,
+     "end": 1.08
+    },
+    {
+     "id": "w6",
+     "text": "far",
+     "start": 1.31,
+     "end": 1.5
+    },
+    {
+     "id": "w7",
+     "text": "away",
+     "start": 1.5,
+     "end": 1.79
+    },
+    {
+     "id": "w8",
+     "text": "to",
+     "start": 1.79,
+     "end": 1.85
+    },
+    {
+     "id": "w9",
+     "text": "the",
+     "start": 1.95,
+     "end": 2.14
+    },
+    {
+     "id": "w10",
+     "text": "left",
+     "start": 2.14,
+     "end": 2.3
+    },
+    {
+     "id": "w11",
+     "text": "off",
+     "start": 2.46,
+     "end": 2.64
+    },
+    {
+     "id": "w12",
+     "text": "the",
+     "start": 2.64,
+     "end": 2.81
+    },
+    {
+     "id": "w13",
+     "text": "trail.",
+     "start": 2.85,
+     "end": 3.28
+    }
+   ]
+  },
+  {
+   "frame": 4,
+   "path": "assets/voice/04.wav",
+   "duration_s": 5.013,
+   "words": [
+    {
+     "id": "w0",
+     "text": "Ruth",
+     "start": 0.04,
+     "end": 0.18
+    },
+    {
+     "id": "w1",
+     "text": "grabs",
+     "start": 0.34,
+     "end": 0.52
+    },
+    {
+     "id": "w2",
+     "text": "his",
+     "start": 0.52,
+     "end": 0.69
+    },
+    {
+     "id": "w3",
+     "text": "arm,",
+     "start": 0.69,
+     "end": 0.97
+    },
+    {
+     "id": "w4",
+     "text": "that's",
+     "start": 0.97,
+     "end": 1.31
+    },
+    {
+     "id": "w5",
+     "text": "not",
+     "start": 1.31,
+     "end": 1.48
+    },
+    {
+     "id": "w6",
+     "text": "the",
+     "start": 1.48,
+     "end": 1.65
+    },
+    {
+     "id": "w7",
+     "text": "way,",
+     "start": 1.65,
+     "end": 1.96
+    },
+    {
+     "id": "w8",
+     "text": "but",
+     "start": 1.96,
+     "end": 2.12
+    },
+    {
+     "id": "w9",
+     "text": "Bear",
+     "start": 2.12,
+     "end": 2.33
+    },
+    {
+     "id": "w10",
+     "text": "barks",
+     "start": 2.33,
+     "end": 2.59
+    },
+    {
+     "id": "w11",
+     "text": "again,",
+     "start": 2.59,
+     "end": 3
+    },
+    {
+     "id": "w12",
+     "text": "and",
+     "start": 3,
+     "end": 3.19
+    },
+    {
+     "id": "w13",
+     "text": "again,",
+     "start": 3.19,
+     "end": 3.56
+    },
+    {
+     "id": "w14",
+     "text": "steady,",
+     "start": 3.64,
+     "end": 4.16
+    },
+    {
+     "id": "w15",
+     "text": "calling.",
+     "start": 4.16,
+     "end": 4.4
+    }
+   ]
+  },
+  {
+   "frame": 5,
+   "path": "assets/voice/05.wav",
+   "duration_s": 5.419,
+   "words": [
+    {
+     "id": "w0",
+     "text": "They",
+     "start": 0.05,
+     "end": 0.12
+    },
+    {
+     "id": "w1",
+     "text": "follow,",
+     "start": 0.23,
+     "end": 0.56
+    },
+    {
+     "id": "w2",
+     "text": "the",
+     "start": 0.56,
+     "end": 0.69
+    },
+    {
+     "id": "w3",
+     "text": "snow",
+     "start": 0.72,
+     "end": 0.89
+    },
+    {
+     "id": "w4",
+     "text": "under",
+     "start": 0.89,
+     "end": 1.12
+    },
+    {
+     "id": "w5",
+     "text": "their",
+     "start": 1.12,
+     "end": 1.31
+    },
+    {
+     "id": "w6",
+     "text": "boots",
+     "start": 1.37,
+     "end": 1.55
+    },
+    {
+     "id": "w7",
+     "text": "turns",
+     "start": 1.65,
+     "end": 1.88
+    },
+    {
+     "id": "w8",
+     "text": "hard",
+     "start": 1.99,
+     "end": 2.28
+    },
+    {
+     "id": "w9",
+     "text": "and",
+     "start": 2.28,
+     "end": 2.52
+    },
+    {
+     "id": "w10",
+     "text": "smooth,",
+     "start": 2.52,
+     "end": 3.14
+    },
+    {
+     "id": "w11",
+     "text": "a",
+     "start": 3.14,
+     "end": 3.25
+    },
+    {
+     "id": "w12",
+     "text": "frozen",
+     "start": 3.25,
+     "end": 3.65
+    },
+    {
+     "id": "w13",
+     "text": "river",
+     "start": 3.65,
+     "end": 3.97
+    },
+    {
+     "id": "w14",
+     "text": "and",
+     "start": 4.08,
+     "end": 4.17
+    },
+    {
+     "id": "w15",
+     "text": "it's",
+     "start": 4.17,
+     "end": 4.36
+    },
+    {
+     "id": "w16",
+     "text": "shining.",
+     "start": 4.36,
+     "end": 4.82
+    }
+   ]
+  },
+  {
+   "frame": 6,
+   "path": "assets/voice/06.wav",
+   "duration_s": 5.696,
+   "words": [
+    {
+     "id": "w0",
+     "text": "The",
+     "start": 0.05,
+     "end": 0.19
+    },
+    {
+     "id": "w1",
+     "text": "moon",
+     "start": 0.19,
+     "end": 0.44
+    },
+    {
+     "id": "w2",
+     "text": "is",
+     "start": 0.44,
+     "end": 0.56
+    },
+    {
+     "id": "w3",
+     "text": "out,",
+     "start": 0.56,
+     "end": 0.84
+    },
+    {
+     "id": "w4",
+     "text": "its",
+     "start": 0.9,
+     "end": 1.06
+    },
+    {
+     "id": "w5",
+     "text": "light",
+     "start": 1.06,
+     "end": 1.38
+    },
+    {
+     "id": "w6",
+     "text": "bounces",
+     "start": 1.38,
+     "end": 1.82
+    },
+    {
+     "id": "w7",
+     "text": "off",
+     "start": 1.82,
+     "end": 2.01
+    },
+    {
+     "id": "w8",
+     "text": "the",
+     "start": 2.01,
+     "end": 2.19
+    },
+    {
+     "id": "w9",
+     "text": "ice.",
+     "start": 2.19,
+     "end": 2.5
+    },
+    {
+     "id": "w10",
+     "text": "Rule",
+     "start": 2.55,
+     "end": 2.74
+    },
+    {
+     "id": "w11",
+     "text": "5,",
+     "start": 2.74,
+     "end": 3.03
+    },
+    {
+     "id": "w12",
+     "text": "they",
+     "start": 3.03,
+     "end": 3.25
+    },
+    {
+     "id": "w13",
+     "text": "won't",
+     "start": 3.4,
+     "end": 3.56
+    },
+    {
+     "id": "w14",
+     "text": "cross",
+     "start": 3.56,
+     "end": 3.86
+    },
+    {
+     "id": "w15",
+     "text": "moonlit",
+     "start": 3.86,
+     "end": 4.18
+    },
+    {
+     "id": "w16",
+     "text": "ice.",
+     "start": 4.3,
+     "end": 4.59
+    },
+    {
+     "id": "w17",
+     "text": "Bear",
+     "start": 4.71,
+     "end": 4.86
+    },
+    {
+     "id": "w18",
+     "text": "new.",
+     "start": 4.86,
+     "end": 5.16
+    }
+   ]
+  },
+  {
+   "frame": 7,
+   "path": "assets/voice/07.wav",
+   "duration_s": 5.568,
+   "words": [
+    {
+     "id": "w0",
+     "text": "Bear",
+     "start": 0.07,
+     "end": 0.2
+    },
+    {
+     "id": "w1",
+     "text": "is",
+     "start": 0.2,
+     "end": 0.29
+    },
+    {
+     "id": "w2",
+     "text": "waiting",
+     "start": 0.31,
+     "end": 0.64
+    },
+    {
+     "id": "w3",
+     "text": "in",
+     "start": 0.64,
+     "end": 0.74
+    },
+    {
+     "id": "w4",
+     "text": "the",
+     "start": 0.74,
+     "end": 0.89
+    },
+    {
+     "id": "w5",
+     "text": "middle",
+     "start": 0.89,
+     "end": 1.15
+    },
+    {
+     "id": "w6",
+     "text": "of",
+     "start": 1.24,
+     "end": 1.28
+    },
+    {
+     "id": "w7",
+     "text": "the",
+     "start": 1.28,
+     "end": 1.43
+    },
+    {
+     "id": "w8",
+     "text": "river,",
+     "start": 1.43,
+     "end": 1.8
+    },
+    {
+     "id": "w9",
+     "text": "tail",
+     "start": 1.83,
+     "end": 2.13
+    },
+    {
+     "id": "w10",
+     "text": "wagging.",
+     "start": 2.14,
+     "end": 2.84
+    },
+    {
+     "id": "w11",
+     "text": "Cole",
+     "start": 2.9,
+     "end": 3.09
+    },
+    {
+     "id": "w12",
+     "text": "has",
+     "start": 3.09,
+     "end": 3.27
+    },
+    {
+     "id": "w13",
+     "text": "never",
+     "start": 3.27,
+     "end": 3.58
+    },
+    {
+     "id": "w14",
+     "text": "been",
+     "start": 3.58,
+     "end": 3.83
+    },
+    {
+     "id": "w15",
+     "text": "so",
+     "start": 3.83,
+     "end": 3.95
+    },
+    {
+     "id": "w16",
+     "text": "happy",
+     "start": 3.95,
+     "end": 4.26
+    },
+    {
+     "id": "w17",
+     "text": "to",
+     "start": 4.26,
+     "end": 4.38
+    },
+    {
+     "id": "w18",
+     "text": "see",
+     "start": 4.38,
+     "end": 4.49
+    },
+    {
+     "id": "w19",
+     "text": "a",
+     "start": 4.49,
+     "end": 4.66
+    },
+    {
+     "id": "w20",
+     "text": "dog.",
+     "start": 4.66,
+     "end": 5.04
+    }
+   ]
+  },
+  {
+   "frame": 8,
+   "path": "assets/voice/08.wav",
+   "duration_s": 5.504,
+   "words": [
+    {
+     "id": "w0",
+     "text": "They",
+     "start": 0.05,
+     "end": 0.22
+    },
+    {
+     "id": "w1",
+     "text": "walked",
+     "start": 0.22,
+     "end": 0.55
+    },
+    {
+     "id": "w2",
+     "text": "the",
+     "start": 0.55,
+     "end": 0.71
+    },
+    {
+     "id": "w3",
+     "text": "river",
+     "start": 0.71,
+     "end": 0.91
+    },
+    {
+     "id": "w4",
+     "text": "south",
+     "start": 1.06,
+     "end": 1.25
+    },
+    {
+     "id": "w5",
+     "text": "for",
+     "start": 1.25,
+     "end": 1.41
+    },
+    {
+     "id": "w6",
+     "text": "hours,",
+     "start": 1.41,
+     "end": 1.84
+    },
+    {
+     "id": "w7",
+     "text": "on",
+     "start": 1.84,
+     "end": 1.96
+    },
+    {
+     "id": "w8",
+     "text": "both",
+     "start": 1.96,
+     "end": 2.04
+    },
+    {
+     "id": "w9",
+     "text": "banks",
+     "start": 2.19,
+     "end": 2.47
+    },
+    {
+     "id": "w10",
+     "text": "the",
+     "start": 2.54,
+     "end": 2.67
+    },
+    {
+     "id": "w11",
+     "text": "dark",
+     "start": 2.67,
+     "end": 2.88
+    },
+    {
+     "id": "w12",
+     "text": "moves",
+     "start": 2.88,
+     "end": 3.24
+    },
+    {
+     "id": "w13",
+     "text": "with",
+     "start": 3.24,
+     "end": 3.53
+    },
+    {
+     "id": "w14",
+     "text": "them,",
+     "start": 3.53,
+     "end": 3.88
+    },
+    {
+     "id": "w15",
+     "text": "watching,",
+     "start": 3.9,
+     "end": 4.6
+    },
+    {
+     "id": "w16",
+     "text": "waiting.",
+     "start": 4.65,
+     "end": 4.94
+    }
+   ]
+  },
+  {
+   "frame": 9,
+   "path": "assets/voice/09.wav",
+   "duration_s": 4.416,
+   "words": [
+    {
+     "id": "w0",
+     "text": "Then",
+     "start": 0.07,
+     "end": 0.28
+    },
+    {
+     "id": "w1",
+     "text": "the",
+     "start": 0.36,
+     "end": 0.49
+    },
+    {
+     "id": "w2",
+     "text": "sky",
+     "start": 0.49,
+     "end": 0.58
+    },
+    {
+     "id": "w3",
+     "text": "explodes",
+     "start": 0.79,
+     "end": 1.22
+    },
+    {
+     "id": "w4",
+     "text": "in",
+     "start": 1.27,
+     "end": 1.4
+    },
+    {
+     "id": "w5",
+     "text": "green,",
+     "start": 1.4,
+     "end": 1.91
+    },
+    {
+     "id": "w6",
+     "text": "Aurora,",
+     "start": 1.91,
+     "end": 2.5
+    },
+    {
+     "id": "w7",
+     "text": "the",
+     "start": 2.51,
+     "end": 2.67
+    },
+    {
+     "id": "w8",
+     "text": "whole",
+     "start": 2.67,
+     "end": 2.95
+    },
+    {
+     "id": "w9",
+     "text": "sky",
+     "start": 2.95,
+     "end": 3.11
+    },
+    {
+     "id": "w10",
+     "text": "is",
+     "start": 3.11,
+     "end": 3.22
+    },
+    {
+     "id": "w11",
+     "text": "glowing.",
+     "start": 3.22,
+     "end": 3.79
+    }
+   ]
+  },
+  {
+   "frame": 10,
+   "path": "assets/voice/10.wav",
+   "duration_s": 4.139,
+   "words": [
+    {
+     "id": "w0",
+     "text": "Under",
+     "start": 0.05,
+     "end": 0.27
+    },
+    {
+     "id": "w1",
+     "text": "the",
+     "start": 0.27,
+     "end": 0.43
+    },
+    {
+     "id": "w2",
+     "text": "northern",
+     "start": 0.43,
+     "end": 0.8
+    },
+    {
+     "id": "w3",
+     "text": "lights",
+     "start": 0.97,
+     "end": 1.18
+    },
+    {
+     "id": "w4",
+     "text": "the",
+     "start": 1.18,
+     "end": 1.34
+    },
+    {
+     "id": "w5",
+     "text": "shadows",
+     "start": 1.34,
+     "end": 1.71
+    },
+    {
+     "id": "w6",
+     "text": "fall",
+     "start": 1.72,
+     "end": 1.94
+    },
+    {
+     "id": "w7",
+     "text": "back,",
+     "start": 1.94,
+     "end": 2.3
+    },
+    {
+     "id": "w8",
+     "text": "for",
+     "start": 2.3,
+     "end": 2.46
+    },
+    {
+     "id": "w9",
+     "text": "one",
+     "start": 2.46,
+     "end": 2.62
+    },
+    {
+     "id": "w10",
+     "text": "hour",
+     "start": 2.62,
+     "end": 2.83
+    },
+    {
+     "id": "w11",
+     "text": "they're",
+     "start": 2.83,
+     "end": 3.2
+    },
+    {
+     "id": "w12",
+     "text": "safe.",
+     "start": 3.2,
+     "end": 3.44
+    }
+   ]
+  },
+  {
+   "frame": 11,
+   "path": "assets/voice/11.wav",
+   "duration_s": 4.608,
+   "words": [
+    {
+     "id": "w0",
+     "text": "Then",
+     "start": 0.06,
+     "end": 0.21
+    },
+    {
+     "id": "w1",
+     "text": "Ruth",
+     "start": 0.21,
+     "end": 0.33
+    },
+    {
+     "id": "w2",
+     "text": "points",
+     "start": 0.49,
+     "end": 0.73
+    },
+    {
+     "id": "w3",
+     "text": "ahead,",
+     "start": 0.73,
+     "end": 1.03
+    },
+    {
+     "id": "w4",
+     "text": "the",
+     "start": 1.14,
+     "end": 1.3
+    },
+    {
+     "id": "w5",
+     "text": "lights",
+     "start": 1.3,
+     "end": 1.66
+    },
+    {
+     "id": "w6",
+     "text": "of",
+     "start": 1.69,
+     "end": 1.79
+    },
+    {
+     "id": "w7",
+     "text": "Kettle",
+     "start": 1.79,
+     "end": 2.15
+    },
+    {
+     "id": "w8",
+     "text": "Creek.",
+     "start": 2.15,
+     "end": 2.66
+    },
+    {
+     "id": "w9",
+     "text": "One",
+     "start": 2.72,
+     "end": 2.8
+    },
+    {
+     "id": "w10",
+     "text": "by",
+     "start": 2.8,
+     "end": 2.89
+    },
+    {
+     "id": "w11",
+     "text": "one,",
+     "start": 2.89,
+     "end": 3.12
+    },
+    {
+     "id": "w12",
+     "text": "they're",
+     "start": 3.15,
+     "end": 3.45
+    },
+    {
+     "id": "w13",
+     "text": "going",
+     "start": 3.45,
+     "end": 3.68
+    },
+    {
+     "id": "w14",
+     "text": "out.",
+     "start": 3.69,
+     "end": 4.02
+    }
+   ]
+  }
+ ],
+ "sfx": []
 }

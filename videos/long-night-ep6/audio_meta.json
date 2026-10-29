@@ -1,0 +1,1267 @@
+{
+ "bgm": null,
+ "bgm_pending": false,
+ "voices": [
+  {
+   "frame": 1,
+   "path": "assets/voice/01.wav",
+   "duration_s": 4.459,
+   "words": [
+    {
+     "id": "w0",
+     "text": "When",
+     "start": 0.08,
+     "end": 0.23
+    },
+    {
+     "id": "w1",
+     "text": "the",
+     "start": 0.23,
+     "end": 0.4
+    },
+    {
+     "id": "w2",
+     "text": "last",
+     "start": 0.4,
+     "end": 0.51
+    },
+    {
+     "id": "w3",
+     "text": "town",
+     "start": 0.63,
+     "end": 0.86
+    },
+    {
+     "id": "w4",
+     "text": "light",
+     "start": 0.86,
+     "end": 1.15
+    },
+    {
+     "id": "w5",
+     "text": "goes",
+     "start": 1.15,
+     "end": 1.38
+    },
+    {
+     "id": "w6",
+     "text": "out,",
+     "start": 1.38,
+     "end": 1.7
+    },
+    {
+     "id": "w7",
+     "text": "you",
+     "start": 1.7,
+     "end": 1.85
+    },
+    {
+     "id": "w8",
+     "text": "don't",
+     "start": 1.85,
+     "end": 2.1
+    },
+    {
+     "id": "w9",
+     "text": "run",
+     "start": 2.1,
+     "end": 2.25
+    },
+    {
+     "id": "w10",
+     "text": "away",
+     "start": 2.25,
+     "end": 2.38
+    },
+    {
+     "id": "w11",
+     "text": "from",
+     "start": 2.5,
+     "end": 2.65
+    },
+    {
+     "id": "w12",
+     "text": "it,",
+     "start": 2.65,
+     "end": 2.82
+    },
+    {
+     "id": "w13",
+     "text": "you",
+     "start": 2.98,
+     "end": 3.12
+    },
+    {
+     "id": "w14",
+     "text": "run",
+     "start": 3.12,
+     "end": 3.3
+    },
+    {
+     "id": "w15",
+     "text": "toward",
+     "start": 3.34,
+     "end": 3.72
+    },
+    {
+     "id": "w16",
+     "text": "it.",
+     "start": 3.72,
+     "end": 3.88
+    }
+   ]
+  },
+  {
+   "frame": 2,
+   "path": "assets/voice/02.wav",
+   "duration_s": 5.824,
+   "words": [
+    {
+     "id": "w0",
+     "text": "Kettle",
+     "start": 0.06,
+     "end": 0.29
+    },
+    {
+     "id": "w1",
+     "text": "Creek",
+     "start": 0.39,
+     "end": 0.67
+    },
+    {
+     "id": "w2",
+     "text": "airstrip",
+     "start": 0.67,
+     "end": 1.04
+    },
+    {
+     "id": "w3",
+     "text": "floodlights",
+     "start": 1.24,
+     "end": 1.84
+    },
+    {
+     "id": "w4",
+     "text": "flickering,",
+     "start": 1.84,
+     "end": 2.59
+    },
+    {
+     "id": "w5",
+     "text": "12",
+     "start": 2.59,
+     "end": 2.93
+    },
+    {
+     "id": "w6",
+     "text": "survivors",
+     "start": 2.93,
+     "end": 3.44
+    },
+    {
+     "id": "w7",
+     "text": "in",
+     "start": 3.44,
+     "end": 3.55
+    },
+    {
+     "id": "w8",
+     "text": "a",
+     "start": 3.55,
+     "end": 3.6
+    },
+    {
+     "id": "w9",
+     "text": "hangar,",
+     "start": 3.6,
+     "end": 3.96
+    },
+    {
+     "id": "w10",
+     "text": "fuel",
+     "start": 4.12,
+     "end": 4.32
+    },
+    {
+     "id": "w11",
+     "text": "for",
+     "start": 4.32,
+     "end": 4.5
+    },
+    {
+     "id": "w12",
+     "text": "20",
+     "start": 4.5,
+     "end": 4.85
+    },
+    {
+     "id": "w13",
+     "text": "minutes.",
+     "start": 4.85,
+     "end": 5.32
+    }
+   ]
+  },
+  {
+   "frame": 3,
+   "path": "assets/voice/03.wav",
+   "duration_s": 3.733,
+   "words": [
+    {
+     "id": "w0",
+     "text": "The",
+     "start": 0.07,
+     "end": 0.18
+    },
+    {
+     "id": "w1",
+     "text": "dark",
+     "start": 0.18,
+     "end": 0.33
+    },
+    {
+     "id": "w2",
+     "text": "surrounds",
+     "start": 0.42,
+     "end": 0.96
+    },
+    {
+     "id": "w3",
+     "text": "the",
+     "start": 0.96,
+     "end": 1.14
+    },
+    {
+     "id": "w4",
+     "text": "hanger",
+     "start": 1.14,
+     "end": 1.44
+    },
+    {
+     "id": "w5",
+     "text": "like",
+     "start": 1.55,
+     "end": 1.74
+    },
+    {
+     "id": "w6",
+     "text": "water",
+     "start": 1.74,
+     "end": 1.97
+    },
+    {
+     "id": "w7",
+     "text": "around",
+     "start": 2.09,
+     "end": 2.43
+    },
+    {
+     "id": "w8",
+     "text": "a",
+     "start": 2.43,
+     "end": 2.49
+    },
+    {
+     "id": "w9",
+     "text": "sinking",
+     "start": 2.49,
+     "end": 2.93
+    },
+    {
+     "id": "w10",
+     "text": "boat.",
+     "start": 2.93,
+     "end": 3.2
+    }
+   ]
+  },
+  {
+   "frame": 4,
+   "path": "assets/voice/04.wav",
+   "duration_s": 5.995,
+   "words": [
+    {
+     "id": "w0",
+     "text": "Cold",
+     "start": 0.09,
+     "end": 0.26
+    },
+    {
+     "id": "w1",
+     "text": "does",
+     "start": 0.26,
+     "end": 0.45
+    },
+    {
+     "id": "w2",
+     "text": "the",
+     "start": 0.54,
+     "end": 0.71
+    },
+    {
+     "id": "w3",
+     "text": "math",
+     "start": 0.71,
+     "end": 0.85
+    },
+    {
+     "id": "w4",
+     "text": "20",
+     "start": 1.07,
+     "end": 1.36
+    },
+    {
+     "id": "w5",
+     "text": "minutes",
+     "start": 1.36,
+     "end": 1.82
+    },
+    {
+     "id": "w6",
+     "text": "of",
+     "start": 1.82,
+     "end": 1.95
+    },
+    {
+     "id": "w7",
+     "text": "fuel,",
+     "start": 1.95,
+     "end": 2.34
+    },
+    {
+     "id": "w8",
+     "text": "two",
+     "start": 2.34,
+     "end": 2.39
+    },
+    {
+     "id": "w9",
+     "text": "flares,",
+     "start": 2.51,
+     "end": 2.86
+    },
+    {
+     "id": "w10",
+     "text": "four",
+     "start": 3.04,
+     "end": 3.22
+    },
+    {
+     "id": "w11",
+     "text": "candles,",
+     "start": 3.26,
+     "end": 3.83
+    },
+    {
+     "id": "w12",
+     "text": "and",
+     "start": 3.83,
+     "end": 3.89
+    },
+    {
+     "id": "w13",
+     "text": "a",
+     "start": 3.89,
+     "end": 3.92
+    },
+    {
+     "id": "w14",
+     "text": "snow",
+     "start": 3.92,
+     "end": 4.14
+    },
+    {
+     "id": "w15",
+     "text": "machine",
+     "start": 4.14,
+     "end": 4.54
+    },
+    {
+     "id": "w16",
+     "text": "with",
+     "start": 4.54,
+     "end": 4.67
+    },
+    {
+     "id": "w17",
+     "text": "a",
+     "start": 4.67,
+     "end": 4.77
+    },
+    {
+     "id": "w18",
+     "text": "full",
+     "start": 4.77,
+     "end": 5.09
+    },
+    {
+     "id": "w19",
+     "text": "tank.",
+     "start": 5.09,
+     "end": 5.48
+    }
+   ]
+  },
+  {
+   "frame": 5,
+   "path": "assets/voice/05.wav",
+   "duration_s": 5.781,
+   "words": [
+    {
+     "id": "w0",
+     "text": "He",
+     "start": 0.08,
+     "end": 0.11
+    },
+    {
+     "id": "w1",
+     "text": "drives",
+     "start": 0.11,
+     "end": 0.44
+    },
+    {
+     "id": "w2",
+     "text": "the",
+     "start": 0.44,
+     "end": 0.62
+    },
+    {
+     "id": "w3",
+     "text": "snow",
+     "start": 0.62,
+     "end": 0.85
+    },
+    {
+     "id": "w4",
+     "text": "machine",
+     "start": 0.85,
+     "end": 1.25
+    },
+    {
+     "id": "w5",
+     "text": "to",
+     "start": 1.25,
+     "end": 1.3
+    },
+    {
+     "id": "w6",
+     "text": "the",
+     "start": 1.37,
+     "end": 1.53
+    },
+    {
+     "id": "w7",
+     "text": "middle",
+     "start": 1.53,
+     "end": 1.87
+    },
+    {
+     "id": "w8",
+     "text": "of",
+     "start": 1.87,
+     "end": 1.98
+    },
+    {
+     "id": "w9",
+     "text": "the",
+     "start": 1.98,
+     "end": 2.15
+    },
+    {
+     "id": "w10",
+     "text": "runway.",
+     "start": 2.15,
+     "end": 2.6
+    },
+    {
+     "id": "w11",
+     "text": "Ruth",
+     "start": 2.68,
+     "end": 2.86
+    },
+    {
+     "id": "w12",
+     "text": "splashes",
+     "start": 2.86,
+     "end": 3.39
+    },
+    {
+     "id": "w13",
+     "text": "the",
+     "start": 3.39,
+     "end": 3.59
+    },
+    {
+     "id": "w14",
+     "text": "fuel.",
+     "start": 3.59,
+     "end": 4.08
+    },
+    {
+     "id": "w15",
+     "text": "Coal",
+     "start": 4.16,
+     "end": 4.33
+    },
+    {
+     "id": "w16",
+     "text": "lights",
+     "start": 4.33,
+     "end": 4.7
+    },
+    {
+     "id": "w17",
+     "text": "a",
+     "start": 4.7,
+     "end": 4.76
+    },
+    {
+     "id": "w18",
+     "text": "flare.",
+     "start": 4.76,
+     "end": 5.28
+    }
+   ]
+  },
+  {
+   "frame": 6,
+   "path": "assets/voice/06.wav",
+   "duration_s": 4.992,
+   "words": [
+    {
+     "id": "w0",
+     "text": "The",
+     "start": 0.05,
+     "end": 0.19
+    },
+    {
+     "id": "w1",
+     "text": "fire",
+     "start": 0.19,
+     "end": 0.45
+    },
+    {
+     "id": "w2",
+     "text": "goes",
+     "start": 0.45,
+     "end": 0.71
+    },
+    {
+     "id": "w3",
+     "text": "up",
+     "start": 0.71,
+     "end": 0.75
+    },
+    {
+     "id": "w4",
+     "text": "30",
+     "start": 0.92,
+     "end": 1.12
+    },
+    {
+     "id": "w5",
+     "text": "feet,",
+     "start": 1.24,
+     "end": 1.52
+    },
+    {
+     "id": "w6",
+     "text": "the",
+     "start": 1.57,
+     "end": 1.75
+    },
+    {
+     "id": "w7",
+     "text": "shadows",
+     "start": 1.75,
+     "end": 2.29
+    },
+    {
+     "id": "w8",
+     "text": "scream,",
+     "start": 2.29,
+     "end": 2.76
+    },
+    {
+     "id": "w9",
+     "text": "the",
+     "start": 2.81,
+     "end": 2.95
+    },
+    {
+     "id": "w10",
+     "text": "whole",
+     "start": 2.95,
+     "end": 3.23
+    },
+    {
+     "id": "w11",
+     "text": "airstrip",
+     "start": 3.26,
+     "end": 3.75
+    },
+    {
+     "id": "w12",
+     "text": "turns",
+     "start": 3.75,
+     "end": 4.06
+    },
+    {
+     "id": "w13",
+     "text": "orange.",
+     "start": 4.06,
+     "end": 4.66
+    }
+   ]
+  },
+  {
+   "frame": 7,
+   "path": "assets/voice/07.wav",
+   "duration_s": 5.248,
+   "words": [
+    {
+     "id": "w0",
+     "text": "But",
+     "start": 0.06,
+     "end": 0.09
+    },
+    {
+     "id": "w1",
+     "text": "fire",
+     "start": 0.21,
+     "end": 0.44
+    },
+    {
+     "id": "w2",
+     "text": "burns",
+     "start": 0.49,
+     "end": 0.84
+    },
+    {
+     "id": "w3",
+     "text": "fast,",
+     "start": 0.84,
+     "end": 1.25
+    },
+    {
+     "id": "w4",
+     "text": "ten",
+     "start": 1.29,
+     "end": 1.47
+    },
+    {
+     "id": "w5",
+     "text": "minutes,",
+     "start": 1.47,
+     "end": 2.1
+    },
+    {
+     "id": "w6",
+     "text": "five,",
+     "start": 2.1,
+     "end": 2.47
+    },
+    {
+     "id": "w7",
+     "text": "the",
+     "start": 2.57,
+     "end": 2.65
+    },
+    {
+     "id": "w8",
+     "text": "flames",
+     "start": 2.65,
+     "end": 2.94
+    },
+    {
+     "id": "w9",
+     "text": "start",
+     "start": 2.94,
+     "end": 3.17
+    },
+    {
+     "id": "w10",
+     "text": "to",
+     "start": 3.17,
+     "end": 3.27
+    },
+    {
+     "id": "w11",
+     "text": "shrink,",
+     "start": 3.27,
+     "end": 3.68
+    },
+    {
+     "id": "w12",
+     "text": "the",
+     "start": 3.69,
+     "end": 3.86
+    },
+    {
+     "id": "w13",
+     "text": "dark",
+     "start": 3.86,
+     "end": 4.11
+    },
+    {
+     "id": "w14",
+     "text": "leans",
+     "start": 4.11,
+     "end": 4.42
+    },
+    {
+     "id": "w15",
+     "text": "in.",
+     "start": 4.42,
+     "end": 4.64
+    }
+   ]
+  },
+  {
+   "frame": 8,
+   "path": "assets/voice/08.wav",
+   "duration_s": 5.333,
+   "words": [
+    {
+     "id": "w0",
+     "text": "Bear",
+     "start": 0.06,
+     "end": 0.21
+    },
+    {
+     "id": "w1",
+     "text": "stands",
+     "start": 0.21,
+     "end": 0.53
+    },
+    {
+     "id": "w2",
+     "text": "at",
+     "start": 0.53,
+     "end": 0.63
+    },
+    {
+     "id": "w3",
+     "text": "the",
+     "start": 0.63,
+     "end": 0.79
+    },
+    {
+     "id": "w4",
+     "text": "edge",
+     "start": 0.79,
+     "end": 1
+    },
+    {
+     "id": "w5",
+     "text": "of",
+     "start": 1,
+     "end": 1.1
+    },
+    {
+     "id": "w6",
+     "text": "the",
+     "start": 1.11,
+     "end": 1.26
+    },
+    {
+     "id": "w7",
+     "text": "light,",
+     "start": 1.26,
+     "end": 1.68
+    },
+    {
+     "id": "w8",
+     "text": "barking",
+     "start": 1.68,
+     "end": 2.13
+    },
+    {
+     "id": "w9",
+     "text": "at",
+     "start": 2.13,
+     "end": 2.25
+    },
+    {
+     "id": "w10",
+     "text": "the",
+     "start": 2.25,
+     "end": 2.44
+    },
+    {
+     "id": "w11",
+     "text": "shadows.",
+     "start": 2.44,
+     "end": 2.98
+    },
+    {
+     "id": "w12",
+     "text": "He",
+     "start": 3.05,
+     "end": 3.09
+    },
+    {
+     "id": "w13",
+     "text": "doesn't",
+     "start": 3.09,
+     "end": 3.47
+    },
+    {
+     "id": "w14",
+     "text": "back",
+     "start": 3.47,
+     "end": 3.69
+    },
+    {
+     "id": "w15",
+     "text": "down,",
+     "start": 3.69,
+     "end": 4.01
+    },
+    {
+     "id": "w16",
+     "text": "not",
+     "start": 4.02,
+     "end": 4.18
+    },
+    {
+     "id": "w17",
+     "text": "one",
+     "start": 4.18,
+     "end": 4.34
+    },
+    {
+     "id": "w18",
+     "text": "step.",
+     "start": 4.34,
+     "end": 4.72
+    }
+   ]
+  },
+  {
+   "frame": 9,
+   "path": "assets/voice/09.wav",
+   "duration_s": 5.397,
+   "words": [
+    {
+     "id": "w0",
+     "text": "Then",
+     "start": 0.07,
+     "end": 0.23
+    },
+    {
+     "id": "w1",
+     "text": "Ruth",
+     "start": 0.23,
+     "end": 0.37
+    },
+    {
+     "id": "w2",
+     "text": "looks",
+     "start": 0.47,
+     "end": 0.74
+    },
+    {
+     "id": "w3",
+     "text": "at",
+     "start": 0.75,
+     "end": 0.86
+    },
+    {
+     "id": "w4",
+     "text": "her",
+     "start": 0.86,
+     "end": 1.03
+    },
+    {
+     "id": "w5",
+     "text": "watch,",
+     "start": 1.03,
+     "end": 1.36
+    },
+    {
+     "id": "w6",
+     "text": "Cole",
+     "start": 1.58,
+     "end": 1.86
+    },
+    {
+     "id": "w7",
+     "text": "what's",
+     "start": 1.86,
+     "end": 1.99
+    },
+    {
+     "id": "w8",
+     "text": "the",
+     "start": 2.06,
+     "end": 2.18
+    },
+    {
+     "id": "w9",
+     "text": "date,",
+     "start": 2.18,
+     "end": 2.56
+    },
+    {
+     "id": "w10",
+     "text": "January",
+     "start": 2.61,
+     "end": 2.99
+    },
+    {
+     "id": "w11",
+     "text": "21st,",
+     "start": 3.05,
+     "end": 3.57
+    },
+    {
+     "id": "w12",
+     "text": "the",
+     "start": 3.72,
+     "end": 3.85
+    },
+    {
+     "id": "w13",
+     "text": "end",
+     "start": 3.85,
+     "end": 4
+    },
+    {
+     "id": "w14",
+     "text": "of",
+     "start": 4,
+     "end": 4.06
+    },
+    {
+     "id": "w15",
+     "text": "the",
+     "start": 4.11,
+     "end": 4.25
+    },
+    {
+     "id": "w16",
+     "text": "long",
+     "start": 4.25,
+     "end": 4.48
+    },
+    {
+     "id": "w17",
+     "text": "night.",
+     "start": 4.48,
+     "end": 4.8
+    }
+   ]
+  },
+  {
+   "frame": 10,
+   "path": "assets/voice/10.wav",
+   "duration_s": 5.035,
+   "words": [
+    {
+     "id": "w0",
+     "text": "On",
+     "start": 0.05,
+     "end": 0.16
+    },
+    {
+     "id": "w1",
+     "text": "the",
+     "start": 0.16,
+     "end": 0.4
+    },
+    {
+     "id": "w2",
+     "text": "horizon,",
+     "start": 0.4,
+     "end": 1.1
+    },
+    {
+     "id": "w3",
+     "text": "a",
+     "start": 1.1,
+     "end": 1.18
+    },
+    {
+     "id": "w4",
+     "text": "thin",
+     "start": 1.18,
+     "end": 1.49
+    },
+    {
+     "id": "w5",
+     "text": "gold",
+     "start": 1.49,
+     "end": 1.8
+    },
+    {
+     "id": "w6",
+     "text": "line,",
+     "start": 1.8,
+     "end": 2.17
+    },
+    {
+     "id": "w7",
+     "text": "the",
+     "start": 2.23,
+     "end": 2.44
+    },
+    {
+     "id": "w8",
+     "text": "first",
+     "start": 2.44,
+     "end": 2.87
+    },
+    {
+     "id": "w9",
+     "text": "sunrise",
+     "start": 2.87,
+     "end": 3.38
+    },
+    {
+     "id": "w10",
+     "text": "in",
+     "start": 3.44,
+     "end": 3.63
+    },
+    {
+     "id": "w11",
+     "text": "64",
+     "start": 3.71,
+     "end": 4.15
+    },
+    {
+     "id": "w12",
+     "text": "days.",
+     "start": 4.15,
+     "end": 4.53
+    }
+   ]
+  },
+  {
+   "frame": 11,
+   "path": "assets/voice/11.wav",
+   "duration_s": 4.971,
+   "words": [
+    {
+     "id": "w0",
+     "text": "The",
+     "start": 0.05,
+     "end": 0.2
+    },
+    {
+     "id": "w1",
+     "text": "sunlight",
+     "start": 0.2,
+     "end": 0.67
+    },
+    {
+     "id": "w2",
+     "text": "hits",
+     "start": 0.86,
+     "end": 0.99
+    },
+    {
+     "id": "w3",
+     "text": "the",
+     "start": 0.99,
+     "end": 1.19
+    },
+    {
+     "id": "w4",
+     "text": "snow",
+     "start": 1.19,
+     "end": 1.4
+    },
+    {
+     "id": "w5",
+     "text": "and",
+     "start": 1.51,
+     "end": 1.63
+    },
+    {
+     "id": "w6",
+     "text": "the",
+     "start": 1.63,
+     "end": 1.76
+    },
+    {
+     "id": "w7",
+     "text": "shadows",
+     "start": 1.78,
+     "end": 2.07
+    },
+    {
+     "id": "w8",
+     "text": "don't",
+     "start": 2.18,
+     "end": 2.42
+    },
+    {
+     "id": "w9",
+     "text": "retreat.",
+     "start": 2.49,
+     "end": 2.92
+    },
+    {
+     "id": "w10",
+     "text": "They",
+     "start": 2.97,
+     "end": 3.21
+    },
+    {
+     "id": "w11",
+     "text": "burn",
+     "start": 3.21,
+     "end": 3.43
+    },
+    {
+     "id": "w12",
+     "text": "every",
+     "start": 3.51,
+     "end": 3.85
+    },
+    {
+     "id": "w13",
+     "text": "last",
+     "start": 3.86,
+     "end": 4.15
+    },
+    {
+     "id": "w14",
+     "text": "one.",
+     "start": 4.15,
+     "end": 4.62
+    }
+   ]
+  },
+  {
+   "frame": 12,
+   "path": "assets/voice/12.wav",
+   "duration_s": 6.613,
+   "words": [
+    {
+     "id": "w0",
+     "text": "Final",
+     "start": 0.09,
+     "end": 0.36
+    },
+    {
+     "id": "w1",
+     "text": "rule",
+     "start": 0.36,
+     "end": 0.65
+    },
+    {
+     "id": "w2",
+     "text": "in",
+     "start": 0.65,
+     "end": 0.79
+    },
+    {
+     "id": "w3",
+     "text": "the",
+     "start": 0.79,
+     "end": 1
+    },
+    {
+     "id": "w4",
+     "text": "long",
+     "start": 1,
+     "end": 1.29
+    },
+    {
+     "id": "w5",
+     "text": "dark",
+     "start": 1.29,
+     "end": 1.5
+    },
+    {
+     "id": "w6",
+     "text": "light",
+     "start": 1.64,
+     "end": 1.94
+    },
+    {
+     "id": "w7",
+     "text": "is",
+     "start": 1.94,
+     "end": 2.08
+    },
+    {
+     "id": "w8",
+     "text": "ammo,",
+     "start": 2.08,
+     "end": 2.44
+    },
+    {
+     "id": "w9",
+     "text": "never",
+     "start": 2.62,
+     "end": 2.93
+    },
+    {
+     "id": "w10",
+     "text": "waste",
+     "start": 2.93,
+     "end": 3.29
+    },
+    {
+     "id": "w11",
+     "text": "it,",
+     "start": 3.29,
+     "end": 3.6
+    },
+    {
+     "id": "w12",
+     "text": "because",
+     "start": 3.65,
+     "end": 3.98
+    },
+    {
+     "id": "w13",
+     "text": "next",
+     "start": 3.98,
+     "end": 4.2
+    },
+    {
+     "id": "w14",
+     "text": "winter",
+     "start": 4.2,
+     "end": 4.52
+    },
+    {
+     "id": "w15",
+     "text": "is",
+     "start": 4.53,
+     "end": 4.64
+    },
+    {
+     "id": "w16",
+     "text": "only",
+     "start": 4.64,
+     "end": 4.78
+    },
+    {
+     "id": "w17",
+     "text": "300",
+     "start": 4.97,
+     "end": 5.48
+    },
+    {
+     "id": "w18",
+     "text": "days",
+     "start": 5.48,
+     "end": 5.74
+    },
+    {
+     "id": "w19",
+     "text": "away.",
+     "start": 5.74,
+     "end": 6.04
+    }
+   ]
+  }
+ ],
+ "sfx": []
+}

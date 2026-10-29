@@ -1,0 +1,1579 @@
+{
+  "total_duration_s": 65.528,
+  "width": 1080,
+  "height": 1920,
+  "groups": [
+    {
+      "id": "caption-group-0",
+      "frame": 1,
+      "start": 0.04,
+      "end": 0.56,
+      "text": "Когда гаснет",
+      "words": [
+        {
+          "id": "caption-word-0-0",
+          "text": "Когда",
+          "start": 0.04,
+          "end": 0.26
+        },
+        {
+          "id": "caption-word-0-1",
+          "text": "гаснет",
+          "start": 0.26,
+          "end": 0.56
+        }
+      ]
+    },
+    {
+      "id": "caption-group-1",
+      "frame": 1,
+      "start": 0.56,
+      "end": 1.19,
+      "text": "последний свет",
+      "words": [
+        {
+          "id": "caption-word-1-0",
+          "text": "последний",
+          "start": 0.56,
+          "end": 1.02
+        },
+        {
+          "id": "caption-word-1-1",
+          "text": "свет",
+          "start": 1.02,
+          "end": 1.19
+        }
+      ]
+    },
+    {
+      "id": "caption-group-2",
+      "frame": 1,
+      "start": 1.19,
+      "end": 1.79,
+      "text": "в городе,",
+      "words": [
+        {
+          "id": "caption-word-2-0",
+          "text": "в",
+          "start": 1.19,
+          "end": 1.29
+        },
+        {
+          "id": "caption-word-2-1",
+          "text": "городе,",
+          "start": 1.29,
+          "end": 1.69
+        }
+      ]
+    },
+    {
+      "id": "caption-group-3",
+      "frame": 1,
+      "start": 1.79,
+      "end": 2.12,
+      "text": "от него",
+      "words": [
+        {
+          "id": "caption-word-3-0",
+          "text": "от",
+          "start": 1.79,
+          "end": 1.87
+        },
+        {
+          "id": "caption-word-3-1",
+          "text": "него",
+          "start": 1.95,
+          "end": 2.12
+        }
+      ]
+    },
+    {
+      "id": "caption-group-4",
+      "frame": 1,
+      "start": 2.12,
+      "end": 3.26,
+      "text": "не бегут.",
+      "words": [
+        {
+          "id": "caption-word-4-0",
+          "text": "не",
+          "start": 2.12,
+          "end": 2.26
+        },
+        {
+          "id": "caption-word-4-1",
+          "text": "бегут.",
+          "start": 2.3,
+          "end": 3.26
+        }
+      ]
+    },
+    {
+      "id": "caption-group-5",
+      "frame": 1,
+      "start": 3.26,
+      "end": 3.35,
+      "text": "К нему",
+      "words": [
+        {
+          "id": "caption-word-5-0",
+          "text": "К",
+          "start": 3.26,
+          "end": 3.31
+        },
+        {
+          "id": "caption-word-5-1",
+          "text": "нему",
+          "start": 3.29,
+          "end": 3.34
+        }
+      ]
+    },
+    {
+      "id": "caption-group-6",
+      "frame": 1,
+      "start": 3.35,
+      "end": 3.64,
+      "text": "бегут.",
+      "words": [
+        {
+          "id": "caption-word-6-0",
+          "text": "бегут.",
+          "start": 3.35,
+          "end": 3.52
+        }
+      ]
+    },
+    {
+      "id": "caption-group-7",
+      "frame": 2,
+      "start": 4.115,
+      "end": 5.314,
+      "text": "Аэродром Кеттл-Крик.",
+      "words": [
+        {
+          "id": "caption-word-7-0",
+          "text": "Аэродром",
+          "start": 4.115,
+          "end": 4.645
+        },
+        {
+          "id": "caption-word-7-1",
+          "text": "Кеттл-Крик.",
+          "start": 4.645,
+          "end": 5.314
+        }
+      ]
+    },
+    {
+      "id": "caption-group-8",
+      "frame": 2,
+      "start": 5.314,
+      "end": 6.347,
+      "text": "Прожекторы мигают.",
+      "words": [
+        {
+          "id": "caption-word-8-0",
+          "text": "Прожекторы",
+          "start": 5.314,
+          "end": 5.922
+        },
+        {
+          "id": "caption-word-8-1",
+          "text": "мигают.",
+          "start": 5.922,
+          "end": 6.347
+        }
+      ]
+    },
+    {
+      "id": "caption-group-9",
+      "frame": 2,
+      "start": 6.347,
+      "end": 8.395,
+      "text": "Двенадцать выживших в ангаре.",
+      "words": [
+        {
+          "id": "caption-word-9-0",
+          "text": "Двенадцать",
+          "start": 6.347,
+          "end": 6.955
+        },
+        {
+          "id": "caption-word-9-1",
+          "text": "выживших",
+          "start": 6.955,
+          "end": 7.475
+        },
+        {
+          "id": "caption-word-9-2",
+          "text": "в",
+          "start": 7.555,
+          "end": 7.675
+        },
+        {
+          "id": "caption-word-9-3",
+          "text": "ангаре.",
+          "start": 7.715,
+          "end": 8.395
+        }
+      ]
+    },
+    {
+      "id": "caption-group-10",
+      "frame": 2,
+      "start": 8.395,
+      "end": 8.815,
+      "text": "Топлива на",
+      "words": [
+        {
+          "id": "caption-word-10-0",
+          "text": "Топлива",
+          "start": 8.395,
+          "end": 8.695
+        },
+        {
+          "id": "caption-word-10-1",
+          "text": "на",
+          "start": 8.695,
+          "end": 8.815
+        }
+      ]
+    },
+    {
+      "id": "caption-group-11",
+      "frame": 2,
+      "start": 8.815,
+      "end": 9.635,
+      "text": "двадцать минут.",
+      "words": [
+        {
+          "id": "caption-word-11-0",
+          "text": "двадцать",
+          "start": 8.815,
+          "end": 9.185
+        },
+        {
+          "id": "caption-word-11-1",
+          "text": "минут.",
+          "start": 9.185,
+          "end": 9.515
+        }
+      ]
+    },
+    {
+      "id": "caption-group-12",
+      "frame": 3,
+      "start": 10.116,
+      "end": 11.576,
+      "text": "Темнота окружает ангар,",
+      "words": [
+        {
+          "id": "caption-word-12-0",
+          "text": "Темнота",
+          "start": 10.116,
+          "end": 10.603
+        },
+        {
+          "id": "caption-word-12-1",
+          "text": "окружает",
+          "start": 10.603,
+          "end": 11.159
+        },
+        {
+          "id": "caption-word-12-2",
+          "text": "ангар,",
+          "start": 11.159,
+          "end": 11.576
+        }
+      ]
+    },
+    {
+      "id": "caption-group-13",
+      "frame": 3,
+      "start": 11.576,
+      "end": 12.146,
+      "text": "как вода",
+      "words": [
+        {
+          "id": "caption-word-13-0",
+          "text": "как",
+          "start": 11.576,
+          "end": 11.786
+        },
+        {
+          "id": "caption-word-13-1",
+          "text": "вода",
+          "start": 11.786,
+          "end": 12.146
+        }
+      ]
+    },
+    {
+      "id": "caption-group-14",
+      "frame": 3,
+      "start": 12.146,
+      "end": 12.606,
+      "text": "тонущую лодку.",
+      "words": [
+        {
+          "id": "caption-word-14-0",
+          "text": "тонущую",
+          "start": 12.146,
+          "end": 12.329
+        },
+        {
+          "id": "caption-word-14-1",
+          "text": "лодку.",
+          "start": 12.329,
+          "end": 12.486
+        }
+      ]
+    },
+    {
+      "id": "caption-group-15",
+      "frame": 4,
+      "start": 13.17,
+      "end": 14.052,
+      "text": "Коул считает.",
+      "words": [
+        {
+          "id": "caption-word-15-0",
+          "text": "Коул",
+          "start": 13.17,
+          "end": 13.464
+        },
+        {
+          "id": "caption-word-15-1",
+          "text": "считает.",
+          "start": 13.464,
+          "end": 14.052
+        }
+      ]
+    },
+    {
+      "id": "caption-group-16",
+      "frame": 4,
+      "start": 14.052,
+      "end": 15.61,
+      "text": "Двадцать минут топлива.",
+      "words": [
+        {
+          "id": "caption-word-16-0",
+          "text": "Двадцать",
+          "start": 14.052,
+          "end": 14.64
+        },
+        {
+          "id": "caption-word-16-1",
+          "text": "минут",
+          "start": 14.64,
+          "end": 14.95
+        },
+        {
+          "id": "caption-word-16-2",
+          "text": "топлива.",
+          "start": 15.04,
+          "end": 15.61
+        }
+      ]
+    },
+    {
+      "id": "caption-group-17",
+      "frame": 4,
+      "start": 15.61,
+      "end": 16.71,
+      "text": "Два фальшфейера.",
+      "words": [
+        {
+          "id": "caption-word-17-0",
+          "text": "Два",
+          "start": 15.61,
+          "end": 15.83
+        },
+        {
+          "id": "caption-word-17-1",
+          "text": "фальшфейера.",
+          "start": 15.83,
+          "end": 16.71
+        }
+      ]
+    },
+    {
+      "id": "caption-group-18",
+      "frame": 4,
+      "start": 16.71,
+      "end": 17.92,
+      "text": "Четыре свечи.",
+      "words": [
+        {
+          "id": "caption-word-18-0",
+          "text": "Четыре",
+          "start": 16.71,
+          "end": 17.15
+        },
+        {
+          "id": "caption-word-18-1",
+          "text": "свечи.",
+          "start": 17.15,
+          "end": 17.87
+        }
+      ]
+    },
+    {
+      "id": "caption-group-19",
+      "frame": 4,
+      "start": 17.92,
+      "end": 18.39,
+      "text": "И снегоход",
+      "words": [
+        {
+          "id": "caption-word-19-0",
+          "text": "И",
+          "start": 17.92,
+          "end": 18.01
+        },
+        {
+          "id": "caption-word-19-1",
+          "text": "снегоход",
+          "start": 18.01,
+          "end": 18.39
+        }
+      ]
+    },
+    {
+      "id": "caption-group-20",
+      "frame": 4,
+      "start": 18.39,
+      "end": 19.33,
+      "text": "с полным баком.",
+      "words": [
+        {
+          "id": "caption-word-20-0",
+          "text": "с",
+          "start": 18.39,
+          "end": 18.45
+        },
+        {
+          "id": "caption-word-20-1",
+          "text": "полным",
+          "start": 18.46,
+          "end": 18.82
+        },
+        {
+          "id": "caption-word-20-2",
+          "text": "баком.",
+          "start": 18.82,
+          "end": 19.21
+        }
+      ]
+    },
+    {
+      "id": "caption-group-21",
+      "frame": 5,
+      "start": 19.902,
+      "end": 20.402,
+      "text": "Он выгоняет",
+      "words": [
+        {
+          "id": "caption-word-21-0",
+          "text": "Он",
+          "start": 19.902,
+          "end": 19.962
+        },
+        {
+          "id": "caption-word-21-1",
+          "text": "выгоняет",
+          "start": 19.962,
+          "end": 20.402
+        }
+      ]
+    },
+    {
+      "id": "caption-group-22",
+      "frame": 5,
+      "start": 20.402,
+      "end": 21.412,
+      "text": "снегоход на середину",
+      "words": [
+        {
+          "id": "caption-word-22-0",
+          "text": "снегоход",
+          "start": 20.402,
+          "end": 20.852
+        },
+        {
+          "id": "caption-word-22-1",
+          "text": "на",
+          "start": 20.852,
+          "end": 20.902
+        },
+        {
+          "id": "caption-word-22-2",
+          "text": "середину",
+          "start": 20.972,
+          "end": 21.412
+        }
+      ]
+    },
+    {
+      "id": "caption-group-23",
+      "frame": 5,
+      "start": 21.412,
+      "end": 22.282,
+      "text": "полосы.",
+      "words": [
+        {
+          "id": "caption-word-23-0",
+          "text": "полосы.",
+          "start": 21.412,
+          "end": 22.232
+        }
+      ]
+    },
+    {
+      "id": "caption-group-24",
+      "frame": 5,
+      "start": 22.282,
+      "end": 22.952,
+      "text": "Рут обливает",
+      "words": [
+        {
+          "id": "caption-word-24-0",
+          "text": "Рут",
+          "start": 22.282,
+          "end": 22.422
+        },
+        {
+          "id": "caption-word-24-1",
+          "text": "обливает",
+          "start": 22.422,
+          "end": 22.892
+        }
+      ]
+    },
+    {
+      "id": "caption-group-25",
+      "frame": 5,
+      "start": 22.952,
+      "end": 23.912,
+      "text": "его топливом.",
+      "words": [
+        {
+          "id": "caption-word-25-0",
+          "text": "его",
+          "start": 22.952,
+          "end": 23.132
+        },
+        {
+          "id": "caption-word-25-1",
+          "text": "топливом.",
+          "start": 23.152,
+          "end": 23.912
+        }
+      ]
+    },
+    {
+      "id": "caption-group-26",
+      "frame": 5,
+      "start": 23.912,
+      "end": 25.272,
+      "text": "Коул зажигает фальшфейер.",
+      "words": [
+        {
+          "id": "caption-word-26-0",
+          "text": "Коул",
+          "start": 23.912,
+          "end": 24.092
+        },
+        {
+          "id": "caption-word-26-1",
+          "text": "зажигает",
+          "start": 24.092,
+          "end": 24.462
+        },
+        {
+          "id": "caption-word-26-2",
+          "text": "фальшфейер.",
+          "start": 24.462,
+          "end": 25.152
+        }
+      ]
+    },
+    {
+      "id": "caption-group-27",
+      "frame": 6,
+      "start": 25.83,
+      "end": 26.83,
+      "text": "Огонь поднимается на",
+      "words": [
+        {
+          "id": "caption-word-27-0",
+          "text": "Огонь",
+          "start": 25.83,
+          "end": 26.05
+        },
+        {
+          "id": "caption-word-27-1",
+          "text": "поднимается",
+          "start": 26.05,
+          "end": 26.71
+        },
+        {
+          "id": "caption-word-27-2",
+          "text": "на",
+          "start": 26.71,
+          "end": 26.83
+        }
+      ]
+    },
+    {
+      "id": "caption-group-28",
+      "frame": 6,
+      "start": 26.83,
+      "end": 27.79,
+      "text": "десять метров.",
+      "words": [
+        {
+          "id": "caption-word-28-0",
+          "text": "десять",
+          "start": 26.83,
+          "end": 27.19
+        },
+        {
+          "id": "caption-word-28-1",
+          "text": "метров.",
+          "start": 27.19,
+          "end": 27.77
+        }
+      ]
+    },
+    {
+      "id": "caption-group-29",
+      "frame": 6,
+      "start": 27.79,
+      "end": 28.79,
+      "text": "Тени визжат.",
+      "words": [
+        {
+          "id": "caption-word-29-0",
+          "text": "Тени",
+          "start": 27.79,
+          "end": 28.01
+        },
+        {
+          "id": "caption-word-29-1",
+          "text": "визжат.",
+          "start": 28.01,
+          "end": 28.79
+        }
+      ]
+    },
+    {
+      "id": "caption-group-30",
+      "frame": 6,
+      "start": 28.79,
+      "end": 29.8,
+      "text": "Весь аэродром становится",
+      "words": [
+        {
+          "id": "caption-word-30-0",
+          "text": "Весь",
+          "start": 28.79,
+          "end": 28.95
+        },
+        {
+          "id": "caption-word-30-1",
+          "text": "аэродром",
+          "start": 28.95,
+          "end": 29.31
+        },
+        {
+          "id": "caption-word-30-2",
+          "text": "становится",
+          "start": 29.31,
+          "end": 29.8
+        }
+      ]
+    },
+    {
+      "id": "caption-group-31",
+      "frame": 6,
+      "start": 29.8,
+      "end": 30.45,
+      "text": "оранжевым.",
+      "words": [
+        {
+          "id": "caption-word-31-0",
+          "text": "оранжевым.",
+          "start": 29.8,
+          "end": 30.33
+        }
+      ]
+    },
+    {
+      "id": "caption-group-32",
+      "frame": 7,
+      "start": 30.962,
+      "end": 31.422,
+      "text": "Но огонь",
+      "words": [
+        {
+          "id": "caption-word-32-0",
+          "text": "Но",
+          "start": 30.962,
+          "end": 31.072
+        },
+        {
+          "id": "caption-word-32-1",
+          "text": "огонь",
+          "start": 31.072,
+          "end": 31.422
+        }
+      ]
+    },
+    {
+      "id": "caption-group-33",
+      "frame": 7,
+      "start": 31.422,
+      "end": 32.452,
+      "text": "горит быстро.",
+      "words": [
+        {
+          "id": "caption-word-33-0",
+          "text": "горит",
+          "start": 31.422,
+          "end": 31.752
+        },
+        {
+          "id": "caption-word-33-1",
+          "text": "быстро.",
+          "start": 31.822,
+          "end": 32.412
+        }
+      ]
+    },
+    {
+      "id": "caption-group-34",
+      "frame": 7,
+      "start": 32.452,
+      "end": 33.442,
+      "text": "Десять минут.",
+      "words": [
+        {
+          "id": "caption-word-34-0",
+          "text": "Десять",
+          "start": 32.452,
+          "end": 32.772
+        },
+        {
+          "id": "caption-word-34-1",
+          "text": "минут.",
+          "start": 32.852,
+          "end": 33.412
+        }
+      ]
+    },
+    {
+      "id": "caption-group-35",
+      "frame": 7,
+      "start": 33.442,
+      "end": 34.452,
+      "text": "Пять.",
+      "words": [
+        {
+          "id": "caption-word-35-0",
+          "text": "Пять.",
+          "start": 33.442,
+          "end": 34.412
+        }
+      ]
+    },
+    {
+      "id": "caption-group-36",
+      "frame": 7,
+      "start": 34.452,
+      "end": 35.477,
+      "text": "Пламя начинает сжиматься.",
+      "words": [
+        {
+          "id": "caption-word-36-0",
+          "text": "Пламя",
+          "start": 34.452,
+          "end": 34.572
+        },
+        {
+          "id": "caption-word-36-1",
+          "text": "начинает",
+          "start": 34.642,
+          "end": 34.942
+        },
+        {
+          "id": "caption-word-36-2",
+          "text": "сжиматься.",
+          "start": 34.942,
+          "end": 35.477
+        }
+      ]
+    },
+    {
+      "id": "caption-group-37",
+      "frame": 7,
+      "start": 35.477,
+      "end": 36.932,
+      "text": "Темнота наклоняется ближе.",
+      "words": [
+        {
+          "id": "caption-word-37-0",
+          "text": "Темнота",
+          "start": 35.477,
+          "end": 35.852
+        },
+        {
+          "id": "caption-word-37-1",
+          "text": "наклоняется",
+          "start": 35.852,
+          "end": 36.412
+        },
+        {
+          "id": "caption-word-37-2",
+          "text": "ближе.",
+          "start": 36.412,
+          "end": 36.812
+        }
+      ]
+    },
+    {
+      "id": "caption-group-38",
+      "frame": 8,
+      "start": 37.493,
+      "end": 37.973,
+      "text": "Бэр стоит",
+      "words": [
+        {
+          "id": "caption-word-38-0",
+          "text": "Бэр",
+          "start": 37.493,
+          "end": 37.633
+        },
+        {
+          "id": "caption-word-38-1",
+          "text": "стоит",
+          "start": 37.633,
+          "end": 37.883
+        }
+      ]
+    },
+    {
+      "id": "caption-group-39",
+      "frame": 8,
+      "start": 37.973,
+      "end": 38.343,
+      "text": "на краю",
+      "words": [
+        {
+          "id": "caption-word-39-0",
+          "text": "на",
+          "start": 37.973,
+          "end": 38.023
+        },
+        {
+          "id": "caption-word-39-1",
+          "text": "краю",
+          "start": 38.023,
+          "end": 38.343
+        }
+      ]
+    },
+    {
+      "id": "caption-group-40",
+      "frame": 8,
+      "start": 38.343,
+      "end": 38.733,
+      "text": "света и",
+      "words": [
+        {
+          "id": "caption-word-40-0",
+          "text": "света",
+          "start": 38.343,
+          "end": 38.653
+        },
+        {
+          "id": "caption-word-40-1",
+          "text": "и",
+          "start": 38.693,
+          "end": 38.743
+        }
+      ]
+    },
+    {
+      "id": "caption-group-41",
+      "frame": 8,
+      "start": 38.733,
+      "end": 39.853,
+      "text": "лает на тени.",
+      "words": [
+        {
+          "id": "caption-word-41-0",
+          "text": "лает",
+          "start": 38.733,
+          "end": 38.963
+        },
+        {
+          "id": "caption-word-41-1",
+          "text": "на",
+          "start": 39.053,
+          "end": 39.103
+        },
+        {
+          "id": "caption-word-41-2",
+          "text": "тени.",
+          "start": 39.103,
+          "end": 39.813
+        }
+      ]
+    },
+    {
+      "id": "caption-group-42",
+      "frame": 8,
+      "start": 39.853,
+      "end": 40.983,
+      "text": "Он не отступает.",
+      "words": [
+        {
+          "id": "caption-word-42-0",
+          "text": "Он",
+          "start": 39.853,
+          "end": 39.973
+        },
+        {
+          "id": "caption-word-42-1",
+          "text": "не",
+          "start": 39.973,
+          "end": 40.043
+        },
+        {
+          "id": "caption-word-42-2",
+          "text": "отступает.",
+          "start": 40.153,
+          "end": 40.983
+        }
+      ]
+    },
+    {
+      "id": "caption-group-43",
+      "frame": 8,
+      "start": 40.983,
+      "end": 41.733,
+      "text": "Ни на шаг.",
+      "words": [
+        {
+          "id": "caption-word-43-0",
+          "text": "Ни",
+          "start": 40.983,
+          "end": 41.143
+        },
+        {
+          "id": "caption-word-43-1",
+          "text": "на",
+          "start": 41.143,
+          "end": 41.303
+        },
+        {
+          "id": "caption-word-43-2",
+          "text": "шаг.",
+          "start": 41.303,
+          "end": 41.613
+        }
+      ]
+    },
+    {
+      "id": "caption-group-44",
+      "frame": 9,
+      "start": 42.3,
+      "end": 42.72,
+      "text": "Тут Рут",
+      "words": [
+        {
+          "id": "caption-word-44-0",
+          "text": "Тут",
+          "start": 42.3,
+          "end": 42.48
+        },
+        {
+          "id": "caption-word-44-1",
+          "text": "Рут",
+          "start": 42.48,
+          "end": 42.72
+        }
+      ]
+    },
+    {
+      "id": "caption-group-45",
+      "frame": 9,
+      "start": 42.72,
+      "end": 43.79,
+      "text": "смотрит на часы.",
+      "words": [
+        {
+          "id": "caption-word-45-0",
+          "text": "смотрит",
+          "start": 42.72,
+          "end": 43.25
+        },
+        {
+          "id": "caption-word-45-1",
+          "text": "на",
+          "start": 43.25,
+          "end": 43.4
+        },
+        {
+          "id": "caption-word-45-2",
+          "text": "часы.",
+          "start": 43.4,
+          "end": 43.79
+        }
+      ]
+    },
+    {
+      "id": "caption-group-46",
+      "frame": 9,
+      "start": 43.79,
+      "end": 44.05,
+      "text": "Коул,",
+      "words": [
+        {
+          "id": "caption-word-46-0",
+          "text": "Коул,",
+          "start": 43.79,
+          "end": 44.05
+        }
+      ]
+    },
+    {
+      "id": "caption-group-47",
+      "frame": 9,
+      "start": 44.05,
+      "end": 45.45,
+      "text": "какое сегодня число?",
+      "words": [
+        {
+          "id": "caption-word-47-0",
+          "text": "какое",
+          "start": 44.05,
+          "end": 44.39
+        },
+        {
+          "id": "caption-word-47-1",
+          "text": "сегодня",
+          "start": 44.39,
+          "end": 44.87
+        },
+        {
+          "id": "caption-word-47-2",
+          "text": "число?",
+          "start": 44.87,
+          "end": 45.45
+        }
+      ]
+    },
+    {
+      "id": "caption-group-48",
+      "frame": 9,
+      "start": 45.45,
+      "end": 47.18,
+      "text": "Двадцать первое января.",
+      "words": [
+        {
+          "id": "caption-word-48-0",
+          "text": "Двадцать",
+          "start": 45.45,
+          "end": 45.919
+        },
+        {
+          "id": "caption-word-48-1",
+          "text": "первое",
+          "start": 45.919,
+          "end": 46.27
+        },
+        {
+          "id": "caption-word-48-2",
+          "text": "января.",
+          "start": 46.27,
+          "end": 47.13
+        }
+      ]
+    },
+    {
+      "id": "caption-group-49",
+      "frame": 9,
+      "start": 47.18,
+      "end": 48.25,
+      "text": "Конец долгой ночи.",
+      "words": [
+        {
+          "id": "caption-word-49-0",
+          "text": "Конец",
+          "start": 47.18,
+          "end": 47.44
+        },
+        {
+          "id": "caption-word-49-1",
+          "text": "долгой",
+          "start": 47.5,
+          "end": 47.78
+        },
+        {
+          "id": "caption-word-49-2",
+          "text": "ночи.",
+          "start": 47.86,
+          "end": 48.13
+        }
+      ]
+    },
+    {
+      "id": "caption-group-50",
+      "frame": 10,
+      "start": 48.765,
+      "end": 49.795,
+      "text": "На горизонте тонкая",
+      "words": [
+        {
+          "id": "caption-word-50-0",
+          "text": "На",
+          "start": 48.765,
+          "end": 48.855
+        },
+        {
+          "id": "caption-word-50-1",
+          "text": "горизонте",
+          "start": 48.855,
+          "end": 49.368
+        },
+        {
+          "id": "caption-word-50-2",
+          "text": "тонкая",
+          "start": 49.425,
+          "end": 49.795
+        }
+      ]
+    },
+    {
+      "id": "caption-group-51",
+      "frame": 10,
+      "start": 49.795,
+      "end": 50.955,
+      "text": "золотая линия.",
+      "words": [
+        {
+          "id": "caption-word-51-0",
+          "text": "золотая",
+          "start": 49.795,
+          "end": 50.235
+        },
+        {
+          "id": "caption-word-51-1",
+          "text": "линия.",
+          "start": 50.265,
+          "end": 50.905
+        }
+      ]
+    },
+    {
+      "id": "caption-group-52",
+      "frame": 10,
+      "start": 50.955,
+      "end": 51.555,
+      "text": "Первый рассвет",
+      "words": [
+        {
+          "id": "caption-word-52-0",
+          "text": "Первый",
+          "start": 50.955,
+          "end": 51.175
+        },
+        {
+          "id": "caption-word-52-1",
+          "text": "рассвет",
+          "start": 51.175,
+          "end": 51.475
+        }
+      ]
+    },
+    {
+      "id": "caption-group-53",
+      "frame": 10,
+      "start": 51.555,
+      "end": 52.15,
+      "text": "за шестьдесят",
+      "words": [
+        {
+          "id": "caption-word-53-0",
+          "text": "за",
+          "start": 51.555,
+          "end": 51.625
+        },
+        {
+          "id": "caption-word-53-1",
+          "text": "шестьдесят",
+          "start": 51.625,
+          "end": 52.15
+        }
+      ]
+    },
+    {
+      "id": "caption-group-54",
+      "frame": 10,
+      "start": 52.15,
+      "end": 52.865,
+      "text": "четыре дня.",
+      "words": [
+        {
+          "id": "caption-word-54-0",
+          "text": "четыре",
+          "start": 52.15,
+          "end": 52.465
+        },
+        {
+          "id": "caption-word-54-1",
+          "text": "дня.",
+          "start": 52.465,
+          "end": 52.745
+        }
+      ]
+    },
+    {
+      "id": "caption-group-55",
+      "frame": 11,
+      "start": 53.329,
+      "end": 54.539,
+      "text": "Солнечный свет падает",
+      "words": [
+        {
+          "id": "caption-word-55-0",
+          "text": "Солнечный",
+          "start": 53.329,
+          "end": 53.869
+        },
+        {
+          "id": "caption-word-55-1",
+          "text": "свет",
+          "start": 53.979,
+          "end": 54.159
+        },
+        {
+          "id": "caption-word-55-2",
+          "text": "падает",
+          "start": 54.159,
+          "end": 54.539
+        }
+      ]
+    },
+    {
+      "id": "caption-group-56",
+      "frame": 11,
+      "start": 54.539,
+      "end": 55.109,
+      "text": "на снег.",
+      "words": [
+        {
+          "id": "caption-word-56-0",
+          "text": "на",
+          "start": 54.539,
+          "end": 54.619
+        },
+        {
+          "id": "caption-word-56-1",
+          "text": "снег.",
+          "start": 54.679,
+          "end": 55.109
+        }
+      ]
+    },
+    {
+      "id": "caption-group-57",
+      "frame": 11,
+      "start": 55.109,
+      "end": 55.469,
+      "text": "И тени",
+      "words": [
+        {
+          "id": "caption-word-57-0",
+          "text": "И",
+          "start": 55.109,
+          "end": 55.179
+        },
+        {
+          "id": "caption-word-57-1",
+          "text": "тени",
+          "start": 55.179,
+          "end": 55.459
+        }
+      ]
+    },
+    {
+      "id": "caption-group-58",
+      "frame": 11,
+      "start": 55.469,
+      "end": 56.329,
+      "text": "не отступают.",
+      "words": [
+        {
+          "id": "caption-word-58-0",
+          "text": "не",
+          "start": 55.469,
+          "end": 55.609
+        },
+        {
+          "id": "caption-word-58-1",
+          "text": "отступают.",
+          "start": 55.609,
+          "end": 56.319
+        }
+      ]
+    },
+    {
+      "id": "caption-group-59",
+      "frame": 11,
+      "start": 56.329,
+      "end": 57.019,
+      "text": "Они горят.",
+      "words": [
+        {
+          "id": "caption-word-59-0",
+          "text": "Они",
+          "start": 56.329,
+          "end": 56.529
+        },
+        {
+          "id": "caption-word-59-1",
+          "text": "горят.",
+          "start": 56.529,
+          "end": 57.019
+        }
+      ]
+    },
+    {
+      "id": "caption-group-60",
+      "frame": 11,
+      "start": 57.019,
+      "end": 58.079,
+      "text": "Все до одной.",
+      "words": [
+        {
+          "id": "caption-word-60-0",
+          "text": "Все",
+          "start": 57.019,
+          "end": 57.179
+        },
+        {
+          "id": "caption-word-60-1",
+          "text": "до",
+          "start": 57.249,
+          "end": 57.369
+        },
+        {
+          "id": "caption-word-60-2",
+          "text": "одной.",
+          "start": 57.369,
+          "end": 57.959
+        }
+      ]
+    },
+    {
+      "id": "caption-group-61",
+      "frame": 12,
+      "start": 58.58,
+      "end": 59.518,
+      "text": "Последнее правило:",
+      "words": [
+        {
+          "id": "caption-word-61-0",
+          "text": "Последнее",
+          "start": 58.58,
+          "end": 59.076
+        },
+        {
+          "id": "caption-word-61-1",
+          "text": "правило:",
+          "start": 59.076,
+          "end": 59.518
+        }
+      ]
+    },
+    {
+      "id": "caption-group-62",
+      "frame": 12,
+      "start": 59.518,
+      "end": 59.904,
+      "text": "в долгой",
+      "words": [
+        {
+          "id": "caption-word-62-0",
+          "text": "в",
+          "start": 59.518,
+          "end": 59.573
+        },
+        {
+          "id": "caption-word-62-1",
+          "text": "долгой",
+          "start": 59.573,
+          "end": 59.904
+        }
+      ]
+    },
+    {
+      "id": "caption-group-63",
+      "frame": 12,
+      "start": 59.904,
+      "end": 60.72,
+      "text": "темноте свет",
+      "words": [
+        {
+          "id": "caption-word-63-0",
+          "text": "темноте",
+          "start": 59.904,
+          "end": 60.29
+        },
+        {
+          "id": "caption-word-63-1",
+          "text": "свет",
+          "start": 60.29,
+          "end": 60.63
+        }
+      ]
+    },
+    {
+      "id": "caption-group-64",
+      "frame": 12,
+      "start": 60.72,
+      "end": 61.66,
+      "text": "это патроны.",
+      "words": [
+        {
+          "id": "caption-word-64-0",
+          "text": "это",
+          "start": 60.72,
+          "end": 60.77
+        },
+        {
+          "id": "caption-word-64-1",
+          "text": "патроны.",
+          "start": 60.83,
+          "end": 61.64
+        }
+      ]
+    },
+    {
+      "id": "caption-group-65",
+      "frame": 12,
+      "start": 61.66,
+      "end": 62.27,
+      "text": "Не трать",
+      "words": [
+        {
+          "id": "caption-word-65-0",
+          "text": "Не",
+          "start": 61.66,
+          "end": 61.82
+        },
+        {
+          "id": "caption-word-65-1",
+          "text": "трать",
+          "start": 61.82,
+          "end": 62.27
+        }
+      ]
+    },
+    {
+      "id": "caption-group-66",
+      "frame": 12,
+      "start": 62.27,
+      "end": 62.86,
+      "text": "его зря.",
+      "words": [
+        {
+          "id": "caption-word-66-0",
+          "text": "его",
+          "start": 62.27,
+          "end": 62.44
+        },
+        {
+          "id": "caption-word-66-1",
+          "text": "зря.",
+          "start": 62.56,
+          "end": 62.84
+        }
+      ]
+    },
+    {
+      "id": "caption-group-67",
+      "frame": 12,
+      "start": 62.86,
+      "end": 63.15,
+      "text": "Ведь до",
+      "words": [
+        {
+          "id": "caption-word-67-0",
+          "text": "Ведь",
+          "start": 62.86,
+          "end": 63.04
+        },
+        {
+          "id": "caption-word-67-1",
+          "text": "до",
+          "start": 63.05,
+          "end": 63.15
+        }
+      ]
+    },
+    {
+      "id": "caption-group-68",
+      "frame": 12,
+      "start": 63.15,
+      "end": 63.84,
+      "text": "следующей зимы",
+      "words": [
+        {
+          "id": "caption-word-68-0",
+          "text": "следующей",
+          "start": 63.15,
+          "end": 63.62
+        },
+        {
+          "id": "caption-word-68-1",
+          "text": "зимы",
+          "start": 63.62,
+          "end": 63.77
+        }
+      ]
+    },
+    {
+      "id": "caption-group-69",
+      "frame": 12,
+      "start": 63.84,
+      "end": 65.05,
+      "text": "всего триста дней.",
+      "words": [
+        {
+          "id": "caption-word-69-0",
+          "text": "всего",
+          "start": 63.84,
+          "end": 64.07
+        },
+        {
+          "id": "caption-word-69-1",
+          "text": "триста",
+          "start": 64.07,
+          "end": 64.55
+        },
+        {
+          "id": "caption-word-69-2",
+          "text": "дней.",
+          "start": 64.55,
+          "end": 64.93
+        }
+      ]
+    }
+  ]
+}

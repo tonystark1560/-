@@ -9,7 +9,7 @@ music: none
 ## Frame 1 — Beat01
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 4.565s
 - transition_in: cut
 - status: animated
 - voiceover: "Шесть часов света. Потом победит темнота. Коулу нужен план получше."
@@ -18,7 +18,7 @@ music: none
 ## Frame 2 — Beat02
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 7.203s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Сквозь треск в рации прорывается голос. Аэродром Кеттл-Крик. У нас прожекторы и топливо. Кто слышит — идите на юг."
@@ -27,7 +27,7 @@ music: none
 ## Frame 3 — Beat03
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 4.542s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Шестьдесят пять километров. В темноте. На снегоходе с одной фарой."
@@ -36,7 +36,7 @@ music: none
 ## Frame 4 — Beat04
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 6.504s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Рут собирает последние свечи. Коул берёт последние три фальшфейера. Бэр едет в санях, уши торчком."
@@ -45,7 +45,7 @@ music: none
 ## Frame 5 — Beat05
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 5.050s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Правило четвёртое: никогда не иди в темноту. Если только темнота и так не идёт за тобой."
@@ -54,7 +54,7 @@ music: none
 ## Frame 6 — Beat06
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 4.716s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Шестнадцатый километр. Деревья подступают вплотную. Фара начинает мигать."
@@ -63,7 +63,7 @@ music: none
 ## Frame 7 — Beat07
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 7.397s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Двадцать девятый километр. Рядом с ними кто-то бежит. Его не видно. Но снег у тропы проминается. Шаг. Шаг. Шаг."
@@ -72,7 +72,7 @@ music: none
 ## Frame 8 — Beat08
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 2.937s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Тридцать четвёртый километр. Фара гаснет."
@@ -81,7 +81,7 @@ music: none
 ## Frame 9 — Beat09
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 6.205s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Полная темнота. Коул нащупывает фальшфейер. Перчатки слишком толстые. Рут кричит его имя."
@@ -90,7 +90,7 @@ music: none
 ## Frame 10 — Beat10
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 4.939s
 - transition_in: crossfade
 - status: animated
 - voiceover: "А потом сани пустеют. Бэр спрыгнул. Его нет. Он ушёл в темноту."

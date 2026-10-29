@@ -1,0 +1,459 @@
+{
+  "tts_provider": "kokoro",
+  "voice_id": "am_onyx",
+  "bgm": null,
+  "bgm_pending": false,
+  "bgm_provider": null,
+  "bgm_pid": null,
+  "bgm_log": null,
+  "bgm_mode": null,
+  "bgm_target_duration_s": null,
+  "bgm_seed_duration_s": null,
+  "bgm_loop_count": null,
+  "voices": [
+    {
+      "id": "01",
+      "path": "assets/voice/01.wav",
+      "duration_s": 4.459,
+      "words": []
+    },
+    {
+      "id": "02",
+      "path": "assets/voice/02.wav",
+      "duration_s": 5.824,
+      "words": []
+    },
+    {
+      "id": "03",
+      "path": "assets/voice/03.wav",
+      "duration_s": 3.733,
+      "words": [
+        {
+          "id": "w0",
+          "text": "The",
+          "start": 0.07,
+          "end": 0.18
+        },
+        {
+          "id": "w1",
+          "text": "dark",
+          "start": 0.18,
+          "end": 0.33
+        },
+        {
+          "id": "w2",
+          "text": "surrounds",
+          "start": 0.42,
+          "end": 0.96
+        },
+        {
+          "id": "w3",
+          "text": "the",
+          "start": 0.96,
+          "end": 1.14
+        },
+        {
+          "id": "w4",
+          "text": "hanger",
+          "start": 1.14,
+          "end": 1.44
+        },
+        {
+          "id": "w5",
+          "text": "like",
+          "start": 1.55,
+          "end": 1.74
+        },
+        {
+          "id": "w6",
+          "text": "water",
+          "start": 1.74,
+          "end": 1.97
+        },
+        {
+          "id": "w7",
+          "text": "around",
+          "start": 2.09,
+          "end": 2.43
+        },
+        {
+          "id": "w8",
+          "text": "a",
+          "start": 2.43,
+          "end": 2.49
+        },
+        {
+          "id": "w9",
+          "text": "sinking",
+          "start": 2.49,
+          "end": 2.93
+        },
+        {
+          "id": "w10",
+          "text": "boat.",
+          "start": 2.93,
+          "end": 3.2
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "path": "assets/voice/04.wav",
+      "duration_s": 5.995,
+      "words": []
+    },
+    {
+      "id": "05",
+      "path": "assets/voice/05.wav",
+      "duration_s": 5.781,
+      "words": []
+    },
+    {
+      "id": "06",
+      "path": "assets/voice/06.wav",
+      "duration_s": 4.992,
+      "words": [
+        {
+          "id": "w0",
+          "text": "The",
+          "start": 0.05,
+          "end": 0.19
+        },
+        {
+          "id": "w1",
+          "text": "fire",
+          "start": 0.19,
+          "end": 0.45
+        },
+        {
+          "id": "w2",
+          "text": "goes",
+          "start": 0.45,
+          "end": 0.71
+        },
+        {
+          "id": "w3",
+          "text": "up",
+          "start": 0.71,
+          "end": 0.75
+        },
+        {
+          "id": "w4",
+          "text": "30",
+          "start": 0.92,
+          "end": 1.12
+        },
+        {
+          "id": "w5",
+          "text": "feet,",
+          "start": 1.24,
+          "end": 1.52
+        },
+        {
+          "id": "w6",
+          "text": "the",
+          "start": 1.57,
+          "end": 1.75
+        },
+        {
+          "id": "w7",
+          "text": "shadows",
+          "start": 1.75,
+          "end": 2.29
+        },
+        {
+          "id": "w8",
+          "text": "scream,",
+          "start": 2.29,
+          "end": 2.76
+        },
+        {
+          "id": "w9",
+          "text": "the",
+          "start": 2.81,
+          "end": 2.95
+        },
+        {
+          "id": "w10",
+          "text": "whole",
+          "start": 2.95,
+          "end": 3.23
+        },
+        {
+          "id": "w11",
+          "text": "airstrip",
+          "start": 3.26,
+          "end": 3.75
+        },
+        {
+          "id": "w12",
+          "text": "turns",
+          "start": 3.75,
+          "end": 4.06
+        },
+        {
+          "id": "w13",
+          "text": "orange.",
+          "start": 4.06,
+          "end": 4.66
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "path": "assets/voice/07.wav",
+      "duration_s": 5.248,
+      "words": [
+        {
+          "id": "w0",
+          "text": "But",
+          "start": 0.06,
+          "end": 0.09
+        },
+        {
+          "id": "w1",
+          "text": "fire",
+          "start": 0.21,
+          "end": 0.44
+        },
+        {
+          "id": "w2",
+          "text": "burns",
+          "start": 0.49,
+          "end": 0.84
+        },
+        {
+          "id": "w3",
+          "text": "fast,",
+          "start": 0.84,
+          "end": 1.25
+        },
+        {
+          "id": "w4",
+          "text": "ten",
+          "start": 1.29,
+          "end": 1.47
+        },
+        {
+          "id": "w5",
+          "text": "minutes,",
+          "start": 1.47,
+          "end": 2.1
+        },
+        {
+          "id": "w6",
+          "text": "five,",
+          "start": 2.1,
+          "end": 2.47
+        },
+        {
+          "id": "w7",
+          "text": "the",
+          "start": 2.57,
+          "end": 2.65
+        },
+        {
+          "id": "w8",
+          "text": "flames",
+          "start": 2.65,
+          "end": 2.94
+        },
+        {
+          "id": "w9",
+          "text": "start",
+          "start": 2.94,
+          "end": 3.17
+        },
+        {
+          "id": "w10",
+          "text": "to",
+          "start": 3.17,
+          "end": 3.27
+        },
+        {
+          "id": "w11",
+          "text": "shrink,",
+          "start": 3.27,
+          "end": 3.68
+        },
+        {
+          "id": "w12",
+          "text": "the",
+          "start": 3.69,
+          "end": 3.86
+        },
+        {
+          "id": "w13",
+          "text": "dark",
+          "start": 3.86,
+          "end": 4.11
+        },
+        {
+          "id": "w14",
+          "text": "leans",
+          "start": 4.11,
+          "end": 4.42
+        },
+        {
+          "id": "w15",
+          "text": "in.",
+          "start": 4.42,
+          "end": 4.64
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "path": "assets/voice/08.wav",
+      "duration_s": 5.333,
+      "words": []
+    },
+    {
+      "id": "09",
+      "path": "assets/voice/09.wav",
+      "duration_s": 5.397,
+      "words": []
+    },
+    {
+      "id": "10",
+      "path": "assets/voice/10.wav",
+      "duration_s": 5.035,
+      "words": []
+    },
+    {
+      "id": "11",
+      "path": "assets/voice/11.wav",
+      "duration_s": 4.971,
+      "words": []
+    },
+    {
+      "id": "12",
+      "path": "assets/voice/12.wav",
+      "duration_s": 6.613,
+      "words": [
+        {
+          "id": "w0",
+          "text": "Final",
+          "start": 0.09,
+          "end": 0.36
+        },
+        {
+          "id": "w1",
+          "text": "rule",
+          "start": 0.36,
+          "end": 0.65
+        },
+        {
+          "id": "w2",
+          "text": "in",
+          "start": 0.65,
+          "end": 0.79
+        },
+        {
+          "id": "w3",
+          "text": "the",
+          "start": 0.79,
+          "end": 1
+        },
+        {
+          "id": "w4",
+          "text": "long",
+          "start": 1,
+          "end": 1.29
+        },
+        {
+          "id": "w5",
+          "text": "dark",
+          "start": 1.29,
+          "end": 1.5
+        },
+        {
+          "id": "w6",
+          "text": "light",
+          "start": 1.64,
+          "end": 1.94
+        },
+        {
+          "id": "w7",
+          "text": "is",
+          "start": 1.94,
+          "end": 2.08
+        },
+        {
+          "id": "w8",
+          "text": "ammo,",
+          "start": 2.08,
+          "end": 2.44
+        },
+        {
+          "id": "w9",
+          "text": "never",
+          "start": 2.62,
+          "end": 2.93
+        },
+        {
+          "id": "w10",
+          "text": "waste",
+          "start": 2.93,
+          "end": 3.29
+        },
+        {
+          "id": "w11",
+          "text": "it,",
+          "start": 3.29,
+          "end": 3.6
+        },
+        {
+          "id": "w12",
+          "text": "because",
+          "start": 3.65,
+          "end": 3.98
+        },
+        {
+          "id": "w13",
+          "text": "next",
+          "start": 3.98,
+          "end": 4.2
+        },
+        {
+          "id": "w14",
+          "text": "winter",
+          "start": 4.2,
+          "end": 4.52
+        },
+        {
+          "id": "w15",
+          "text": "is",
+          "start": 4.53,
+          "end": 4.64
+        },
+        {
+          "id": "w16",
+          "text": "only",
+          "start": 4.64,
+          "end": 4.78
+        },
+        {
+          "id": "w17",
+          "text": "300",
+          "start": 4.97,
+          "end": 5.48
+        },
+        {
+          "id": "w18",
+          "text": "days",
+          "start": 5.48,
+          "end": 5.74
+        },
+        {
+          "id": "w19",
+          "text": "away.",
+          "start": 5.74,
+          "end": 6.04
+        }
+      ]
+    }
+  ],
+  "sfx": [],
+  "total_duration_s": 63.381
+}

@@ -1,0 +1,40 @@
+<template>
+<style>@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Regular.otf') format('opentype');font-weight:400;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Medium.otf') format('opentype');font-weight:500;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-SemiBold.otf') format('opentype');font-weight:600;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Bold.otf') format('opentype');font-weight:700;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-ExtraBold.otf') format('opentype');font-weight:800;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Black.otf') format('opentype');font-weight:900;font-style:normal;}
+#root{position:absolute;inset:0;width:1080px;height:1920px;overflow:hidden;font-family:'Inter',sans-serif;}
+
+.hud-loc{position:absolute;left:0;right:0;top:70px;text-align:center;font-weight:800;font-size:30px;letter-spacing:.22em;color:#8A93A3;text-transform:uppercase;}
+.hud-row{position:absolute;left:0;right:0;top:122px;display:flex;justify-content:center;gap:16px;}
+.ctr{display:flex;align-items:center;gap:10px;padding:10px 18px;border-radius:10px;background:rgba(10,14,22,.78);border:2px solid rgba(255,255,255,.12);font-weight:900;font-size:28px;letter-spacing:.08em;color:#F2F4F8;}
+.ctr b{color:#FFC83D;}
+.tag{position:absolute;left:50%;padding:12px 26px;border-radius:10px;font-weight:900;font-size:36px;letter-spacing:.06em;text-transform:uppercase;color:#fff;background:#FF3B30;white-space:nowrap;box-shadow:0 8px 0 rgba(0,0,0,.35);}
+.tag.gold{background:#FFC83D;color:#111;} .tag.white{background:#fff;color:#111;} .tag.green{background:#3CF2A0;color:#062;}
+.card{position:absolute;left:70px;right:70px;padding:50px 40px;border-radius:24px;background:rgba(8,11,18,.92);border:3px solid rgba(255,255,255,.14);text-align:center;font-weight:900;font-size:72px;line-height:1.05;color:#fff;text-transform:uppercase;}
+.card em{font-style:normal;color:#FFC83D;} .card i{font-style:normal;color:#FF3B30;}
+.bub{position:absolute;padding:14px 26px;border-radius:26px;background:#fff;font-weight:900;font-size:40px;color:#111;text-transform:uppercase;white-space:nowrap;box-shadow:0 8px 0 rgba(0,0,0,.35);}
+.dark{position:absolute;border-radius:50%;background:radial-gradient(circle,rgba(4,6,11,0) 42%,rgba(4,6,11,.55) 62%,rgba(4,6,11,.93) 74%);box-shadow:0 0 0 3000px rgba(4,6,11,.93);}
+.pool{position:absolute;border-radius:50%;}
+.dim{position:absolute;filter:blur(1.5px);transform-origin:50% 100%;}
+</style>
+<div id="root" data-composition-id="02-beat02" data-width="1080" data-height="1920" data-duration="7.703">
+<div class="clip" id="f02-bg" data-start="0" data-duration="7.703" data-track-index="0" style="position:absolute;inset:0;overflow:hidden"></div>
+<div class="clip" id="f02-stage" data-start="0" data-duration="7.703" data-track-index="1" style="position:absolute;inset:0"><div class="cam" id="f02-cam" style="position:absolute;inset:0;transform-origin:50% 18%"><div style="position:absolute;inset:0"><svg width="1080" height="1920"><rect x="0" y="0" width="1080" height="74" fill="#2A1D14"/><rect x="0" y="80" width="1080" height="74" fill="#3A2A1D"/><rect x="0" y="160" width="1080" height="74" fill="#2A1D14"/><rect x="0" y="240" width="1080" height="74" fill="#3A2A1D"/><rect x="0" y="320" width="1080" height="74" fill="#2A1D14"/><rect x="0" y="400" width="1080" height="74" fill="#3A2A1D"/><rect x="0" y="480" width="1080" height="74" fill="#2A1D14"/><rect x="0" y="560" width="1080" height="74" fill="#3A2A1D"/><rect x="0" y="640" width="1080" height="74" fill="#2A1D14"/><rect x="0" y="720" width="1080" height="74" fill="#3A2A1D"/><rect x="0" y="800" width="1080" height="74" fill="#2A1D14"/><rect x="0" y="880" width="1080" height="74" fill="#3A2A1D"/><rect x="0" y="960" width="1080" height="74" fill="#2A1D14"/><rect x="0" y="1040" width="1080" height="74" fill="#3A2A1D"/><rect x="0" y="1120" width="1080" height="74" fill="#2A1D14"/><rect x="0" y="1200" width="1080" height="74" fill="#3A2A1D"/><rect x="0" y="1280" width="1080" height="74" fill="#2A1D14"/><rect x="120" y="360" width="360" height="300" rx="10" fill="#0D1422" stroke="#1D140E" stroke-width="26"/><line x1="300" y1="360" x2="300" y2="660" stroke="#1D140E" stroke-width="16"/><rect x="0" y="1240" width="1080" height="680" fill="#1E150F"/><rect x="700" y="910" width="240" height="330" rx="12" fill="#151515"/><rect x="740" y="1010" width="160" height="110" rx="8" fill="#FF8A2B"/><rect x="790" y="640" width="50" height="270" fill="#151515"/></svg></div><svg id="f02-radio" style="position:absolute;left:330px;top:820px;overflow:visible" width="420" height="260" viewBox="0 0 420 260"><rect x="0" y="40" width="420" height="220" rx="24" fill="#3A3A3A"/><circle cx="110" cy="150" r="70" fill="#222"/><circle cx="110" cy="150" r="20" fill="none" stroke="#444" stroke-width="5"/><circle cx="110" cy="150" r="40" fill="none" stroke="#444" stroke-width="5"/><circle cx="110" cy="150" r="60" fill="none" stroke="#444" stroke-width="5"/><rect x="220" y="100" width="160" height="50" rx="8" fill="#9BE07A"/><line x1="300" y1="40" x2="380" y2="-60" stroke="#888" stroke-width="8"/><path class="f02-radio-wave" d="M390 -40 q 20 30 0 60" stroke="#9BE07A" stroke-width="6" fill="none"/><path class="f02-radio-wave" d="M420 -50 q 20 30 0 60" stroke="#9BE07A" stroke-width="6" fill="none"/><path class="f02-radio-wave" d="M450 -60 q 20 30 0 60" stroke="#9BE07A" stroke-width="6" fill="none"/></svg></div><div class="hud-loc" id="f02-loc">Рация · 00:14</div><div class="hud-row"><div class="ctr" id="f02-c-FLARES">ФАЕРЫ <b id="f02-cv-FLARES">3</b></div><div class="ctr" id="f02-c-CANDLES">СВЕЧИ <b id="f02-cv-CANDLES">3</b></div><div class="ctr" id="f02-c-FUEL">ТОПЛИВО <b id="f02-cv-FUEL">6Ч</b></div></div><div class="tag white" id="f02-tag0" style="top:230px">Аэродром Кеттл-Крик</div><div class="tag gold" id="f02-tag1" style="top:320px">Прожекторы + топливо</div><div class="tag " id="f02-tag2" style="top:410px">Идите на юг</div></div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+<script>
+(function(){
+const tl = gsap.timeline({ paused: true });
+
+tl.fromTo("#f02-tag0",{scale:.4,opacity:0,xPercent:-50,x:0},{scale:1,opacity:1,xPercent:-50,duration:.35,ease:"back.out(2.5)"},3.57);
+tl.fromTo("#f02-tag1",{scale:.4,opacity:0,xPercent:-50,x:0},{scale:1,opacity:1,xPercent:-50,duration:.35,ease:"back.out(2.5)"},4.61);
+tl.fromTo("#f02-tag2",{scale:.4,opacity:0,xPercent:-50,x:0},{scale:1,opacity:1,xPercent:-50,duration:.35,ease:"back.out(2.5)"},6.45);
+tl.fromTo("#f02-cam",{scale:1.22},{scale:1.293,duration:7.20,ease:"none"},0);
+window.__timelines = window.__timelines || {};
+window.__timelines["02-beat02"] = tl;
+})();
+</script>
+</template>

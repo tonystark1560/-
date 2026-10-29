@@ -9,7 +9,7 @@ music: none
 ## Frame 1 — Beat01
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 5.004s
 - transition_in: cut
 - status: animated
 - voiceover: "Когда свеча гаснет, в комнате становится холоднее. А угол хижины становится ближе."
@@ -18,7 +18,7 @@ music: none
 ## Frame 2 — Beat02
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 3.936s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Коул не думает. Он срывает шторы, обливает их маслом и поджигает."
@@ -27,7 +27,7 @@ music: none
 ## Frame 3 — Beat03
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 4.551s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Пламя ревёт. Темнота в углу визжит — звук, как будто трескается лёд на озере."
@@ -36,7 +36,7 @@ music: none
 ## Frame 4 — Beat04
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 5.227s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Правило третье: больше всего они ненавидят огонь. Живое пламя. Не батарейки."
@@ -45,7 +45,7 @@ music: none
 ## Frame 5 — Beat05
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 5.604s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Рут хватает куртку. У тебя есть генератор? Коул кивает. Тогда идём. Сейчас."
@@ -54,7 +54,7 @@ music: none
 ## Frame 6 — Beat06
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 6.170s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Пять километров. Один факел. Четыре фальшфейера. И хаски впереди, который лает на каждую тень."
@@ -63,7 +63,7 @@ music: none
 ## Frame 7 — Beat07
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 6.309s
 - transition_in: crossfade
 - status: animated
 - voiceover: "На полпути Бэр замирает. Коул поднимает факел. Тропа впереди черна. Тени лежат на ней, как стена."
@@ -72,7 +72,7 @@ music: none
 ## Frame 8 — Beat08
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 5.041s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Коул стреляет фальшфейером прямо в неё. Стена раскалывается. Они бегут в просвет."
@@ -81,7 +81,7 @@ music: none
 ## Frame 9 — Beat09
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 5.752s
 - transition_in: crossfade
 - status: animated
 - voiceover: "У хижины Коул дёргает шнур генератора. Тот кашляет. Потом ревёт. Вспыхивают прожекторы."
@@ -90,7 +90,7 @@ music: none
 ## Frame 10 — Beat10
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 5.706s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Впервые за много дней Рут смеётся. А Коул чувствует запах. Бензин. Топливопровод течёт."
@@ -99,7 +99,7 @@ music: none
 ## Frame 11 — Beat11
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 2.215s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Датчик показывает: шесть часов."

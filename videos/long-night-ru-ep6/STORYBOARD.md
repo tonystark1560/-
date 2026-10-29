@@ -9,7 +9,7 @@ music: none
 ## Frame 1 — Beat01
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 4.075s
 - transition_in: cut
 - status: animated
 - voiceover: "Когда гаснет последний свет в городе, от него не бегут. К нему бегут."
@@ -18,7 +18,7 @@ music: none
 ## Frame 2 — Beat02
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 6.031s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Аэродром Кеттл-Крик. Прожекторы мигают. Двенадцать выживших в ангаре. Топлива на двадцать минут."
@@ -27,7 +27,7 @@ music: none
 ## Frame 3 — Beat03
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 3.004s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Темнота окружает ангар, как вода тонущую лодку."
@@ -36,7 +36,7 @@ music: none
 ## Frame 4 — Beat04
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 6.742s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Коул считает. Двадцать минут топлива. Два фальшфейера. Четыре свечи. И снегоход с полным баком."
@@ -45,7 +45,7 @@ music: none
 ## Frame 5 — Beat05
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 5.958s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Он выгоняет снегоход на середину полосы. Рут обливает его топливом. Коул зажигает фальшфейер."
@@ -54,7 +54,7 @@ music: none
 ## Frame 6 — Beat06
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 5.122s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Огонь поднимается на десять метров. Тени визжат. Весь аэродром становится оранжевым."
@@ -63,7 +63,7 @@ music: none
 ## Frame 7 — Beat07
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 6.521s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Но огонь горит быстро. Десять минут. Пять. Пламя начинает сжиматься. Темнота наклоняется ближе."
@@ -72,7 +72,7 @@ music: none
 ## Frame 8 — Beat08
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 4.797s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Бэр стоит на краю света и лает на тени. Он не отступает. Ни на шаг."
@@ -81,7 +81,7 @@ music: none
 ## Frame 9 — Beat09
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 6.495s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Тут Рут смотрит на часы. Коул, какое сегодня число? Двадцать первое января. Конец долгой ночи."
@@ -90,7 +90,7 @@ music: none
 ## Frame 10 — Beat10
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 4.574s
 - transition_in: crossfade
 - status: animated
 - voiceover: "На горизонте — тонкая золотая линия. Первый рассвет за шестьдесят четыре дня."
@@ -99,7 +99,7 @@ music: none
 ## Frame 11 — Beat11
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 5.241s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Солнечный свет падает на снег. И тени не отступают. Они горят. Все до одной."
@@ -108,7 +108,7 @@ music: none
 ## Frame 12 — Beat12
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 6.968s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Последнее правило: в долгой темноте свет — это патроны. Не трать его зря. Ведь до следующей зимы всего триста дней."

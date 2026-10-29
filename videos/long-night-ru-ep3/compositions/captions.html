@@ -1,0 +1,228 @@
+<template id="captions-template" data-composition-id="captions" data-width="1080" data-height="1920">
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+
+
+<style data-brand-tokens>
+      @font-face { font-family: 'Inter'; src: url('assets/fonts/Inter-Black.otf') format('opentype'); font-weight: 800; font-style: normal; font-display: block; }
+      @font-face { font-family: 'Inter'; src: url('assets/fonts/Inter-Bold.otf') format('opentype'); font-weight: 700; font-style: normal; font-display: block; }
+      @font-face { font-family: 'Inter'; src: url('assets/fonts/Inter-Medium.otf') format('opentype'); font-weight: 500; font-style: normal; font-display: block; }
+      @font-face { font-family: 'Inter'; src: url('assets/fonts/Inter-Regular.otf') format('opentype'); font-weight: 400; font-style: normal; font-display: block; }
+      @font-face { font-family: 'Inter'; src: url('assets/fonts/Inter-SemiBold.otf') format('opentype'); font-weight: 600; font-style: normal; font-display: block; }
+      :root {
+      --bg: #04060B;
+      --primary: #FFC83D;
+      --text: #F2F4F8;
+      --text-muted: #8A93A3;
+      --text-light: #5C6575;
+      --accent-light: rgba(255, 200, 61, 0.12);
+      --accent-medium: rgba(255, 200, 61, 0.2);
+      --border: rgba(255, 255, 255, 0.14);
+      --card-bg: rgba(8, 11, 18, 0.92);
+      --positive: #3CF2A0;
+      --negative: #FF3B30;
+      --cap-ink: #F2F4F8;
+      --cap-canvas: #04060B;
+      --cap-accent: #FFC83D;
+      --cap-accent-2: #8A93A3;
+      --font-display: "Inter", system-ui, serif;
+      --font-body: "Inter", system-ui, sans-serif;
+      --cap-band-top: 1600px;
+      --cap-band-height: 320px;
+      }
+    </style>
+
+<style>
+  #captions-root {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+  }
+  .caption-layer {
+    position: absolute;
+    inset: 0;
+    z-index: 20;
+    pointer-events: none;
+  }
+  /* the keep-out band, from captionBand(H) — frame content stays above it */
+  .caption-stage {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: var(--cap-band-top, 900px);
+    height: var(--cap-band-height, 180px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .caption-group {
+    /* every group is absolutely stacked over the SAME band — exactly one shown at a
+       time via opacity. Must be absolute: in-flow groups would lay out side-by-side. */
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+  }
+
+  /* THE tinted card — 4% cobalt fill, 1.5px 20%-cobalt border, soft 14px corners,
+     NO shadow (the tinted card does the lift; cast depth is forbidden) */
+  .caption-pill {
+    max-width: 90%;
+    padding: 10px 24px;
+    background: transparent;
+    border: none;
+  }
+  .caption-line {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.04em 0.28em;
+    font-family: "Inter", system-ui, sans-serif;
+    font-weight: 900;
+    font-size: 66px;
+    line-height: 1.08;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+  }
+
+  /* upcoming — muted gray, no chip */
+  .caption-word {
+    display: inline-block;
+    padding: 0 0.04em;
+    color: #7D8592;
+    text-shadow: 0 4px 0 rgba(0,0,0,.6), 0 0 22px rgba(0,0,0,.7);
+  }
+  /* current word — THE solid cobalt chip (the single-accent gesture; pill-rounded
+     fill, NO shadow), cream reading on top */
+  .caption-word.is-active {
+    color: #FFFFFF;
+    background: transparent;
+    box-shadow: none;
+  }
+  /* already spoken — solid near-black ink, chip cleared */
+  .caption-word.is-spoken {
+    color: #FFFFFF;
+    background: transparent;
+    box-shadow: none;
+  }
+
+  /* optional per-word accents (dormant until a word-classer tags them) */
+  /* brand / key term — cobalt, the system's one accent on a key word */
+  .caption-word.cap-brand {
+    color: var(--cap-accent, #1e2bfa);
+  }
+  /* numerals / data — cobalt 700, the figure voice */
+  .caption-word.cap-num {
+    font-family: "Inter", system-ui, sans-serif;
+    font-weight: 700;
+    color: var(--cap-accent, #1e2bfa);
+  }
+  /* emphasis — a directional-red hairline underline (inline only, never a fill) */
+  .caption-word.cap-cta {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: var(--cap-accent-2, #dc2626);
+    text-underline-offset: 0.1em;
+  }
+
+  @media (max-aspect-ratio: 9/16) {
+    .caption-pill {
+      max-width: 92%;
+    }
+    .caption-line {
+      font-size: clamp(34px, 5.4vw, 48px);
+    }
+  }
+</style>
+
+<div
+  id="captions-root"
+  data-composition-id="captions"
+  data-timeline-locked
+  data-start="0"
+  data-duration="55.515"
+  data-fps="30"
+  data-width="1080"
+  data-height="1920"
+>
+  <div class="caption-layer" aria-hidden="true">
+    <div id="caption-stage" class="caption-stage"></div>
+  </div>
+</div>
+
+<script>
+  // captions.mjs injects the engine's scene-aware groups + real duration here.
+  var GROUPS = [{"id":"caption-group-0","frame":1,"start":0.05,"end":0.56,"text":"Когда свеча","words":[{"id":"caption-word-0-0","text":"Когда","start":0.05,"end":0.29},{"id":"caption-word-0-1","text":"свеча","start":0.29,"end":0.55}]},{"id":"caption-group-1","frame":1,"start":0.56,"end":1,"text":"гаснет,","words":[{"id":"caption-word-1-0","text":"гаснет,","start":0.56,"end":1}]},{"id":"caption-group-2","frame":1,"start":1,"end":2.04,"text":"в комнате становится","words":[{"id":"caption-word-2-0","text":"в","start":1,"end":1.06},{"id":"caption-word-2-1","text":"комнате","start":1.06,"end":1.39},{"id":"caption-word-2-2","text":"становится","start":1.49,"end":2.04}]},{"id":"caption-group-3","frame":1,"start":2.04,"end":2.83,"text":"холоднее.","words":[{"id":"caption-word-3-0","text":"холоднее.","start":2.04,"end":2.78}]},{"id":"caption-group-4","frame":1,"start":2.83,"end":3.08,"text":"А угол","words":[{"id":"caption-word-4-0","text":"А","start":2.83,"end":2.88},{"id":"caption-word-4-1","text":"угол","start":2.84,"end":3.08}]},{"id":"caption-group-5","frame":1,"start":3.08,"end":4.48,"text":"хижины становится ближе.","words":[{"id":"caption-word-5-0","text":"хижины","start":3.08,"end":3.4},{"id":"caption-word-5-1","text":"становится","start":3.4,"end":3.99},{"id":"caption-word-5-2","text":"ближе.","start":3.99,"end":4.36}]},{"id":"caption-group-6","frame":2,"start":5.034,"end":6.094,"text":"Коул не думает.","words":[{"id":"caption-word-6-0","text":"Коул","start":5.034,"end":5.204},{"id":"caption-word-6-1","text":"не","start":5.204,"end":5.404},{"id":"caption-word-6-2","text":"думает.","start":5.404,"end":6.094}]},{"id":"caption-group-7","frame":2,"start":6.094,"end":6.504,"text":"Он срывает","words":[{"id":"caption-word-7-0","text":"Он","start":6.094,"end":6.144},{"id":"caption-word-7-1","text":"срывает","start":6.204,"end":6.504}]},{"id":"caption-group-8","frame":2,"start":6.504,"end":6.824,"text":"шторы,","words":[{"id":"caption-word-8-0","text":"шторы,","start":6.504,"end":6.824}]},{"id":"caption-group-9","frame":2,"start":6.824,"end":7.254,"text":"обливает их","words":[{"id":"caption-word-9-0","text":"обливает","start":6.824,"end":7.144},{"id":"caption-word-9-1","text":"их","start":7.224,"end":7.274}]},{"id":"caption-group-10","frame":2,"start":7.254,"end":8.374,"text":"маслом и поджигает.","words":[{"id":"caption-word-10-0","text":"маслом","start":7.254,"end":7.734},{"id":"caption-word-10-1","text":"и","start":7.734,"end":7.784},{"id":"caption-word-10-2","text":"поджигает.","start":7.764,"end":8.254}]},{"id":"caption-group-11","frame":3,"start":8.98,"end":9.98,"text":"Пламя ревёт.","words":[{"id":"caption-word-11-0","text":"Пламя","start":8.98,"end":9.38},{"id":"caption-word-11-1","text":"ревёт.","start":9.41,"end":9.94}]},{"id":"caption-group-12","frame":3,"start":9.98,"end":10.35,"text":"Темнота в","words":[{"id":"caption-word-12-0","text":"Темнота","start":9.98,"end":10.28},{"id":"caption-word-12-1","text":"в","start":10.3,"end":10.35}]},{"id":"caption-group-13","frame":3,"start":10.35,"end":11,"text":"углу визжит","words":[{"id":"caption-word-13-0","text":"углу","start":10.35,"end":10.54},{"id":"caption-word-13-1","text":"визжит","start":10.54,"end":10.934}]},{"id":"caption-group-14","frame":3,"start":11,"end":11.1,"text":"звук,","words":[{"id":"caption-word-14-0","text":"звук,","start":11,"end":11.1}]},{"id":"caption-group-15","frame":3,"start":11.1,"end":12.18,"text":"как будто трескается","words":[{"id":"caption-word-15-0","text":"как","start":11.1,"end":11.2},{"id":"caption-word-15-1","text":"будто","start":11.28,"end":11.53},{"id":"caption-word-15-2","text":"трескается","start":11.53,"end":12.18}]},{"id":"caption-group-16","frame":3,"start":12.18,"end":13,"text":"лёд на озере.","words":[{"id":"caption-word-16-0","text":"лёд","start":12.18,"end":12.36},{"id":"caption-word-16-1","text":"на","start":12.42,"end":12.52},{"id":"caption-word-16-2","text":"озере.","start":12.52,"end":12.88}]},{"id":"caption-group-17","frame":4,"start":13.521,"end":14.371,"text":"Правило третье:","words":[{"id":"caption-word-17-0","text":"Правило","start":13.521,"end":13.946},{"id":"caption-word-17-1","text":"третье:","start":13.946,"end":14.371}]},{"id":"caption-group-18","frame":4,"start":14.371,"end":15.081,"text":"больше всего","words":[{"id":"caption-word-18-0","text":"больше","start":14.371,"end":14.761},{"id":"caption-word-18-1","text":"всего","start":14.761,"end":15.081}]},{"id":"caption-group-19","frame":4,"start":15.081,"end":16.32,"text":"они ненавидят огонь.","words":[{"id":"caption-word-19-0","text":"они","start":15.081,"end":15.271},{"id":"caption-word-19-1","text":"ненавидят","start":15.271,"end":15.851},{"id":"caption-word-19-2","text":"огонь.","start":15.851,"end":16.32}]},{"id":"caption-group-20","frame":4,"start":16.32,"end":17.341,"text":"Живое пламя.","words":[{"id":"caption-word-20-0","text":"Живое","start":16.32,"end":16.711},{"id":"caption-word-20-1","text":"пламя.","start":16.711,"end":17.341}]},{"id":"caption-group-21","frame":4,"start":17.341,"end":18.171,"text":"Не батарейки.","words":[{"id":"caption-word-21-0","text":"Не","start":17.341,"end":17.421},{"id":"caption-word-21-1","text":"батарейки.","start":17.441,"end":18.051}]},{"id":"caption-group-22","frame":5,"start":18.748,"end":19.748,"text":"Рут хватает куртку.","words":[{"id":"caption-word-22-0","text":"Рут","start":18.748,"end":18.868},{"id":"caption-word-22-1","text":"хватает","start":18.868,"end":19.338},{"id":"caption-word-22-2","text":"куртку.","start":19.338,"end":19.718}]},{"id":"caption-group-23","frame":5,"start":19.748,"end":20.128,"text":"У тебя","words":[{"id":"caption-word-23-0","text":"У","start":19.748,"end":19.798},{"id":"caption-word-23-1","text":"тебя","start":19.788,"end":20.048}]},{"id":"caption-group-24","frame":5,"start":20.128,"end":21.292,"text":"есть генератор?","words":[{"id":"caption-word-24-0","text":"есть","start":20.128,"end":20.368},{"id":"caption-word-24-1","text":"генератор?","start":20.368,"end":21.292}]},{"id":"caption-group-25","frame":5,"start":21.292,"end":22.308,"text":"Коул кивает.","words":[{"id":"caption-word-25-0","text":"Коул","start":21.292,"end":21.661},{"id":"caption-word-25-1","text":"кивает.","start":21.661,"end":22.308}]},{"id":"caption-group-26","frame":5,"start":22.308,"end":23.308,"text":"Тогда идём.","words":[{"id":"caption-word-26-0","text":"Тогда","start":22.308,"end":22.608},{"id":"caption-word-26-1","text":"идём.","start":22.688,"end":23.238}]},{"id":"caption-group-27","frame":5,"start":23.308,"end":23.898,"text":"Сейчас.","words":[{"id":"caption-word-27-0","text":"Сейчас.","start":23.308,"end":23.778}]},{"id":"caption-group-28","frame":6,"start":24.342,"end":25.542,"text":"Пять километров.","words":[{"id":"caption-word-28-0","text":"Пять","start":24.342,"end":24.602},{"id":"caption-word-28-1","text":"километров.","start":24.602,"end":25.502}]},{"id":"caption-group-29","frame":6,"start":25.542,"end":26.512,"text":"Один факел.","words":[{"id":"caption-word-29-0","text":"Один","start":25.542,"end":25.862},{"id":"caption-word-29-1","text":"факел.","start":25.862,"end":26.472}]},{"id":"caption-group-30","frame":6,"start":26.512,"end":27.842,"text":"Четыре фальшфейера.","words":[{"id":"caption-word-30-0","text":"Четыре","start":26.512,"end":26.822},{"id":"caption-word-30-1","text":"фальшфейера.","start":26.922,"end":27.842}]},{"id":"caption-group-31","frame":6,"start":27.842,"end":28.182,"text":"И хаски","words":[{"id":"caption-word-31-0","text":"И","start":27.842,"end":27.899},{"id":"caption-word-31-1","text":"хаски","start":27.899,"end":28.182}]},{"id":"caption-group-32","frame":6,"start":28.182,"end":28.622,"text":"впереди,","words":[{"id":"caption-word-32-0","text":"впереди,","start":28.182,"end":28.622}]},{"id":"caption-group-33","frame":6,"start":28.622,"end":29.182,"text":"который лает","words":[{"id":"caption-word-33-0","text":"который","start":28.622,"end":28.978},{"id":"caption-word-33-1","text":"лает","start":28.978,"end":29.182}]},{"id":"caption-group-34","frame":6,"start":29.182,"end":29.982,"text":"на каждую тень.","words":[{"id":"caption-word-34-0","text":"на","start":29.182,"end":29.372},{"id":"caption-word-34-1","text":"каждую","start":29.372,"end":29.592},{"id":"caption-word-34-2","text":"тень.","start":29.592,"end":29.862}]},{"id":"caption-group-35","frame":7,"start":30.512,"end":31.064,"text":"На полпути","words":[{"id":"caption-word-35-0","text":"На","start":30.512,"end":30.602},{"id":"caption-word-35-1","text":"полпути","start":30.602,"end":31.064}]},{"id":"caption-group-36","frame":7,"start":31.064,"end":32.092,"text":"Бэр замирает.","words":[{"id":"caption-word-36-0","text":"Бэр","start":31.064,"end":31.262},{"id":"caption-word-36-1","text":"замирает.","start":31.262,"end":32.092}]},{"id":"caption-group-37","frame":7,"start":32.092,"end":33.412,"text":"Коул поднимает факел.","words":[{"id":"caption-word-37-0","text":"Коул","start":32.092,"end":32.312},{"id":"caption-word-37-1","text":"поднимает","start":32.312,"end":33.002},{"id":"caption-word-37-2","text":"факел.","start":33.002,"end":33.412}]},{"id":"caption-group-38","frame":7,"start":33.412,"end":34.722,"text":"Тропа впереди черна.","words":[{"id":"caption-word-38-0","text":"Тропа","start":33.412,"end":33.758},{"id":"caption-word-38-1","text":"впереди","start":33.758,"end":34.242},{"id":"caption-word-38-2","text":"черна.","start":34.242,"end":34.602}]},{"id":"caption-group-39","frame":7,"start":34.832,"end":35.392,"text":"Тени лежат","words":[{"id":"caption-word-39-0","text":"Тени","start":34.832,"end":35.042},{"id":"caption-word-39-1","text":"лежат","start":35.042,"end":35.322}]},{"id":"caption-group-40","frame":7,"start":35.392,"end":35.632,"text":"на ней,","words":[{"id":"caption-word-40-0","text":"на","start":35.392,"end":35.452},{"id":"caption-word-40-1","text":"ней,","start":35.452,"end":35.632}]},{"id":"caption-group-41","frame":7,"start":35.632,"end":36.252,"text":"как стена.","words":[{"id":"caption-word-41-0","text":"как","start":35.632,"end":35.812},{"id":"caption-word-41-1","text":"стена.","start":35.812,"end":36.132}]},{"id":"caption-group-42","frame":8,"start":36.841,"end":38.131,"text":"Коул стреляет фальшфейером","words":[{"id":"caption-word-42-0","text":"Коул","start":36.841,"end":37.056},{"id":"caption-word-42-1","text":"стреляет","start":37.056,"end":37.486},{"id":"caption-word-42-2","text":"фальшфейером","start":37.486,"end":38.131}]},{"id":"caption-group-43","frame":8,"start":38.131,"end":38.521,"text":"прямо в","words":[{"id":"caption-word-43-0","text":"прямо","start":38.131,"end":38.481},{"id":"caption-word-43-1","text":"в","start":38.481,"end":38.531}]},{"id":"caption-group-44","frame":8,"start":38.521,"end":38.941,"text":"неё.","words":[{"id":"caption-word-44-0","text":"неё.","start":38.521,"end":38.941}]},{"id":"caption-group-45","frame":8,"start":38.941,"end":40.341,"text":"Стена раскалывается.","words":[{"id":"caption-word-45-0","text":"Стена","start":38.941,"end":39.309},{"id":"caption-word-45-1","text":"раскалывается.","start":39.309,"end":40.341}]},{"id":"caption-group-46","frame":8,"start":40.341,"end":40.711,"text":"Они бегут","words":[{"id":"caption-word-46-0","text":"Они","start":40.341,"end":40.481},{"id":"caption-word-46-1","text":"бегут","start":40.481,"end":40.711}]},{"id":"caption-group-47","frame":8,"start":40.711,"end":41.271,"text":"в просвет.","words":[{"id":"caption-word-47-0","text":"в","start":40.711,"end":40.761},{"id":"caption-word-47-1","text":"просвет.","start":40.871,"end":41.151}]},{"id":"caption-group-48","frame":9,"start":41.882,"end":42.286,"text":"У хижины","words":[{"id":"caption-word-48-0","text":"У","start":41.882,"end":41.94},{"id":"caption-word-48-1","text":"хижины","start":41.94,"end":42.286}]},{"id":"caption-group-49","frame":9,"start":42.286,"end":42.922,"text":"Коул дёргает","words":[{"id":"caption-word-49-0","text":"Коул","start":42.286,"end":42.518},{"id":"caption-word-49-1","text":"дёргает","start":42.518,"end":42.922}]},{"id":"caption-group-50","frame":9,"start":42.922,"end":43.982,"text":"шнур генератора.","words":[{"id":"caption-word-50-0","text":"шнур","start":42.922,"end":43.112},{"id":"caption-word-50-1","text":"генератора.","start":43.122,"end":43.942}]},{"id":"caption-group-51","frame":9,"start":43.982,"end":44.982,"text":"Тот кашляет.","words":[{"id":"caption-word-51-0","text":"Тот","start":43.982,"end":44.182},{"id":"caption-word-51-1","text":"кашляет.","start":44.182,"end":44.982}]},{"id":"caption-group-52","frame":9,"start":44.982,"end":45.942,"text":"Потом ревёт.","words":[{"id":"caption-word-52-0","text":"Потом","start":44.982,"end":45.322},{"id":"caption-word-52-1","text":"ревёт.","start":45.322,"end":45.942}]},{"id":"caption-group-53","frame":9,"start":45.942,"end":47.062,"text":"Вспыхивают прожекторы.","words":[{"id":"caption-word-53-0","text":"Вспыхивают","start":45.942,"end":46.452},{"id":"caption-word-53-1","text":"прожекторы.","start":46.452,"end":46.942}]},{"id":"caption-group-54","frame":10,"start":47.654,"end":48.224,"text":"Впервые за","words":[{"id":"caption-word-54-0","text":"Впервые","start":47.654,"end":48.074},{"id":"caption-word-54-1","text":"за","start":48.074,"end":48.224}]},{"id":"caption-group-55","frame":10,"start":48.224,"end":48.854,"text":"много дней","words":[{"id":"caption-word-55-0","text":"много","start":48.224,"end":48.574},{"id":"caption-word-55-1","text":"дней","start":48.574,"end":48.854}]},{"id":"caption-group-56","frame":10,"start":48.854,"end":49.664,"text":"Рут смеётся.","words":[{"id":"caption-word-56-0","text":"Рут","start":48.854,"end":49.044},{"id":"caption-word-56-1","text":"смеётся.","start":49.054,"end":49.664}]},{"id":"caption-group-57","frame":10,"start":49.664,"end":49.844,"text":"А Коул","words":[{"id":"caption-word-57-0","text":"А","start":49.664,"end":49.714},{"id":"caption-word-57-1","text":"Коул","start":49.7,"end":49.844}]},{"id":"caption-group-58","frame":10,"start":49.844,"end":50.874,"text":"чувствует запах.","words":[{"id":"caption-word-58-0","text":"чувствует","start":49.844,"end":50.174},{"id":"caption-word-58-1","text":"запах.","start":50.194,"end":50.874}]},{"id":"caption-group-59","frame":10,"start":50.874,"end":51.364,"text":"Бензин.","words":[{"id":"caption-word-59-0","text":"Бензин.","start":50.874,"end":51.364}]},{"id":"caption-group-60","frame":10,"start":51.364,"end":52.794,"text":"Топливопровод течёт.","words":[{"id":"caption-word-60-0","text":"Топливопровод","start":51.364,"end":52.274},{"id":"caption-word-60-1","text":"течёт.","start":52.274,"end":52.674}]},{"id":"caption-group-61","frame":11,"start":53.33,"end":54.33,"text":"Датчик показывает:","words":[{"id":"caption-word-61-0","text":"Датчик","start":53.33,"end":53.68},{"id":"caption-word-61-1","text":"показывает:","start":53.68,"end":54.33}]},{"id":"caption-group-62","frame":11,"start":54.33,"end":55.04,"text":"шесть часов.","words":[{"id":"caption-word-62-0","text":"шесть","start":54.33,"end":54.54},{"id":"caption-word-62-1","text":"часов.","start":54.54,"end":54.92}]}];
+  var DURATION = 55.515;
+
+  (function () {
+    var stage = document.getElementById("caption-stage");
+
+    // build DOM: one .caption-group per group, .caption-word per word
+    GROUPS.forEach(function (group, g) {
+      var groupEl = document.createElement("div");
+      groupEl.className = "caption-group";
+      groupEl.id = "caption-group-" + g;
+      var pill = document.createElement("div");
+      pill.className = "caption-pill";
+      var line = document.createElement("div");
+      line.className = "caption-line";
+      (group.words || []).forEach(function (w, i) {
+        var span = document.createElement("span");
+        span.className = "caption-word";
+        span.id = "caption-word-" + g + "-" + i;
+        span.textContent = String(w.text);
+        line.appendChild(span);
+      });
+      pill.appendChild(line);
+      groupEl.appendChild(pill);
+      stage.appendChild(groupEl);
+    });
+
+    window.__timelines = window.__timelines || {};
+    var tl = gsap.timeline({ paused: true });
+
+    GROUPS.forEach(function (group, g) {
+      var groupEl = document.getElementById("caption-group-" + g);
+      var words = group.words || [];
+      var next = GROUPS[g + 1];
+      var isLast = g === GROUPS.length - 1;
+      var start = Math.max(0, Number(group.start));
+      var end = isLast ? DURATION : Math.min(Number(next.start), Number(group.end) + 0.3);
+      if (end <= start) end = start + 0.01;
+
+      // group on/off — exactly one group visible at a time
+      tl.set(groupEl, { opacity: 1 }, start);
+      tl.set(groupEl, { opacity: 0 }, end);
+
+      // 3-state karaoke via className SETS — seek-safe (gsap.set applies on the
+      // engine's frame-by-frame seek; .call callbacks would NOT fire).
+      words.forEach(function (w, i) {
+        var el = document.getElementById("caption-word-" + g + "-" + i);
+        var at = Math.max(start, Number(w.start));
+        tl.set(el, { className: "caption-word" }, start); // upcoming (also resets on reverse-seek)
+        tl.set(el, { className: "caption-word is-active" }, at); // current
+        tl.fromTo(el, { scale: 0.985 }, { scale: 1, duration: 0.18, ease: "power1.out" }, at);
+        if (i + 1 < words.length) {
+          var nextAt = Math.max(start, Number(words[i + 1].start));
+          tl.set(el, { className: "caption-word is-spoken" }, nextAt); // demote when next activates
+        }
+      });
+      if (words.length) {
+        var lastEl = document.getElementById("caption-word-" + g + "-" + (words.length - 1));
+        var lastSpoken = Math.min(end, Number(words[words.length - 1].end) + 0.1);
+        tl.set(lastEl, { className: "caption-word is-spoken" }, lastSpoken);
+      }
+    });
+
+    // full-span anchor so the sub-comp timeline spans the whole video
+    tl.to({}, { duration: DURATION }, 0);
+    window.__timelines["captions"] = tl;
+  })();
+</script>
+
+<style>
+  .caption-line { line-height: 1.1 !important; }
+</style>
+</template>
