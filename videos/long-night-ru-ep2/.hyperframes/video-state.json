@@ -1,7 +1,7 @@
 {
   "version": 1,
   "historyId": "8fc92e83-6d1b-4cbf-9538-34b429f5fd8d",
-  "currentRevision": "b4288749-b590-4754-9078-526e182add12",
+  "currentRevision": "c173e0fe-d214-42f8-b95d-13505af23662",
   "pendingChanges": false,
   "files": {
     "AGENTS.md": {
@@ -191,6 +191,10 @@
     "voice.log": {
       "hash": "c019f7e3416bd0eb869c1050e517cb946f1c0ced342500fbec642dc1f9968635",
       "content": "/root/.cache/hyperframes/history/8fc92e83-6d1b-4cbf-9538-34b429f5fd8d/blobs/c0/c019f7e3416bd0eb869c1050e517cb946f1c0ced342500fbec642dc1f9968635"
+    },
+    "render2.log": {
+      "hash": "64123a1923bae24a9c45bd93e2706b73142ea6f4350514e977f062492011dee4",
+      "content": "/root/.cache/hyperframes/history/8fc92e83-6d1b-4cbf-9538-34b429f5fd8d/blobs/64/64123a1923bae24a9c45bd93e2706b73142ea6f4350514e977f062492011dee4"
     }
   },
   "revisions": {
@@ -218,6 +222,21 @@
         "render.log": {
           "before": "/root/.cache/hyperframes/history/8fc92e83-6d1b-4cbf-9538-34b429f5fd8d/blobs/64/64123a1923bae24a9c45bd93e2706b73142ea6f4350514e977f062492011dee4",
           "after": "/root/.cache/hyperframes/history/8fc92e83-6d1b-4cbf-9538-34b429f5fd8d/blobs/34/344e02a09500dbbc9368d15b9de2931bce6cd0621b86f71d63a3fdaee94d7d89"
+        }
+      }
+    },
+    "c173e0fe-d214-42f8-b95d-13505af23662": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1793233595394,
+      "endedAt": 1793233595395,
+      "files": {
+        "render2.log": {
+          "before": null,
+          "after": "/root/.cache/hyperframes/history/8fc92e83-6d1b-4cbf-9538-34b429f5fd8d/blobs/64/64123a1923bae24a9c45bd93e2706b73142ea6f4350514e977f062492011dee4"
         }
       }
     }
@@ -260,8 +279,8 @@
   },
   "renders": {
     "latest": {
-      "id": "88b81de0-5f9b-4251-aa3c-8d2f82f26a20",
-      "completedAt": 1793231246832,
+      "id": "2c436962-8d1b-4d10-b46a-d8e463324ed0",
+      "completedAt": 1793233733359,
       "output": "/home/user/-/videos/long-night-ru-ep2/renders/the-dimmers-part-2-ru.mp4",
       "status": "completed",
       "revision": null
