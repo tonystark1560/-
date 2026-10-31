@@ -1,7 +1,7 @@
 {
   "version": 1,
   "historyId": "3a9170c8-e655-4f5e-a5a8-2a89827ee0a4",
-  "currentRevision": "87d517df-f8b2-4ade-8e84-191fabdf8288",
+  "currentRevision": "b5182a35-3a9e-48a5-9014-434fc575f436",
   "pendingChanges": false,
   "files": {
     "AGENTS.md": {
@@ -177,8 +177,8 @@
       "content": "/root/.cache/hyperframes/history/3a9170c8-e655-4f5e-a5a8-2a89827ee0a4/blobs/ee/ee6a4f5b582948086de7771104b384e460f7fc0a3836a6316716b03453dea15e"
     },
     "render.log": {
-      "hash": "40f16a320895eb8d0003d86985d4de76b4f7f2bbab888a568585d604ce0dc5de",
-      "content": "/root/.cache/hyperframes/history/3a9170c8-e655-4f5e-a5a8-2a89827ee0a4/blobs/40/40f16a320895eb8d0003d86985d4de76b4f7f2bbab888a568585d604ce0dc5de"
+      "hash": "70d3a0bc0b58f786f23b85afdf291b3fcfe83f6133da989f12421f36b12d2fa2",
+      "content": "/root/.cache/hyperframes/history/3a9170c8-e655-4f5e-a5a8-2a89827ee0a4/blobs/70/70d3a0bc0b58f786f23b85afdf291b3fcfe83f6133da989f12421f36b12d2fa2"
     }
   },
   "revisions": {
@@ -221,6 +221,21 @@
         "compositions/frames/05-scene-5.html": {
           "before": "/root/.cache/hyperframes/history/3a9170c8-e655-4f5e-a5a8-2a89827ee0a4/blobs/37/37615fecb7848f4ece59e47c70c8b2897161368d0e3ad4ae2e8661a8a7ba246f",
           "after": "/root/.cache/hyperframes/history/3a9170c8-e655-4f5e-a5a8-2a89827ee0a4/blobs/a1/a180cfaa8f2d1701f73121736f16628de3fa285f84032aed780a82c477fd25d2"
+        }
+      }
+    },
+    "b5182a35-3a9e-48a5-9014-434fc575f436": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1793417914589,
+      "endedAt": 1793417914590,
+      "files": {
+        "render.log": {
+          "before": "/root/.cache/hyperframes/history/3a9170c8-e655-4f5e-a5a8-2a89827ee0a4/blobs/40/40f16a320895eb8d0003d86985d4de76b4f7f2bbab888a568585d604ce0dc5de",
+          "after": "/root/.cache/hyperframes/history/3a9170c8-e655-4f5e-a5a8-2a89827ee0a4/blobs/70/70d3a0bc0b58f786f23b85afdf291b3fcfe83f6133da989f12421f36b12d2fa2"
         }
       }
     }
@@ -401,8 +416,8 @@
   },
   "renders": {
     "latest": {
-      "id": "05b9ebf2-3c44-456c-b184-1b2d0bc0e35a",
-      "completedAt": 1793407799591,
+      "id": "20e64027-b8aa-4a1a-97c7-682a1a40310f",
+      "completedAt": 1793418049294,
       "output": "/home/user/-/videos/binance-heist-ru-ep1/renders/binance-heist-part-1-ru.mp4",
       "status": "completed",
       "revision": null

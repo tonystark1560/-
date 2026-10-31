@@ -1,7 +1,7 @@
 {
   "version": 1,
   "historyId": "bbaee7ac-c2bb-436a-b7ae-93dea4b2d359",
-  "currentRevision": null,
+  "currentRevision": "4fbbab50-a4d3-49d9-8e02-625c5930861d",
   "pendingChanges": false,
   "files": {
     ".media/manifest.jsonl": {
@@ -125,8 +125,8 @@
       "content": "/root/.cache/hyperframes/history/bbaee7ac-c2bb-436a-b7ae-93dea4b2d359/blobs/99/99eedbd7b3f5710d6c6cf937c6c7a45bad35d60d771b55319f6938a91b2d6452"
     },
     "compositions/frames/01-scene-1.html": {
-      "hash": "50a5df7d832c97f563bcdf608eda2caa36d11a13be9ecafa568d69f9d9db0c23",
-      "content": "/root/.cache/hyperframes/history/bbaee7ac-c2bb-436a-b7ae-93dea4b2d359/blobs/50/50a5df7d832c97f563bcdf608eda2caa36d11a13be9ecafa568d69f9d9db0c23"
+      "hash": "487874161a166a93f645b605a7a0a328166fdcab535f59a2dbdac2c9ac8df17c",
+      "content": "/root/.cache/hyperframes/history/bbaee7ac-c2bb-436a-b7ae-93dea4b2d359/blobs/48/487874161a166a93f645b605a7a0a328166fdcab535f59a2dbdac2c9ac8df17c"
     },
     "compositions/frames/02-scene-2.html": {
       "hash": "24bc84be8ad9538d29dea0d27821d7f789ced9338f4951662b7cf2ed8247d0c5",
@@ -137,12 +137,12 @@
       "content": "/root/.cache/hyperframes/history/bbaee7ac-c2bb-436a-b7ae-93dea4b2d359/blobs/92/928f9b62067a6b9c50359c8cc294e8f7ef96cf2b623bee43bfaf3b2956632747"
     },
     "compositions/frames/04-scene-4.html": {
-      "hash": "1c86e38e8603d191dbd1cb95079c6c3c245b4f708319f21c377b50d29c6f2a3b",
-      "content": "/root/.cache/hyperframes/history/bbaee7ac-c2bb-436a-b7ae-93dea4b2d359/blobs/1c/1c86e38e8603d191dbd1cb95079c6c3c245b4f708319f21c377b50d29c6f2a3b"
+      "hash": "7cdd3d9c6e5e72a69083f02b4b18d52f69d5ed59979aada62029b94fd473fd72",
+      "content": "/root/.cache/hyperframes/history/bbaee7ac-c2bb-436a-b7ae-93dea4b2d359/blobs/7c/7cdd3d9c6e5e72a69083f02b4b18d52f69d5ed59979aada62029b94fd473fd72"
     },
     "compositions/frames/05-scene-5.html": {
-      "hash": "fcc90647e8c6e9e19a18e6d51f1a9cea78d2d236a624d3cf276f97792f27a3a5",
-      "content": "/root/.cache/hyperframes/history/bbaee7ac-c2bb-436a-b7ae-93dea4b2d359/blobs/fc/fcc90647e8c6e9e19a18e6d51f1a9cea78d2d236a624d3cf276f97792f27a3a5"
+      "hash": "148e1b2fc9c27ddf24ab148f0c62477f25a22222ef5a90d5419178143f017441",
+      "content": "/root/.cache/hyperframes/history/bbaee7ac-c2bb-436a-b7ae-93dea4b2d359/blobs/14/148e1b2fc9c27ddf24ab148f0c62477f25a22222ef5a90d5419178143f017441"
     },
     "compositions/frames/06-scene-6.html": {
       "hash": "f8cd27427b8c9211647db1d1974cb406cbb97941cf2b8c2d5bc4c34d2f385718",
@@ -157,8 +157,8 @@
       "content": "/root/.cache/hyperframes/history/bbaee7ac-c2bb-436a-b7ae-93dea4b2d359/blobs/a1/a12d50d2c70e8946daad0cdba1857e342f3eb5c80498ed2352ebfc02b40e8352"
     },
     "compositions/frames/09-scene-9.html": {
-      "hash": "3eda7f29efd1a299e0c86d307bb2dc4f4d1ada84cb7f9c9fe84d11eb554b1065",
-      "content": "/root/.cache/hyperframes/history/bbaee7ac-c2bb-436a-b7ae-93dea4b2d359/blobs/3e/3eda7f29efd1a299e0c86d307bb2dc4f4d1ada84cb7f9c9fe84d11eb554b1065"
+      "hash": "18b4557f532f2ff52e6798b957b3a597c76b6a782dba4218798c500e35c27db5",
+      "content": "/root/.cache/hyperframes/history/bbaee7ac-c2bb-436a-b7ae-93dea4b2d359/blobs/18/18b4557f532f2ff52e6798b957b3a597c76b6a782dba4218798c500e35c27db5"
     },
     "frame.md": {
       "hash": "a9d3667bda0cd029c271111831d870528d4c58ddb89191e9264b73ed82abc711",
@@ -189,7 +189,35 @@
       "content": "/root/.cache/hyperframes/history/bbaee7ac-c2bb-436a-b7ae-93dea4b2d359/blobs/09/098e1189648ae2ad388266774c63cb6968306f80a8cbd19f8652ba5431e1afae"
     }
   },
-  "revisions": {},
+  "revisions": {
+    "4fbbab50-a4d3-49d9-8e02-625c5930861d": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1793410896394,
+      "endedAt": 1793410896428,
+      "files": {
+        "compositions/frames/01-scene-1.html": {
+          "before": "/root/.cache/hyperframes/history/bbaee7ac-c2bb-436a-b7ae-93dea4b2d359/blobs/50/50a5df7d832c97f563bcdf608eda2caa36d11a13be9ecafa568d69f9d9db0c23",
+          "after": "/root/.cache/hyperframes/history/bbaee7ac-c2bb-436a-b7ae-93dea4b2d359/blobs/48/487874161a166a93f645b605a7a0a328166fdcab535f59a2dbdac2c9ac8df17c"
+        },
+        "compositions/frames/04-scene-4.html": {
+          "before": "/root/.cache/hyperframes/history/bbaee7ac-c2bb-436a-b7ae-93dea4b2d359/blobs/1c/1c86e38e8603d191dbd1cb95079c6c3c245b4f708319f21c377b50d29c6f2a3b",
+          "after": "/root/.cache/hyperframes/history/bbaee7ac-c2bb-436a-b7ae-93dea4b2d359/blobs/7c/7cdd3d9c6e5e72a69083f02b4b18d52f69d5ed59979aada62029b94fd473fd72"
+        },
+        "compositions/frames/05-scene-5.html": {
+          "before": "/root/.cache/hyperframes/history/bbaee7ac-c2bb-436a-b7ae-93dea4b2d359/blobs/fc/fcc90647e8c6e9e19a18e6d51f1a9cea78d2d236a624d3cf276f97792f27a3a5",
+          "after": "/root/.cache/hyperframes/history/bbaee7ac-c2bb-436a-b7ae-93dea4b2d359/blobs/14/148e1b2fc9c27ddf24ab148f0c62477f25a22222ef5a90d5419178143f017441"
+        },
+        "compositions/frames/09-scene-9.html": {
+          "before": "/root/.cache/hyperframes/history/bbaee7ac-c2bb-436a-b7ae-93dea4b2d359/blobs/3e/3eda7f29efd1a299e0c86d307bb2dc4f4d1ada84cb7f9c9fe84d11eb554b1065",
+          "after": "/root/.cache/hyperframes/history/bbaee7ac-c2bb-436a-b7ae-93dea4b2d359/blobs/18/18b4557f532f2ff52e6798b957b3a597c76b6a782dba4218798c500e35c27db5"
+        }
+      }
+    }
+  },
   "checks": {
     "latest": null,
     "revisions": {},
@@ -202,8 +230,8 @@
   },
   "renders": {
     "latest": {
-      "id": "df8411b3-7514-48fe-bcbc-ba0f665ccf03",
-      "completedAt": 1793410159041,
+      "id": "a6553756-5c47-46e5-bf9d-b7d3e332b262",
+      "completedAt": 1793411010596,
       "output": "/home/user/-/videos/binance-heist-ep6/renders/binance-heist-part-6.mp4",
       "status": "completed",
       "revision": null

@@ -30,7 +30,7 @@
 const tl = gsap.timeline({ paused: true });
 
 tl.fromTo("#f05-cam",{scale:1.0},{scale:1.050,duration:4.23,ease:"none"},0);
-tl.fromTo("#f05-n-n",{textContent:0},{textContent:100,duration:1.0,ease:"power2.out",snap:{textContent:1}},0.52);
+tl.fromTo("#f05-n-n",{textContent:0},{textContent:100,duration:1.0,ease:"power2.out",snap:{textContent:1}},0.30);
 tl.fromTo("#f05-ar",{scaleX:0,transformOrigin:"0% 50%"},{scaleX:1,duration:.6,ease:"power2.out"},1.80);
 window.__timelines = window.__timelines || {};
 window.__timelines["05-scene-5"] = tl;
