@@ -1,7 +1,7 @@
 {
   "version": 1,
   "historyId": "c5e0ecfc-3926-4287-b8a6-25ee78076cd6",
-  "currentRevision": null,
+  "currentRevision": "96604cee-0c59-4cab-9bb0-285c7973d988",
   "pendingChanges": false,
   "files": {
     ".media/manifest.jsonl": {
@@ -179,9 +179,37 @@
     "voice.log": {
       "hash": "6a7442f1badd0f700d4dc06d96423a98ea33b26caff5f084ff1ea5f879f8996b",
       "content": "/root/.cache/hyperframes/history/c5e0ecfc-3926-4287-b8a6-25ee78076cd6/blobs/6a/6a7442f1badd0f700d4dc06d96423a98ea33b26caff5f084ff1ea5f879f8996b"
+    },
+    "build.log": {
+      "hash": "5bd88ff7134f69627d5750ec5efadfba675b14d25a54b7c1f957a49db727209d",
+      "content": "/root/.cache/hyperframes/history/c5e0ecfc-3926-4287-b8a6-25ee78076cd6/blobs/5b/5bd88ff7134f69627d5750ec5efadfba675b14d25a54b7c1f957a49db727209d"
+    },
+    "render.log": {
+      "hash": "fecc6e9f3be49febd2a7fe32bb3fffa8bcd618e5b5328592ca10e8143bbdad85",
+      "content": "/root/.cache/hyperframes/history/c5e0ecfc-3926-4287-b8a6-25ee78076cd6/blobs/fe/fecc6e9f3be49febd2a7fe32bb3fffa8bcd618e5b5328592ca10e8143bbdad85"
     }
   },
-  "revisions": {},
+  "revisions": {
+    "96604cee-0c59-4cab-9bb0-285c7973d988": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1793407669619,
+      "endedAt": 1793407669640,
+      "files": {
+        "build.log": {
+          "before": null,
+          "after": "/root/.cache/hyperframes/history/c5e0ecfc-3926-4287-b8a6-25ee78076cd6/blobs/5b/5bd88ff7134f69627d5750ec5efadfba675b14d25a54b7c1f957a49db727209d"
+        },
+        "render.log": {
+          "before": null,
+          "after": "/root/.cache/hyperframes/history/c5e0ecfc-3926-4287-b8a6-25ee78076cd6/blobs/fe/fecc6e9f3be49febd2a7fe32bb3fffa8bcd618e5b5328592ca10e8143bbdad85"
+        }
+      }
+    }
+  },
   "checks": {
     "latest": null,
     "revisions": {},

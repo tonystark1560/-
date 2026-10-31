@@ -1,7 +1,7 @@
 {
   "version": 1,
   "historyId": "3a9170c8-e655-4f5e-a5a8-2a89827ee0a4",
-  "currentRevision": null,
+  "currentRevision": "0188dc44-c6fe-4e80-b89e-9c7360b20df2",
   "pendingChanges": false,
   "files": {
     "AGENTS.md": {
@@ -129,8 +129,8 @@
       "content": "/root/.cache/hyperframes/history/3a9170c8-e655-4f5e-a5a8-2a89827ee0a4/blobs/37/37615fecb7848f4ece59e47c70c8b2897161368d0e3ad4ae2e8661a8a7ba246f"
     },
     "compositions/frames/06-scene-6.html": {
-      "hash": "673b6358a113d2256b35e61f3a8c0334cdc9d87863ecb0012379dc686943d3ed",
-      "content": "/root/.cache/hyperframes/history/3a9170c8-e655-4f5e-a5a8-2a89827ee0a4/blobs/67/673b6358a113d2256b35e61f3a8c0334cdc9d87863ecb0012379dc686943d3ed"
+      "hash": "a71fecb0a0f2335b676b0c87b50d343b15a1d69c9114a85435dbe758b252b522",
+      "content": "/root/.cache/hyperframes/history/3a9170c8-e655-4f5e-a5a8-2a89827ee0a4/blobs/a7/a71fecb0a0f2335b676b0c87b50d343b15a1d69c9114a85435dbe758b252b522"
     },
     "compositions/frames/07-scene-7.html": {
       "hash": "6e1f5ff886d1a4bb4ff28faf524910c2a2a6ebaeeac39fab88c5d5a36cd87eee",
@@ -171,9 +171,41 @@
     "voice.log": {
       "hash": "1829060796c531a8398d10249ad0a40c54a556d4dbe3eb50e9224d040715190c",
       "content": "/root/.cache/hyperframes/history/3a9170c8-e655-4f5e-a5a8-2a89827ee0a4/blobs/18/1829060796c531a8398d10249ad0a40c54a556d4dbe3eb50e9224d040715190c"
+    },
+    "build.log": {
+      "hash": "ee6a4f5b582948086de7771104b384e460f7fc0a3836a6316716b03453dea15e",
+      "content": "/root/.cache/hyperframes/history/3a9170c8-e655-4f5e-a5a8-2a89827ee0a4/blobs/ee/ee6a4f5b582948086de7771104b384e460f7fc0a3836a6316716b03453dea15e"
+    },
+    "render.log": {
+      "hash": "40f16a320895eb8d0003d86985d4de76b4f7f2bbab888a568585d604ce0dc5de",
+      "content": "/root/.cache/hyperframes/history/3a9170c8-e655-4f5e-a5a8-2a89827ee0a4/blobs/40/40f16a320895eb8d0003d86985d4de76b4f7f2bbab888a568585d604ce0dc5de"
     }
   },
-  "revisions": {},
+  "revisions": {
+    "0188dc44-c6fe-4e80-b89e-9c7360b20df2": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1793407669514,
+      "endedAt": 1793407669532,
+      "files": {
+        "build.log": {
+          "before": null,
+          "after": "/root/.cache/hyperframes/history/3a9170c8-e655-4f5e-a5a8-2a89827ee0a4/blobs/ee/ee6a4f5b582948086de7771104b384e460f7fc0a3836a6316716b03453dea15e"
+        },
+        "compositions/frames/06-scene-6.html": {
+          "before": "/root/.cache/hyperframes/history/3a9170c8-e655-4f5e-a5a8-2a89827ee0a4/blobs/67/673b6358a113d2256b35e61f3a8c0334cdc9d87863ecb0012379dc686943d3ed",
+          "after": "/root/.cache/hyperframes/history/3a9170c8-e655-4f5e-a5a8-2a89827ee0a4/blobs/a7/a71fecb0a0f2335b676b0c87b50d343b15a1d69c9114a85435dbe758b252b522"
+        },
+        "render.log": {
+          "before": null,
+          "after": "/root/.cache/hyperframes/history/3a9170c8-e655-4f5e-a5a8-2a89827ee0a4/blobs/40/40f16a320895eb8d0003d86985d4de76b4f7f2bbab888a568585d604ce0dc5de"
+        }
+      }
+    }
+  },
   "checks": {
     "latest": null,
     "revisions": {},
