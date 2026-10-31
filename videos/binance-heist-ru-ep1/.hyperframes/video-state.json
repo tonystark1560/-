@@ -379,5 +379,16 @@
         "attribution": "unversioned"
       }
     ]
-  }
+  },
+  "renders": {
+    "latest": {
+      "id": "05b9ebf2-3c44-456c-b184-1b2d0bc0e35a",
+      "completedAt": 1793407799591,
+      "output": "/home/user/-/videos/binance-heist-ru-ep1/renders/binance-heist-part-1-ru.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
 }

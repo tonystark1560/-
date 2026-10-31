@@ -1,0 +1,46 @@
+{
+  "provider": "auto",
+  "speed": "1.05",
+  "lines": [
+    {
+      "id": "01",
+      "text": "The hackers didn't break the vault. They borrowed the keys. From the users."
+    },
+    {
+      "id": "02",
+      "text": "Phishing sites. Fake login pages that looked exactly like the real one."
+    },
+    {
+      "id": "03",
+      "text": "Viruses on laptops, quietly copying everything people typed."
+    },
+    {
+      "id": "04",
+      "text": "One by one, they collected accounts. API keys, the robot keys that let programs trade for you. And two-factor codes."
+    },
+    {
+      "id": "05",
+      "text": "Then they did the hardest thing in crime. Nothing. They waited."
+    },
+    {
+      "id": "06",
+      "text": "Binance later said the hackers had the patience to wait, and struck at the most opportune time."
+    },
+    {
+      "id": "07",
+      "text": "Many accounts, each looking independent. Each acting like an ordinary user."
+    },
+    {
+      "id": "08",
+      "text": "Then, all at once, they moved. One transaction, built to pass every security check."
+    },
+    {
+      "id": "09",
+      "text": "Seven thousand bitcoin walked out the front door. Part 3: who pays for it?"
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "voice": "am_onyx"
+}
