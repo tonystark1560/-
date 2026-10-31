@@ -37,7 +37,7 @@ TR = {
 "Cross-chain bridge": "Мост между цепочками", "How the bridge works": "Как работает мост", "coins were sent": "монеты отправлены",
 "The flaw": "Дыра", "Flaw in the proof check": "Дыра в проверке", "Forgery": "Подделка", "forged": "подделка", "VALID": "ВЕРНО",
 "Again": "Снова", "Out of nothing": "Из воздуха", "on paper": "на бумаге", "Part 5": "Часть 5", "Get it out. Fast.": "Вывести. Быстро.",
-"The getaway": "Побег", "BNB Chain validators": "Валидаторы BNB Chain", "Validators": "Валидаторы", "STOP": "СТОП",
+"The getaway": "Побег", "Getaway": "Уходим", "BNB Chain validators": "Валидаторы BNB Chain", "Validators": "Валидаторы", "STOP": "СТОП",
 "BNB Chain · Halted": "BNB Chain · Остановлен", "HALTED": "СТОП", "No blocks": "Ни блоков", "No transactions": "Ни транзакций",
 "Hacker's wallet": "Кошелёк хакера", "trapped": "в ловушке", "Escaped": "Ушло", "already gone": "уже ушли", "Hard fork": "Хардфорк",
 "FIX": "ФИКС", "Patched": "Исправлено", "~1 week later": "~неделю спустя", "Critics": "Критики", "Decentralized?!": "Децентрализация?!",

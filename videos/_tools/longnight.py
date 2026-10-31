@@ -243,7 +243,7 @@ class Ep:
         P = self.P
         p = f"f{n:02d}"
         d = P.dur(n)
-        cue = lambda w, nth=1, frac=.5: P.cue(n, w, nth, frac)
+        cue = lambda w, nth=1, frac=.5: P.cue(n, w, nth, frac) if isinstance(w, str) else float(w)
         js, cam = [], []
         cam.append(f'<div style="position:absolute;inset:0">{bg_svg(f.get("bg", "yard"), p)}</div>')
         light = f.get("light")

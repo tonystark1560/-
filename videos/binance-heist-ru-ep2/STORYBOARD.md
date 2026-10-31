@@ -9,7 +9,7 @@ music: none
 ## Frame 1 — Scene 1
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 4.542s
 - transition_in: cut
 - status: animated
 - voiceover: "Хакеры не ломали сейф. Они одолжили ключи. У самих пользователей."
@@ -18,7 +18,7 @@ music: none
 ## Frame 2 — Scene 2
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 4.563s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Фишинговые сайты. Поддельные страницы входа, точь-в-точь как настоящая."
@@ -27,7 +27,7 @@ music: none
 ## Frame 3 — Scene 3
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 3.898s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Вирусы на ноутбуках, которые тихо копировали всё, что люди печатали."
@@ -36,7 +36,7 @@ music: none
 ## Frame 4 — Scene 4
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 6.687s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Аккаунт за аккаунтом они собирали доступы. API-ключи, ключи для роботов, которые торгуют за тебя. И коды двухфакторки."
@@ -45,7 +45,7 @@ music: none
 ## Frame 5 — Scene 5
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 4.507s
 - transition_in: crossfade
 - status: animated
 - voiceover: "А потом сделали самое сложное в преступлении. Ничего. Они ждали."
@@ -54,7 +54,7 @@ music: none
 ## Frame 6 — Scene 6
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 5.268s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Позже Binance скажет: у хакеров хватило терпения ждать, и они ударили в самый удачный момент."
@@ -63,7 +63,7 @@ music: none
 ## Frame 7 — Scene 7
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 5.131s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Много аккаунтов, и каждый выглядит независимым. Каждый ведёт себя как обычный пользователь."
@@ -72,7 +72,7 @@ music: none
 ## Frame 8 — Scene 8
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 5.573s
 - transition_in: crossfade
 - status: animated
 - voiceover: "А потом, все разом, они пошли. Одна транзакция, построенная так, чтобы пройти все проверки."
@@ -81,7 +81,7 @@ music: none
 ## Frame 9 — Scene 9
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 4.853s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Семь тысяч биткоинов вышли через парадную дверь. Часть третья: кто за это заплатит?"

@@ -9,7 +9,7 @@ music: none
 ## Frame 1 — Scene 1
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 4.781s
 - transition_in: cut
 - status: animated
 - voiceover: "When an exchange gets robbed, the users usually lose. Not this time."
@@ -18,7 +18,7 @@ music: none
 ## Frame 2 — Scene 2
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 6.381s
 - transition_in: crossfade
 - status: animated
 - voiceover: "In 2018, Binance had created a fund called SAFU. The Secure Asset Fund for Users."
@@ -27,7 +27,7 @@ music: none
 ## Frame 3 — Scene 3
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 6.295s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Ten percent of all trading fees flowed into it. An emergency vault built for exactly this day."
@@ -36,7 +36,7 @@ music: none
 ## Frame 4 — Scene 4
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 7.490s
 - transition_in: crossfade
 - status: animated
 - voiceover: "The CEO, Changpeng Zhao, known as CZ, announces it: SAFU covers the entire loss. No user loses a coin."
@@ -45,7 +45,7 @@ music: none
 ## Frame 5 — Scene 5
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 4.759s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Withdrawals stay frozen for about a week while the system is locked down."
@@ -54,7 +54,7 @@ music: none
 ## Frame 6 — Scene 6
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 6.146s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Every API key gets restricted to trading only. No more withdrawals by robot."
@@ -63,7 +63,7 @@ music: none
 ## Frame 7 — Scene 7
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 5.250s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Crisis over? Not quite. Because CZ had another idea. A dangerous one."
@@ -72,7 +72,7 @@ music: none
 ## Frame 8 — Scene 8
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 4.375s
 - transition_in: crossfade
 - status: animated
 - voiceover: "What if they could make the robbery never happen at all? Part 4."

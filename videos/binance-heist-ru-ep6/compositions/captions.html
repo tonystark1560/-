@@ -1,0 +1,228 @@
+<template id="captions-template" data-composition-id="captions" data-width="1080" data-height="1920">
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+
+
+<style data-brand-tokens>
+      @font-face { font-family: 'Inter'; src: url('assets/fonts/Inter-Black.otf') format('opentype'); font-weight: 800; font-style: normal; font-display: block; }
+      @font-face { font-family: 'Inter'; src: url('assets/fonts/Inter-Bold.otf') format('opentype'); font-weight: 700; font-style: normal; font-display: block; }
+      @font-face { font-family: 'Inter'; src: url('assets/fonts/Inter-Medium.otf') format('opentype'); font-weight: 500; font-style: normal; font-display: block; }
+      @font-face { font-family: 'Inter'; src: url('assets/fonts/Inter-Regular.otf') format('opentype'); font-weight: 400; font-style: normal; font-display: block; }
+      @font-face { font-family: 'Inter'; src: url('assets/fonts/Inter-SemiBold.otf') format('opentype'); font-weight: 600; font-style: normal; font-display: block; }
+      :root {
+      --bg: #04060B;
+      --primary: #FFC83D;
+      --text: #F2F4F8;
+      --text-muted: #8A93A3;
+      --text-light: #5C6575;
+      --accent-light: rgba(255, 200, 61, 0.12);
+      --accent-medium: rgba(255, 200, 61, 0.2);
+      --border: rgba(255, 255, 255, 0.14);
+      --card-bg: rgba(8, 11, 18, 0.92);
+      --positive: #3CF2A0;
+      --negative: #FF3B30;
+      --cap-ink: #F2F4F8;
+      --cap-canvas: #04060B;
+      --cap-accent: #FFC83D;
+      --cap-accent-2: #8A93A3;
+      --font-display: "Inter", system-ui, serif;
+      --font-body: "Inter", system-ui, sans-serif;
+      --cap-band-top: 1600px;
+      --cap-band-height: 320px;
+      }
+    </style>
+
+<style>
+  #captions-root {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+  }
+  .caption-layer {
+    position: absolute;
+    inset: 0;
+    z-index: 20;
+    pointer-events: none;
+  }
+  /* the keep-out band, from captionBand(H) — frame content stays above it */
+  .caption-stage {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: var(--cap-band-top, 900px);
+    height: var(--cap-band-height, 180px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .caption-group {
+    /* every group is absolutely stacked over the SAME band — exactly one shown at a
+       time via opacity. Must be absolute: in-flow groups would lay out side-by-side. */
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+  }
+
+  /* THE tinted card — 4% cobalt fill, 1.5px 20%-cobalt border, soft 14px corners,
+     NO shadow (the tinted card does the lift; cast depth is forbidden) */
+  .caption-pill {
+    max-width: 90%;
+    padding: 10px 24px;
+    background: transparent;
+    border: none;
+  }
+  .caption-line {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.04em 0.28em;
+    font-family: "Inter", system-ui, sans-serif;
+    font-weight: 900;
+    font-size: 66px;
+    line-height: 1.08;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+  }
+
+  /* upcoming — muted gray, no chip */
+  .caption-word {
+    display: inline-block;
+    padding: 0 0.04em;
+    color: #7D8592;
+    text-shadow: 0 4px 0 rgba(0,0,0,.6), 0 0 22px rgba(0,0,0,.7);
+  }
+  /* current word — THE solid cobalt chip (the single-accent gesture; pill-rounded
+     fill, NO shadow), cream reading on top */
+  .caption-word.is-active {
+    color: #FFFFFF;
+    background: transparent;
+    box-shadow: none;
+  }
+  /* already spoken — solid near-black ink, chip cleared */
+  .caption-word.is-spoken {
+    color: #FFFFFF;
+    background: transparent;
+    box-shadow: none;
+  }
+
+  /* optional per-word accents (dormant until a word-classer tags them) */
+  /* brand / key term — cobalt, the system's one accent on a key word */
+  .caption-word.cap-brand {
+    color: var(--cap-accent, #1e2bfa);
+  }
+  /* numerals / data — cobalt 700, the figure voice */
+  .caption-word.cap-num {
+    font-family: "Inter", system-ui, sans-serif;
+    font-weight: 700;
+    color: var(--cap-accent, #1e2bfa);
+  }
+  /* emphasis — a directional-red hairline underline (inline only, never a fill) */
+  .caption-word.cap-cta {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: var(--cap-accent-2, #dc2626);
+    text-underline-offset: 0.1em;
+  }
+
+  @media (max-aspect-ratio: 9/16) {
+    .caption-pill {
+      max-width: 92%;
+    }
+    .caption-line {
+      font-size: clamp(34px, 5.4vw, 48px);
+    }
+  }
+</style>
+
+<div
+  id="captions-root"
+  data-composition-id="captions"
+  data-timeline-locked
+  data-start="0"
+  data-duration="47.275"
+  data-fps="30"
+  data-width="1080"
+  data-height="1920"
+>
+  <div class="caption-layer" aria-hidden="true">
+    <div id="caption-stage" class="caption-stage"></div>
+  </div>
+</div>
+
+<script>
+  // captions.mjs injects the engine's scene-aware groups + real duration here.
+  var GROUPS = [{"id":"caption-group-0","frame":1,"start":0.06,"end":1.222,"text":"Хакер начинает выводить","words":[{"id":"caption-word-0-0","text":"Хакер","start":0.06,"end":0.29},{"id":"caption-word-0-1","text":"начинает","start":0.35,"end":0.72},{"id":"caption-word-0-2","text":"выводить","start":0.72,"end":1.222}]},{"id":"caption-group-1","frame":1,"start":1.222,"end":1.47,"text":"BNB в","words":[{"id":"caption-word-1-0","text":"BNB","start":1.222,"end":1.41},{"id":"caption-word-1-1","text":"в","start":1.41,"end":1.46}]},{"id":"caption-group-2","frame":1,"start":1.47,"end":2.6,"text":"другие блокчейны.","words":[{"id":"caption-word-2-0","text":"другие","start":1.47,"end":1.84},{"id":"caption-word-2-1","text":"блокчейны.","start":1.85,"end":2.6}]},{"id":"caption-group-3","frame":1,"start":2.6,"end":3.377,"text":"Эфириум.","words":[{"id":"caption-word-3-0","text":"Эфириум.","start":2.6,"end":3.377}]},{"id":"caption-group-4","frame":1,"start":3.377,"end":4.153,"text":"Полигон.","words":[{"id":"caption-word-4-0","text":"Полигон.","start":3.377,"end":4.153}]},{"id":"caption-group-5","frame":1,"start":4.153,"end":5.05,"text":"Аваланч.","words":[{"id":"caption-word-5-0","text":"Аваланч.","start":4.153,"end":4.93}]},{"id":"caption-group-6","frame":2,"start":5.535,"end":5.855,"text":"И тогда","words":[{"id":"caption-word-6-0","text":"И","start":5.535,"end":5.585},{"id":"caption-word-6-1","text":"тогда","start":5.555,"end":5.855}]},{"id":"caption-group-7","frame":2,"start":5.855,"end":6.895,"text":"Binance делает почти","words":[{"id":"caption-word-7-0","text":"Binance","start":5.855,"end":6.248},{"id":"caption-word-7-1","text":"делает","start":6.248,"end":6.585},{"id":"caption-word-7-2","text":"почти","start":6.585,"end":6.895}]},{"id":"caption-group-8","frame":2,"start":6.895,"end":7.633,"text":"немыслимое.","words":[{"id":"caption-word-8-0","text":"немыслимое.","start":6.895,"end":7.633}]},{"id":"caption-group-9","frame":2,"start":7.633,"end":8.965,"text":"Просит валидаторов остановить","words":[{"id":"caption-word-9-0","text":"Просит","start":7.633,"end":8.035},{"id":"caption-word-9-1","text":"валидаторов","start":8.035,"end":8.515},{"id":"caption-word-9-2","text":"остановить","start":8.515,"end":8.965}]},{"id":"caption-group-10","frame":2,"start":8.965,"end":9.725,"text":"весь блокчейн.","words":[{"id":"caption-word-10-0","text":"весь","start":8.965,"end":9.145},{"id":"caption-word-10-1","text":"блокчейн.","start":9.145,"end":9.605}]},{"id":"caption-group-11","frame":3,"start":10.423,"end":10.883,"text":"BNB Chain","words":[{"id":"caption-word-11-0","text":"BNB","start":10.423,"end":10.596},{"id":"caption-word-11-1","text":"Chain","start":10.596,"end":10.883}]},{"id":"caption-group-12","frame":3,"start":10.883,"end":11.383,"text":"встаёт.","words":[{"id":"caption-word-12-0","text":"встаёт.","start":10.883,"end":11.383}]},{"id":"caption-group-13","frame":3,"start":11.383,"end":12.313,"text":"Ни блоков.","words":[{"id":"caption-word-13-0","text":"Ни","start":11.383,"end":11.793},{"id":"caption-word-13-1","text":"блоков.","start":11.793,"end":12.313}]},{"id":"caption-group-14","frame":3,"start":12.313,"end":13.833,"text":"Ни транзакций.","words":[{"id":"caption-word-14-0","text":"Ни","start":12.313,"end":12.547},{"id":"caption-word-14-1","text":"транзакций.","start":12.547,"end":13.833}]},{"id":"caption-group-15","frame":3,"start":13.833,"end":14.713,"text":"Всё заморожено.","words":[{"id":"caption-word-15-0","text":"Всё","start":13.833,"end":13.883},{"id":"caption-word-15-1","text":"заморожено.","start":13.863,"end":14.593}]},{"id":"caption-group-16","frame":4,"start":15.274,"end":16.374,"text":"Большая часть добычи,","words":[{"id":"caption-word-16-0","text":"Большая","start":15.274,"end":15.644},{"id":"caption-word-16-1","text":"часть","start":15.644,"end":15.954},{"id":"caption-word-16-2","text":"добычи,","start":15.954,"end":16.374}]},{"id":"caption-group-17","frame":4,"start":16.374,"end":17.414,"text":"около четырёхсот тридцати","words":[{"id":"caption-word-17-0","text":"около","start":16.374,"end":16.724},{"id":"caption-word-17-1","text":"четырёхсот","start":16.724,"end":17.107},{"id":"caption-word-17-2","text":"тридцати","start":17.107,"end":17.414}]},{"id":"caption-group-18","frame":4,"start":17.414,"end":18.544,"text":"миллионов долларов,","words":[{"id":"caption-word-18-0","text":"миллионов","start":17.414,"end":17.984},{"id":"caption-word-18-1","text":"долларов,","start":17.984,"end":18.424}]},{"id":"caption-group-19","frame":4,"start":18.554,"end":19.024,"text":"застряла в","words":[{"id":"caption-word-19-0","text":"застряла","start":18.554,"end":19.014},{"id":"caption-word-19-1","text":"в","start":19.014,"end":19.064}]},{"id":"caption-group-20","frame":4,"start":19.024,"end":20.014,"text":"кошельке хакера.","words":[{"id":"caption-word-20-0","text":"кошельке","start":19.024,"end":19.464},{"id":"caption-word-20-1","text":"хакера.","start":19.464,"end":19.894}]},{"id":"caption-group-21","frame":4,"start":20.154,"end":21.254,"text":"Её не сдвинуть.","words":[{"id":"caption-word-21-0","text":"Её","start":20.154,"end":20.294},{"id":"caption-word-21-1","text":"не","start":20.294,"end":20.454},{"id":"caption-word-21-2","text":"сдвинуть.","start":20.454,"end":21.134}]},{"id":"caption-group-22","frame":5,"start":21.576,"end":21.896,"text":"Но около","words":[{"id":"caption-word-22-0","text":"Но","start":21.576,"end":21.646},{"id":"caption-word-22-1","text":"около","start":21.646,"end":21.896}]},{"id":"caption-group-23","frame":5,"start":21.896,"end":23.006,"text":"ста миллионов уже","words":[{"id":"caption-word-23-0","text":"ста","start":21.896,"end":22.346},{"id":"caption-word-23-1","text":"миллионов","start":22.346,"end":22.796},{"id":"caption-word-23-2","text":"уже","start":22.796,"end":22.906}]},{"id":"caption-group-24","frame":5,"start":23.006,"end":23.486,"text":"успели уйти","words":[{"id":"caption-word-24-0","text":"успели","start":23.006,"end":23.226},{"id":"caption-word-24-1","text":"уйти","start":23.276,"end":23.436}]},{"id":"caption-group-25","frame":5,"start":23.486,"end":24.306,"text":"в другие сети.","words":[{"id":"caption-word-25-0","text":"в","start":23.486,"end":23.536},{"id":"caption-word-25-1","text":"другие","start":23.496,"end":23.826},{"id":"caption-word-25-2","text":"сети.","start":23.826,"end":24.186}]},{"id":"caption-group-26","frame":6,"start":24.847,"end":25.867,"text":"Примерно через неделю","words":[{"id":"caption-word-26-0","text":"Примерно","start":24.847,"end":25.217},{"id":"caption-word-26-1","text":"через","start":25.257,"end":25.557},{"id":"caption-word-26-2","text":"неделю","start":25.557,"end":25.867}]},{"id":"caption-group-27","frame":6,"start":25.867,"end":27.367,"text":"хардфорк закрывает дыру.","words":[{"id":"caption-word-27-0","text":"хардфорк","start":25.867,"end":26.327},{"id":"caption-word-27-1","text":"закрывает","start":26.327,"end":26.837},{"id":"caption-word-27-2","text":"дыру.","start":26.837,"end":27.337}]},{"id":"caption-group-28","frame":6,"start":27.367,"end":28.257,"text":"Мост починен.","words":[{"id":"caption-word-28-0","text":"Мост","start":27.367,"end":27.557},{"id":"caption-word-28-1","text":"починен.","start":27.557,"end":28.137}]},{"id":"caption-group-29","frame":7,"start":28.794,"end":29.434,"text":"Критики спрашивают:","words":[{"id":"caption-word-29-0","text":"Критики","start":28.794,"end":29.043},{"id":"caption-word-29-1","text":"спрашивают:","start":29.043,"end":29.434}]},{"id":"caption-group-30","frame":7,"start":29.434,"end":29.694,"text":"если","words":[{"id":"caption-word-30-0","text":"если","start":29.434,"end":29.574}]},{"id":"caption-group-31","frame":7,"start":29.894,"end":30.434,"text":"одна компания","words":[{"id":"caption-word-31-0","text":"одна","start":29.894,"end":29.944},{"id":"caption-word-31-1","text":"компания","start":29.934,"end":30.434}]},{"id":"caption-group-32","frame":7,"start":30.434,"end":32.004,"text":"может остановить блокчейн,","words":[{"id":"caption-word-32-0","text":"может","start":30.434,"end":30.744},{"id":"caption-word-32-1","text":"остановить","start":30.744,"end":31.364},{"id":"caption-word-32-2","text":"блокчейн,","start":31.364,"end":32.004}]},{"id":"caption-group-33","frame":7,"start":32.004,"end":33.204,"text":"насколько он децентрализован?","words":[{"id":"caption-word-33-0","text":"насколько","start":32.004,"end":32.324},{"id":"caption-word-33-1","text":"он","start":32.324,"end":32.374},{"id":"caption-word-33-2","text":"децентрализован?","start":32.404,"end":33.084}]},{"id":"caption-group-34","frame":8,"start":33.79,"end":34.85,"text":"Два ограбления.","words":[{"id":"caption-word-34-0","text":"Два","start":33.79,"end":33.9},{"id":"caption-word-34-1","text":"ограбления.","start":33.97,"end":34.73}]},{"id":"caption-group-35","frame":8,"start":34.95,"end":35.4,"text":"Одно чуть","words":[{"id":"caption-word-35-0","text":"Одно","start":34.95,"end":35.05},{"id":"caption-word-35-1","text":"чуть","start":35.05,"end":35.31}]},{"id":"caption-group-36","frame":8,"start":35.4,"end":36.99,"text":"не переписало историю.","words":[{"id":"caption-word-36-0","text":"не","start":35.4,"end":35.48},{"id":"caption-word-36-1","text":"переписало","start":35.57,"end":36.31},{"id":"caption-word-36-2","text":"историю.","start":36.31,"end":36.93}]},{"id":"caption-group-37","frame":8,"start":36.99,"end":37.87,"text":"Другое напечатало","words":[{"id":"caption-word-37-0","text":"Другое","start":36.99,"end":37.27},{"id":"caption-word-37-1","text":"напечатало","start":37.31,"end":37.75}]},{"id":"caption-group-38","frame":8,"start":38.15,"end":38.97,"text":"деньги из воздуха.","words":[{"id":"caption-word-38-0","text":"деньги","start":38.15,"end":38.26},{"id":"caption-word-38-1","text":"из","start":38.26,"end":38.36},{"id":"caption-word-38-2","text":"воздуха.","start":38.39,"end":38.85}]},{"id":"caption-group-39","frame":9,"start":39.485,"end":41.525,"text":"В девятнадцатом откат отвергли.","words":[{"id":"caption-word-39-0","text":"В","start":39.485,"end":39.535},{"id":"caption-word-39-1","text":"девятнадцатом","start":39.515,"end":40.465},{"id":"caption-word-39-2","text":"откат","start":40.525,"end":40.855},{"id":"caption-word-39-3","text":"отвергли.","start":40.855,"end":41.525}]},{"id":"caption-group-40","frame":9,"start":41.525,"end":41.905,"text":"В двадцать","words":[{"id":"caption-word-40-0","text":"В","start":41.525,"end":41.575},{"id":"caption-word-40-1","text":"двадцать","start":41.565,"end":41.855}]},{"id":"caption-group-41","frame":9,"start":41.905,"end":43.645,"text":"втором цепочку остановили.","words":[{"id":"caption-word-41-0","text":"втором","start":41.905,"end":42.215},{"id":"caption-word-41-1","text":"цепочку","start":42.265,"end":42.725},{"id":"caption-word-41-2","text":"остановили.","start":42.725,"end":43.645}]},{"id":"caption-group-42","frame":9,"start":43.645,"end":43.835,"text":"А ты","words":[{"id":"caption-word-42-0","text":"А","start":43.645,"end":43.708},{"id":"caption-word-42-1","text":"ты","start":43.708,"end":43.835}]},{"id":"caption-group-43","frame":9,"start":43.835,"end":44.165,"text":"бы что","words":[{"id":"caption-word-43-0","text":"бы","start":43.835,"end":43.945},{"id":"caption-word-43-1","text":"что","start":44.025,"end":44.125}]},{"id":"caption-group-44","frame":9,"start":44.165,"end":44.765,"text":"выбрал?","words":[{"id":"caption-word-44-0","text":"выбрал?","start":44.165,"end":44.665}]},{"id":"caption-group-45","frame":9,"start":44.765,"end":46.135,"text":"Подписывайся на следующее","words":[{"id":"caption-word-45-0","text":"Подписывайся","start":44.765,"end":45.465},{"id":"caption-word-45-1","text":"на","start":45.465,"end":45.525},{"id":"caption-word-45-2","text":"следующее","start":45.635,"end":46.135}]},{"id":"caption-group-46","frame":9,"start":46.135,"end":46.845,"text":"ограбление.","words":[{"id":"caption-word-46-0","text":"ограбление.","start":46.135,"end":46.725}]}];
+  var DURATION = 47.275;
+
+  (function () {
+    var stage = document.getElementById("caption-stage");
+
+    // build DOM: one .caption-group per group, .caption-word per word
+    GROUPS.forEach(function (group, g) {
+      var groupEl = document.createElement("div");
+      groupEl.className = "caption-group";
+      groupEl.id = "caption-group-" + g;
+      var pill = document.createElement("div");
+      pill.className = "caption-pill";
+      var line = document.createElement("div");
+      line.className = "caption-line";
+      (group.words || []).forEach(function (w, i) {
+        var span = document.createElement("span");
+        span.className = "caption-word";
+        span.id = "caption-word-" + g + "-" + i;
+        span.textContent = String(w.text);
+        line.appendChild(span);
+      });
+      pill.appendChild(line);
+      groupEl.appendChild(pill);
+      stage.appendChild(groupEl);
+    });
+
+    window.__timelines = window.__timelines || {};
+    var tl = gsap.timeline({ paused: true });
+
+    GROUPS.forEach(function (group, g) {
+      var groupEl = document.getElementById("caption-group-" + g);
+      var words = group.words || [];
+      var next = GROUPS[g + 1];
+      var isLast = g === GROUPS.length - 1;
+      var start = Math.max(0, Number(group.start));
+      var end = isLast ? DURATION : Math.min(Number(next.start), Number(group.end) + 0.3);
+      if (end <= start) end = start + 0.01;
+
+      // group on/off — exactly one group visible at a time
+      tl.set(groupEl, { opacity: 1 }, start);
+      tl.set(groupEl, { opacity: 0 }, end);
+
+      // 3-state karaoke via className SETS — seek-safe (gsap.set applies on the
+      // engine's frame-by-frame seek; .call callbacks would NOT fire).
+      words.forEach(function (w, i) {
+        var el = document.getElementById("caption-word-" + g + "-" + i);
+        var at = Math.max(start, Number(w.start));
+        tl.set(el, { className: "caption-word" }, start); // upcoming (also resets on reverse-seek)
+        tl.set(el, { className: "caption-word is-active" }, at); // current
+        tl.fromTo(el, { scale: 0.985 }, { scale: 1, duration: 0.18, ease: "power1.out" }, at);
+        if (i + 1 < words.length) {
+          var nextAt = Math.max(start, Number(words[i + 1].start));
+          tl.set(el, { className: "caption-word is-spoken" }, nextAt); // demote when next activates
+        }
+      });
+      if (words.length) {
+        var lastEl = document.getElementById("caption-word-" + g + "-" + (words.length - 1));
+        var lastSpoken = Math.min(end, Number(words[words.length - 1].end) + 0.1);
+        tl.set(lastEl, { className: "caption-word is-spoken" }, lastSpoken);
+      }
+    });
+
+    // full-span anchor so the sub-comp timeline spans the whole video
+    tl.to({}, { duration: DURATION }, 0);
+    window.__timelines["captions"] = tl;
+  })();
+</script>
+
+<style>
+  .caption-line { line-height: 1.1 !important; }
+</style>
+</template>

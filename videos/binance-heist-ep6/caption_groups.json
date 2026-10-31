@@ -1,0 +1,1288 @@
+{
+  "total_duration_s": 52.071,
+  "width": 1080,
+  "height": 1920,
+  "groups": [
+    {
+      "id": "caption-group-0",
+      "frame": 1,
+      "start": 0.05,
+      "end": 0.51,
+      "text": "The hacker",
+      "words": [
+        {
+          "id": "caption-word-0-0",
+          "text": "The",
+          "start": 0.05,
+          "end": 0.17
+        },
+        {
+          "id": "caption-word-0-1",
+          "text": "hacker",
+          "start": 0.17,
+          "end": 0.51
+        }
+      ]
+    },
+    {
+      "id": "caption-group-1",
+      "frame": 1,
+      "start": 0.51,
+      "end": 1.19,
+      "text": "starts moving",
+      "words": [
+        {
+          "id": "caption-word-1-0",
+          "text": "starts",
+          "start": 0.51,
+          "end": 0.85
+        },
+        {
+          "id": "caption-word-1-1",
+          "text": "moving",
+          "start": 0.85,
+          "end": 1.19
+        }
+      ]
+    },
+    {
+      "id": "caption-group-2",
+      "frame": 1,
+      "start": 1.19,
+      "end": 1.52,
+      "text": "the BNB",
+      "words": [
+        {
+          "id": "caption-word-2-0",
+          "text": "the",
+          "start": 1.19,
+          "end": 1.32
+        },
+        {
+          "id": "caption-word-2-1",
+          "text": "BNB",
+          "start": 1.36,
+          "end": 1.52
+        }
+      ]
+    },
+    {
+      "id": "caption-group-3",
+      "frame": 1,
+      "start": 1.52,
+      "end": 1.85,
+      "text": "out to",
+      "words": [
+        {
+          "id": "caption-word-3-0",
+          "text": "out",
+          "start": 1.52,
+          "end": 1.63
+        },
+        {
+          "id": "caption-word-3-1",
+          "text": "to",
+          "start": 1.75,
+          "end": 1.85
+        }
+      ]
+    },
+    {
+      "id": "caption-group-4",
+      "frame": 1,
+      "start": 1.85,
+      "end": 3.05,
+      "text": "other blockchains.",
+      "words": [
+        {
+          "id": "caption-word-4-0",
+          "text": "other",
+          "start": 1.85,
+          "end": 2.17
+        },
+        {
+          "id": "caption-word-4-1",
+          "text": "blockchains.",
+          "start": 2.17,
+          "end": 3
+        }
+      ]
+    },
+    {
+      "id": "caption-group-5",
+      "frame": 1,
+      "start": 3.05,
+      "end": 3.81,
+      "text": "Ethereum,",
+      "words": [
+        {
+          "id": "caption-word-5-0",
+          "text": "Ethereum,",
+          "start": 3.05,
+          "end": 3.8
+        }
+      ]
+    },
+    {
+      "id": "caption-group-6",
+      "frame": 1,
+      "start": 3.81,
+      "end": 4.53,
+      "text": "Polygon,",
+      "words": [
+        {
+          "id": "caption-word-6-0",
+          "text": "Polygon,",
+          "start": 3.81,
+          "end": 4.53
+        }
+      ]
+    },
+    {
+      "id": "caption-group-7",
+      "frame": 1,
+      "start": 4.53,
+      "end": 5.51,
+      "text": "Avalanche.",
+      "words": [
+        {
+          "id": "caption-word-7-0",
+          "text": "Avalanche.",
+          "start": 4.53,
+          "end": 5.39
+        }
+      ]
+    },
+    {
+      "id": "caption-group-8",
+      "frame": 2,
+      "start": 6.206,
+      "end": 6.796,
+      "text": "Then Binance",
+      "words": [
+        {
+          "id": "caption-word-8-0",
+          "text": "Then",
+          "start": 6.206,
+          "end": 6.386
+        },
+        {
+          "id": "caption-word-8-1",
+          "text": "Binance",
+          "start": 6.386,
+          "end": 6.726
+        }
+      ]
+    },
+    {
+      "id": "caption-group-9",
+      "frame": 2,
+      "start": 6.796,
+      "end": 7.996,
+      "text": "does something almost",
+      "words": [
+        {
+          "id": "caption-word-9-0",
+          "text": "does",
+          "start": 6.796,
+          "end": 7.026
+        },
+        {
+          "id": "caption-word-9-1",
+          "text": "something",
+          "start": 7.046,
+          "end": 7.586
+        },
+        {
+          "id": "caption-word-9-2",
+          "text": "almost",
+          "start": 7.606,
+          "end": 7.886
+        }
+      ]
+    },
+    {
+      "id": "caption-group-10",
+      "frame": 2,
+      "start": 7.996,
+      "end": 8.716,
+      "text": "unthinkable.",
+      "words": [
+        {
+          "id": "caption-word-10-0",
+          "text": "unthinkable.",
+          "start": 7.996,
+          "end": 8.666
+        }
+      ]
+    },
+    {
+      "id": "caption-group-11",
+      "frame": 2,
+      "start": 8.716,
+      "end": 9.056,
+      "text": "It asks",
+      "words": [
+        {
+          "id": "caption-word-11-0",
+          "text": "It",
+          "start": 8.716,
+          "end": 8.796
+        },
+        {
+          "id": "caption-word-11-1",
+          "text": "asks",
+          "start": 8.796,
+          "end": 9.056
+        }
+      ]
+    },
+    {
+      "id": "caption-group-12",
+      "frame": 2,
+      "start": 9.056,
+      "end": 9.916,
+      "text": "the validators",
+      "words": [
+        {
+          "id": "caption-word-12-0",
+          "text": "the",
+          "start": 9.056,
+          "end": 9.246
+        },
+        {
+          "id": "caption-word-12-1",
+          "text": "validators",
+          "start": 9.246,
+          "end": 9.916
+        }
+      ]
+    },
+    {
+      "id": "caption-group-13",
+      "frame": 2,
+      "start": 9.916,
+      "end": 10.306,
+      "text": "to stop",
+      "words": [
+        {
+          "id": "caption-word-13-0",
+          "text": "to",
+          "start": 9.916,
+          "end": 10.046
+        },
+        {
+          "id": "caption-word-13-1",
+          "text": "stop",
+          "start": 10.046,
+          "end": 10.306
+        }
+      ]
+    },
+    {
+      "id": "caption-group-14",
+      "frame": 2,
+      "start": 10.306,
+      "end": 11.916,
+      "text": "the entire blockchain.",
+      "words": [
+        {
+          "id": "caption-word-14-0",
+          "text": "the",
+          "start": 10.306,
+          "end": 10.406
+        },
+        {
+          "id": "caption-word-14-1",
+          "text": "entire",
+          "start": 10.516,
+          "end": 10.906
+        },
+        {
+          "id": "caption-word-14-2",
+          "text": "blockchain.",
+          "start": 10.906,
+          "end": 11.796
+        }
+      ]
+    },
+    {
+      "id": "caption-group-15",
+      "frame": 3,
+      "start": 12.693,
+      "end": 13.963,
+      "text": "BNB chain halts,",
+      "words": [
+        {
+          "id": "caption-word-15-0",
+          "text": "BNB",
+          "start": 12.693,
+          "end": 12.903
+        },
+        {
+          "id": "caption-word-15-1",
+          "text": "chain",
+          "start": 12.903,
+          "end": 13.363
+        },
+        {
+          "id": "caption-word-15-2",
+          "text": "halts,",
+          "start": 13.363,
+          "end": 13.963
+        }
+      ]
+    },
+    {
+      "id": "caption-group-16",
+      "frame": 3,
+      "start": 13.963,
+      "end": 14.653,
+      "text": "no blocks,",
+      "words": [
+        {
+          "id": "caption-word-16-0",
+          "text": "no",
+          "start": 13.963,
+          "end": 14.093
+        },
+        {
+          "id": "caption-word-16-1",
+          "text": "blocks,",
+          "start": 14.093,
+          "end": 14.613
+        }
+      ]
+    },
+    {
+      "id": "caption-group-17",
+      "frame": 3,
+      "start": 14.653,
+      "end": 15.703,
+      "text": "no transactions,",
+      "words": [
+        {
+          "id": "caption-word-17-0",
+          "text": "no",
+          "start": 14.653,
+          "end": 14.803
+        },
+        {
+          "id": "caption-word-17-1",
+          "text": "transactions,",
+          "start": 14.843,
+          "end": 15.673
+        }
+      ]
+    },
+    {
+      "id": "caption-group-18",
+      "frame": 3,
+      "start": 15.703,
+      "end": 16.763,
+      "text": "everything frozen.",
+      "words": [
+        {
+          "id": "caption-word-18-0",
+          "text": "everything",
+          "start": 15.703,
+          "end": 16.113
+        },
+        {
+          "id": "caption-word-18-1",
+          "text": "frozen.",
+          "start": 16.233,
+          "end": 16.643
+        }
+      ]
+    },
+    {
+      "id": "caption-group-19",
+      "frame": 4,
+      "start": 17.752,
+      "end": 18.112,
+      "text": "Most of",
+      "words": [
+        {
+          "id": "caption-word-19-0",
+          "text": "Most",
+          "start": 17.752,
+          "end": 17.932
+        },
+        {
+          "id": "caption-word-19-1",
+          "text": "of",
+          "start": 18.002,
+          "end": 18.112
+        }
+      ]
+    },
+    {
+      "id": "caption-group-20",
+      "frame": 4,
+      "start": 18.112,
+      "end": 18.582,
+      "text": "the loot",
+      "words": [
+        {
+          "id": "caption-word-20-0",
+          "text": "the",
+          "start": 18.112,
+          "end": 18.302
+        },
+        {
+          "id": "caption-word-20-1",
+          "text": "loot",
+          "start": 18.302,
+          "end": 18.582
+        }
+      ]
+    },
+    {
+      "id": "caption-group-21",
+      "frame": 4,
+      "start": 18.582,
+      "end": 20.582,
+      "text": "around 430 million dollars",
+      "words": [
+        {
+          "id": "caption-word-21-0",
+          "text": "around",
+          "start": 18.582,
+          "end": 18.992
+        },
+        {
+          "id": "caption-word-21-1",
+          "text": "430",
+          "start": 18.992,
+          "end": 19.602
+        },
+        {
+          "id": "caption-word-21-2",
+          "text": "million",
+          "start": 19.602,
+          "end": 20.072
+        },
+        {
+          "id": "caption-word-21-3",
+          "text": "dollars",
+          "start": 20.072,
+          "end": 20.462
+        }
+      ]
+    },
+    {
+      "id": "caption-group-22",
+      "frame": 4,
+      "start": 20.602,
+      "end": 21.102,
+      "text": "is trapped",
+      "words": [
+        {
+          "id": "caption-word-22-0",
+          "text": "is",
+          "start": 20.602,
+          "end": 20.692
+        },
+        {
+          "id": "caption-word-22-1",
+          "text": "trapped",
+          "start": 20.692,
+          "end": 20.982
+        }
+      ]
+    },
+    {
+      "id": "caption-group-23",
+      "frame": 4,
+      "start": 21.102,
+      "end": 21.322,
+      "text": "in the",
+      "words": [
+        {
+          "id": "caption-word-23-0",
+          "text": "in",
+          "start": 21.102,
+          "end": 21.162
+        },
+        {
+          "id": "caption-word-23-1",
+          "text": "the",
+          "start": 21.162,
+          "end": 21.322
+        }
+      ]
+    },
+    {
+      "id": "caption-group-24",
+      "frame": 4,
+      "start": 21.322,
+      "end": 22.282,
+      "text": "hacker's wallet,",
+      "words": [
+        {
+          "id": "caption-word-24-0",
+          "text": "hacker's",
+          "start": 21.322,
+          "end": 21.742
+        },
+        {
+          "id": "caption-word-24-1",
+          "text": "wallet,",
+          "start": 21.742,
+          "end": 22.242
+        }
+      ]
+    },
+    {
+      "id": "caption-group-25",
+      "frame": 4,
+      "start": 22.282,
+      "end": 23.412,
+      "text": "it can't move.",
+      "words": [
+        {
+          "id": "caption-word-25-0",
+          "text": "it",
+          "start": 22.282,
+          "end": 22.412
+        },
+        {
+          "id": "caption-word-25-1",
+          "text": "can't",
+          "start": 22.412,
+          "end": 22.722
+        },
+        {
+          "id": "caption-word-25-2",
+          "text": "move.",
+          "start": 22.832,
+          "end": 23.292
+        }
+      ]
+    },
+    {
+      "id": "caption-group-26",
+      "frame": 5,
+      "start": 24.355,
+      "end": 24.705,
+      "text": "But about",
+      "words": [
+        {
+          "id": "caption-word-26-0",
+          "text": "But",
+          "start": 24.355,
+          "end": 24.445
+        },
+        {
+          "id": "caption-word-26-1",
+          "text": "about",
+          "start": 24.445,
+          "end": 24.705
+        }
+      ]
+    },
+    {
+      "id": "caption-group-27",
+      "frame": 5,
+      "start": 24.705,
+      "end": 25.135,
+      "text": "a hundred",
+      "words": [
+        {
+          "id": "caption-word-27-0",
+          "text": "a",
+          "start": 24.705,
+          "end": 24.805
+        },
+        {
+          "id": "caption-word-27-1",
+          "text": "hundred",
+          "start": 24.805,
+          "end": 25.095
+        }
+      ]
+    },
+    {
+      "id": "caption-group-28",
+      "frame": 5,
+      "start": 25.135,
+      "end": 25.715,
+      "text": "million had",
+      "words": [
+        {
+          "id": "caption-word-28-0",
+          "text": "million",
+          "start": 25.135,
+          "end": 25.555
+        },
+        {
+          "id": "caption-word-28-1",
+          "text": "had",
+          "start": 25.565,
+          "end": 25.705
+        }
+      ]
+    },
+    {
+      "id": "caption-group-29",
+      "frame": 5,
+      "start": 25.715,
+      "end": 26.545,
+      "text": "already escaped",
+      "words": [
+        {
+          "id": "caption-word-29-0",
+          "text": "already",
+          "start": 25.715,
+          "end": 26.085
+        },
+        {
+          "id": "caption-word-29-1",
+          "text": "escaped",
+          "start": 26.085,
+          "end": 26.425
+        }
+      ]
+    },
+    {
+      "id": "caption-group-30",
+      "frame": 5,
+      "start": 26.555,
+      "end": 27.595,
+      "text": "to other chains.",
+      "words": [
+        {
+          "id": "caption-word-30-0",
+          "text": "to",
+          "start": 26.555,
+          "end": 26.665
+        },
+        {
+          "id": "caption-word-30-1",
+          "text": "other",
+          "start": 26.685,
+          "end": 26.895
+        },
+        {
+          "id": "caption-word-30-2",
+          "text": "chains.",
+          "start": 26.955,
+          "end": 27.475
+        }
+      ]
+    },
+    {
+      "id": "caption-group-31",
+      "frame": 6,
+      "start": 28.581,
+      "end": 28.891,
+      "text": "About a",
+      "words": [
+        {
+          "id": "caption-word-31-0",
+          "text": "About",
+          "start": 28.581,
+          "end": 28.831
+        },
+        {
+          "id": "caption-word-31-1",
+          "text": "a",
+          "start": 28.831,
+          "end": 28.891
+        }
+      ]
+    },
+    {
+      "id": "caption-group-32",
+      "frame": 6,
+      "start": 28.891,
+      "end": 29.501,
+      "text": "week later",
+      "words": [
+        {
+          "id": "caption-word-32-0",
+          "text": "week",
+          "start": 28.891,
+          "end": 29.151
+        },
+        {
+          "id": "caption-word-32-1",
+          "text": "later",
+          "start": 29.151,
+          "end": 29.451
+        }
+      ]
+    },
+    {
+      "id": "caption-group-33",
+      "frame": 6,
+      "start": 29.501,
+      "end": 29.821,
+      "text": "a hard",
+      "words": [
+        {
+          "id": "caption-word-33-0",
+          "text": "a",
+          "start": 29.501,
+          "end": 29.531
+        },
+        {
+          "id": "caption-word-33-1",
+          "text": "hard",
+          "start": 29.531,
+          "end": 29.701
+        }
+      ]
+    },
+    {
+      "id": "caption-group-34",
+      "frame": 6,
+      "start": 29.841,
+      "end": 30.501,
+      "text": "fort patches",
+      "words": [
+        {
+          "id": "caption-word-34-0",
+          "text": "fort",
+          "start": 29.841,
+          "end": 29.961
+        },
+        {
+          "id": "caption-word-34-1",
+          "text": "patches",
+          "start": 30.081,
+          "end": 30.501
+        }
+      ]
+    },
+    {
+      "id": "caption-group-35",
+      "frame": 6,
+      "start": 30.501,
+      "end": 31.131,
+      "text": "the hole,",
+      "words": [
+        {
+          "id": "caption-word-35-0",
+          "text": "the",
+          "start": 30.501,
+          "end": 30.691
+        },
+        {
+          "id": "caption-word-35-1",
+          "text": "hole,",
+          "start": 30.691,
+          "end": 31.131
+        }
+      ]
+    },
+    {
+      "id": "caption-group-36",
+      "frame": 6,
+      "start": 31.131,
+      "end": 31.681,
+      "text": "the bridge",
+      "words": [
+        {
+          "id": "caption-word-36-0",
+          "text": "the",
+          "start": 31.131,
+          "end": 31.311
+        },
+        {
+          "id": "caption-word-36-1",
+          "text": "bridge",
+          "start": 31.311,
+          "end": 31.561
+        }
+      ]
+    },
+    {
+      "id": "caption-group-37",
+      "frame": 6,
+      "start": 31.691,
+      "end": 32.271,
+      "text": "is fixed.",
+      "words": [
+        {
+          "id": "caption-word-37-0",
+          "text": "is",
+          "start": 31.691,
+          "end": 31.791
+        },
+        {
+          "id": "caption-word-37-1",
+          "text": "fixed.",
+          "start": 31.791,
+          "end": 32.151
+        }
+      ]
+    },
+    {
+      "id": "caption-group-38",
+      "frame": 7,
+      "start": 33.19,
+      "end": 33.72,
+      "text": "Critics ask",
+      "words": [
+        {
+          "id": "caption-word-38-0",
+          "text": "Critics",
+          "start": 33.19,
+          "end": 33.6
+        },
+        {
+          "id": "caption-word-38-1",
+          "text": "ask",
+          "start": 33.6,
+          "end": 33.72
+        }
+      ]
+    },
+    {
+      "id": "caption-group-39",
+      "frame": 7,
+      "start": 33.72,
+      "end": 34.16,
+      "text": "if one",
+      "words": [
+        {
+          "id": "caption-word-39-0",
+          "text": "if",
+          "start": 33.72,
+          "end": 33.97
+        },
+        {
+          "id": "caption-word-39-1",
+          "text": "one",
+          "start": 33.97,
+          "end": 34.16
+        }
+      ]
+    },
+    {
+      "id": "caption-group-40",
+      "frame": 7,
+      "start": 34.16,
+      "end": 34.91,
+      "text": "company can",
+      "words": [
+        {
+          "id": "caption-word-40-0",
+          "text": "company",
+          "start": 34.16,
+          "end": 34.61
+        },
+        {
+          "id": "caption-word-40-1",
+          "text": "can",
+          "start": 34.69,
+          "end": 34.82
+        }
+      ]
+    },
+    {
+      "id": "caption-group-41",
+      "frame": 7,
+      "start": 34.91,
+      "end": 36.1,
+      "text": "stop a blockchain,",
+      "words": [
+        {
+          "id": "caption-word-41-0",
+          "text": "stop",
+          "start": 34.91,
+          "end": 35.15
+        },
+        {
+          "id": "caption-word-41-1",
+          "text": "a",
+          "start": 35.15,
+          "end": 35.22
+        },
+        {
+          "id": "caption-word-41-2",
+          "text": "blockchain,",
+          "start": 35.22,
+          "end": 36.1
+        }
+      ]
+    },
+    {
+      "id": "caption-group-42",
+      "frame": 7,
+      "start": 36.1,
+      "end": 37.25,
+      "text": "how decentralized is",
+      "words": [
+        {
+          "id": "caption-word-42-0",
+          "text": "how",
+          "start": 36.1,
+          "end": 36.28
+        },
+        {
+          "id": "caption-word-42-1",
+          "text": "decentralized",
+          "start": 36.28,
+          "end": 37.06
+        },
+        {
+          "id": "caption-word-42-2",
+          "text": "is",
+          "start": 37.06,
+          "end": 37.18
+        }
+      ]
+    },
+    {
+      "id": "caption-group-43",
+      "frame": 7,
+      "start": 37.25,
+      "end": 37.82,
+      "text": "it really?",
+      "words": [
+        {
+          "id": "caption-word-43-0",
+          "text": "it",
+          "start": 37.25,
+          "end": 37.31
+        },
+        {
+          "id": "caption-word-43-1",
+          "text": "really?",
+          "start": 37.31,
+          "end": 37.7
+        }
+      ]
+    },
+    {
+      "id": "caption-group-44",
+      "frame": 8,
+      "start": 38.793,
+      "end": 39.303,
+      "text": "Two heists",
+      "words": [
+        {
+          "id": "caption-word-44-0",
+          "text": "Two",
+          "start": 38.793,
+          "end": 38.933
+        },
+        {
+          "id": "caption-word-44-1",
+          "text": "heists",
+          "start": 38.933,
+          "end": 39.183
+        }
+      ]
+    },
+    {
+      "id": "caption-group-45",
+      "frame": 8,
+      "start": 39.443,
+      "end": 40.523,
+      "text": "one almost rewrote",
+      "words": [
+        {
+          "id": "caption-word-45-0",
+          "text": "one",
+          "start": 39.443,
+          "end": 39.593
+        },
+        {
+          "id": "caption-word-45-1",
+          "text": "almost",
+          "start": 39.593,
+          "end": 40.033
+        },
+        {
+          "id": "caption-word-45-2",
+          "text": "rewrote",
+          "start": 40.033,
+          "end": 40.523
+        }
+      ]
+    },
+    {
+      "id": "caption-group-46",
+      "frame": 8,
+      "start": 40.523,
+      "end": 41.203,
+      "text": "history,",
+      "words": [
+        {
+          "id": "caption-word-46-0",
+          "text": "history,",
+          "start": 40.523,
+          "end": 41.203
+        }
+      ]
+    },
+    {
+      "id": "caption-group-47",
+      "frame": 8,
+      "start": 41.203,
+      "end": 41.713,
+      "text": "one printed",
+      "words": [
+        {
+          "id": "caption-word-47-0",
+          "text": "one",
+          "start": 41.203,
+          "end": 41.343
+        },
+        {
+          "id": "caption-word-47-1",
+          "text": "printed",
+          "start": 41.403,
+          "end": 41.703
+        }
+      ]
+    },
+    {
+      "id": "caption-group-48",
+      "frame": 8,
+      "start": 41.713,
+      "end": 42.673,
+      "text": "money from nothing.",
+      "words": [
+        {
+          "id": "caption-word-48-0",
+          "text": "money",
+          "start": 41.713,
+          "end": 41.973
+        },
+        {
+          "id": "caption-word-48-1",
+          "text": "from",
+          "start": 42.073,
+          "end": 42.193
+        },
+        {
+          "id": "caption-word-48-2",
+          "text": "nothing.",
+          "start": 42.193,
+          "end": 42.553
+        }
+      ]
+    },
+    {
+      "id": "caption-group-49",
+      "frame": 9,
+      "start": 43.64,
+      "end": 44.77,
+      "text": "In 2019,",
+      "words": [
+        {
+          "id": "caption-word-49-0",
+          "text": "In",
+          "start": 43.64,
+          "end": 43.72
+        },
+        {
+          "id": "caption-word-49-1",
+          "text": "2019,",
+          "start": 43.78,
+          "end": 44.77
+        }
+      ]
+    },
+    {
+      "id": "caption-group-50",
+      "frame": 9,
+      "start": 44.77,
+      "end": 45.79,
+      "text": "the rollback was",
+      "words": [
+        {
+          "id": "caption-word-50-0",
+          "text": "the",
+          "start": 44.77,
+          "end": 44.99
+        },
+        {
+          "id": "caption-word-50-1",
+          "text": "rollback",
+          "start": 44.99,
+          "end": 45.57
+        },
+        {
+          "id": "caption-word-50-2",
+          "text": "was",
+          "start": 45.57,
+          "end": 45.79
+        }
+      ]
+    },
+    {
+      "id": "caption-group-51",
+      "frame": 9,
+      "start": 45.79,
+      "end": 46.48,
+      "text": "rejected.",
+      "words": [
+        {
+          "id": "caption-word-51-0",
+          "text": "rejected.",
+          "start": 45.79,
+          "end": 46.44
+        }
+      ]
+    },
+    {
+      "id": "caption-group-52",
+      "frame": 9,
+      "start": 46.48,
+      "end": 47.56,
+      "text": "In 2022,",
+      "words": [
+        {
+          "id": "caption-word-52-0",
+          "text": "In",
+          "start": 46.48,
+          "end": 46.56
+        },
+        {
+          "id": "caption-word-52-1",
+          "text": "2022,",
+          "start": 46.62,
+          "end": 47.56
+        }
+      ]
+    },
+    {
+      "id": "caption-group-53",
+      "frame": 9,
+      "start": 47.56,
+      "end": 48.17,
+      "text": "the chain",
+      "words": [
+        {
+          "id": "caption-word-53-0",
+          "text": "the",
+          "start": 47.56,
+          "end": 47.77
+        },
+        {
+          "id": "caption-word-53-1",
+          "text": "chain",
+          "start": 47.77,
+          "end": 48.09
+        }
+      ]
+    },
+    {
+      "id": "caption-group-54",
+      "frame": 9,
+      "start": 48.17,
+      "end": 48.88,
+      "text": "was stopped.",
+      "words": [
+        {
+          "id": "caption-word-54-0",
+          "text": "was",
+          "start": 48.17,
+          "end": 48.33
+        },
+        {
+          "id": "caption-word-54-1",
+          "text": "stopped.",
+          "start": 48.33,
+          "end": 48.84
+        }
+      ]
+    },
+    {
+      "id": "caption-group-55",
+      "frame": 9,
+      "start": 48.88,
+      "end": 49.24,
+      "text": "Which would",
+      "words": [
+        {
+          "id": "caption-word-55-0",
+          "text": "Which",
+          "start": 48.88,
+          "end": 49.02
+        },
+        {
+          "id": "caption-word-55-1",
+          "text": "would",
+          "start": 49.04,
+          "end": 49.24
+        }
+      ]
+    },
+    {
+      "id": "caption-group-56",
+      "frame": 9,
+      "start": 49.24,
+      "end": 49.8,
+      "text": "you choose?",
+      "words": [
+        {
+          "id": "caption-word-56-0",
+          "text": "you",
+          "start": 49.24,
+          "end": 49.36
+        },
+        {
+          "id": "caption-word-56-1",
+          "text": "choose?",
+          "start": 49.36,
+          "end": 49.75
+        }
+      ]
+    },
+    {
+      "id": "caption-group-57",
+      "frame": 9,
+      "start": 49.8,
+      "end": 50.33,
+      "text": "Follow for",
+      "words": [
+        {
+          "id": "caption-word-57-0",
+          "text": "Follow",
+          "start": 49.8,
+          "end": 50.14
+        },
+        {
+          "id": "caption-word-57-1",
+          "text": "for",
+          "start": 50.14,
+          "end": 50.33
+        }
+      ]
+    },
+    {
+      "id": "caption-group-58",
+      "frame": 9,
+      "start": 50.33,
+      "end": 51.44,
+      "text": "the next heist.",
+      "words": [
+        {
+          "id": "caption-word-58-0",
+          "text": "the",
+          "start": 50.33,
+          "end": 50.52
+        },
+        {
+          "id": "caption-word-58-1",
+          "text": "next",
+          "start": 50.52,
+          "end": 50.67
+        },
+        {
+          "id": "caption-word-58-2",
+          "text": "heist.",
+          "start": 50.78,
+          "end": 51.32
+        }
+      ]
+    }
+  ]
+}

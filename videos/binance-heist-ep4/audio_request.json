@@ -1,0 +1,46 @@
+{
+  "provider": "auto",
+  "speed": "1.05",
+  "lines": [
+    {
+      "id": "01",
+      "text": "The idea was called a rollback. Rewrite bitcoin's history and erase the theft."
+    },
+    {
+      "id": "02",
+      "text": "Bitcoin is a chain of blocks. Every new block locks in the ones before it."
+    },
+    {
+      "id": "03",
+      "text": "To erase the theft, miners would have to rebuild the chain without it, and outrun the rest of the network."
+    },
+    {
+      "id": "04",
+      "text": "CZ talked about it openly, on a live stream. He spoke with developers. He spoke with miners."
+    },
+    {
+      "id": "05",
+      "text": "The crypto world exploded. Rewrite bitcoin to save one company? That breaks the one promise bitcoin makes."
+    },
+    {
+      "id": "06",
+      "text": "The promise: once it's written, nobody can change it. Not banks. Not governments. Not the biggest exchange on Earth."
+    },
+    {
+      "id": "07",
+      "text": "Within a day, CZ backed down. No rollback."
+    },
+    {
+      "id": "08",
+      "text": "He wrote that the bitcoin ledger is the most immutable ledger on the planet."
+    },
+    {
+      "id": "09",
+      "text": "The seven thousand bitcoin were gone for good. But the biggest Binance heist hadn't happened yet. Part 5."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "voice": "am_onyx"
+}

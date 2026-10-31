@@ -1,0 +1,42 @@
+<template>
+<style>@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Regular.otf') format('opentype');font-weight:400;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Medium.otf') format('opentype');font-weight:500;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-SemiBold.otf') format('opentype');font-weight:600;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Bold.otf') format('opentype');font-weight:700;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-ExtraBold.otf') format('opentype');font-weight:800;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Black.otf') format('opentype');font-weight:900;font-style:normal;}
+#root{position:absolute;inset:0;width:1080px;height:1920px;overflow:hidden;font-family:'Inter',sans-serif;}
+
+.hud-loc{position:absolute;left:0;right:0;top:70px;text-align:center;font-weight:800;font-size:30px;letter-spacing:.22em;color:#8A93A3;text-transform:uppercase;}
+.hud-row{position:absolute;left:0;right:0;top:122px;display:flex;justify-content:center;gap:16px;}
+.ctr{display:flex;align-items:center;gap:10px;padding:10px 18px;border-radius:10px;background:rgba(10,14,22,.78);border:2px solid rgba(255,255,255,.12);font-weight:900;font-size:28px;letter-spacing:.08em;color:#F2F4F8;}
+.ctr b{color:#FFC83D;}
+.tag{position:absolute;left:50%;padding:12px 26px;border-radius:10px;font-weight:900;font-size:36px;letter-spacing:.06em;text-transform:uppercase;color:#fff;background:#FF3B30;white-space:nowrap;box-shadow:0 8px 0 rgba(0,0,0,.35);}
+.tag.gold{background:#FFC83D;color:#111;} .tag.white{background:#fff;color:#111;} .tag.green{background:#3CF2A0;color:#062;}
+.card{position:absolute;left:70px;right:70px;padding:50px 40px;border-radius:24px;background:rgba(8,11,18,.92);border:3px solid rgba(255,255,255,.14);text-align:center;font-weight:900;font-size:72px;line-height:1.05;color:#fff;text-transform:uppercase;}
+.card em{font-style:normal;color:#FFC83D;} .card i{font-style:normal;color:#FF3B30;}
+.bub{position:absolute;padding:14px 26px;border-radius:26px;background:#fff;font-weight:900;font-size:40px;color:#111;text-transform:uppercase;white-space:nowrap;box-shadow:0 8px 0 rgba(0,0,0,.35);}
+.dark{position:absolute;border-radius:50%;background:radial-gradient(circle,rgba(4,6,11,0) 42%,rgba(4,6,11,.55) 62%,rgba(4,6,11,.93) 74%);box-shadow:0 0 0 3000px rgba(4,6,11,.93);}
+.pool{position:absolute;border-radius:50%;}
+.dim{position:absolute;filter:blur(1.5px);transform-origin:50% 100%;}
+</style>
+<div id="root" data-composition-id="05-scene-5" data-width="1080" data-height="1920" data-duration="5.007">
+<div class="clip" id="f05-bg" data-start="0" data-duration="5.007" data-track-index="0" style="position:absolute;inset:0;overflow:hidden"></div>
+<div class="clip" id="f05-stage" data-start="0" data-duration="5.007" data-track-index="1" style="position:absolute;inset:0"><div class="cam" id="f05-cam" style="position:absolute;inset:0;transform-origin:50% 18%"><div style="position:absolute;inset:0"><svg width="1080" height="1920"><rect width="1080" height="1920" fill="#070910"/><rect x="0" y="0" width="6" height="1240" fill="#0B0E18"/><rect x="120" y="0" width="6" height="1240" fill="#0B0E18"/><rect x="240" y="0" width="6" height="1240" fill="#0B0E18"/><rect x="360" y="0" width="6" height="1240" fill="#0B0E18"/><rect x="480" y="0" width="6" height="1240" fill="#0B0E18"/><rect x="600" y="0" width="6" height="1240" fill="#0B0E18"/><rect x="720" y="0" width="6" height="1240" fill="#0B0E18"/><rect x="840" y="0" width="6" height="1240" fill="#0B0E18"/><rect x="960" y="0" width="6" height="1240" fill="#0B0E18"/><rect x="0" y="1240" width="1080" height="680" fill="#0D101A"/><rect x="0" y="1240" width="1080" height="18" fill="#161B2A"/></svg></div><div class="pool" id="f05-pool" style="left:34px;top:714px;width:1012px;height:1012px;background:radial-gradient(circle,rgba(220,235,255,.38),rgba(0,0,0,0) 70%)"></div><svg id="f05-hk" style="position:absolute;left:340px;top:700px;overflow:visible" width="400" height="600" viewBox="0 0 400 600"><path d="M200 40 C 300 40 350 120 350 220 L350 330 L50 330 L50 220 C 50 120 100 40 200 40 Z" fill="#1A2133"/><ellipse cx="200" cy="215" rx="95" ry="110" fill="#04050A"/><path d="M30 600 Q30 330 200 320 Q370 330 370 600 Z" fill="#1A2133"/><path d="M150 330 L200 420 L250 330" stroke="#0C1020" stroke-width="10" fill="none"/><rect x="90" y="470" width="220" height="140" rx="10" fill="#C9D3E6"/><rect x="100" y="480" width="200" height="120" rx="6" fill="#0A0F1C"/><circle cx="200" cy="540" r="16" fill="#38E1FF" opacity=".7"/></svg><div class="dark" id="f05-dark" style="left:80px;top:760px;width:920px;height:920px"></div></div><div class="hud-loc" id="f05-loc">Шаг 4 · Ждать</div><div class="hud-row"><div class="ctr" id="f05-c-STOLEN">УКРАДЕНО <b id="f05-cv-STOLEN">7,074 BTC</b></div></div><div class="tag white" id="f05-tag0" style="top:230px">Ничего.</div><div class="tag gold" id="f05-tag1" style="top:320px">Ждать.</div></div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+<script>
+(function(){
+const tl = gsap.timeline({ paused: true });
+
+tl.fromTo("#f05-tag0",{scale:.4,opacity:0,xPercent:-50,x:0},{scale:1,opacity:1,xPercent:-50,duration:.35,ease:"back.out(2.5)"},2.48);
+tl.fromTo("#f05-tag1",{scale:.4,opacity:0,xPercent:-50,x:0},{scale:1,opacity:1,xPercent:-50,duration:.35,ease:"back.out(2.5)"},3.45);
+tl.fromTo("#f05-cam",{scale:1.0},{scale:1.050,duration:4.51,ease:"none"},0);
+tl.fromTo("#f05-pool",{opacity:.85},{opacity:1,duration:4.51,ease:"none"},0);
+tl.to("#f05-dark",{scale:0.75,duration:1.2,ease:"power2.in"},2.48);
+tl.to("#f05-pool",{scale:0.75,duration:1.2},2.48);
+window.__timelines = window.__timelines || {};
+window.__timelines["05-scene-5"] = tl;
+})();
+</script>
+</template>

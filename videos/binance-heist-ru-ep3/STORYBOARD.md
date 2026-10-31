@@ -9,7 +9,7 @@ music: none
 ## Frame 1 — Scene 1
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 4.098s
 - transition_in: cut
 - status: animated
 - voiceover: "Когда биржу грабят, обычно теряют пользователи. Но не в этот раз."
@@ -18,7 +18,7 @@ music: none
 ## Frame 2 — Scene 2
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 4.957s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Ещё в восемнадцатом году Binance создала фонд SAFU. Защитный фонд для пользователей."
@@ -27,7 +27,7 @@ music: none
 ## Frame 3 — Scene 3
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 5.689s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Туда шли десять процентов всех торговых комиссий. Аварийный сейф, построенный ровно для этого дня."
@@ -36,7 +36,7 @@ music: none
 ## Frame 4 — Scene 4
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 7.059s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Глава биржи, Чанпэн Чжао, он же CZ, объявляет: SAFU покроет всю потерю. Ни один пользователь не потеряет ни монеты."
@@ -45,7 +45,7 @@ music: none
 ## Frame 5 — Scene 5
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 4.305s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Выводы остаются замороженными около недели, пока систему закрывают на замок."
@@ -54,7 +54,7 @@ music: none
 ## Frame 6 — Scene 6
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 4.806s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Все API-ключи ограничивают только торговлей. Больше никаких выводов роботами."
@@ -63,7 +63,7 @@ music: none
 ## Frame 7 — Scene 7
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 5.439s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Кризис позади? Не совсем. Потому что у CZ была ещё одна идея. Опасная."
@@ -72,7 +72,7 @@ music: none
 ## Frame 8 — Scene 8
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 4.272s
 - transition_in: crossfade
 - status: animated
 - voiceover: "А что, если сделать так, чтобы ограбления вообще не было? Часть четвёртая."

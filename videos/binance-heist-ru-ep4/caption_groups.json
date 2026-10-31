@@ -1,0 +1,1099 @@
+{
+  "total_duration_s": 48.212,
+  "width": 1080,
+  "height": 1920,
+  "groups": [
+    {
+      "id": "caption-group-0",
+      "frame": 1,
+      "start": 0.04,
+      "end": 1.24,
+      "text": "Идея называлась откат.",
+      "words": [
+        {
+          "id": "caption-word-0-0",
+          "text": "Идея",
+          "start": 0.04,
+          "end": 0.21
+        },
+        {
+          "id": "caption-word-0-1",
+          "text": "называлась",
+          "start": 0.21,
+          "end": 0.79
+        },
+        {
+          "id": "caption-word-0-2",
+          "text": "откат.",
+          "start": 0.79,
+          "end": 1.12
+        }
+      ]
+    },
+    {
+      "id": "caption-group-1",
+      "frame": 1,
+      "start": 1.49,
+      "end": 2.8,
+      "text": "Переписать историю биткоина",
+      "words": [
+        {
+          "id": "caption-word-1-0",
+          "text": "Переписать",
+          "start": 1.49,
+          "end": 1.85
+        },
+        {
+          "id": "caption-word-1-1",
+          "text": "историю",
+          "start": 1.85,
+          "end": 2.28
+        },
+        {
+          "id": "caption-word-1-2",
+          "text": "биткоина",
+          "start": 2.28,
+          "end": 2.8
+        }
+      ]
+    },
+    {
+      "id": "caption-group-2",
+      "frame": 1,
+      "start": 2.8,
+      "end": 3.72,
+      "text": "и стереть кражу.",
+      "words": [
+        {
+          "id": "caption-word-2-0",
+          "text": "и",
+          "start": 2.8,
+          "end": 2.85
+        },
+        {
+          "id": "caption-word-2-1",
+          "text": "стереть",
+          "start": 2.84,
+          "end": 3.14
+        },
+        {
+          "id": "caption-word-2-2",
+          "text": "кражу.",
+          "start": 3.18,
+          "end": 3.6
+        }
+      ]
+    },
+    {
+      "id": "caption-group-3",
+      "frame": 2,
+      "start": 4.219,
+      "end": 6.219,
+      "text": "Биткоин это цепочка блоков.",
+      "words": [
+        {
+          "id": "caption-word-3-0",
+          "text": "Биткоин",
+          "start": 4.219,
+          "end": 5.179
+        },
+        {
+          "id": "caption-word-3-1",
+          "text": "это",
+          "start": 5.219,
+          "end": 5.319
+        },
+        {
+          "id": "caption-word-3-2",
+          "text": "цепочка",
+          "start": 5.379,
+          "end": 5.619
+        },
+        {
+          "id": "caption-word-3-3",
+          "text": "блоков.",
+          "start": 5.709,
+          "end": 6.179
+        }
+      ]
+    },
+    {
+      "id": "caption-group-4",
+      "frame": 2,
+      "start": 6.219,
+      "end": 6.729,
+      "text": "Каждый новый",
+      "words": [
+        {
+          "id": "caption-word-4-0",
+          "text": "Каждый",
+          "start": 6.219,
+          "end": 6.479
+        },
+        {
+          "id": "caption-word-4-1",
+          "text": "новый",
+          "start": 6.479,
+          "end": 6.729
+        }
+      ]
+    },
+    {
+      "id": "caption-group-5",
+      "frame": 2,
+      "start": 6.729,
+      "end": 7.849,
+      "text": "блок намертво закрепляет",
+      "words": [
+        {
+          "id": "caption-word-5-0",
+          "text": "блок",
+          "start": 6.729,
+          "end": 6.929
+        },
+        {
+          "id": "caption-word-5-1",
+          "text": "намертво",
+          "start": 6.929,
+          "end": 7.309
+        },
+        {
+          "id": "caption-word-5-2",
+          "text": "закрепляет",
+          "start": 7.319,
+          "end": 7.729
+        }
+      ]
+    },
+    {
+      "id": "caption-group-6",
+      "frame": 2,
+      "start": 8.029,
+      "end": 8.539,
+      "text": "предыдущие.",
+      "words": [
+        {
+          "id": "caption-word-6-0",
+          "text": "предыдущие.",
+          "start": 8.029,
+          "end": 8.419
+        }
+      ]
+    },
+    {
+      "id": "caption-group-7",
+      "frame": 3,
+      "start": 9.127,
+      "end": 9.717,
+      "text": "Чтобы стереть",
+      "words": [
+        {
+          "id": "caption-word-7-0",
+          "text": "Чтобы",
+          "start": 9.127,
+          "end": 9.307
+        },
+        {
+          "id": "caption-word-7-1",
+          "text": "стереть",
+          "start": 9.367,
+          "end": 9.717
+        }
+      ]
+    },
+    {
+      "id": "caption-group-8",
+      "frame": 3,
+      "start": 9.717,
+      "end": 10.097,
+      "text": "кражу,",
+      "words": [
+        {
+          "id": "caption-word-8-0",
+          "text": "кражу,",
+          "start": 9.717,
+          "end": 10.097
+        }
+      ]
+    },
+    {
+      "id": "caption-group-9",
+      "frame": 3,
+      "start": 10.097,
+      "end": 10.917,
+      "text": "майнерам пришлось",
+      "words": [
+        {
+          "id": "caption-word-9-0",
+          "text": "майнерам",
+          "start": 10.097,
+          "end": 10.477
+        },
+        {
+          "id": "caption-word-9-1",
+          "text": "пришлось",
+          "start": 10.477,
+          "end": 10.917
+        }
+      ]
+    },
+    {
+      "id": "caption-group-10",
+      "frame": 3,
+      "start": 10.917,
+      "end": 11.267,
+      "text": "бы пересобрать",
+      "words": [
+        {
+          "id": "caption-word-10-0",
+          "text": "бы",
+          "start": 10.917,
+          "end": 11.057
+        },
+        {
+          "id": "caption-word-10-1",
+          "text": "пересобрать",
+          "start": 11.077,
+          "end": 11.267
+        }
+      ]
+    },
+    {
+      "id": "caption-group-11",
+      "frame": 3,
+      "start": 11.267,
+      "end": 12.397,
+      "text": "цепочку без неё",
+      "words": [
+        {
+          "id": "caption-word-11-0",
+          "text": "цепочку",
+          "start": 11.267,
+          "end": 11.787
+        },
+        {
+          "id": "caption-word-11-1",
+          "text": "без",
+          "start": 11.787,
+          "end": 11.947
+        },
+        {
+          "id": "caption-word-11-2",
+          "text": "неё",
+          "start": 11.947,
+          "end": 12.277
+        }
+      ]
+    },
+    {
+      "id": "caption-group-12",
+      "frame": 3,
+      "start": 12.577,
+      "end": 12.997,
+      "text": "и обогнать",
+      "words": [
+        {
+          "id": "caption-word-12-0",
+          "text": "и",
+          "start": 12.577,
+          "end": 12.627
+        },
+        {
+          "id": "caption-word-12-1",
+          "text": "обогнать",
+          "start": 12.587,
+          "end": 12.947
+        }
+      ]
+    },
+    {
+      "id": "caption-group-13",
+      "frame": 3,
+      "start": 12.997,
+      "end": 14.067,
+      "text": "всю остальную сеть.",
+      "words": [
+        {
+          "id": "caption-word-13-0",
+          "text": "всю",
+          "start": 12.997,
+          "end": 13.167
+        },
+        {
+          "id": "caption-word-13-1",
+          "text": "остальную",
+          "start": 13.167,
+          "end": 13.687
+        },
+        {
+          "id": "caption-word-13-2",
+          "text": "сеть.",
+          "start": 13.687,
+          "end": 13.947
+        }
+      ]
+    },
+    {
+      "id": "caption-group-14",
+      "frame": 4,
+      "start": 14.486,
+      "end": 15.076,
+      "text": "CZ говорил",
+      "words": [
+        {
+          "id": "caption-word-14-0",
+          "text": "CZ",
+          "start": 14.486,
+          "end": 14.696
+        },
+        {
+          "id": "caption-word-14-1",
+          "text": "говорил",
+          "start": 14.696,
+          "end": 15.076
+        }
+      ]
+    },
+    {
+      "id": "caption-group-15",
+      "frame": 4,
+      "start": 15.076,
+      "end": 15.406,
+      "text": "об этом",
+      "words": [
+        {
+          "id": "caption-word-15-0",
+          "text": "об",
+          "start": 15.076,
+          "end": 15.136
+        },
+        {
+          "id": "caption-word-15-1",
+          "text": "этом",
+          "start": 15.196,
+          "end": 15.406
+        }
+      ]
+    },
+    {
+      "id": "caption-group-16",
+      "frame": 4,
+      "start": 15.406,
+      "end": 15.786,
+      "text": "открыто,",
+      "words": [
+        {
+          "id": "caption-word-16-0",
+          "text": "открыто,",
+          "start": 15.406,
+          "end": 15.786
+        }
+      ]
+    },
+    {
+      "id": "caption-group-17",
+      "frame": 4,
+      "start": 15.786,
+      "end": 16.846,
+      "text": "в прямом эфире.",
+      "words": [
+        {
+          "id": "caption-word-17-0",
+          "text": "в",
+          "start": 15.786,
+          "end": 15.836
+        },
+        {
+          "id": "caption-word-17-1",
+          "text": "прямом",
+          "start": 15.836,
+          "end": 16.166
+        },
+        {
+          "id": "caption-word-17-2",
+          "text": "эфире.",
+          "start": 16.166,
+          "end": 16.726
+        }
+      ]
+    },
+    {
+      "id": "caption-group-18",
+      "frame": 4,
+      "start": 17.146,
+      "end": 18.026,
+      "text": "Он советовался",
+      "words": [
+        {
+          "id": "caption-word-18-0",
+          "text": "Он",
+          "start": 17.146,
+          "end": 17.276
+        },
+        {
+          "id": "caption-word-18-1",
+          "text": "советовался",
+          "start": 17.276,
+          "end": 17.946
+        }
+      ]
+    },
+    {
+      "id": "caption-group-19",
+      "frame": 4,
+      "start": 18.026,
+      "end": 19.116,
+      "text": "с разработчиками.",
+      "words": [
+        {
+          "id": "caption-word-19-0",
+          "text": "с",
+          "start": 18.026,
+          "end": 18.076
+        },
+        {
+          "id": "caption-word-19-1",
+          "text": "разработчиками.",
+          "start": 18.046,
+          "end": 19.046
+        }
+      ]
+    },
+    {
+      "id": "caption-group-20",
+      "frame": 4,
+      "start": 19.116,
+      "end": 19.846,
+      "text": "Он советовался",
+      "words": [
+        {
+          "id": "caption-word-20-0",
+          "text": "Он",
+          "start": 19.116,
+          "end": 19.216
+        },
+        {
+          "id": "caption-word-20-1",
+          "text": "советовался",
+          "start": 19.216,
+          "end": 19.846
+        }
+      ]
+    },
+    {
+      "id": "caption-group-21",
+      "frame": 4,
+      "start": 19.846,
+      "end": 20.606,
+      "text": "с майнерами.",
+      "words": [
+        {
+          "id": "caption-word-21-0",
+          "text": "с",
+          "start": 19.846,
+          "end": 19.896
+        },
+        {
+          "id": "caption-word-21-1",
+          "text": "майнерами.",
+          "start": 19.896,
+          "end": 20.486
+        }
+      ]
+    },
+    {
+      "id": "caption-group-22",
+      "frame": 5,
+      "start": 21.128,
+      "end": 22.268,
+      "text": "Криптомир взорвался.",
+      "words": [
+        {
+          "id": "caption-word-22-0",
+          "text": "Криптомир",
+          "start": 21.128,
+          "end": 21.598
+        },
+        {
+          "id": "caption-word-22-1",
+          "text": "взорвался.",
+          "start": 21.598,
+          "end": 22.148
+        }
+      ]
+    },
+    {
+      "id": "caption-group-23",
+      "frame": 5,
+      "start": 22.468,
+      "end": 23.178,
+      "text": "Переписать биткоин",
+      "words": [
+        {
+          "id": "caption-word-23-0",
+          "text": "Переписать",
+          "start": 22.468,
+          "end": 22.798
+        },
+        {
+          "id": "caption-word-23-1",
+          "text": "биткоин",
+          "start": 22.798,
+          "end": 23.178
+        }
+      ]
+    },
+    {
+      "id": "caption-group-24",
+      "frame": 5,
+      "start": 23.178,
+      "end": 24.748,
+      "text": "ради одной компании?",
+      "words": [
+        {
+          "id": "caption-word-24-0",
+          "text": "ради",
+          "start": 23.178,
+          "end": 23.408
+        },
+        {
+          "id": "caption-word-24-1",
+          "text": "одной",
+          "start": 23.408,
+          "end": 23.768
+        },
+        {
+          "id": "caption-word-24-2",
+          "text": "компании?",
+          "start": 23.768,
+          "end": 24.718
+        }
+      ]
+    },
+    {
+      "id": "caption-group-25",
+      "frame": 5,
+      "start": 24.748,
+      "end": 25.218,
+      "text": "Это ломает",
+      "words": [
+        {
+          "id": "caption-word-25-0",
+          "text": "Это",
+          "start": 24.748,
+          "end": 24.818
+        },
+        {
+          "id": "caption-word-25-1",
+          "text": "ломает",
+          "start": 24.928,
+          "end": 25.218
+        }
+      ]
+    },
+    {
+      "id": "caption-group-26",
+      "frame": 5,
+      "start": 25.218,
+      "end": 26.678,
+      "text": "главное обещание биткоина.",
+      "words": [
+        {
+          "id": "caption-word-26-0",
+          "text": "главное",
+          "start": 25.218,
+          "end": 25.618
+        },
+        {
+          "id": "caption-word-26-1",
+          "text": "обещание",
+          "start": 25.618,
+          "end": 26.058
+        },
+        {
+          "id": "caption-word-26-2",
+          "text": "биткоина.",
+          "start": 26.068,
+          "end": 26.558
+        }
+      ]
+    },
+    {
+      "id": "caption-group-27",
+      "frame": 6,
+      "start": 27.168,
+      "end": 28.158,
+      "text": "Обещание такое:",
+      "words": [
+        {
+          "id": "caption-word-27-0",
+          "text": "Обещание",
+          "start": 27.168,
+          "end": 27.678
+        },
+        {
+          "id": "caption-word-27-1",
+          "text": "такое:",
+          "start": 27.678,
+          "end": 28.158
+        }
+      ]
+    },
+    {
+      "id": "caption-group-28",
+      "frame": 6,
+      "start": 28.158,
+      "end": 28.988,
+      "text": "если записано,",
+      "words": [
+        {
+          "id": "caption-word-28-0",
+          "text": "если",
+          "start": 28.158,
+          "end": 28.418
+        },
+        {
+          "id": "caption-word-28-1",
+          "text": "записано,",
+          "start": 28.418,
+          "end": 28.918
+        }
+      ]
+    },
+    {
+      "id": "caption-group-29",
+      "frame": 6,
+      "start": 28.988,
+      "end": 29.648,
+      "text": "изменить нельзя.",
+      "words": [
+        {
+          "id": "caption-word-29-0",
+          "text": "изменить",
+          "start": 28.988,
+          "end": 29.478
+        },
+        {
+          "id": "caption-word-29-1",
+          "text": "нельзя.",
+          "start": 29.478,
+          "end": 29.528
+        }
+      ]
+    },
+    {
+      "id": "caption-group-30",
+      "frame": 6,
+      "start": 29.918,
+      "end": 31.048,
+      "text": "Ни банкам.",
+      "words": [
+        {
+          "id": "caption-word-30-0",
+          "text": "Ни",
+          "start": 29.918,
+          "end": 29.968
+        },
+        {
+          "id": "caption-word-30-1",
+          "text": "банкам.",
+          "start": 29.958,
+          "end": 31.038
+        }
+      ]
+    },
+    {
+      "id": "caption-group-31",
+      "frame": 6,
+      "start": 31.048,
+      "end": 31.978,
+      "text": "Ни правительствам.",
+      "words": [
+        {
+          "id": "caption-word-31-0",
+          "text": "Ни",
+          "start": 31.048,
+          "end": 31.278
+        },
+        {
+          "id": "caption-word-31-1",
+          "text": "правительствам.",
+          "start": 31.278,
+          "end": 31.978
+        }
+      ]
+    },
+    {
+      "id": "caption-group-32",
+      "frame": 6,
+      "start": 31.978,
+      "end": 32.528,
+      "text": "Ни крупнейшей",
+      "words": [
+        {
+          "id": "caption-word-32-0",
+          "text": "Ни",
+          "start": 31.978,
+          "end": 32.028
+        },
+        {
+          "id": "caption-word-32-1",
+          "text": "крупнейшей",
+          "start": 31.998,
+          "end": 32.528
+        }
+      ]
+    },
+    {
+      "id": "caption-group-33",
+      "frame": 6,
+      "start": 32.528,
+      "end": 33.448,
+      "text": "бирже планеты.",
+      "words": [
+        {
+          "id": "caption-word-33-0",
+          "text": "бирже",
+          "start": 32.528,
+          "end": 32.748
+        },
+        {
+          "id": "caption-word-33-1",
+          "text": "планеты.",
+          "start": 32.748,
+          "end": 33.328
+        }
+      ]
+    },
+    {
+      "id": "caption-group-34",
+      "frame": 7,
+      "start": 33.987,
+      "end": 34.517,
+      "text": "Меньше чем",
+      "words": [
+        {
+          "id": "caption-word-34-0",
+          "text": "Меньше",
+          "start": 33.987,
+          "end": 34.327
+        },
+        {
+          "id": "caption-word-34-1",
+          "text": "чем",
+          "start": 34.327,
+          "end": 34.477
+        }
+      ]
+    },
+    {
+      "id": "caption-group-35",
+      "frame": 7,
+      "start": 34.517,
+      "end": 35.117,
+      "text": "через сутки",
+      "words": [
+        {
+          "id": "caption-word-35-0",
+          "text": "через",
+          "start": 34.517,
+          "end": 34.787
+        },
+        {
+          "id": "caption-word-35-1",
+          "text": "сутки",
+          "start": 34.807,
+          "end": 35.117
+        }
+      ]
+    },
+    {
+      "id": "caption-group-36",
+      "frame": 7,
+      "start": 35.117,
+      "end": 36.062,
+      "text": "CZ отступил.",
+      "words": [
+        {
+          "id": "caption-word-36-0",
+          "text": "CZ",
+          "start": 35.117,
+          "end": 35.289
+        },
+        {
+          "id": "caption-word-36-1",
+          "text": "отступил.",
+          "start": 35.289,
+          "end": 36.062
+        }
+      ]
+    },
+    {
+      "id": "caption-group-37",
+      "frame": 7,
+      "start": 36.062,
+      "end": 37.127,
+      "text": "Отката не будет.",
+      "words": [
+        {
+          "id": "caption-word-37-0",
+          "text": "Отката",
+          "start": 36.062,
+          "end": 36.577
+        },
+        {
+          "id": "caption-word-37-1",
+          "text": "не",
+          "start": 36.577,
+          "end": 36.677
+        },
+        {
+          "id": "caption-word-37-2",
+          "text": "будет.",
+          "start": 36.677,
+          "end": 37.007
+        }
+      ]
+    },
+    {
+      "id": "caption-group-38",
+      "frame": 8,
+      "start": 37.596,
+      "end": 38.166,
+      "text": "Он написал,",
+      "words": [
+        {
+          "id": "caption-word-38-0",
+          "text": "Он",
+          "start": 37.596,
+          "end": 37.676
+        },
+        {
+          "id": "caption-word-38-1",
+          "text": "написал,",
+          "start": 37.676,
+          "end": 38.166
+        }
+      ]
+    },
+    {
+      "id": "caption-group-39",
+      "frame": 8,
+      "start": 38.166,
+      "end": 39.236,
+      "text": "что реестр биткоина",
+      "words": [
+        {
+          "id": "caption-word-39-0",
+          "text": "что",
+          "start": 38.166,
+          "end": 38.326
+        },
+        {
+          "id": "caption-word-39-1",
+          "text": "реестр",
+          "start": 38.326,
+          "end": 38.646
+        },
+        {
+          "id": "caption-word-39-2",
+          "text": "биткоина",
+          "start": 38.646,
+          "end": 39.126
+        }
+      ]
+    },
+    {
+      "id": "caption-group-40",
+      "frame": 8,
+      "start": 39.236,
+      "end": 40.416,
+      "text": "самый неизменяемый реестр",
+      "words": [
+        {
+          "id": "caption-word-40-0",
+          "text": "самый",
+          "start": 39.236,
+          "end": 39.526
+        },
+        {
+          "id": "caption-word-40-1",
+          "text": "неизменяемый",
+          "start": 39.526,
+          "end": 40.046
+        },
+        {
+          "id": "caption-word-40-2",
+          "text": "реестр",
+          "start": 40.046,
+          "end": 40.416
+        }
+      ]
+    },
+    {
+      "id": "caption-group-41",
+      "frame": 8,
+      "start": 40.416,
+      "end": 41.096,
+      "text": "на планете.",
+      "words": [
+        {
+          "id": "caption-word-41-0",
+          "text": "на",
+          "start": 40.416,
+          "end": 40.526
+        },
+        {
+          "id": "caption-word-41-1",
+          "text": "планете.",
+          "start": 40.586,
+          "end": 40.976
+        }
+      ]
+    },
+    {
+      "id": "caption-group-42",
+      "frame": 9,
+      "start": 41.545,
+      "end": 42.725,
+      "text": "Семь тысяч биткоинов",
+      "words": [
+        {
+          "id": "caption-word-42-0",
+          "text": "Семь",
+          "start": 41.545,
+          "end": 41.807
+        },
+        {
+          "id": "caption-word-42-1",
+          "text": "тысяч",
+          "start": 41.807,
+          "end": 42.135
+        },
+        {
+          "id": "caption-word-42-2",
+          "text": "биткоинов",
+          "start": 42.135,
+          "end": 42.725
+        }
+      ]
+    },
+    {
+      "id": "caption-group-43",
+      "frame": 9,
+      "start": 42.725,
+      "end": 43.725,
+      "text": "пропали навсегда.",
+      "words": [
+        {
+          "id": "caption-word-43-0",
+          "text": "пропали",
+          "start": 42.725,
+          "end": 43.055
+        },
+        {
+          "id": "caption-word-43-1",
+          "text": "навсегда.",
+          "start": 43.055,
+          "end": 43.725
+        }
+      ]
+    },
+    {
+      "id": "caption-group-44",
+      "frame": 9,
+      "start": 43.725,
+      "end": 44.145,
+      "text": "Но самое",
+      "words": [
+        {
+          "id": "caption-word-44-0",
+          "text": "Но",
+          "start": 43.725,
+          "end": 43.845
+        },
+        {
+          "id": "caption-word-44-1",
+          "text": "самое",
+          "start": 43.845,
+          "end": 44.145
+        }
+      ]
+    },
+    {
+      "id": "caption-group-45",
+      "frame": 9,
+      "start": 44.145,
+      "end": 45.555,
+      "text": "крупное ограбление Binance было",
+      "words": [
+        {
+          "id": "caption-word-45-0",
+          "text": "крупное",
+          "start": 44.145,
+          "end": 44.565
+        },
+        {
+          "id": "caption-word-45-1",
+          "text": "ограбление",
+          "start": 44.565,
+          "end": 45.165
+        },
+        {
+          "id": "caption-word-45-2",
+          "text": "Binance",
+          "start": 45.165,
+          "end": 45.465
+        },
+        {
+          "id": "caption-word-45-3",
+          "text": "было",
+          "start": 45.465,
+          "end": 45.555
+        }
+      ]
+    },
+    {
+      "id": "caption-group-46",
+      "frame": 9,
+      "start": 45.555,
+      "end": 46.405,
+      "text": "ещё впереди.",
+      "words": [
+        {
+          "id": "caption-word-46-0",
+          "text": "ещё",
+          "start": 45.555,
+          "end": 45.945
+        },
+        {
+          "id": "caption-word-46-1",
+          "text": "впереди.",
+          "start": 45.945,
+          "end": 46.405
+        }
+      ]
+    },
+    {
+      "id": "caption-group-47",
+      "frame": 9,
+      "start": 46.405,
+      "end": 47.605,
+      "text": "Часть пятая.",
+      "words": [
+        {
+          "id": "caption-word-47-0",
+          "text": "Часть",
+          "start": 46.405,
+          "end": 46.875
+        },
+        {
+          "id": "caption-word-47-1",
+          "text": "пятая.",
+          "start": 46.935,
+          "end": 47.485
+        }
+      ]
+    }
+  ]
+}

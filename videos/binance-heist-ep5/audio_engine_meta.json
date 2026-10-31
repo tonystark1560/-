@@ -1,0 +1,727 @@
+{
+  "tts_provider": "kokoro",
+  "voice_id": "am_onyx",
+  "bgm": null,
+  "bgm_pending": false,
+  "bgm_provider": null,
+  "bgm_pid": null,
+  "bgm_log": null,
+  "bgm_mode": null,
+  "bgm_target_duration_s": null,
+  "bgm_seed_duration_s": null,
+  "bgm_loop_count": null,
+  "voices": [
+    {
+      "id": "01",
+      "path": "assets/voice/01.wav",
+      "duration_s": 5.525,
+      "words": [
+        {
+          "id": "w0",
+          "text": "October",
+          "start": 0.04,
+          "end": 0.57
+        },
+        {
+          "id": "w1",
+          "text": "6th,",
+          "start": 0.57,
+          "end": 1.13
+        },
+        {
+          "id": "w2",
+          "text": "2022,",
+          "start": 1.13,
+          "end": 2.26
+        },
+        {
+          "id": "w3",
+          "text": "a",
+          "start": 2.26,
+          "end": 2.33
+        },
+        {
+          "id": "w4",
+          "text": "new",
+          "start": 2.33,
+          "end": 2.54
+        },
+        {
+          "id": "w5",
+          "text": "thief,",
+          "start": 2.54,
+          "end": 2.98
+        },
+        {
+          "id": "w6",
+          "text": "and",
+          "start": 2.98,
+          "end": 3.08
+        },
+        {
+          "id": "w7",
+          "text": "this",
+          "start": 3.08,
+          "end": 3.18
+        },
+        {
+          "id": "w8",
+          "text": "one",
+          "start": 3.24,
+          "end": 3.32
+        },
+        {
+          "id": "w9",
+          "text": "doesn't",
+          "start": 3.32,
+          "end": 3.65
+        },
+        {
+          "id": "w10",
+          "text": "steal",
+          "start": 3.74,
+          "end": 3.99
+        },
+        {
+          "id": "w11",
+          "text": "money,",
+          "start": 3.99,
+          "end": 4.4
+        },
+        {
+          "id": "w12",
+          "text": "he",
+          "start": 4.4,
+          "end": 4.45
+        },
+        {
+          "id": "w13",
+          "text": "prints",
+          "start": 4.51,
+          "end": 4.81
+        },
+        {
+          "id": "w14",
+          "text": "it.",
+          "start": 4.81,
+          "end": 4.92
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "path": "assets/voice/02.wav",
+      "duration_s": 6.336,
+      "words": [
+        {
+          "id": "w0",
+          "text": "Binance",
+          "start": 0.04,
+          "end": 0.56
+        },
+        {
+          "id": "w1",
+          "text": "has",
+          "start": 0.57,
+          "end": 0.81
+        },
+        {
+          "id": "w2",
+          "text": "its",
+          "start": 0.81,
+          "end": 1.05
+        },
+        {
+          "id": "w3",
+          "text": "own",
+          "start": 1.05,
+          "end": 1.21
+        },
+        {
+          "id": "w4",
+          "text": "blockchain,",
+          "start": 1.33,
+          "end": 2.27
+        },
+        {
+          "id": "w5",
+          "text": "BNB",
+          "start": 2.27,
+          "end": 2.51
+        },
+        {
+          "id": "w6",
+          "text": "chain,",
+          "start": 2.51,
+          "end": 2.98
+        },
+        {
+          "id": "w7",
+          "text": "and",
+          "start": 2.98,
+          "end": 3.02
+        },
+        {
+          "id": "w8",
+          "text": "a",
+          "start": 3.02,
+          "end": 3.08
+        },
+        {
+          "id": "w9",
+          "text": "bridge",
+          "start": 3.08,
+          "end": 3.39
+        },
+        {
+          "id": "w10",
+          "text": "that",
+          "start": 3.53,
+          "end": 3.67
+        },
+        {
+          "id": "w11",
+          "text": "moves",
+          "start": 3.68,
+          "end": 4.02
+        },
+        {
+          "id": "w12",
+          "text": "coins",
+          "start": 4.02,
+          "end": 4.35
+        },
+        {
+          "id": "w13",
+          "text": "between",
+          "start": 4.36,
+          "end": 4.72
+        },
+        {
+          "id": "w14",
+          "text": "two",
+          "start": 4.72,
+          "end": 4.88
+        },
+        {
+          "id": "w15",
+          "text": "of",
+          "start": 4.88,
+          "end": 5.01
+        },
+        {
+          "id": "w16",
+          "text": "its",
+          "start": 5.01,
+          "end": 5.19
+        },
+        {
+          "id": "w17",
+          "text": "chains.",
+          "start": 5.3,
+          "end": 5.8
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "path": "assets/voice/03.wav",
+      "duration_s": 6.165,
+      "words": [
+        {
+          "id": "w0",
+          "text": "The",
+          "start": 0.05,
+          "end": 0.21
+        },
+        {
+          "id": "w1",
+          "text": "bridge",
+          "start": 0.21,
+          "end": 0.63
+        },
+        {
+          "id": "w2",
+          "text": "works",
+          "start": 0.63,
+          "end": 0.98
+        },
+        {
+          "id": "w3",
+          "text": "like",
+          "start": 0.98,
+          "end": 1.25
+        },
+        {
+          "id": "w4",
+          "text": "a",
+          "start": 1.28,
+          "end": 1.33
+        },
+        {
+          "id": "w5",
+          "text": "machine,",
+          "start": 1.33,
+          "end": 1.86
+        },
+        {
+          "id": "w6",
+          "text": "show",
+          "start": 1.94,
+          "end": 2.05
+        },
+        {
+          "id": "w7",
+          "text": "it",
+          "start": 2.05,
+          "end": 2.16
+        },
+        {
+          "id": "w8",
+          "text": "a",
+          "start": 2.16,
+          "end": 2.19
+        },
+        {
+          "id": "w9",
+          "text": "proof",
+          "start": 2.29,
+          "end": 2.4
+        },
+        {
+          "id": "w10",
+          "text": "that",
+          "start": 2.51,
+          "end": 2.74
+        },
+        {
+          "id": "w11",
+          "text": "coins",
+          "start": 2.74,
+          "end": 2.97
+        },
+        {
+          "id": "w12",
+          "text": "were",
+          "start": 3.05,
+          "end": 3.32
+        },
+        {
+          "id": "w13",
+          "text": "sent",
+          "start": 3.32,
+          "end": 3.41
+        },
+        {
+          "id": "w14",
+          "text": "and",
+          "start": 3.64,
+          "end": 3.76
+        },
+        {
+          "id": "w15",
+          "text": "it",
+          "start": 3.76,
+          "end": 3.8
+        },
+        {
+          "id": "w16",
+          "text": "releases",
+          "start": 3.8,
+          "end": 4.22
+        },
+        {
+          "id": "w17",
+          "text": "coins",
+          "start": 4.27,
+          "end": 4.59
+        },
+        {
+          "id": "w18",
+          "text": "on",
+          "start": 4.59,
+          "end": 4.61
+        },
+        {
+          "id": "w19",
+          "text": "the",
+          "start": 4.7,
+          "end": 4.87
+        },
+        {
+          "id": "w20",
+          "text": "other",
+          "start": 4.96,
+          "end": 5.32
+        },
+        {
+          "id": "w21",
+          "text": "side.",
+          "start": 5.32,
+          "end": 5.64
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "path": "assets/voice/04.wav",
+      "duration_s": 3.648,
+      "words": [
+        {
+          "id": "w0",
+          "text": "The",
+          "start": 0.07,
+          "end": 0.18
+        },
+        {
+          "id": "w1",
+          "text": "hacker",
+          "start": 0.18,
+          "end": 0.55
+        },
+        {
+          "id": "w2",
+          "text": "finds",
+          "start": 0.55,
+          "end": 0.76
+        },
+        {
+          "id": "w3",
+          "text": "a",
+          "start": 0.89,
+          "end": 0.92
+        },
+        {
+          "id": "w4",
+          "text": "flaw",
+          "start": 0.92,
+          "end": 1.18
+        },
+        {
+          "id": "w5",
+          "text": "in",
+          "start": 1.18,
+          "end": 1.29
+        },
+        {
+          "id": "w6",
+          "text": "how",
+          "start": 1.29,
+          "end": 1.46
+        },
+        {
+          "id": "w7",
+          "text": "the",
+          "start": 1.46,
+          "end": 1.6
+        },
+        {
+          "id": "w8",
+          "text": "bridge",
+          "start": 1.64,
+          "end": 1.94
+        },
+        {
+          "id": "w9",
+          "text": "checks",
+          "start": 2.07,
+          "end": 2.32
+        },
+        {
+          "id": "w10",
+          "text": "those",
+          "start": 2.4,
+          "end": 2.67
+        },
+        {
+          "id": "w11",
+          "text": "proofs.",
+          "start": 2.71,
+          "end": 3.23
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "path": "assets/voice/05.wav",
+      "duration_s": 5.184,
+      "words": [
+        {
+          "id": "w0",
+          "text": "He",
+          "start": 0.08,
+          "end": 0.12
+        },
+        {
+          "id": "w1",
+          "text": "forges",
+          "start": 0.21,
+          "end": 0.53
+        },
+        {
+          "id": "w2",
+          "text": "a",
+          "start": 0.53,
+          "end": 0.58
+        },
+        {
+          "id": "w3",
+          "text": "proof",
+          "start": 0.68,
+          "end": 0.87
+        },
+        {
+          "id": "w4",
+          "text": "the",
+          "start": 1.03,
+          "end": 1.09
+        },
+        {
+          "id": "w5",
+          "text": "bridge",
+          "start": 1.15,
+          "end": 1.52
+        },
+        {
+          "id": "w6",
+          "text": "believes",
+          "start": 1.52,
+          "end": 2.01
+        },
+        {
+          "id": "w7",
+          "text": "it,",
+          "start": 2.24,
+          "end": 2.37
+        },
+        {
+          "id": "w8",
+          "text": "and",
+          "start": 2.37,
+          "end": 2.54
+        },
+        {
+          "id": "w9",
+          "text": "mints",
+          "start": 2.59,
+          "end": 2.88
+        },
+        {
+          "id": "w10",
+          "text": "one",
+          "start": 2.88,
+          "end": 3.07
+        },
+        {
+          "id": "w11",
+          "text": "million",
+          "start": 3.07,
+          "end": 3.53
+        },
+        {
+          "id": "w12",
+          "text": "BNB",
+          "start": 3.53,
+          "end": 3.72
+        },
+        {
+          "id": "w13",
+          "text": "out",
+          "start": 3.72,
+          "end": 3.9
+        },
+        {
+          "id": "w14",
+          "text": "of",
+          "start": 3.92,
+          "end": 4.04
+        },
+        {
+          "id": "w15",
+          "text": "nothing.",
+          "start": 4.04,
+          "end": 4.59
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "path": "assets/voice/06.wav",
+      "duration_s": 2.581,
+      "words": [
+        {
+          "id": "w0",
+          "text": "Then",
+          "start": 0.1,
+          "end": 0.26
+        },
+        {
+          "id": "w1",
+          "text": "he",
+          "start": 0.26,
+          "end": 0.39
+        },
+        {
+          "id": "w2",
+          "text": "does",
+          "start": 0.39,
+          "end": 0.65
+        },
+        {
+          "id": "w3",
+          "text": "it",
+          "start": 0.65,
+          "end": 0.7
+        },
+        {
+          "id": "w4",
+          "text": "again",
+          "start": 0.79,
+          "end": 1.1
+        },
+        {
+          "id": "w5",
+          "text": "another",
+          "start": 1.21,
+          "end": 1.57
+        },
+        {
+          "id": "w6",
+          "text": "million.",
+          "start": 1.57,
+          "end": 2
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "path": "assets/voice/07.wav",
+      "duration_s": 4.949,
+      "words": [
+        {
+          "id": "w0",
+          "text": "2,000,000",
+          "start": 0.09,
+          "end": 1.39
+        },
+        {
+          "id": "w1",
+          "text": "BNB",
+          "start": 1.46,
+          "end": 1.59
+        },
+        {
+          "id": "w2",
+          "text": "on",
+          "start": 1.59,
+          "end": 1.62
+        },
+        {
+          "id": "w3",
+          "text": "paper,",
+          "start": 1.73,
+          "end": 2.14
+        },
+        {
+          "id": "w4",
+          "text": "more",
+          "start": 2.14,
+          "end": 2.35
+        },
+        {
+          "id": "w5",
+          "text": "than",
+          "start": 2.35,
+          "end": 2.56
+        },
+        {
+          "id": "w6",
+          "text": "$560,000,000.",
+          "start": 2.56,
+          "end": 4.39
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "path": "assets/voice/08.wav",
+      "duration_s": 3.947,
+      "words": [
+        {
+          "id": "w0",
+          "text": "Now",
+          "start": 0.06,
+          "end": 0.21
+        },
+        {
+          "id": "w1",
+          "text": "he",
+          "start": 0.21,
+          "end": 0.35
+        },
+        {
+          "id": "w2",
+          "text": "has",
+          "start": 0.35,
+          "end": 0.54
+        },
+        {
+          "id": "w3",
+          "text": "to",
+          "start": 0.66,
+          "end": 0.7
+        },
+        {
+          "id": "w4",
+          "text": "get",
+          "start": 0.7,
+          "end": 0.91
+        },
+        {
+          "id": "w5",
+          "text": "it",
+          "start": 0.91,
+          "end": 1.05
+        },
+        {
+          "id": "w6",
+          "text": "out",
+          "start": 1.05,
+          "end": 1.21
+        },
+        {
+          "id": "w7",
+          "text": "before",
+          "start": 1.33,
+          "end": 1.68
+        },
+        {
+          "id": "w8",
+          "text": "anyone",
+          "start": 1.68,
+          "end": 2.1
+        },
+        {
+          "id": "w9",
+          "text": "notices",
+          "start": 2.1,
+          "end": 2.4
+        },
+        {
+          "id": "w10",
+          "text": "part",
+          "start": 2.66,
+          "end": 3.09
+        },
+        {
+          "id": "w11",
+          "text": "6.",
+          "start": 3.09,
+          "end": 3.44
+        }
+      ]
+    }
+  ],
+  "sfx": [],
+  "total_duration_s": 38.335
+}

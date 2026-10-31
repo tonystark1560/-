@@ -1,0 +1,40 @@
+<template>
+<style>@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Regular.otf') format('opentype');font-weight:400;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Medium.otf') format('opentype');font-weight:500;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-SemiBold.otf') format('opentype');font-weight:600;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Bold.otf') format('opentype');font-weight:700;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-ExtraBold.otf') format('opentype');font-weight:800;font-style:normal;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter-Black.otf') format('opentype');font-weight:900;font-style:normal;}
+#root{position:absolute;inset:0;width:1080px;height:1920px;overflow:hidden;font-family:'Inter',sans-serif;}
+
+.hud-loc{position:absolute;left:0;right:0;top:70px;text-align:center;font-weight:800;font-size:30px;letter-spacing:.22em;color:#8A93A3;text-transform:uppercase;}
+.hud-row{position:absolute;left:0;right:0;top:122px;display:flex;justify-content:center;gap:16px;}
+.ctr{display:flex;align-items:center;gap:10px;padding:10px 18px;border-radius:10px;background:rgba(10,14,22,.78);border:2px solid rgba(255,255,255,.12);font-weight:900;font-size:28px;letter-spacing:.08em;color:#F2F4F8;}
+.ctr b{color:#FFC83D;}
+.tag{position:absolute;left:50%;padding:12px 26px;border-radius:10px;font-weight:900;font-size:36px;letter-spacing:.06em;text-transform:uppercase;color:#fff;background:#FF3B30;white-space:nowrap;box-shadow:0 8px 0 rgba(0,0,0,.35);}
+.tag.gold{background:#FFC83D;color:#111;} .tag.white{background:#fff;color:#111;} .tag.green{background:#3CF2A0;color:#062;}
+.card{position:absolute;left:70px;right:70px;padding:50px 40px;border-radius:24px;background:rgba(8,11,18,.92);border:3px solid rgba(255,255,255,.14);text-align:center;font-weight:900;font-size:72px;line-height:1.05;color:#fff;text-transform:uppercase;}
+.card em{font-style:normal;color:#FFC83D;} .card i{font-style:normal;color:#FF3B30;}
+.bub{position:absolute;padding:14px 26px;border-radius:26px;background:#fff;font-weight:900;font-size:40px;color:#111;text-transform:uppercase;white-space:nowrap;box-shadow:0 8px 0 rgba(0,0,0,.35);}
+.dark{position:absolute;border-radius:50%;background:radial-gradient(circle,rgba(4,6,11,0) 42%,rgba(4,6,11,.55) 62%,rgba(4,6,11,.93) 74%);box-shadow:0 0 0 3000px rgba(4,6,11,.93);}
+.pool{position:absolute;border-radius:50%;}
+.dim{position:absolute;filter:blur(1.5px);transform-origin:50% 100%;}
+</style>
+<div id="root" data-composition-id="03-scene-3" data-width="1080" data-height="1920" data-duration="5.195">
+<div class="clip" id="f03-bg" data-start="0" data-duration="5.195" data-track-index="0" style="position:absolute;inset:0;overflow:hidden"></div>
+<div class="clip" id="f03-stage" data-start="0" data-duration="5.195" data-track-index="1" style="position:absolute;inset:0"><div class="cam" id="f03-cam" style="position:absolute;inset:0;transform-origin:50% 18%"><div style="position:absolute;inset:0"><svg width="1080" height="1920"><rect width="1080" height="1920" fill="#070910"/><rect x="0" y="0" width="6" height="1240" fill="#0B0E18"/><rect x="120" y="0" width="6" height="1240" fill="#0B0E18"/><rect x="240" y="0" width="6" height="1240" fill="#0B0E18"/><rect x="360" y="0" width="6" height="1240" fill="#0B0E18"/><rect x="480" y="0" width="6" height="1240" fill="#0B0E18"/><rect x="600" y="0" width="6" height="1240" fill="#0B0E18"/><rect x="720" y="0" width="6" height="1240" fill="#0B0E18"/><rect x="840" y="0" width="6" height="1240" fill="#0B0E18"/><rect x="960" y="0" width="6" height="1240" fill="#0B0E18"/><rect x="0" y="1240" width="1080" height="680" fill="#0D101A"/><rect x="0" y="1240" width="1080" height="18" fill="#161B2A"/></svg></div><div class="pool" id="f03-pool" style="left:-142px;top:78px;width:1364px;height:1364px;background:radial-gradient(circle,rgba(60,242,160,.30),rgba(0,0,0,0) 70%)"></div><div id="f03-tm" style="position:absolute;left:110px;top:520px;width:860px;border-radius:18px;background:#03070C;border:4px solid #1B3B2E;padding:30px 34px;box-sizing:border-box;font-family:monospace;font-weight:700;font-size:34px;color:#3CF2A0;line-height:1.5"><div class="f03-tm-ln" id="f03-tm-0">> malware.exe running</div><div class="f03-tm-ln" id="f03-tm-1">> copying: email</div><div class="f03-tm-ln" id="f03-tm-2">> copying: password</div><div class="f03-tm-ln" id="f03-tm-3">> copying: 2FA code</div><div class="f03-tm-ln" id="f03-tm-4">> sending…</div></div><div class="dark" id="f03-dark" style="left:-80px;top:140px;width:1240px;height:1240px"></div></div><div class="hud-loc" id="f03-loc">Step 2 · Viruses</div><div class="hud-row"><div class="ctr" id="f03-c-STOLEN">STOLEN <b id="f03-cv-STOLEN">7,074 BTC</b></div></div><div class="tag " id="f03-tag0" style="top:230px">Virus</div></div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+<script>
+(function(){
+const tl = gsap.timeline({ paused: true });
+
+tl.fromTo("#f03-tag0",{scale:.4,opacity:0,xPercent:-50,x:0},{scale:1,opacity:1,xPercent:-50,duration:.35,ease:"back.out(2.5)"},0.06);
+tl.fromTo("#f03-cam",{scale:1.0},{scale:1.050,duration:4.70,ease:"none"},0);
+tl.fromTo("#f03-pool",{opacity:.85},{opacity:1,duration:4.70,ease:"none"},0);
+tl.fromTo(".f03-tm-ln",{opacity:0,x:-20},{opacity:1,x:0,duration:.2,stagger:.35},1.31);
+window.__timelines = window.__timelines || {};
+window.__timelines["03-scene-3"] = tl;
+})();
+</script>
+</template>

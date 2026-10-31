@@ -9,7 +9,7 @@ music: none
 ## Frame 1 — Scene 1
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 4.482s
 - transition_in: cut
 - status: animated
 - voiceover: "The hackers didn't break the vault. They borrowed the keys. From the users."
@@ -18,7 +18,7 @@ music: none
 ## Frame 2 — Scene 2
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 5.058s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Phishing sites. Fake login pages that looked exactly like the real one."
@@ -27,7 +27,7 @@ music: none
 ## Frame 3 — Scene 3
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 4.695s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Viruses on laptops, quietly copying everything people typed."
@@ -36,7 +36,7 @@ music: none
 ## Frame 4 — Scene 4
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 7.639s
 - transition_in: crossfade
 - status: animated
 - voiceover: "One by one, they collected accounts. API keys, the robot keys that let programs trade for you. And two-factor codes."
@@ -45,7 +45,7 @@ music: none
 ## Frame 5 — Scene 5
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 4.034s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Then they did the hardest thing in crime. Nothing. They waited."
@@ -54,7 +54,7 @@ music: none
 ## Frame 6 — Scene 6
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 5.741s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Binance later said the hackers had the patience to wait, and struck at the most opportune time."
@@ -63,7 +63,7 @@ music: none
 ## Frame 7 — Scene 7
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 5.229s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Many accounts, each looking independent. Each acting like an ordinary user."
@@ -72,7 +72,7 @@ music: none
 ## Frame 8 — Scene 8
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 5.421s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Then, all at once, they moved. One transaction, built to pass every security check."
@@ -81,7 +81,7 @@ music: none
 ## Frame 9 — Scene 9
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 5.143s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Seven thousand bitcoin walked out the front door. Part 3: who pays for it?"

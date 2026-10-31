@@ -9,7 +9,7 @@ music: none
 ## Frame 1 — Scene 1
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 5.485s
 - transition_in: cut
 - status: animated
 - voiceover: "Хакер начинает выводить BNB в другие блокчейны. Эфириум. Полигон. Аваланч."
@@ -18,7 +18,7 @@ music: none
 ## Frame 2 — Scene 2
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 4.888s
 - transition_in: crossfade
 - status: animated
 - voiceover: "И тогда Binance делает почти немыслимое. Просит валидаторов остановить весь блокчейн."
@@ -27,7 +27,7 @@ music: none
 ## Frame 3 — Scene 3
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 4.881s
 - transition_in: crossfade
 - status: animated
 - voiceover: "BNB Chain встаёт. Ни блоков. Ни транзакций. Всё заморожено."
@@ -36,7 +36,7 @@ music: none
 ## Frame 4 — Scene 4
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 6.292s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Большая часть добычи, около четырёхсот тридцати миллионов долларов, застряла в кошельке хакера. Её не сдвинуть."
@@ -45,7 +45,7 @@ music: none
 ## Frame 5 — Scene 5
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 3.271s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Но около ста миллионов уже успели уйти в другие сети."
@@ -54,7 +54,7 @@ music: none
 ## Frame 6 — Scene 6
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 3.947s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Примерно через неделю хардфорк закрывает дыру. Мост починен."
@@ -63,7 +63,7 @@ music: none
 ## Frame 7 — Scene 7
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 4.966s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Критики спрашивают: если одна компания может остановить блокчейн, насколько он децентрализован?"
@@ -72,7 +72,7 @@ music: none
 ## Frame 8 — Scene 8
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 5.715s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Два ограбления. Одно чуть не переписало историю. Другое напечатало деньги из воздуха."
@@ -81,7 +81,7 @@ music: none
 ## Frame 9 — Scene 9
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 7.830s
 - transition_in: crossfade
 - status: animated
 - voiceover: "В девятнадцатом откат отвергли. В двадцать втором цепочку остановили. А ты бы что выбрал? Подписывайся на следующее ограбление."

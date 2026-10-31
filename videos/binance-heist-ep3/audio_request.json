@@ -1,0 +1,42 @@
+{
+  "provider": "auto",
+  "speed": "1.05",
+  "lines": [
+    {
+      "id": "01",
+      "text": "When an exchange gets robbed, the users usually lose. Not this time."
+    },
+    {
+      "id": "02",
+      "text": "In 2018, Binance had created a fund called SAFU. The Secure Asset Fund for Users."
+    },
+    {
+      "id": "03",
+      "text": "Ten percent of all trading fees flowed into it. An emergency vault built for exactly this day."
+    },
+    {
+      "id": "04",
+      "text": "The CEO, Changpeng Zhao, known as CZ, announces it: SAFU covers the entire loss. No user loses a coin."
+    },
+    {
+      "id": "05",
+      "text": "Withdrawals stay frozen for about a week while the system is locked down."
+    },
+    {
+      "id": "06",
+      "text": "Every API key gets restricted to trading only. No more withdrawals by robot."
+    },
+    {
+      "id": "07",
+      "text": "Crisis over? Not quite. Because CZ had another idea. A dangerous one."
+    },
+    {
+      "id": "08",
+      "text": "What if they could make the robbery never happen at all? Part 4."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "voice": "am_onyx"
+}

@@ -1,0 +1,198 @@
+{
+  "version": 1,
+  "historyId": "f83da504-48d5-4898-84c2-73445ed18bf2",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "AGENTS.md": {
+      "hash": "1b36171117cb7c18f4100a0db6a3782ff2e096115995733200445cc2e80a4060",
+      "content": "/root/.cache/hyperframes/history/f83da504-48d5-4898-84c2-73445ed18bf2/blobs/1b/1b36171117cb7c18f4100a0db6a3782ff2e096115995733200445cc2e80a4060"
+    },
+    "BRIEF.md": {
+      "hash": "cac984da499f902b0d7b26f47aed94930bf6102422e7a7b9c5bf772dff540339",
+      "content": "/root/.cache/hyperframes/history/f83da504-48d5-4898-84c2-73445ed18bf2/blobs/ca/cac984da499f902b0d7b26f47aed94930bf6102422e7a7b9c5bf772dff540339"
+    },
+    "CLAUDE.md": {
+      "hash": "1b36171117cb7c18f4100a0db6a3782ff2e096115995733200445cc2e80a4060",
+      "content": "/root/.cache/hyperframes/history/f83da504-48d5-4898-84c2-73445ed18bf2/blobs/1b/1b36171117cb7c18f4100a0db6a3782ff2e096115995733200445cc2e80a4060"
+    },
+    "SCRIPT.md": {
+      "hash": "c71bffed678b2565c7be4177f0b8364f0b95255865c79954b88bdcd13381fec5",
+      "content": "/root/.cache/hyperframes/history/f83da504-48d5-4898-84c2-73445ed18bf2/blobs/c7/c71bffed678b2565c7be4177f0b8364f0b95255865c79954b88bdcd13381fec5"
+    },
+    "STORYBOARD.md": {
+      "hash": "818003394e29e7c09aad694a64653cc9808a37b82544969e440c93e80ffa06ab",
+      "content": "/root/.cache/hyperframes/history/f83da504-48d5-4898-84c2-73445ed18bf2/blobs/81/818003394e29e7c09aad694a64653cc9808a37b82544969e440c93e80ffa06ab"
+    },
+    "assets/fonts/Inter-Black.otf": {
+      "hash": "1dc81aa64047bfb4246ece435105ec85944f575744d6d850ab7a287fe6b640e7",
+      "content": "/root/.cache/hyperframes/history/f83da504-48d5-4898-84c2-73445ed18bf2/blobs/1d/1dc81aa64047bfb4246ece435105ec85944f575744d6d850ab7a287fe6b640e7"
+    },
+    "assets/fonts/Inter-Bold.otf": {
+      "hash": "00fd6f4691ee8884a33b46bf45851b341927c37c30064f558e1befb242971c49",
+      "content": "/root/.cache/hyperframes/history/f83da504-48d5-4898-84c2-73445ed18bf2/blobs/00/00fd6f4691ee8884a33b46bf45851b341927c37c30064f558e1befb242971c49"
+    },
+    "assets/fonts/Inter-ExtraBold.otf": {
+      "hash": "2012ceaf1470372c415f95c00495a1ad1ebdcd1cd6a6225808f011d459a9b12a",
+      "content": "/root/.cache/hyperframes/history/f83da504-48d5-4898-84c2-73445ed18bf2/blobs/20/2012ceaf1470372c415f95c00495a1ad1ebdcd1cd6a6225808f011d459a9b12a"
+    },
+    "assets/fonts/Inter-Medium.otf": {
+      "hash": "1e65171fccd6f445b7742728454620ec2867356c849af78e71bf2c4f0e3d97ba",
+      "content": "/root/.cache/hyperframes/history/f83da504-48d5-4898-84c2-73445ed18bf2/blobs/1e/1e65171fccd6f445b7742728454620ec2867356c849af78e71bf2c4f0e3d97ba"
+    },
+    "assets/fonts/Inter-Regular.otf": {
+      "hash": "be6d709dcb730ddaf050cbdae6fe89bd56d5d14dc66885639bbf6f06bd03521b",
+      "content": "/root/.cache/hyperframes/history/f83da504-48d5-4898-84c2-73445ed18bf2/blobs/be/be6d709dcb730ddaf050cbdae6fe89bd56d5d14dc66885639bbf6f06bd03521b"
+    },
+    "assets/fonts/Inter-SemiBold.otf": {
+      "hash": "bd68706b7bf8b3c580ae57685a2116bb1704b3a9998309ccfec7cd486f8a593e",
+      "content": "/root/.cache/hyperframes/history/f83da504-48d5-4898-84c2-73445ed18bf2/blobs/bd/bd68706b7bf8b3c580ae57685a2116bb1704b3a9998309ccfec7cd486f8a593e"
+    },
+    "assets/voice/01.wav": {
+      "hash": "8646df1e9ac2e00145dd4af3dda9bb979d1aaf6e3237ae099af14d11535b0de2",
+      "content": "/root/.cache/hyperframes/history/f83da504-48d5-4898-84c2-73445ed18bf2/blobs/86/8646df1e9ac2e00145dd4af3dda9bb979d1aaf6e3237ae099af14d11535b0de2"
+    },
+    "assets/voice/02.wav": {
+      "hash": "ab5cded17c5f0800424b7182ca0124e0a950e4562c731796a27eaab44130317b",
+      "content": "/root/.cache/hyperframes/history/f83da504-48d5-4898-84c2-73445ed18bf2/blobs/ab/ab5cded17c5f0800424b7182ca0124e0a950e4562c731796a27eaab44130317b"
+    },
+    "assets/voice/03.wav": {
+      "hash": "f7931f03387dcc3ab479c10a917418cb2cf0d25a8bf35323348a31473d9f272e",
+      "content": "/root/.cache/hyperframes/history/f83da504-48d5-4898-84c2-73445ed18bf2/blobs/f7/f7931f03387dcc3ab479c10a917418cb2cf0d25a8bf35323348a31473d9f272e"
+    },
+    "assets/voice/04.wav": {
+      "hash": "a409b322ee34eec7222327f52f39c8683821b9de707fae111969fa7a1d42180f",
+      "content": "/root/.cache/hyperframes/history/f83da504-48d5-4898-84c2-73445ed18bf2/blobs/a4/a409b322ee34eec7222327f52f39c8683821b9de707fae111969fa7a1d42180f"
+    },
+    "assets/voice/05.wav": {
+      "hash": "2db0a0a755306110d5a3256cab9d51df6bea63a75e689087290713885fa04d40",
+      "content": "/root/.cache/hyperframes/history/f83da504-48d5-4898-84c2-73445ed18bf2/blobs/2d/2db0a0a755306110d5a3256cab9d51df6bea63a75e689087290713885fa04d40"
+    },
+    "assets/voice/06.wav": {
+      "hash": "f1db7d12612a6be714cf85928c3af7319164086d48518bc61b1978f8c4914553",
+      "content": "/root/.cache/hyperframes/history/f83da504-48d5-4898-84c2-73445ed18bf2/blobs/f1/f1db7d12612a6be714cf85928c3af7319164086d48518bc61b1978f8c4914553"
+    },
+    "assets/voice/07.wav": {
+      "hash": "ab4d267f7bad666baa8491614199ddb29824f62cae31244870d8a2f6a7d71b56",
+      "content": "/root/.cache/hyperframes/history/f83da504-48d5-4898-84c2-73445ed18bf2/blobs/ab/ab4d267f7bad666baa8491614199ddb29824f62cae31244870d8a2f6a7d71b56"
+    },
+    "assets/voice/08.wav": {
+      "hash": "f9065ed9624fc8982a7b966c2cc5f38c749e565d778acc6e71d9f4fbb7c83587",
+      "content": "/root/.cache/hyperframes/history/f83da504-48d5-4898-84c2-73445ed18bf2/blobs/f9/f9065ed9624fc8982a7b966c2cc5f38c749e565d778acc6e71d9f4fbb7c83587"
+    },
+    "audio_meta.json": {
+      "hash": "9367351409e57c5c8eb0d21798cb4111b08b305d834573e017f38ef8337af0bb",
+      "content": "/root/.cache/hyperframes/history/f83da504-48d5-4898-84c2-73445ed18bf2/blobs/93/9367351409e57c5c8eb0d21798cb4111b08b305d834573e017f38ef8337af0bb"
+    },
+    "build.log": {
+      "hash": "ba0efe3059524d9afe7115d4326a04eb3ce34cc101850564fa725183dd5f6db2",
+      "content": "/root/.cache/hyperframes/history/f83da504-48d5-4898-84c2-73445ed18bf2/blobs/ba/ba0efe3059524d9afe7115d4326a04eb3ce34cc101850564fa725183dd5f6db2"
+    },
+    "caption-overrides.json": {
+      "hash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "content": "/root/.cache/hyperframes/history/f83da504-48d5-4898-84c2-73445ed18bf2/blobs/37/37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    "caption_groups.json": {
+      "hash": "4a4f634e26fcb2b68b2333eb2f25d5acc666ffcf4614799a92e6a190d6756550",
+      "content": "/root/.cache/hyperframes/history/f83da504-48d5-4898-84c2-73445ed18bf2/blobs/4a/4a4f634e26fcb2b68b2333eb2f25d5acc666ffcf4614799a92e6a190d6756550"
+    },
+    "capture/extracted/tokens.json": {
+      "hash": "fd6fad6fe747529e34117d4e064f8e51445cc015b0ad15d4f23111a5742dfd0e",
+      "content": "/root/.cache/hyperframes/history/f83da504-48d5-4898-84c2-73445ed18bf2/blobs/fd/fd6fad6fe747529e34117d4e064f8e51445cc015b0ad15d4f23111a5742dfd0e"
+    },
+    "capture/extracted/visible-text.txt": {
+      "hash": "a5e3d8f3f569bd1d52fafae2cad35a758e2c26eaea2710a83c7ad017d45403df",
+      "content": "/root/.cache/hyperframes/history/f83da504-48d5-4898-84c2-73445ed18bf2/blobs/a5/a5e3d8f3f569bd1d52fafae2cad35a758e2c26eaea2710a83c7ad017d45403df"
+    },
+    "compositions/captions.html": {
+      "hash": "3b0a859693145258472878008cd49b2b22779b62964ec44f98e2fc672bfcb327",
+      "content": "/root/.cache/hyperframes/history/f83da504-48d5-4898-84c2-73445ed18bf2/blobs/3b/3b0a859693145258472878008cd49b2b22779b62964ec44f98e2fc672bfcb327"
+    },
+    "compositions/frames/01-scene-1.html": {
+      "hash": "a88cabdcfa6fce6ce4239dbebe06e7e905276c2cd62c8cd41850743dd9255e02",
+      "content": "/root/.cache/hyperframes/history/f83da504-48d5-4898-84c2-73445ed18bf2/blobs/a8/a88cabdcfa6fce6ce4239dbebe06e7e905276c2cd62c8cd41850743dd9255e02"
+    },
+    "compositions/frames/02-scene-2.html": {
+      "hash": "76e020385bb7bad49731996c7b42ba4346dd126a4fe1cc8e1f33af22e63ce8c8",
+      "content": "/root/.cache/hyperframes/history/f83da504-48d5-4898-84c2-73445ed18bf2/blobs/76/76e020385bb7bad49731996c7b42ba4346dd126a4fe1cc8e1f33af22e63ce8c8"
+    },
+    "compositions/frames/03-scene-3.html": {
+      "hash": "09dc74f1c046f979798571fa7728f7220a1338b0f998fdf1ac8c3ce9de3b8b3d",
+      "content": "/root/.cache/hyperframes/history/f83da504-48d5-4898-84c2-73445ed18bf2/blobs/09/09dc74f1c046f979798571fa7728f7220a1338b0f998fdf1ac8c3ce9de3b8b3d"
+    },
+    "compositions/frames/04-scene-4.html": {
+      "hash": "d86010f75b3bb4e7ed910ac2982d3c1ead6543cd700fe333c709e1f3d6ef70c1",
+      "content": "/root/.cache/hyperframes/history/f83da504-48d5-4898-84c2-73445ed18bf2/blobs/d8/d86010f75b3bb4e7ed910ac2982d3c1ead6543cd700fe333c709e1f3d6ef70c1"
+    },
+    "compositions/frames/05-scene-5.html": {
+      "hash": "df2bedb740850c1bdbde9825592842d2460bd139dad88bfecbd16aa4e7450b55",
+      "content": "/root/.cache/hyperframes/history/f83da504-48d5-4898-84c2-73445ed18bf2/blobs/df/df2bedb740850c1bdbde9825592842d2460bd139dad88bfecbd16aa4e7450b55"
+    },
+    "compositions/frames/06-scene-6.html": {
+      "hash": "7426098f489398e8a7f72328a219ff215e8032093b3e83369e212c5f0a08e0fd",
+      "content": "/root/.cache/hyperframes/history/f83da504-48d5-4898-84c2-73445ed18bf2/blobs/74/7426098f489398e8a7f72328a219ff215e8032093b3e83369e212c5f0a08e0fd"
+    },
+    "compositions/frames/07-scene-7.html": {
+      "hash": "d815718c8469c1a31abdaf90c5718ec3952b66a6c91e81dad7e4d13c284f47eb",
+      "content": "/root/.cache/hyperframes/history/f83da504-48d5-4898-84c2-73445ed18bf2/blobs/d8/d815718c8469c1a31abdaf90c5718ec3952b66a6c91e81dad7e4d13c284f47eb"
+    },
+    "compositions/frames/08-scene-8.html": {
+      "hash": "d446aef6fcc92a128aa8b4fb83ea87dcc362a870db417c4210e93ba546f86c4f",
+      "content": "/root/.cache/hyperframes/history/f83da504-48d5-4898-84c2-73445ed18bf2/blobs/d4/d446aef6fcc92a128aa8b4fb83ea87dcc362a870db417c4210e93ba546f86c4f"
+    },
+    "frame.md": {
+      "hash": "a9d3667bda0cd029c271111831d870528d4c58ddb89191e9264b73ed82abc711",
+      "content": "/root/.cache/hyperframes/history/f83da504-48d5-4898-84c2-73445ed18bf2/blobs/a9/a9d3667bda0cd029c271111831d870528d4c58ddb89191e9264b73ed82abc711"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "/root/.cache/hyperframes/history/f83da504-48d5-4898-84c2-73445ed18bf2/blobs/93/9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "8d684c1099471c3f6b42706f537bea5c85a268e3978fcfd3770fea15e828e25a",
+      "content": "/root/.cache/hyperframes/history/f83da504-48d5-4898-84c2-73445ed18bf2/blobs/8d/8d684c1099471c3f6b42706f537bea5c85a268e3978fcfd3770fea15e828e25a"
+    },
+    "meta.json": {
+      "hash": "a1abe1bd49dde788c5a26954f7b0daa52e4316f480d02ed053f87c906aae9cdd",
+      "content": "/root/.cache/hyperframes/history/f83da504-48d5-4898-84c2-73445ed18bf2/blobs/a1/a1abe1bd49dde788c5a26954f7b0daa52e4316f480d02ed053f87c906aae9cdd"
+    },
+    "package.json": {
+      "hash": "ef1630e90f816683ef54d389b3c15cd9f4dbe65a40843bad01a5d727f28f61e9",
+      "content": "/root/.cache/hyperframes/history/f83da504-48d5-4898-84c2-73445ed18bf2/blobs/ef/ef1630e90f816683ef54d389b3c15cd9f4dbe65a40843bad01a5d727f28f61e9"
+    },
+    "render.log": {
+      "hash": "5563b850ae0277d3e5d2060bf15149f99301a17102b1a4ce6851c586c86a81b9",
+      "content": "/root/.cache/hyperframes/history/f83da504-48d5-4898-84c2-73445ed18bf2/blobs/55/5563b850ae0277d3e5d2060bf15149f99301a17102b1a4ce6851c586c86a81b9"
+    },
+    "tts_map.json": {
+      "hash": "46e2157eb5c042e266cd775125da4a88308d49ce5d24fd910ea6874b7ce4ed13",
+      "content": "/root/.cache/hyperframes/history/f83da504-48d5-4898-84c2-73445ed18bf2/blobs/46/46e2157eb5c042e266cd775125da4a88308d49ce5d24fd910ea6874b7ce4ed13"
+    },
+    "voice.log": {
+      "hash": "03a356bd52c89a808de5bb5bc21e9595dd03bfc59e37b2446f98f8cf1f946e1d",
+      "content": "/root/.cache/hyperframes/history/f83da504-48d5-4898-84c2-73445ed18bf2/blobs/03/03a356bd52c89a808de5bb5bc21e9595dd03bfc59e37b2446f98f8cf1f946e1d"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "59a142e5-c22f-4ade-93b8-40d1f488cd53",
+      "completedAt": 1793410419453,
+      "output": "/home/user/-/videos/binance-heist-ru-ep5/renders/binance-heist-part-5-ru.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

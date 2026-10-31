@@ -1,0 +1,46 @@
+{
+  "provider": "auto",
+  "speed": "1.05",
+  "lines": [
+    {
+      "id": "01",
+      "text": "The hacker starts moving the BNB out to other blockchains. Ethereum. Polygon. Avalanche."
+    },
+    {
+      "id": "02",
+      "text": "Then Binance does something almost unthinkable. It asks the validators to stop the entire blockchain."
+    },
+    {
+      "id": "03",
+      "text": "BNB Chain halts. No blocks. No transactions. Everything frozen."
+    },
+    {
+      "id": "04",
+      "text": "Most of the loot, around four hundred and thirty million dollars, is trapped in the hacker's wallet. It can't move."
+    },
+    {
+      "id": "05",
+      "text": "But about a hundred million had already escaped to other chains."
+    },
+    {
+      "id": "06",
+      "text": "About a week later, a hard fork patches the hole. The bridge is fixed."
+    },
+    {
+      "id": "07",
+      "text": "Critics ask: if one company can stop a blockchain, how decentralized is it really?"
+    },
+    {
+      "id": "08",
+      "text": "Two heists. One almost rewrote history. One printed money from nothing."
+    },
+    {
+      "id": "09",
+      "text": "In 2019, the rollback was rejected. In 2022, the chain was stopped. Which would you choose? Follow for the next heist."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "voice": "am_onyx"
+}

@@ -1,0 +1,42 @@
+{
+  "provider": "auto",
+  "speed": "1.05",
+  "lines": [
+    {
+      "id": "01",
+      "text": "October 6th, 2022. A new thief. And this one doesn't steal money. He prints it."
+    },
+    {
+      "id": "02",
+      "text": "Binance has its own blockchain, BNB Chain. And a bridge that moves coins between two of its chains."
+    },
+    {
+      "id": "03",
+      "text": "The bridge works like a machine. Show it a proof that coins were sent, and it releases coins on the other side."
+    },
+    {
+      "id": "04",
+      "text": "The hacker finds a flaw in how the bridge checks those proofs."
+    },
+    {
+      "id": "05",
+      "text": "He forges a proof. The bridge believes it. And mints one million BNB. Out of nothing."
+    },
+    {
+      "id": "06",
+      "text": "Then he does it again. Another million."
+    },
+    {
+      "id": "07",
+      "text": "Two million BNB. On paper, more than five hundred and sixty million dollars."
+    },
+    {
+      "id": "08",
+      "text": "Now he has to get it out before anyone notices. Part 6."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "voice": "am_onyx"
+}

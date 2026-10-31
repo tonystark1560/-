@@ -1,0 +1,830 @@
+{
+  "tts_provider": "kokoro",
+  "voice_id": "am_onyx",
+  "bgm": null,
+  "bgm_pending": false,
+  "bgm_provider": null,
+  "bgm_pid": null,
+  "bgm_log": null,
+  "bgm_mode": null,
+  "bgm_target_duration_s": null,
+  "bgm_seed_duration_s": null,
+  "bgm_loop_count": null,
+  "voices": [
+    {
+      "id": "01",
+      "path": "assets/voice/01.wav",
+      "duration_s": 5.696,
+      "words": [
+        {
+          "id": "w0",
+          "text": "The",
+          "start": 0.05,
+          "end": 0.17
+        },
+        {
+          "id": "w1",
+          "text": "hacker",
+          "start": 0.17,
+          "end": 0.51
+        },
+        {
+          "id": "w2",
+          "text": "starts",
+          "start": 0.51,
+          "end": 0.85
+        },
+        {
+          "id": "w3",
+          "text": "moving",
+          "start": 0.85,
+          "end": 1.19
+        },
+        {
+          "id": "w4",
+          "text": "the",
+          "start": 1.19,
+          "end": 1.32
+        },
+        {
+          "id": "w5",
+          "text": "BNB",
+          "start": 1.36,
+          "end": 1.52
+        },
+        {
+          "id": "w6",
+          "text": "out",
+          "start": 1.52,
+          "end": 1.63
+        },
+        {
+          "id": "w7",
+          "text": "to",
+          "start": 1.75,
+          "end": 1.85
+        },
+        {
+          "id": "w8",
+          "text": "other",
+          "start": 1.85,
+          "end": 2.17
+        },
+        {
+          "id": "w9",
+          "text": "blockchains.",
+          "start": 2.17,
+          "end": 3
+        },
+        {
+          "id": "w10",
+          "text": "Ethereum,",
+          "start": 3.05,
+          "end": 3.8
+        },
+        {
+          "id": "w11",
+          "text": "Polygon,",
+          "start": 3.81,
+          "end": 4.53
+        },
+        {
+          "id": "w12",
+          "text": "Avalanche.",
+          "start": 4.53,
+          "end": 5.39
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "path": "assets/voice/02.wav",
+      "duration_s": 6.037,
+      "words": [
+        {
+          "id": "w0",
+          "text": "Then",
+          "start": 0.06,
+          "end": 0.24
+        },
+        {
+          "id": "w1",
+          "text": "Binance",
+          "start": 0.24,
+          "end": 0.58
+        },
+        {
+          "id": "w2",
+          "text": "does",
+          "start": 0.65,
+          "end": 0.88
+        },
+        {
+          "id": "w3",
+          "text": "something",
+          "start": 0.9,
+          "end": 1.44
+        },
+        {
+          "id": "w4",
+          "text": "almost",
+          "start": 1.46,
+          "end": 1.74
+        },
+        {
+          "id": "w5",
+          "text": "unthinkable.",
+          "start": 1.85,
+          "end": 2.52
+        },
+        {
+          "id": "w6",
+          "text": "It",
+          "start": 2.57,
+          "end": 2.65
+        },
+        {
+          "id": "w7",
+          "text": "asks",
+          "start": 2.65,
+          "end": 2.91
+        },
+        {
+          "id": "w8",
+          "text": "the",
+          "start": 2.91,
+          "end": 3.1
+        },
+        {
+          "id": "w9",
+          "text": "validators",
+          "start": 3.1,
+          "end": 3.77
+        },
+        {
+          "id": "w10",
+          "text": "to",
+          "start": 3.77,
+          "end": 3.9
+        },
+        {
+          "id": "w11",
+          "text": "stop",
+          "start": 3.9,
+          "end": 4.16
+        },
+        {
+          "id": "w12",
+          "text": "the",
+          "start": 4.16,
+          "end": 4.26
+        },
+        {
+          "id": "w13",
+          "text": "entire",
+          "start": 4.37,
+          "end": 4.76
+        },
+        {
+          "id": "w14",
+          "text": "blockchain.",
+          "start": 4.76,
+          "end": 5.65
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "path": "assets/voice/03.wav",
+      "duration_s": 4.629,
+      "words": [
+        {
+          "id": "w0",
+          "text": "BNB",
+          "start": 0.06,
+          "end": 0.27
+        },
+        {
+          "id": "w1",
+          "text": "chain",
+          "start": 0.27,
+          "end": 0.73
+        },
+        {
+          "id": "w2",
+          "text": "halts,",
+          "start": 0.73,
+          "end": 1.33
+        },
+        {
+          "id": "w3",
+          "text": "no",
+          "start": 1.33,
+          "end": 1.46
+        },
+        {
+          "id": "w4",
+          "text": "blocks,",
+          "start": 1.46,
+          "end": 1.98
+        },
+        {
+          "id": "w5",
+          "text": "no",
+          "start": 2.02,
+          "end": 2.17
+        },
+        {
+          "id": "w6",
+          "text": "transactions,",
+          "start": 2.21,
+          "end": 3.04
+        },
+        {
+          "id": "w7",
+          "text": "everything",
+          "start": 3.07,
+          "end": 3.48
+        },
+        {
+          "id": "w8",
+          "text": "frozen.",
+          "start": 3.6,
+          "end": 4.01
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "path": "assets/voice/04.wav",
+      "duration_s": 6.123,
+      "words": [
+        {
+          "id": "w0",
+          "text": "Most",
+          "start": 0.04,
+          "end": 0.22
+        },
+        {
+          "id": "w1",
+          "text": "of",
+          "start": 0.29,
+          "end": 0.4
+        },
+        {
+          "id": "w2",
+          "text": "the",
+          "start": 0.4,
+          "end": 0.59
+        },
+        {
+          "id": "w3",
+          "text": "loot",
+          "start": 0.59,
+          "end": 0.87
+        },
+        {
+          "id": "w4",
+          "text": "around",
+          "start": 0.87,
+          "end": 1.28
+        },
+        {
+          "id": "w5",
+          "text": "430",
+          "start": 1.28,
+          "end": 1.89
+        },
+        {
+          "id": "w6",
+          "text": "million",
+          "start": 1.89,
+          "end": 2.36
+        },
+        {
+          "id": "w7",
+          "text": "dollars",
+          "start": 2.36,
+          "end": 2.75
+        },
+        {
+          "id": "w8",
+          "text": "is",
+          "start": 2.89,
+          "end": 2.98
+        },
+        {
+          "id": "w9",
+          "text": "trapped",
+          "start": 2.98,
+          "end": 3.27
+        },
+        {
+          "id": "w10",
+          "text": "in",
+          "start": 3.39,
+          "end": 3.45
+        },
+        {
+          "id": "w11",
+          "text": "the",
+          "start": 3.45,
+          "end": 3.61
+        },
+        {
+          "id": "w12",
+          "text": "hacker's",
+          "start": 3.61,
+          "end": 4.03
+        },
+        {
+          "id": "w13",
+          "text": "wallet,",
+          "start": 4.03,
+          "end": 4.53
+        },
+        {
+          "id": "w14",
+          "text": "it",
+          "start": 4.57,
+          "end": 4.7
+        },
+        {
+          "id": "w15",
+          "text": "can't",
+          "start": 4.7,
+          "end": 5.01
+        },
+        {
+          "id": "w16",
+          "text": "move.",
+          "start": 5.12,
+          "end": 5.58
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "path": "assets/voice/05.wav",
+      "duration_s": 3.776,
+      "words": [
+        {
+          "id": "w0",
+          "text": "But",
+          "start": 0.07,
+          "end": 0.16
+        },
+        {
+          "id": "w1",
+          "text": "about",
+          "start": 0.16,
+          "end": 0.42
+        },
+        {
+          "id": "w2",
+          "text": "a",
+          "start": 0.42,
+          "end": 0.52
+        },
+        {
+          "id": "w3",
+          "text": "hundred",
+          "start": 0.52,
+          "end": 0.81
+        },
+        {
+          "id": "w4",
+          "text": "million",
+          "start": 0.85,
+          "end": 1.27
+        },
+        {
+          "id": "w5",
+          "text": "had",
+          "start": 1.28,
+          "end": 1.42
+        },
+        {
+          "id": "w6",
+          "text": "already",
+          "start": 1.43,
+          "end": 1.8
+        },
+        {
+          "id": "w7",
+          "text": "escaped",
+          "start": 1.8,
+          "end": 2.14
+        },
+        {
+          "id": "w8",
+          "text": "to",
+          "start": 2.27,
+          "end": 2.38
+        },
+        {
+          "id": "w9",
+          "text": "other",
+          "start": 2.4,
+          "end": 2.61
+        },
+        {
+          "id": "w10",
+          "text": "chains.",
+          "start": 2.67,
+          "end": 3.19
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "path": "assets/voice/06.wav",
+      "duration_s": 4.139,
+      "words": [
+        {
+          "id": "w0",
+          "text": "About",
+          "start": 0.07,
+          "end": 0.32
+        },
+        {
+          "id": "w1",
+          "text": "a",
+          "start": 0.32,
+          "end": 0.38
+        },
+        {
+          "id": "w2",
+          "text": "week",
+          "start": 0.38,
+          "end": 0.64
+        },
+        {
+          "id": "w3",
+          "text": "later",
+          "start": 0.64,
+          "end": 0.94
+        },
+        {
+          "id": "w4",
+          "text": "a",
+          "start": 0.99,
+          "end": 1.02
+        },
+        {
+          "id": "w5",
+          "text": "hard",
+          "start": 1.02,
+          "end": 1.19
+        },
+        {
+          "id": "w6",
+          "text": "fort",
+          "start": 1.33,
+          "end": 1.45
+        },
+        {
+          "id": "w7",
+          "text": "patches",
+          "start": 1.57,
+          "end": 1.99
+        },
+        {
+          "id": "w8",
+          "text": "the",
+          "start": 1.99,
+          "end": 2.18
+        },
+        {
+          "id": "w9",
+          "text": "hole,",
+          "start": 2.18,
+          "end": 2.62
+        },
+        {
+          "id": "w10",
+          "text": "the",
+          "start": 2.62,
+          "end": 2.8
+        },
+        {
+          "id": "w11",
+          "text": "bridge",
+          "start": 2.8,
+          "end": 3.05
+        },
+        {
+          "id": "w12",
+          "text": "is",
+          "start": 3.18,
+          "end": 3.28
+        },
+        {
+          "id": "w13",
+          "text": "fixed.",
+          "start": 3.28,
+          "end": 3.64
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "path": "assets/voice/07.wav",
+      "duration_s": 5.163,
+      "words": [
+        {
+          "id": "w0",
+          "text": "Critics",
+          "start": 0.09,
+          "end": 0.5
+        },
+        {
+          "id": "w1",
+          "text": "ask",
+          "start": 0.5,
+          "end": 0.62
+        },
+        {
+          "id": "w2",
+          "text": "if",
+          "start": 0.62,
+          "end": 0.87
+        },
+        {
+          "id": "w3",
+          "text": "one",
+          "start": 0.87,
+          "end": 1.06
+        },
+        {
+          "id": "w4",
+          "text": "company",
+          "start": 1.06,
+          "end": 1.51
+        },
+        {
+          "id": "w5",
+          "text": "can",
+          "start": 1.59,
+          "end": 1.72
+        },
+        {
+          "id": "w6",
+          "text": "stop",
+          "start": 1.81,
+          "end": 2.05
+        },
+        {
+          "id": "w7",
+          "text": "a",
+          "start": 2.05,
+          "end": 2.12
+        },
+        {
+          "id": "w8",
+          "text": "blockchain,",
+          "start": 2.12,
+          "end": 3
+        },
+        {
+          "id": "w9",
+          "text": "how",
+          "start": 3,
+          "end": 3.18
+        },
+        {
+          "id": "w10",
+          "text": "decentralized",
+          "start": 3.18,
+          "end": 3.96
+        },
+        {
+          "id": "w11",
+          "text": "is",
+          "start": 3.96,
+          "end": 4.08
+        },
+        {
+          "id": "w12",
+          "text": "it",
+          "start": 4.15,
+          "end": 4.21
+        },
+        {
+          "id": "w13",
+          "text": "really?",
+          "start": 4.21,
+          "end": 4.6
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "path": "assets/voice/08.wav",
+      "duration_s": 4.437,
+      "words": [
+        {
+          "id": "w0",
+          "text": "Two",
+          "start": 0.08,
+          "end": 0.22
+        },
+        {
+          "id": "w1",
+          "text": "heists",
+          "start": 0.22,
+          "end": 0.47
+        },
+        {
+          "id": "w2",
+          "text": "one",
+          "start": 0.73,
+          "end": 0.88
+        },
+        {
+          "id": "w3",
+          "text": "almost",
+          "start": 0.88,
+          "end": 1.32
+        },
+        {
+          "id": "w4",
+          "text": "rewrote",
+          "start": 1.32,
+          "end": 1.81
+        },
+        {
+          "id": "w5",
+          "text": "history,",
+          "start": 1.81,
+          "end": 2.49
+        },
+        {
+          "id": "w6",
+          "text": "one",
+          "start": 2.49,
+          "end": 2.63
+        },
+        {
+          "id": "w7",
+          "text": "printed",
+          "start": 2.69,
+          "end": 2.99
+        },
+        {
+          "id": "w8",
+          "text": "money",
+          "start": 3,
+          "end": 3.26
+        },
+        {
+          "id": "w9",
+          "text": "from",
+          "start": 3.36,
+          "end": 3.48
+        },
+        {
+          "id": "w10",
+          "text": "nothing.",
+          "start": 3.48,
+          "end": 3.84
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "path": "assets/voice/09.wav",
+      "duration_s": 8.021,
+      "words": [
+        {
+          "id": "w0",
+          "text": "In",
+          "start": 0.04,
+          "end": 0.12
+        },
+        {
+          "id": "w1",
+          "text": "2019,",
+          "start": 0.18,
+          "end": 1.17
+        },
+        {
+          "id": "w2",
+          "text": "the",
+          "start": 1.17,
+          "end": 1.39
+        },
+        {
+          "id": "w3",
+          "text": "rollback",
+          "start": 1.39,
+          "end": 1.97
+        },
+        {
+          "id": "w4",
+          "text": "was",
+          "start": 1.97,
+          "end": 2.19
+        },
+        {
+          "id": "w5",
+          "text": "rejected.",
+          "start": 2.19,
+          "end": 2.84
+        },
+        {
+          "id": "w6",
+          "text": "In",
+          "start": 2.88,
+          "end": 2.96
+        },
+        {
+          "id": "w7",
+          "text": "2022,",
+          "start": 3.02,
+          "end": 3.96
+        },
+        {
+          "id": "w8",
+          "text": "the",
+          "start": 3.96,
+          "end": 4.17
+        },
+        {
+          "id": "w9",
+          "text": "chain",
+          "start": 4.17,
+          "end": 4.49
+        },
+        {
+          "id": "w10",
+          "text": "was",
+          "start": 4.57,
+          "end": 4.73
+        },
+        {
+          "id": "w11",
+          "text": "stopped.",
+          "start": 4.73,
+          "end": 5.24
+        },
+        {
+          "id": "w12",
+          "text": "Which",
+          "start": 5.28,
+          "end": 5.42
+        },
+        {
+          "id": "w13",
+          "text": "would",
+          "start": 5.44,
+          "end": 5.64
+        },
+        {
+          "id": "w14",
+          "text": "you",
+          "start": 5.64,
+          "end": 5.76
+        },
+        {
+          "id": "w15",
+          "text": "choose?",
+          "start": 5.76,
+          "end": 6.15
+        },
+        {
+          "id": "w16",
+          "text": "Follow",
+          "start": 6.2,
+          "end": 6.54
+        },
+        {
+          "id": "w17",
+          "text": "for",
+          "start": 6.54,
+          "end": 6.73
+        },
+        {
+          "id": "w18",
+          "text": "the",
+          "start": 6.73,
+          "end": 6.92
+        },
+        {
+          "id": "w19",
+          "text": "next",
+          "start": 6.92,
+          "end": 7.07
+        },
+        {
+          "id": "w20",
+          "text": "heist.",
+          "start": 7.18,
+          "end": 7.72
+        }
+      ]
+    }
+  ],
+  "sfx": [],
+  "total_duration_s": 48.021
+}

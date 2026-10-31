@@ -1,0 +1,228 @@
+<template id="captions-template" data-composition-id="captions" data-width="1080" data-height="1920">
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+
+
+<style data-brand-tokens>
+      @font-face { font-family: 'Inter'; src: url('assets/fonts/Inter-Black.otf') format('opentype'); font-weight: 800; font-style: normal; font-display: block; }
+      @font-face { font-family: 'Inter'; src: url('assets/fonts/Inter-Bold.otf') format('opentype'); font-weight: 700; font-style: normal; font-display: block; }
+      @font-face { font-family: 'Inter'; src: url('assets/fonts/Inter-Medium.otf') format('opentype'); font-weight: 500; font-style: normal; font-display: block; }
+      @font-face { font-family: 'Inter'; src: url('assets/fonts/Inter-Regular.otf') format('opentype'); font-weight: 400; font-style: normal; font-display: block; }
+      @font-face { font-family: 'Inter'; src: url('assets/fonts/Inter-SemiBold.otf') format('opentype'); font-weight: 600; font-style: normal; font-display: block; }
+      :root {
+      --bg: #04060B;
+      --primary: #FFC83D;
+      --text: #F2F4F8;
+      --text-muted: #8A93A3;
+      --text-light: #5C6575;
+      --accent-light: rgba(255, 200, 61, 0.12);
+      --accent-medium: rgba(255, 200, 61, 0.2);
+      --border: rgba(255, 255, 255, 0.14);
+      --card-bg: rgba(8, 11, 18, 0.92);
+      --positive: #3CF2A0;
+      --negative: #FF3B30;
+      --cap-ink: #F2F4F8;
+      --cap-canvas: #04060B;
+      --cap-accent: #FFC83D;
+      --cap-accent-2: #8A93A3;
+      --font-display: "Inter", system-ui, serif;
+      --font-body: "Inter", system-ui, sans-serif;
+      --cap-band-top: 1600px;
+      --cap-band-height: 320px;
+      }
+    </style>
+
+<style>
+  #captions-root {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+  }
+  .caption-layer {
+    position: absolute;
+    inset: 0;
+    z-index: 20;
+    pointer-events: none;
+  }
+  /* the keep-out band, from captionBand(H) — frame content stays above it */
+  .caption-stage {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: var(--cap-band-top, 900px);
+    height: var(--cap-band-height, 180px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .caption-group {
+    /* every group is absolutely stacked over the SAME band — exactly one shown at a
+       time via opacity. Must be absolute: in-flow groups would lay out side-by-side. */
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+  }
+
+  /* THE tinted card — 4% cobalt fill, 1.5px 20%-cobalt border, soft 14px corners,
+     NO shadow (the tinted card does the lift; cast depth is forbidden) */
+  .caption-pill {
+    max-width: 90%;
+    padding: 10px 24px;
+    background: transparent;
+    border: none;
+  }
+  .caption-line {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.04em 0.28em;
+    font-family: "Inter", system-ui, sans-serif;
+    font-weight: 900;
+    font-size: 66px;
+    line-height: 1.08;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+  }
+
+  /* upcoming — muted gray, no chip */
+  .caption-word {
+    display: inline-block;
+    padding: 0 0.04em;
+    color: #7D8592;
+    text-shadow: 0 4px 0 rgba(0,0,0,.6), 0 0 22px rgba(0,0,0,.7);
+  }
+  /* current word — THE solid cobalt chip (the single-accent gesture; pill-rounded
+     fill, NO shadow), cream reading on top */
+  .caption-word.is-active {
+    color: #FFFFFF;
+    background: transparent;
+    box-shadow: none;
+  }
+  /* already spoken — solid near-black ink, chip cleared */
+  .caption-word.is-spoken {
+    color: #FFFFFF;
+    background: transparent;
+    box-shadow: none;
+  }
+
+  /* optional per-word accents (dormant until a word-classer tags them) */
+  /* brand / key term — cobalt, the system's one accent on a key word */
+  .caption-word.cap-brand {
+    color: var(--cap-accent, #1e2bfa);
+  }
+  /* numerals / data — cobalt 700, the figure voice */
+  .caption-word.cap-num {
+    font-family: "Inter", system-ui, sans-serif;
+    font-weight: 700;
+    color: var(--cap-accent, #1e2bfa);
+  }
+  /* emphasis — a directional-red hairline underline (inline only, never a fill) */
+  .caption-word.cap-cta {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: var(--cap-accent-2, #dc2626);
+    text-underline-offset: 0.1em;
+  }
+
+  @media (max-aspect-ratio: 9/16) {
+    .caption-pill {
+      max-width: 92%;
+    }
+    .caption-line {
+      font-size: clamp(34px, 5.4vw, 48px);
+    }
+  }
+</style>
+
+<div
+  id="captions-root"
+  data-composition-id="captions"
+  data-timeline-locked
+  data-start="0"
+  data-duration="47.442"
+  data-fps="30"
+  data-width="1080"
+  data-height="1920"
+>
+  <div class="caption-layer" aria-hidden="true">
+    <div id="caption-stage" class="caption-stage"></div>
+  </div>
+</div>
+
+<script>
+  // captions.mjs injects the engine's scene-aware groups + real duration here.
+  var GROUPS = [{"id":"caption-group-0","frame":1,"start":0.05,"end":0.53,"text":"The hackers","words":[{"id":"caption-word-0-0","text":"The","start":0.05,"end":0.14},{"id":"caption-word-0-1","text":"hackers","start":0.14,"end":0.43}]},{"id":"caption-group-1","frame":1,"start":0.53,"end":1,"text":"didn't break","words":[{"id":"caption-word-1-0","text":"didn't","start":0.53,"end":0.7},{"id":"caption-word-1-1","text":"break","start":0.76,"end":1}]},{"id":"caption-group-2","frame":1,"start":1,"end":1.47,"text":"the vault,","words":[{"id":"caption-word-2-0","text":"the","start":1,"end":1.14},{"id":"caption-word-2-1","text":"vault,","start":1.14,"end":1.47}]},{"id":"caption-group-3","frame":1,"start":1.47,"end":2.11,"text":"they borrowed","words":[{"id":"caption-word-3-0","text":"they","start":1.47,"end":1.54},{"id":"caption-word-3-1","text":"borrowed","start":1.54,"end":1.99}]},{"id":"caption-group-4","frame":1,"start":2.13,"end":2.6,"text":"the keys","words":[{"id":"caption-word-4-0","text":"the","start":2.13,"end":2.31},{"id":"caption-word-4-1","text":"keys","start":2.31,"end":2.48}]},{"id":"caption-group-5","frame":1,"start":2.69,"end":3.6,"text":"from the users.","words":[{"id":"caption-word-5-0","text":"from","start":2.69,"end":2.89},{"id":"caption-word-5-1","text":"the","start":2.89,"end":3.1},{"id":"caption-word-5-2","text":"users.","start":3.1,"end":3.48}]},{"id":"caption-group-6","frame":2,"start":4.582,"end":5.842,"text":"Phishing sites fake","words":[{"id":"caption-word-6-0","text":"Phishing","start":4.582,"end":5.122},{"id":"caption-word-6-1","text":"sites","start":5.122,"end":5.522},{"id":"caption-word-6-2","text":"fake","start":5.522,"end":5.842}]},{"id":"caption-group-7","frame":2,"start":5.842,"end":6.712,"text":"login pages","words":[{"id":"caption-word-7-0","text":"login","start":5.842,"end":6.242},{"id":"caption-word-7-1","text":"pages","start":6.242,"end":6.592}]},{"id":"caption-group-8","frame":2,"start":6.712,"end":7.182,"text":"that looked","words":[{"id":"caption-word-8-0","text":"that","start":6.712,"end":6.812},{"id":"caption-word-8-1","text":"looked","start":6.822,"end":7.172}]},{"id":"caption-group-9","frame":2,"start":7.182,"end":7.872,"text":"exactly like","words":[{"id":"caption-word-9-0","text":"exactly","start":7.182,"end":7.602},{"id":"caption-word-9-1","text":"like","start":7.602,"end":7.772}]},{"id":"caption-group-10","frame":2,"start":7.872,"end":8.672,"text":"the real one.","words":[{"id":"caption-word-10-0","text":"the","start":7.872,"end":8.032},{"id":"caption-word-10-1","text":"real","start":8.032,"end":8.282},{"id":"caption-word-10-2","text":"one.","start":8.282,"end":8.552}]},{"id":"caption-group-11","frame":3,"start":9.6,"end":10.85,"text":"Viruses on laptops","words":[{"id":"caption-word-11-0","text":"Viruses","start":9.6,"end":10.09},{"id":"caption-word-11-1","text":"on","start":10.09,"end":10.25},{"id":"caption-word-11-2","text":"laptops","start":10.25,"end":10.74}]},{"id":"caption-group-12","frame":3,"start":10.85,"end":12.84,"text":"quietly copying everything people","words":[{"id":"caption-word-12-0","text":"quietly","start":10.85,"end":11.35},{"id":"caption-word-12-1","text":"copying","start":11.35,"end":11.91},{"id":"caption-word-12-2","text":"everything","start":11.94,"end":12.42},{"id":"caption-word-12-3","text":"people","start":12.48,"end":12.77}]},{"id":"caption-group-13","frame":3,"start":12.84,"end":13.36,"text":"typed.","words":[{"id":"caption-word-13-0","text":"typed.","start":12.84,"end":13.24}]},{"id":"caption-group-14","frame":4,"start":14.285,"end":14.565,"text":"One by","words":[{"id":"caption-word-14-0","text":"One","start":14.285,"end":14.435},{"id":"caption-word-14-1","text":"by","start":14.435,"end":14.565}]},{"id":"caption-group-15","frame":4,"start":14.565,"end":15.655,"text":"one they collected","words":[{"id":"caption-word-15-0","text":"one","start":14.565,"end":14.765},{"id":"caption-word-15-1","text":"they","start":14.765,"end":14.975},{"id":"caption-word-15-2","text":"collected","start":15.045,"end":15.655}]},{"id":"caption-group-16","frame":4,"start":15.655,"end":16.275,"text":"accounts,","words":[{"id":"caption-word-16-0","text":"accounts,","start":15.655,"end":16.255}]},{"id":"caption-group-17","frame":4,"start":16.275,"end":17.375,"text":"API keys,","words":[{"id":"caption-word-17-0","text":"API","start":16.275,"end":16.685},{"id":"caption-word-17-1","text":"keys,","start":16.685,"end":17.375}]},{"id":"caption-group-18","frame":4,"start":17.375,"end":17.825,"text":"the robot","words":[{"id":"caption-word-18-0","text":"the","start":17.375,"end":17.525},{"id":"caption-word-18-1","text":"robot","start":17.525,"end":17.715}]},{"id":"caption-group-19","frame":4,"start":17.825,"end":18.195,"text":"keys that","words":[{"id":"caption-word-19-0","text":"keys","start":17.825,"end":18.065},{"id":"caption-word-19-1","text":"that","start":18.115,"end":18.195}]},{"id":"caption-group-20","frame":4,"start":18.195,"end":18.785,"text":"let programs","words":[{"id":"caption-word-20-0","text":"let","start":18.195,"end":18.285},{"id":"caption-word-20-1","text":"programs","start":18.385,"end":18.785}]},{"id":"caption-group-21","frame":4,"start":18.785,"end":19.325,"text":"trade for","words":[{"id":"caption-word-21-0","text":"trade","start":18.785,"end":19.115},{"id":"caption-word-21-1","text":"for","start":19.115,"end":19.275}]},{"id":"caption-group-22","frame":4,"start":19.325,"end":19.625,"text":"you,","words":[{"id":"caption-word-22-0","text":"you,","start":19.325,"end":19.625}]},{"id":"caption-group-23","frame":4,"start":19.625,"end":21.035,"text":"and two-factor codes.","words":[{"id":"caption-word-23-0","text":"and","start":19.625,"end":19.835},{"id":"caption-word-23-1","text":"two-factor","start":19.835,"end":20.525},{"id":"caption-word-23-2","text":"codes.","start":20.535,"end":20.915}]},{"id":"caption-group-24","frame":5,"start":21.954,"end":22.314,"text":"Then they","words":[{"id":"caption-word-24-0","text":"Then","start":21.954,"end":22.094},{"id":"caption-word-24-1","text":"they","start":22.094,"end":22.314}]},{"id":"caption-group-25","frame":5,"start":22.314,"end":22.634,"text":"did the","words":[{"id":"caption-word-25-0","text":"did","start":22.314,"end":22.474},{"id":"caption-word-25-1","text":"the","start":22.474,"end":22.634}]},{"id":"caption-group-26","frame":5,"start":22.634,"end":23.284,"text":"hardest thing","words":[{"id":"caption-word-26-0","text":"hardest","start":22.634,"end":23.014},{"id":"caption-word-26-1","text":"thing","start":23.014,"end":23.284}]},{"id":"caption-group-27","frame":5,"start":23.284,"end":23.814,"text":"in crime,","words":[{"id":"caption-word-27-0","text":"in","start":23.284,"end":23.394},{"id":"caption-word-27-1","text":"crime,","start":23.394,"end":23.814}]},{"id":"caption-group-28","frame":5,"start":23.814,"end":24.344,"text":"nothing,","words":[{"id":"caption-word-28-0","text":"nothing,","start":23.814,"end":24.224}]},{"id":"caption-group-29","frame":5,"start":24.364,"end":25.064,"text":"they waited.","words":[{"id":"caption-word-29-0","text":"they","start":24.364,"end":24.534},{"id":"caption-word-29-1","text":"waited.","start":24.534,"end":24.944}]},{"id":"caption-group-30","frame":6,"start":25.958,"end":26.548,"text":"Binance later","words":[{"id":"caption-word-30-0","text":"Binance","start":25.958,"end":26.278},{"id":"caption-word-30-1","text":"later","start":26.278,"end":26.548}]},{"id":"caption-group-31","frame":6,"start":26.548,"end":26.918,"text":"said the","words":[{"id":"caption-word-31-0","text":"said","start":26.548,"end":26.768},{"id":"caption-word-31-1","text":"the","start":26.768,"end":26.918}]},{"id":"caption-group-32","frame":6,"start":26.918,"end":27.468,"text":"hackers had","words":[{"id":"caption-word-32-0","text":"hackers","start":26.918,"end":27.298},{"id":"caption-word-32-1","text":"had","start":27.298,"end":27.468}]},{"id":"caption-group-33","frame":6,"start":27.468,"end":28.148,"text":"the patience","words":[{"id":"caption-word-33-0","text":"the","start":27.468,"end":27.598},{"id":"caption-word-33-1","text":"patience","start":27.668,"end":28.028}]},{"id":"caption-group-34","frame":6,"start":28.188,"end":28.628,"text":"to wait","words":[{"id":"caption-word-34-0","text":"to","start":28.188,"end":28.318},{"id":"caption-word-34-1","text":"wait","start":28.318,"end":28.508}]},{"id":"caption-group-35","frame":6,"start":28.788,"end":29.278,"text":"and struck","words":[{"id":"caption-word-35-0","text":"and","start":28.788,"end":28.908},{"id":"caption-word-35-1","text":"struck","start":28.918,"end":29.188}]},{"id":"caption-group-36","frame":6,"start":29.278,"end":29.458,"text":"at the","words":[{"id":"caption-word-36-0","text":"at","start":29.278,"end":29.318},{"id":"caption-word-36-1","text":"the","start":29.318,"end":29.458}]},{"id":"caption-group-37","frame":6,"start":29.458,"end":30.728,"text":"most opportune time.","words":[{"id":"caption-word-37-0","text":"most","start":29.458,"end":29.628},{"id":"caption-word-37-1","text":"opportune","start":29.718,"end":30.148},{"id":"caption-word-37-2","text":"time.","start":30.148,"end":30.608}]},{"id":"caption-group-38","frame":7,"start":31.689,"end":32.379,"text":"many accounts","words":[{"id":"caption-word-38-0","text":"many","start":31.689,"end":31.899},{"id":"caption-word-38-1","text":"accounts","start":31.899,"end":32.259}]},{"id":"caption-group-39","frame":7,"start":32.419,"end":33.889,"text":"each looking independent,","words":[{"id":"caption-word-39-0","text":"each","start":32.419,"end":32.629},{"id":"caption-word-39-1","text":"looking","start":32.679,"end":33.109},{"id":"caption-word-39-2","text":"independent,","start":33.109,"end":33.849}]},{"id":"caption-group-40","frame":7,"start":33.889,"end":34.529,"text":"each acting","words":[{"id":"caption-word-40-0","text":"each","start":33.889,"end":34.109},{"id":"caption-word-40-1","text":"acting","start":34.179,"end":34.459}]},{"id":"caption-group-41","frame":7,"start":34.529,"end":35.539,"text":"like an ordinary","words":[{"id":"caption-word-41-0","text":"like","start":34.529,"end":34.829},{"id":"caption-word-41-1","text":"an","start":34.829,"end":34.969},{"id":"caption-word-41-2","text":"ordinary","start":34.969,"end":35.539}]},{"id":"caption-group-42","frame":7,"start":35.539,"end":36.189,"text":"user.","words":[{"id":"caption-word-42-0","text":"user.","start":35.539,"end":36.069}]},{"id":"caption-group-43","frame":8,"start":36.938,"end":37.348,"text":"Then all","words":[{"id":"caption-word-43-0","text":"Then","start":36.938,"end":37.148},{"id":"caption-word-43-1","text":"all","start":37.148,"end":37.308}]},{"id":"caption-group-44","frame":8,"start":37.348,"end":37.748,"text":"at once","words":[{"id":"caption-word-44-0","text":"at","start":37.348,"end":37.478},{"id":"caption-word-44-1","text":"once","start":37.478,"end":37.748}]},{"id":"caption-group-45","frame":8,"start":37.748,"end":38.528,"text":"they moved,","words":[{"id":"caption-word-45-0","text":"they","start":37.748,"end":38.018},{"id":"caption-word-45-1","text":"moved,","start":38.018,"end":38.528}]},{"id":"caption-group-46","frame":8,"start":38.528,"end":39.858,"text":"one transaction built to","words":[{"id":"caption-word-46-0","text":"one","start":38.528,"end":38.718},{"id":"caption-word-46-1","text":"transaction","start":38.718,"end":39.468},{"id":"caption-word-46-2","text":"built","start":39.528,"end":39.658},{"id":"caption-word-46-3","text":"to","start":39.768,"end":39.808}]},{"id":"caption-group-47","frame":8,"start":39.858,"end":40.858,"text":"pass every security","words":[{"id":"caption-word-47-0","text":"pass","start":39.858,"end":40.098},{"id":"caption-word-47-1","text":"every","start":40.158,"end":40.398},{"id":"caption-word-47-2","text":"security","start":40.398,"end":40.858}]},{"id":"caption-group-48","frame":8,"start":40.858,"end":41.428,"text":"check.","words":[{"id":"caption-word-48-0","text":"check.","start":40.858,"end":41.308}]},{"id":"caption-group-49","frame":9,"start":42.419,"end":44.119,"text":"7,000 Bitcoin walked out","words":[{"id":"caption-word-49-0","text":"7,000","start":42.419,"end":43.089},{"id":"caption-word-49-1","text":"Bitcoin","start":43.129,"end":43.559},{"id":"caption-word-49-2","text":"walked","start":43.559,"end":43.919},{"id":"caption-word-49-3","text":"out","start":43.919,"end":44.009}]},{"id":"caption-group-50","frame":9,"start":44.119,"end":44.579,"text":"the front","words":[{"id":"caption-word-50-0","text":"the","start":44.119,"end":44.269},{"id":"caption-word-50-1","text":"front","start":44.319,"end":44.569}]},{"id":"caption-group-51","frame":9,"start":44.579,"end":44.989,"text":"door,","words":[{"id":"caption-word-51-0","text":"door,","start":44.579,"end":44.989}]},{"id":"caption-group-52","frame":9,"start":44.989,"end":45.689,"text":"part three,","words":[{"id":"caption-word-52-0","text":"part","start":44.989,"end":45.249},{"id":"caption-word-52-1","text":"three,","start":45.249,"end":45.689}]},{"id":"caption-group-53","frame":9,"start":45.689,"end":46.139,"text":"who pays","words":[{"id":"caption-word-53-0","text":"who","start":45.689,"end":45.859},{"id":"caption-word-53-1","text":"pays","start":45.859,"end":46.029}]},{"id":"caption-group-54","frame":9,"start":46.139,"end":46.499,"text":"for it.","words":[{"id":"caption-word-54-0","text":"for","start":46.139,"end":46.249},{"id":"caption-word-54-1","text":"it.","start":46.249,"end":46.379}]}];
+  var DURATION = 47.442;
+
+  (function () {
+    var stage = document.getElementById("caption-stage");
+
+    // build DOM: one .caption-group per group, .caption-word per word
+    GROUPS.forEach(function (group, g) {
+      var groupEl = document.createElement("div");
+      groupEl.className = "caption-group";
+      groupEl.id = "caption-group-" + g;
+      var pill = document.createElement("div");
+      pill.className = "caption-pill";
+      var line = document.createElement("div");
+      line.className = "caption-line";
+      (group.words || []).forEach(function (w, i) {
+        var span = document.createElement("span");
+        span.className = "caption-word";
+        span.id = "caption-word-" + g + "-" + i;
+        span.textContent = String(w.text);
+        line.appendChild(span);
+      });
+      pill.appendChild(line);
+      groupEl.appendChild(pill);
+      stage.appendChild(groupEl);
+    });
+
+    window.__timelines = window.__timelines || {};
+    var tl = gsap.timeline({ paused: true });
+
+    GROUPS.forEach(function (group, g) {
+      var groupEl = document.getElementById("caption-group-" + g);
+      var words = group.words || [];
+      var next = GROUPS[g + 1];
+      var isLast = g === GROUPS.length - 1;
+      var start = Math.max(0, Number(group.start));
+      var end = isLast ? DURATION : Math.min(Number(next.start), Number(group.end) + 0.3);
+      if (end <= start) end = start + 0.01;
+
+      // group on/off — exactly one group visible at a time
+      tl.set(groupEl, { opacity: 1 }, start);
+      tl.set(groupEl, { opacity: 0 }, end);
+
+      // 3-state karaoke via className SETS — seek-safe (gsap.set applies on the
+      // engine's frame-by-frame seek; .call callbacks would NOT fire).
+      words.forEach(function (w, i) {
+        var el = document.getElementById("caption-word-" + g + "-" + i);
+        var at = Math.max(start, Number(w.start));
+        tl.set(el, { className: "caption-word" }, start); // upcoming (also resets on reverse-seek)
+        tl.set(el, { className: "caption-word is-active" }, at); // current
+        tl.fromTo(el, { scale: 0.985 }, { scale: 1, duration: 0.18, ease: "power1.out" }, at);
+        if (i + 1 < words.length) {
+          var nextAt = Math.max(start, Number(words[i + 1].start));
+          tl.set(el, { className: "caption-word is-spoken" }, nextAt); // demote when next activates
+        }
+      });
+      if (words.length) {
+        var lastEl = document.getElementById("caption-word-" + g + "-" + (words.length - 1));
+        var lastSpoken = Math.min(end, Number(words[words.length - 1].end) + 0.1);
+        tl.set(lastEl, { className: "caption-word is-spoken" }, lastSpoken);
+      }
+    });
+
+    // full-span anchor so the sub-comp timeline spans the whole video
+    tl.to({}, { duration: DURATION }, 0);
+    window.__timelines["captions"] = tl;
+  })();
+</script>
+
+<style>
+  .caption-line { line-height: 1.1 !important; }
+</style>
+</template>

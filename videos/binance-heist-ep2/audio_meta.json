@@ -1,0 +1,784 @@
+{
+ "bgm": null,
+ "bgm_pending": false,
+ "voices": [
+  {
+   "frame": 1,
+   "path": "assets/voice/01.wav",
+   "duration_s": 4.032,
+   "words": [
+    {
+     "id": "w0",
+     "text": "The",
+     "start": 0.05,
+     "end": 0.14
+    },
+    {
+     "id": "w1",
+     "text": "hackers",
+     "start": 0.14,
+     "end": 0.43
+    },
+    {
+     "id": "w2",
+     "text": "didn't",
+     "start": 0.53,
+     "end": 0.7
+    },
+    {
+     "id": "w3",
+     "text": "break",
+     "start": 0.76,
+     "end": 1
+    },
+    {
+     "id": "w4",
+     "text": "the",
+     "start": 1,
+     "end": 1.14
+    },
+    {
+     "id": "w5",
+     "text": "vault,",
+     "start": 1.14,
+     "end": 1.47
+    },
+    {
+     "id": "w6",
+     "text": "they",
+     "start": 1.47,
+     "end": 1.54
+    },
+    {
+     "id": "w7",
+     "text": "borrowed",
+     "start": 1.54,
+     "end": 1.99
+    },
+    {
+     "id": "w8",
+     "text": "the",
+     "start": 2.13,
+     "end": 2.31
+    },
+    {
+     "id": "w9",
+     "text": "keys",
+     "start": 2.31,
+     "end": 2.48
+    },
+    {
+     "id": "w10",
+     "text": "from",
+     "start": 2.69,
+     "end": 2.89
+    },
+    {
+     "id": "w11",
+     "text": "the",
+     "start": 2.89,
+     "end": 3.1
+    },
+    {
+     "id": "w12",
+     "text": "users.",
+     "start": 3.1,
+     "end": 3.48
+    }
+   ]
+  },
+  {
+   "frame": 2,
+   "path": "assets/voice/02.wav",
+   "duration_s": 4.608,
+   "words": [
+    {
+     "id": "w0",
+     "text": "Phishing",
+     "start": 0.1,
+     "end": 0.64
+    },
+    {
+     "id": "w1",
+     "text": "sites",
+     "start": 0.64,
+     "end": 1.04
+    },
+    {
+     "id": "w2",
+     "text": "fake",
+     "start": 1.04,
+     "end": 1.36
+    },
+    {
+     "id": "w3",
+     "text": "login",
+     "start": 1.36,
+     "end": 1.76
+    },
+    {
+     "id": "w4",
+     "text": "pages",
+     "start": 1.76,
+     "end": 2.11
+    },
+    {
+     "id": "w5",
+     "text": "that",
+     "start": 2.23,
+     "end": 2.33
+    },
+    {
+     "id": "w6",
+     "text": "looked",
+     "start": 2.34,
+     "end": 2.69
+    },
+    {
+     "id": "w7",
+     "text": "exactly",
+     "start": 2.7,
+     "end": 3.12
+    },
+    {
+     "id": "w8",
+     "text": "like",
+     "start": 3.12,
+     "end": 3.29
+    },
+    {
+     "id": "w9",
+     "text": "the",
+     "start": 3.39,
+     "end": 3.55
+    },
+    {
+     "id": "w10",
+     "text": "real",
+     "start": 3.55,
+     "end": 3.8
+    },
+    {
+     "id": "w11",
+     "text": "one.",
+     "start": 3.8,
+     "end": 4.07
+    }
+   ]
+  },
+  {
+   "frame": 3,
+   "path": "assets/voice/03.wav",
+   "duration_s": 4.245,
+   "words": [
+    {
+     "id": "w0",
+     "text": "Viruses",
+     "start": 0.06,
+     "end": 0.55
+    },
+    {
+     "id": "w1",
+     "text": "on",
+     "start": 0.55,
+     "end": 0.71
+    },
+    {
+     "id": "w2",
+     "text": "laptops",
+     "start": 0.71,
+     "end": 1.2
+    },
+    {
+     "id": "w3",
+     "text": "quietly",
+     "start": 1.31,
+     "end": 1.81
+    },
+    {
+     "id": "w4",
+     "text": "copying",
+     "start": 1.81,
+     "end": 2.37
+    },
+    {
+     "id": "w5",
+     "text": "everything",
+     "start": 2.4,
+     "end": 2.88
+    },
+    {
+     "id": "w6",
+     "text": "people",
+     "start": 2.94,
+     "end": 3.23
+    },
+    {
+     "id": "w7",
+     "text": "typed.",
+     "start": 3.3,
+     "end": 3.7
+    }
+   ]
+  },
+  {
+   "frame": 4,
+   "path": "assets/voice/04.wav",
+   "duration_s": 7.189,
+   "words": [
+    {
+     "id": "w0",
+     "text": "One",
+     "start": 0.05,
+     "end": 0.2
+    },
+    {
+     "id": "w1",
+     "text": "by",
+     "start": 0.2,
+     "end": 0.33
+    },
+    {
+     "id": "w2",
+     "text": "one",
+     "start": 0.33,
+     "end": 0.53
+    },
+    {
+     "id": "w3",
+     "text": "they",
+     "start": 0.53,
+     "end": 0.74
+    },
+    {
+     "id": "w4",
+     "text": "collected",
+     "start": 0.81,
+     "end": 1.42
+    },
+    {
+     "id": "w5",
+     "text": "accounts,",
+     "start": 1.42,
+     "end": 2.02
+    },
+    {
+     "id": "w6",
+     "text": "API",
+     "start": 2.04,
+     "end": 2.45
+    },
+    {
+     "id": "w7",
+     "text": "keys,",
+     "start": 2.45,
+     "end": 3.14
+    },
+    {
+     "id": "w8",
+     "text": "the",
+     "start": 3.14,
+     "end": 3.29
+    },
+    {
+     "id": "w9",
+     "text": "robot",
+     "start": 3.29,
+     "end": 3.48
+    },
+    {
+     "id": "w10",
+     "text": "keys",
+     "start": 3.59,
+     "end": 3.83
+    },
+    {
+     "id": "w11",
+     "text": "that",
+     "start": 3.88,
+     "end": 3.96
+    },
+    {
+     "id": "w12",
+     "text": "let",
+     "start": 3.96,
+     "end": 4.05
+    },
+    {
+     "id": "w13",
+     "text": "programs",
+     "start": 4.15,
+     "end": 4.55
+    },
+    {
+     "id": "w14",
+     "text": "trade",
+     "start": 4.55,
+     "end": 4.88
+    },
+    {
+     "id": "w15",
+     "text": "for",
+     "start": 4.88,
+     "end": 5.04
+    },
+    {
+     "id": "w16",
+     "text": "you,",
+     "start": 5.09,
+     "end": 5.39
+    },
+    {
+     "id": "w17",
+     "text": "and",
+     "start": 5.39,
+     "end": 5.6
+    },
+    {
+     "id": "w18",
+     "text": "two-factor",
+     "start": 5.6,
+     "end": 6.29
+    },
+    {
+     "id": "w19",
+     "text": "codes.",
+     "start": 6.3,
+     "end": 6.68
+    }
+   ]
+  },
+  {
+   "frame": 5,
+   "path": "assets/voice/05.wav",
+   "duration_s": 3.584,
+   "words": [
+    {
+     "id": "w0",
+     "text": "Then",
+     "start": 0.08,
+     "end": 0.22
+    },
+    {
+     "id": "w1",
+     "text": "they",
+     "start": 0.22,
+     "end": 0.44
+    },
+    {
+     "id": "w2",
+     "text": "did",
+     "start": 0.44,
+     "end": 0.6
+    },
+    {
+     "id": "w3",
+     "text": "the",
+     "start": 0.6,
+     "end": 0.76
+    },
+    {
+     "id": "w4",
+     "text": "hardest",
+     "start": 0.76,
+     "end": 1.14
+    },
+    {
+     "id": "w5",
+     "text": "thing",
+     "start": 1.14,
+     "end": 1.41
+    },
+    {
+     "id": "w6",
+     "text": "in",
+     "start": 1.41,
+     "end": 1.52
+    },
+    {
+     "id": "w7",
+     "text": "crime,",
+     "start": 1.52,
+     "end": 1.94
+    },
+    {
+     "id": "w8",
+     "text": "nothing,",
+     "start": 1.94,
+     "end": 2.35
+    },
+    {
+     "id": "w9",
+     "text": "they",
+     "start": 2.49,
+     "end": 2.66
+    },
+    {
+     "id": "w10",
+     "text": "waited.",
+     "start": 2.66,
+     "end": 3.07
+    }
+   ]
+  },
+  {
+   "frame": 6,
+   "path": "assets/voice/06.wav",
+   "duration_s": 5.291,
+   "words": [
+    {
+     "id": "w0",
+     "text": "Binance",
+     "start": 0.05,
+     "end": 0.37
+    },
+    {
+     "id": "w1",
+     "text": "later",
+     "start": 0.37,
+     "end": 0.64
+    },
+    {
+     "id": "w2",
+     "text": "said",
+     "start": 0.64,
+     "end": 0.86
+    },
+    {
+     "id": "w3",
+     "text": "the",
+     "start": 0.86,
+     "end": 1.01
+    },
+    {
+     "id": "w4",
+     "text": "hackers",
+     "start": 1.01,
+     "end": 1.39
+    },
+    {
+     "id": "w5",
+     "text": "had",
+     "start": 1.39,
+     "end": 1.56
+    },
+    {
+     "id": "w6",
+     "text": "the",
+     "start": 1.56,
+     "end": 1.69
+    },
+    {
+     "id": "w7",
+     "text": "patience",
+     "start": 1.76,
+     "end": 2.12
+    },
+    {
+     "id": "w8",
+     "text": "to",
+     "start": 2.28,
+     "end": 2.41
+    },
+    {
+     "id": "w9",
+     "text": "wait",
+     "start": 2.41,
+     "end": 2.6
+    },
+    {
+     "id": "w10",
+     "text": "and",
+     "start": 2.88,
+     "end": 3
+    },
+    {
+     "id": "w11",
+     "text": "struck",
+     "start": 3.01,
+     "end": 3.28
+    },
+    {
+     "id": "w12",
+     "text": "at",
+     "start": 3.37,
+     "end": 3.41
+    },
+    {
+     "id": "w13",
+     "text": "the",
+     "start": 3.41,
+     "end": 3.55
+    },
+    {
+     "id": "w14",
+     "text": "most",
+     "start": 3.55,
+     "end": 3.72
+    },
+    {
+     "id": "w15",
+     "text": "opportune",
+     "start": 3.81,
+     "end": 4.24
+    },
+    {
+     "id": "w16",
+     "text": "time.",
+     "start": 4.24,
+     "end": 4.7
+    }
+   ]
+  },
+  {
+   "frame": 7,
+   "path": "assets/voice/07.wav",
+   "duration_s": 4.779,
+   "words": [
+    {
+     "id": "w0",
+     "text": "many",
+     "start": 0.04,
+     "end": 0.25
+    },
+    {
+     "id": "w1",
+     "text": "accounts",
+     "start": 0.25,
+     "end": 0.61
+    },
+    {
+     "id": "w2",
+     "text": "each",
+     "start": 0.77,
+     "end": 0.98
+    },
+    {
+     "id": "w3",
+     "text": "looking",
+     "start": 1.03,
+     "end": 1.46
+    },
+    {
+     "id": "w4",
+     "text": "independent,",
+     "start": 1.46,
+     "end": 2.2
+    },
+    {
+     "id": "w5",
+     "text": "each",
+     "start": 2.24,
+     "end": 2.46
+    },
+    {
+     "id": "w6",
+     "text": "acting",
+     "start": 2.53,
+     "end": 2.81
+    },
+    {
+     "id": "w7",
+     "text": "like",
+     "start": 2.88,
+     "end": 3.18
+    },
+    {
+     "id": "w8",
+     "text": "an",
+     "start": 3.18,
+     "end": 3.32
+    },
+    {
+     "id": "w9",
+     "text": "ordinary",
+     "start": 3.32,
+     "end": 3.89
+    },
+    {
+     "id": "w10",
+     "text": "user.",
+     "start": 3.89,
+     "end": 4.42
+    }
+   ]
+  },
+  {
+   "frame": 8,
+   "path": "assets/voice/08.wav",
+   "duration_s": 4.971,
+   "words": [
+    {
+     "id": "w0",
+     "text": "Then",
+     "start": 0.06,
+     "end": 0.27
+    },
+    {
+     "id": "w1",
+     "text": "all",
+     "start": 0.27,
+     "end": 0.43
+    },
+    {
+     "id": "w2",
+     "text": "at",
+     "start": 0.47,
+     "end": 0.6
+    },
+    {
+     "id": "w3",
+     "text": "once",
+     "start": 0.6,
+     "end": 0.87
+    },
+    {
+     "id": "w4",
+     "text": "they",
+     "start": 0.87,
+     "end": 1.14
+    },
+    {
+     "id": "w5",
+     "text": "moved,",
+     "start": 1.14,
+     "end": 1.65
+    },
+    {
+     "id": "w6",
+     "text": "one",
+     "start": 1.65,
+     "end": 1.84
+    },
+    {
+     "id": "w7",
+     "text": "transaction",
+     "start": 1.84,
+     "end": 2.59
+    },
+    {
+     "id": "w8",
+     "text": "built",
+     "start": 2.65,
+     "end": 2.78
+    },
+    {
+     "id": "w9",
+     "text": "to",
+     "start": 2.89,
+     "end": 2.93
+    },
+    {
+     "id": "w10",
+     "text": "pass",
+     "start": 2.98,
+     "end": 3.22
+    },
+    {
+     "id": "w11",
+     "text": "every",
+     "start": 3.28,
+     "end": 3.52
+    },
+    {
+     "id": "w12",
+     "text": "security",
+     "start": 3.52,
+     "end": 3.98
+    },
+    {
+     "id": "w13",
+     "text": "check.",
+     "start": 3.98,
+     "end": 4.43
+    }
+   ]
+  },
+  {
+   "frame": 9,
+   "path": "assets/voice/09.wav",
+   "duration_s": 4.693,
+   "words": [
+    {
+     "id": "w0",
+     "text": "7,000",
+     "start": 0.12,
+     "end": 0.79
+    },
+    {
+     "id": "w1",
+     "text": "Bitcoin",
+     "start": 0.83,
+     "end": 1.26
+    },
+    {
+     "id": "w2",
+     "text": "walked",
+     "start": 1.26,
+     "end": 1.62
+    },
+    {
+     "id": "w3",
+     "text": "out",
+     "start": 1.62,
+     "end": 1.71
+    },
+    {
+     "id": "w4",
+     "text": "the",
+     "start": 1.82,
+     "end": 1.97
+    },
+    {
+     "id": "w5",
+     "text": "front",
+     "start": 2.02,
+     "end": 2.27
+    },
+    {
+     "id": "w6",
+     "text": "door,",
+     "start": 2.28,
+     "end": 2.69
+    },
+    {
+     "id": "w7",
+     "text": "part",
+     "start": 2.69,
+     "end": 2.95
+    },
+    {
+     "id": "w8",
+     "text": "three,",
+     "start": 2.95,
+     "end": 3.39
+    },
+    {
+     "id": "w9",
+     "text": "who",
+     "start": 3.39,
+     "end": 3.56
+    },
+    {
+     "id": "w10",
+     "text": "pays",
+     "start": 3.56,
+     "end": 3.73
+    },
+    {
+     "id": "w11",
+     "text": "for",
+     "start": 3.84,
+     "end": 3.95
+    },
+    {
+     "id": "w12",
+     "text": "it.",
+     "start": 3.95,
+     "end": 4.08
+    }
+   ]
+  }
+ ],
+ "sfx": []
+}

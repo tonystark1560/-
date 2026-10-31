@@ -9,7 +9,7 @@ music: none
 ## Frame 1 — Scene 1
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 4.179s
 - transition_in: cut
 - status: animated
 - voiceover: "Идея называлась откат. Переписать историю биткоина и стереть кражу."
@@ -18,7 +18,7 @@ music: none
 ## Frame 2 — Scene 2
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 4.888s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Биткоин — это цепочка блоков. Каждый новый блок намертво закрепляет предыдущие."
@@ -27,7 +27,7 @@ music: none
 ## Frame 3 — Scene 3
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 5.419s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Чтобы стереть кражу, майнерам пришлось бы пересобрать цепочку без неё и обогнать всю остальную сеть."
@@ -36,7 +36,7 @@ music: none
 ## Frame 4 — Scene 4
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 6.632s
 - transition_in: crossfade
 - status: animated
 - voiceover: "CZ говорил об этом открыто, в прямом эфире. Он советовался с разработчиками. Он советовался с майнерами."
@@ -45,7 +45,7 @@ music: none
 ## Frame 5 — Scene 5
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 6.040s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Криптомир взорвался. Переписать биткоин ради одной компании? Это ломает главное обещание биткоина."
@@ -54,7 +54,7 @@ music: none
 ## Frame 6 — Scene 6
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 6.809s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Обещание такое: если записано, изменить нельзя. Ни банкам. Ни правительствам. Ни крупнейшей бирже планеты."
@@ -63,7 +63,7 @@ music: none
 ## Frame 7 — Scene 7
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 3.599s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Меньше чем через сутки CZ отступил. Отката не будет."
@@ -72,7 +72,7 @@ music: none
 ## Frame 8 — Scene 8
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 3.979s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Он написал, что реестр биткоина — самый неизменяемый реестр на планете."
@@ -81,7 +81,7 @@ music: none
 ## Frame 9 — Scene 9
 
 - scene: see .hyperframes/gen.py
-- duration: 10s
+- duration: 6.667s
 - transition_in: crossfade
 - status: animated
 - voiceover: "Семь тысяч биткоинов пропали навсегда. Но самое крупное ограбление Binance было ещё впереди. Часть пятая."

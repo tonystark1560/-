@@ -1,0 +1,228 @@
+<template id="captions-template" data-composition-id="captions" data-width="1080" data-height="1920">
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+
+
+<style data-brand-tokens>
+      @font-face { font-family: 'Inter'; src: url('assets/fonts/Inter-Black.otf') format('opentype'); font-weight: 800; font-style: normal; font-display: block; }
+      @font-face { font-family: 'Inter'; src: url('assets/fonts/Inter-Bold.otf') format('opentype'); font-weight: 700; font-style: normal; font-display: block; }
+      @font-face { font-family: 'Inter'; src: url('assets/fonts/Inter-Medium.otf') format('opentype'); font-weight: 500; font-style: normal; font-display: block; }
+      @font-face { font-family: 'Inter'; src: url('assets/fonts/Inter-Regular.otf') format('opentype'); font-weight: 400; font-style: normal; font-display: block; }
+      @font-face { font-family: 'Inter'; src: url('assets/fonts/Inter-SemiBold.otf') format('opentype'); font-weight: 600; font-style: normal; font-display: block; }
+      :root {
+      --bg: #04060B;
+      --primary: #FFC83D;
+      --text: #F2F4F8;
+      --text-muted: #8A93A3;
+      --text-light: #5C6575;
+      --accent-light: rgba(255, 200, 61, 0.12);
+      --accent-medium: rgba(255, 200, 61, 0.2);
+      --border: rgba(255, 255, 255, 0.14);
+      --card-bg: rgba(8, 11, 18, 0.92);
+      --positive: #3CF2A0;
+      --negative: #FF3B30;
+      --cap-ink: #F2F4F8;
+      --cap-canvas: #04060B;
+      --cap-accent: #FFC83D;
+      --cap-accent-2: #8A93A3;
+      --font-display: "Inter", system-ui, serif;
+      --font-body: "Inter", system-ui, sans-serif;
+      --cap-band-top: 1600px;
+      --cap-band-height: 320px;
+      }
+    </style>
+
+<style>
+  #captions-root {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+  }
+  .caption-layer {
+    position: absolute;
+    inset: 0;
+    z-index: 20;
+    pointer-events: none;
+  }
+  /* the keep-out band, from captionBand(H) — frame content stays above it */
+  .caption-stage {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: var(--cap-band-top, 900px);
+    height: var(--cap-band-height, 180px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .caption-group {
+    /* every group is absolutely stacked over the SAME band — exactly one shown at a
+       time via opacity. Must be absolute: in-flow groups would lay out side-by-side. */
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+  }
+
+  /* THE tinted card — 4% cobalt fill, 1.5px 20%-cobalt border, soft 14px corners,
+     NO shadow (the tinted card does the lift; cast depth is forbidden) */
+  .caption-pill {
+    max-width: 90%;
+    padding: 10px 24px;
+    background: transparent;
+    border: none;
+  }
+  .caption-line {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.04em 0.28em;
+    font-family: "Inter", system-ui, sans-serif;
+    font-weight: 900;
+    font-size: 66px;
+    line-height: 1.08;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+  }
+
+  /* upcoming — muted gray, no chip */
+  .caption-word {
+    display: inline-block;
+    padding: 0 0.04em;
+    color: #7D8592;
+    text-shadow: 0 4px 0 rgba(0,0,0,.6), 0 0 22px rgba(0,0,0,.7);
+  }
+  /* current word — THE solid cobalt chip (the single-accent gesture; pill-rounded
+     fill, NO shadow), cream reading on top */
+  .caption-word.is-active {
+    color: #FFFFFF;
+    background: transparent;
+    box-shadow: none;
+  }
+  /* already spoken — solid near-black ink, chip cleared */
+  .caption-word.is-spoken {
+    color: #FFFFFF;
+    background: transparent;
+    box-shadow: none;
+  }
+
+  /* optional per-word accents (dormant until a word-classer tags them) */
+  /* brand / key term — cobalt, the system's one accent on a key word */
+  .caption-word.cap-brand {
+    color: var(--cap-accent, #1e2bfa);
+  }
+  /* numerals / data — cobalt 700, the figure voice */
+  .caption-word.cap-num {
+    font-family: "Inter", system-ui, sans-serif;
+    font-weight: 700;
+    color: var(--cap-accent, #1e2bfa);
+  }
+  /* emphasis — a directional-red hairline underline (inline only, never a fill) */
+  .caption-word.cap-cta {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: var(--cap-accent-2, #dc2626);
+    text-underline-offset: 0.1em;
+  }
+
+  @media (max-aspect-ratio: 9/16) {
+    .caption-pill {
+      max-width: 92%;
+    }
+    .caption-line {
+      font-size: clamp(34px, 5.4vw, 48px);
+    }
+  }
+</style>
+
+<div
+  id="captions-root"
+  data-composition-id="captions"
+  data-timeline-locked
+  data-start="0"
+  data-duration="45.477"
+  data-fps="30"
+  data-width="1080"
+  data-height="1920"
+>
+  <div class="caption-layer" aria-hidden="true">
+    <div id="caption-stage" class="caption-stage"></div>
+  </div>
+</div>
+
+<script>
+  // captions.mjs injects the engine's scene-aware groups + real duration here.
+  var GROUPS = [{"id":"caption-group-0","frame":1,"start":0.05,"end":0.33,"text":"When an","words":[{"id":"caption-word-0-0","text":"When","start":0.05,"end":0.22},{"id":"caption-word-0-1","text":"an","start":0.22,"end":0.27}]},{"id":"caption-group-1","frame":1,"start":0.33,"end":1.48,"text":"exchange gets robbed,","words":[{"id":"caption-word-1-0","text":"exchange","start":0.33,"end":0.68},{"id":"caption-word-1-1","text":"gets","start":0.78,"end":0.88},{"id":"caption-word-1-2","text":"robbed,","start":1.01,"end":1.36}]},{"id":"caption-group-2","frame":1,"start":1.49,"end":1.93,"text":"the users","words":[{"id":"caption-word-2-0","text":"the","start":1.49,"end":1.63},{"id":"caption-word-2-1","text":"users","start":1.63,"end":1.85}]},{"id":"caption-group-3","frame":1,"start":1.93,"end":2.86,"text":"usually lose,","words":[{"id":"caption-word-3-0","text":"usually","start":1.93,"end":2.32},{"id":"caption-word-3-1","text":"lose,","start":2.32,"end":2.74}]},{"id":"caption-group-4","frame":1,"start":2.92,"end":3.84,"text":"not this time.","words":[{"id":"caption-word-4-0","text":"not","start":2.92,"end":3.06},{"id":"caption-word-4-1","text":"this","start":3.15,"end":3.4},{"id":"caption-word-4-2","text":"time.","start":3.4,"end":3.72}]},{"id":"caption-group-5","frame":2,"start":4.811,"end":5.821,"text":"In 2018,","words":[{"id":"caption-word-5-0","text":"In","start":4.811,"end":4.901},{"id":"caption-word-5-1","text":"2018,","start":4.991,"end":5.821}]},{"id":"caption-group-6","frame":2,"start":5.821,"end":6.881,"text":"Binance had created","words":[{"id":"caption-word-6-0","text":"Binance","start":5.821,"end":6.271},{"id":"caption-word-6-1","text":"had","start":6.271,"end":6.451},{"id":"caption-word-6-2","text":"created","start":6.461,"end":6.881}]},{"id":"caption-group-7","frame":2,"start":6.881,"end":7.971,"text":"a fund called","words":[{"id":"caption-word-7-0","text":"a","start":6.881,"end":7.021},{"id":"caption-word-7-1","text":"fund","start":7.021,"end":7.251},{"id":"caption-word-7-2","text":"called","start":7.261,"end":7.971}]},{"id":"caption-group-8","frame":2,"start":7.971,"end":8.561,"text":"Safu,","words":[{"id":"caption-word-8-0","text":"Safu,","start":7.971,"end":8.561}]},{"id":"caption-group-9","frame":2,"start":8.561,"end":9.021,"text":"the secure","words":[{"id":"caption-word-9-0","text":"the","start":8.561,"end":8.631},{"id":"caption-word-9-1","text":"secure","start":8.751,"end":9.021}]},{"id":"caption-group-10","frame":2,"start":9.021,"end":9.511,"text":"asset fund","words":[{"id":"caption-word-10-0","text":"asset","start":9.021,"end":9.211},{"id":"caption-word-10-1","text":"fund","start":9.361,"end":9.511}]},{"id":"caption-group-11","frame":2,"start":9.511,"end":10.381,"text":"for users.","words":[{"id":"caption-word-11-0","text":"for","start":9.511,"end":9.681},{"id":"caption-word-11-1","text":"users.","start":9.681,"end":10.261}]},{"id":"caption-group-12","frame":3,"start":11.242,"end":11.822,"text":"10% of","words":[{"id":"caption-word-12-0","text":"10%","start":11.242,"end":11.682},{"id":"caption-word-12-1","text":"of","start":11.682,"end":11.822}]},{"id":"caption-group-13","frame":3,"start":11.822,"end":12.942,"text":"all trading fees","words":[{"id":"caption-word-13-0","text":"all","start":11.822,"end":12.012},{"id":"caption-word-13-1","text":"trading","start":12.092,"end":12.582},{"id":"caption-word-13-2","text":"fees","start":12.582,"end":12.822}]},{"id":"caption-group-14","frame":3,"start":12.952,"end":13.642,"text":"flowed into","words":[{"id":"caption-word-14-0","text":"flowed","start":12.952,"end":13.282},{"id":"caption-word-14-1","text":"into","start":13.312,"end":13.522}]},{"id":"caption-group-15","frame":3,"start":13.842,"end":13.962,"text":"it,","words":[{"id":"caption-word-15-0","text":"it,","start":13.842,"end":13.962}]},{"id":"caption-group-16","frame":3,"start":13.962,"end":14.982,"text":"an emergency vault","words":[{"id":"caption-word-16-0","text":"an","start":13.962,"end":14.082},{"id":"caption-word-16-1","text":"emergency","start":14.082,"end":14.612},{"id":"caption-word-16-2","text":"vault","start":14.622,"end":14.862}]},{"id":"caption-group-17","frame":3,"start":15.002,"end":15.362,"text":"built for","words":[{"id":"caption-word-17-0","text":"built","start":15.002,"end":15.122},{"id":"caption-word-17-1","text":"for","start":15.282,"end":15.362}]},{"id":"caption-group-18","frame":3,"start":15.362,"end":16.562,"text":"exactly this day.","words":[{"id":"caption-word-18-0","text":"exactly","start":15.362,"end":15.892},{"id":"caption-word-18-1","text":"this","start":15.892,"end":16.192},{"id":"caption-word-18-2","text":"day.","start":16.192,"end":16.442}]},{"id":"caption-group-19","frame":4,"start":17.487,"end":17.967,"text":"The CEO,","words":[{"id":"caption-word-19-0","text":"The","start":17.487,"end":17.597},{"id":"caption-word-19-1","text":"CEO,","start":17.657,"end":17.967}]},{"id":"caption-group-20","frame":4,"start":17.967,"end":18.547,"text":"Cheng Peng","words":[{"id":"caption-word-20-0","text":"Cheng","start":17.967,"end":18.287},{"id":"caption-word-20-1","text":"Peng","start":18.287,"end":18.547}]},{"id":"caption-group-21","frame":4,"start":18.547,"end":18.957,"text":"Zhao,","words":[{"id":"caption-word-21-0","text":"Zhao,","start":18.547,"end":18.957}]},{"id":"caption-group-22","frame":4,"start":18.957,"end":19.547,"text":"known as","words":[{"id":"caption-word-22-0","text":"known","start":18.957,"end":19.297},{"id":"caption-word-22-1","text":"as","start":19.377,"end":19.547}]},{"id":"caption-group-23","frame":4,"start":19.547,"end":20.727,"text":"CZ announces it.","words":[{"id":"caption-word-23-0","text":"CZ","start":19.547,"end":19.707},{"id":"caption-word-23-1","text":"announces","start":19.707,"end":20.417},{"id":"caption-word-23-2","text":"it.","start":20.507,"end":20.697}]},{"id":"caption-group-24","frame":4,"start":20.727,"end":21.407,"text":"Safu covers","words":[{"id":"caption-word-24-0","text":"Safu","start":20.727,"end":20.957},{"id":"caption-word-24-1","text":"covers","start":20.957,"end":21.327}]},{"id":"caption-group-25","frame":4,"start":21.407,"end":22.527,"text":"the entire loss.","words":[{"id":"caption-word-25-0","text":"the","start":21.407,"end":21.567},{"id":"caption-word-25-1","text":"entire","start":21.567,"end":21.977},{"id":"caption-word-25-2","text":"loss.","start":21.977,"end":22.497}]},{"id":"caption-group-26","frame":4,"start":22.527,"end":23.007,"text":"No user","words":[{"id":"caption-word-26-0","text":"No","start":22.527,"end":22.637},{"id":"caption-word-26-1","text":"user","start":22.697,"end":23.007}]},{"id":"caption-group-27","frame":4,"start":23.007,"end":24.237,"text":"loses a coin.","words":[{"id":"caption-word-27-0","text":"loses","start":23.007,"end":23.387},{"id":"caption-word-27-1","text":"a","start":23.457,"end":23.507},{"id":"caption-word-27-2","text":"coin.","start":23.507,"end":24.117}]},{"id":"caption-group-28","frame":5,"start":25.007,"end":26.217,"text":"Withdrawals stay frozen","words":[{"id":"caption-word-28-0","text":"Withdrawals","start":25.007,"end":25.607},{"id":"caption-word-28-1","text":"stay","start":25.607,"end":25.727},{"id":"caption-word-28-2","text":"frozen","start":25.867,"end":26.217}]},{"id":"caption-group-29","frame":5,"start":26.217,"end":26.697,"text":"for about","words":[{"id":"caption-word-29-0","text":"for","start":26.217,"end":26.397},{"id":"caption-word-29-1","text":"about","start":26.397,"end":26.697}]},{"id":"caption-group-30","frame":5,"start":26.697,"end":27.017,"text":"a week","words":[{"id":"caption-word-30-0","text":"a","start":26.697,"end":26.757},{"id":"caption-word-30-1","text":"week","start":26.757,"end":26.897}]},{"id":"caption-group-31","frame":5,"start":27.087,"end":27.457,"text":"while the","words":[{"id":"caption-word-31-0","text":"while","start":27.087,"end":27.307},{"id":"caption-word-31-1","text":"the","start":27.307,"end":27.457}]},{"id":"caption-group-32","frame":5,"start":27.457,"end":27.897,"text":"system is","words":[{"id":"caption-word-32-0","text":"system","start":27.457,"end":27.787},{"id":"caption-word-32-1","text":"is","start":27.787,"end":27.887}]},{"id":"caption-group-33","frame":5,"start":27.897,"end":28.807,"text":"locked down.","words":[{"id":"caption-word-33-0","text":"locked","start":27.897,"end":28.157},{"id":"caption-word-33-1","text":"down.","start":28.317,"end":28.687}]},{"id":"caption-group-34","frame":6,"start":29.746,"end":30.376,"text":"Every API","words":[{"id":"caption-word-34-0","text":"Every","start":29.746,"end":30.126},{"id":"caption-word-34-1","text":"API","start":30.126,"end":30.376}]},{"id":"caption-group-35","frame":6,"start":30.376,"end":31.796,"text":"key gets restricted","words":[{"id":"caption-word-35-0","text":"key","start":30.376,"end":30.556},{"id":"caption-word-35-1","text":"gets","start":30.696,"end":30.956},{"id":"caption-word-35-2","text":"restricted","start":30.956,"end":31.796}]},{"id":"caption-group-36","frame":6,"start":31.796,"end":33.046,"text":"to trading only,","words":[{"id":"caption-word-36-0","text":"to","start":31.796,"end":31.956},{"id":"caption-word-36-1","text":"trading","start":31.956,"end":32.536},{"id":"caption-word-36-2","text":"only,","start":32.536,"end":33.046}]},{"id":"caption-group-37","frame":6,"start":33.046,"end":34.256,"text":"no more withdrawals","words":[{"id":"caption-word-37-0","text":"no","start":33.046,"end":33.186},{"id":"caption-word-37-1","text":"more","start":33.186,"end":33.466},{"id":"caption-word-37-2","text":"withdrawals","start":33.466,"end":34.256}]},{"id":"caption-group-38","frame":6,"start":34.256,"end":34.936,"text":"by robot.","words":[{"id":"caption-word-38-0","text":"by","start":34.256,"end":34.396},{"id":"caption-word-38-1","text":"robot.","start":34.396,"end":34.816}]},{"id":"caption-group-39","frame":7,"start":35.942,"end":36.602,"text":"Crisis over,","words":[{"id":"caption-word-39-0","text":"Crisis","start":35.942,"end":36.222},{"id":"caption-word-39-1","text":"over,","start":36.242,"end":36.602}]},{"id":"caption-group-40","frame":7,"start":36.602,"end":37.262,"text":"not quite,","words":[{"id":"caption-word-40-0","text":"not","start":36.602,"end":36.792},{"id":"caption-word-40-1","text":"quite,","start":36.792,"end":37.142}]},{"id":"caption-group-41","frame":7,"start":37.292,"end":37.972,"text":"because CZ","words":[{"id":"caption-word-41-0","text":"because","start":37.292,"end":37.812},{"id":"caption-word-41-1","text":"CZ","start":37.812,"end":37.972}]},{"id":"caption-group-42","frame":7,"start":37.972,"end":39.282,"text":"had another idea,","words":[{"id":"caption-word-42-0","text":"had","start":37.972,"end":38.122},{"id":"caption-word-42-1","text":"another","start":38.122,"end":38.762},{"id":"caption-word-42-2","text":"idea,","start":38.762,"end":39.222}]},{"id":"caption-group-43","frame":7,"start":39.282,"end":40.192,"text":"a dangerous one.","words":[{"id":"caption-word-43-0","text":"a","start":39.282,"end":39.312},{"id":"caption-word-43-1","text":"dangerous","start":39.312,"end":39.762},{"id":"caption-word-43-2","text":"one.","start":39.862,"end":40.072}]},{"id":"caption-group-44","frame":8,"start":41.182,"end":41.402,"text":"What if","words":[{"id":"caption-word-44-0","text":"What","start":41.182,"end":41.292},{"id":"caption-word-44-1","text":"if","start":41.292,"end":41.322}]},{"id":"caption-group-45","frame":8,"start":41.402,"end":41.812,"text":"they could","words":[{"id":"caption-word-45-0","text":"they","start":41.402,"end":41.492},{"id":"caption-word-45-1","text":"could","start":41.582,"end":41.812}]},{"id":"caption-group-46","frame":8,"start":41.812,"end":42.142,"text":"make the","words":[{"id":"caption-word-46-0","text":"make","start":41.812,"end":41.872},{"id":"caption-word-46-1","text":"the","start":42.002,"end":42.142}]},{"id":"caption-group-47","frame":8,"start":42.142,"end":43.142,"text":"robbery never happen","words":[{"id":"caption-word-47-0","text":"robbery","start":42.142,"end":42.502},{"id":"caption-word-47-1","text":"never","start":42.502,"end":42.822},{"id":"caption-word-47-2","text":"happen","start":42.822,"end":43.142}]},{"id":"caption-group-48","frame":8,"start":43.142,"end":43.782,"text":"at all?","words":[{"id":"caption-word-48-0","text":"at","start":43.142,"end":43.342},{"id":"caption-word-48-1","text":"all?","start":43.342,"end":43.702}]},{"id":"caption-group-49","frame":8,"start":43.782,"end":44.592,"text":"Part four.","words":[{"id":"caption-word-49-0","text":"Part","start":43.782,"end":43.922},{"id":"caption-word-49-1","text":"four.","start":44.002,"end":44.472}]}];
+  var DURATION = 45.477;
+
+  (function () {
+    var stage = document.getElementById("caption-stage");
+
+    // build DOM: one .caption-group per group, .caption-word per word
+    GROUPS.forEach(function (group, g) {
+      var groupEl = document.createElement("div");
+      groupEl.className = "caption-group";
+      groupEl.id = "caption-group-" + g;
+      var pill = document.createElement("div");
+      pill.className = "caption-pill";
+      var line = document.createElement("div");
+      line.className = "caption-line";
+      (group.words || []).forEach(function (w, i) {
+        var span = document.createElement("span");
+        span.className = "caption-word";
+        span.id = "caption-word-" + g + "-" + i;
+        span.textContent = String(w.text);
+        line.appendChild(span);
+      });
+      pill.appendChild(line);
+      groupEl.appendChild(pill);
+      stage.appendChild(groupEl);
+    });
+
+    window.__timelines = window.__timelines || {};
+    var tl = gsap.timeline({ paused: true });
+
+    GROUPS.forEach(function (group, g) {
+      var groupEl = document.getElementById("caption-group-" + g);
+      var words = group.words || [];
+      var next = GROUPS[g + 1];
+      var isLast = g === GROUPS.length - 1;
+      var start = Math.max(0, Number(group.start));
+      var end = isLast ? DURATION : Math.min(Number(next.start), Number(group.end) + 0.3);
+      if (end <= start) end = start + 0.01;
+
+      // group on/off — exactly one group visible at a time
+      tl.set(groupEl, { opacity: 1 }, start);
+      tl.set(groupEl, { opacity: 0 }, end);
+
+      // 3-state karaoke via className SETS — seek-safe (gsap.set applies on the
+      // engine's frame-by-frame seek; .call callbacks would NOT fire).
+      words.forEach(function (w, i) {
+        var el = document.getElementById("caption-word-" + g + "-" + i);
+        var at = Math.max(start, Number(w.start));
+        tl.set(el, { className: "caption-word" }, start); // upcoming (also resets on reverse-seek)
+        tl.set(el, { className: "caption-word is-active" }, at); // current
+        tl.fromTo(el, { scale: 0.985 }, { scale: 1, duration: 0.18, ease: "power1.out" }, at);
+        if (i + 1 < words.length) {
+          var nextAt = Math.max(start, Number(words[i + 1].start));
+          tl.set(el, { className: "caption-word is-spoken" }, nextAt); // demote when next activates
+        }
+      });
+      if (words.length) {
+        var lastEl = document.getElementById("caption-word-" + g + "-" + (words.length - 1));
+        var lastSpoken = Math.min(end, Number(words[words.length - 1].end) + 0.1);
+        tl.set(lastEl, { className: "caption-word is-spoken" }, lastSpoken);
+      }
+    });
+
+    // full-span anchor so the sub-comp timeline spans the whole video
+    tl.to({}, { duration: DURATION }, 0);
+    window.__timelines["captions"] = tl;
+  })();
+</script>
+
+<style>
+  .caption-line { line-height: 1.1 !important; }
+</style>
+</template>
