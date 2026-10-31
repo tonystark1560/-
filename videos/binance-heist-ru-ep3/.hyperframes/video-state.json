@@ -1,7 +1,7 @@
 {
   "version": 1,
   "historyId": "f7cd04cd-6c42-4bf6-95f3-39cdc2b0984a",
-  "currentRevision": null,
+  "currentRevision": "747841f5-04f7-4a32-9db9-b82d3e816374",
   "pendingChanges": false,
   "files": {
     "AGENTS.md": {
@@ -117,8 +117,8 @@
       "content": "/root/.cache/hyperframes/history/f7cd04cd-6c42-4bf6-95f3-39cdc2b0984a/blobs/34/346b531a9c31cb4d1df1fe10af8bea8c33ec273a6588aea383cc88d5c517897e"
     },
     "compositions/frames/03-scene-3.html": {
-      "hash": "a606790de04aaaa2ad91e0882ef0139dc5c74eece0770c0153a979a371c99df0",
-      "content": "/root/.cache/hyperframes/history/f7cd04cd-6c42-4bf6-95f3-39cdc2b0984a/blobs/a6/a606790de04aaaa2ad91e0882ef0139dc5c74eece0770c0153a979a371c99df0"
+      "hash": "06abc326a428a975fe3321187e245cdff8c8b04383d273f8c7c43646ca8996ad",
+      "content": "/root/.cache/hyperframes/history/f7cd04cd-6c42-4bf6-95f3-39cdc2b0984a/blobs/06/06abc326a428a975fe3321187e245cdff8c8b04383d273f8c7c43646ca8996ad"
     },
     "compositions/frames/04-scene-4.html": {
       "hash": "2bcdf0da53c7419ed76488f42ce9cdc1cfa4ec16fa9d31490ce744510a148b60",
@@ -173,7 +173,23 @@
       "content": "/root/.cache/hyperframes/history/f7cd04cd-6c42-4bf6-95f3-39cdc2b0984a/blobs/b4/b47ed23f88d185b03cfd1d0d0eef65f809dc6a28320db49191f633544cadd4b0"
     }
   },
-  "revisions": {},
+  "revisions": {
+    "747841f5-04f7-4a32-9db9-b82d3e816374": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1793410684419,
+      "endedAt": 1793410684427,
+      "files": {
+        "compositions/frames/03-scene-3.html": {
+          "before": "/root/.cache/hyperframes/history/f7cd04cd-6c42-4bf6-95f3-39cdc2b0984a/blobs/a6/a606790de04aaaa2ad91e0882ef0139dc5c74eece0770c0153a979a371c99df0",
+          "after": "/root/.cache/hyperframes/history/f7cd04cd-6c42-4bf6-95f3-39cdc2b0984a/blobs/06/06abc326a428a975fe3321187e245cdff8c8b04383d273f8c7c43646ca8996ad"
+        }
+      }
+    }
+  },
   "checks": {
     "latest": null,
     "revisions": {},

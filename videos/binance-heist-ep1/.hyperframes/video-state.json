@@ -1,7 +1,7 @@
 {
   "version": 1,
   "historyId": "c5e0ecfc-3926-4287-b8a6-25ee78076cd6",
-  "currentRevision": "96604cee-0c59-4cab-9bb0-285c7973d988",
+  "currentRevision": "7c298bd8-d454-4846-bf64-0a58c3556f67",
   "pendingChanges": false,
   "files": {
     ".media/manifest.jsonl": {
@@ -121,8 +121,8 @@
       "content": "/root/.cache/hyperframes/history/c5e0ecfc-3926-4287-b8a6-25ee78076cd6/blobs/cc/ccc0bcd2b9557fd352d4d5beaa7e7a2a8d04b198d7d088e23ccb14b73dd83429"
     },
     "compositions/frames/01-scene-1.html": {
-      "hash": "7650e9f0a5cc2b99b1f9656547a62a054d841e51dad120858e268cecb7f0ea40",
-      "content": "/root/.cache/hyperframes/history/c5e0ecfc-3926-4287-b8a6-25ee78076cd6/blobs/76/7650e9f0a5cc2b99b1f9656547a62a054d841e51dad120858e268cecb7f0ea40"
+      "hash": "b0d149d92673772ad0cb326a8887724e4e1d5e59fd44eac7f360d28310b894c6",
+      "content": "/root/.cache/hyperframes/history/c5e0ecfc-3926-4287-b8a6-25ee78076cd6/blobs/b0/b0d149d92673772ad0cb326a8887724e4e1d5e59fd44eac7f360d28310b894c6"
     },
     "compositions/frames/02-scene-2.html": {
       "hash": "fe2f97d9767252ceea5a64a476f61007decc502932dd8520f24f29dc16125f3e",
@@ -137,8 +137,8 @@
       "content": "/root/.cache/hyperframes/history/c5e0ecfc-3926-4287-b8a6-25ee78076cd6/blobs/2d/2d746974e9a7a74dcffdfdb90feeeb6fdd3397c307f3db3ffeb59f9bbccb00f4"
     },
     "compositions/frames/05-scene-5.html": {
-      "hash": "55c2e4582094fec7e24df107eae80f36d75b7e4afaa3fd2ef77bfaae9e924c60",
-      "content": "/root/.cache/hyperframes/history/c5e0ecfc-3926-4287-b8a6-25ee78076cd6/blobs/55/55c2e4582094fec7e24df107eae80f36d75b7e4afaa3fd2ef77bfaae9e924c60"
+      "hash": "6dbf28e5bd7f53343d99a901f6f433fcd19868b258193966d18c89daa0bd008e",
+      "content": "/root/.cache/hyperframes/history/c5e0ecfc-3926-4287-b8a6-25ee78076cd6/blobs/6d/6dbf28e5bd7f53343d99a901f6f433fcd19868b258193966d18c89daa0bd008e"
     },
     "compositions/frames/06-scene-6.html": {
       "hash": "2ce35aea1bea2b8bec64b0ac014b978f45ff07f64e976ba5e1db39ba1911af31",
@@ -206,6 +206,25 @@
         "render.log": {
           "before": null,
           "after": "/root/.cache/hyperframes/history/c5e0ecfc-3926-4287-b8a6-25ee78076cd6/blobs/fe/fecc6e9f3be49febd2a7fe32bb3fffa8bcd618e5b5328592ca10e8143bbdad85"
+        }
+      }
+    },
+    "7c298bd8-d454-4846-bf64-0a58c3556f67": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1793410672036,
+      "endedAt": 1793410672066,
+      "files": {
+        "compositions/frames/01-scene-1.html": {
+          "before": "/root/.cache/hyperframes/history/c5e0ecfc-3926-4287-b8a6-25ee78076cd6/blobs/76/7650e9f0a5cc2b99b1f9656547a62a054d841e51dad120858e268cecb7f0ea40",
+          "after": "/root/.cache/hyperframes/history/c5e0ecfc-3926-4287-b8a6-25ee78076cd6/blobs/b0/b0d149d92673772ad0cb326a8887724e4e1d5e59fd44eac7f360d28310b894c6"
+        },
+        "compositions/frames/05-scene-5.html": {
+          "before": "/root/.cache/hyperframes/history/c5e0ecfc-3926-4287-b8a6-25ee78076cd6/blobs/55/55c2e4582094fec7e24df107eae80f36d75b7e4afaa3fd2ef77bfaae9e924c60",
+          "after": "/root/.cache/hyperframes/history/c5e0ecfc-3926-4287-b8a6-25ee78076cd6/blobs/6d/6dbf28e5bd7f53343d99a901f6f433fcd19868b258193966d18c89daa0bd008e"
         }
       }
     }

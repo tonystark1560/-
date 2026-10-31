@@ -31,7 +31,7 @@ const tl = gsap.timeline({ paused: true });
 
 tl.fromTo("#f05-tag0",{scale:.4,opacity:0,xPercent:-50,x:0},{scale:1,opacity:1,xPercent:-50,duration:.35,ease:"back.out(2.5)"},2.98);
 tl.fromTo("#f05-cam",{scale:1.0},{scale:1.050,duration:4.61,ease:"none"},0);
-tl.fromTo("#f05-n-n",{textContent:0},{textContent:2,duration:0.8,ease:"power2.out",snap:{textContent:1}},2.31);
+tl.fromTo("#f05-n-n",{textContent:0},{textContent:2,duration:0.8,ease:"power2.out",snap:{textContent:1}},0.30);
 window.__timelines = window.__timelines || {};
 window.__timelines["05-scene-5"] = tl;
 })();

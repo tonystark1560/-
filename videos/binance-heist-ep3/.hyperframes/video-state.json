@@ -1,7 +1,7 @@
 {
   "version": 1,
   "historyId": "9da79ba4-6032-4f6f-a221-716ef3d13a9c",
-  "currentRevision": null,
+  "currentRevision": "2ccb1223-7898-4f50-9027-74ec3c1fe3a9",
   "pendingChanges": false,
   "files": {
     ".media/manifest.jsonl": {
@@ -129,8 +129,8 @@
       "content": "/root/.cache/hyperframes/history/9da79ba4-6032-4f6f-a221-716ef3d13a9c/blobs/f3/f3138a8990f8660ef4cabb0c5201556d638e7d6ee62abea66081cfb529f327e4"
     },
     "compositions/frames/03-scene-3.html": {
-      "hash": "b2306adb403c45f1d576a8da7e4a5d371933cac2a4ccc20449bd25e9107933d5",
-      "content": "/root/.cache/hyperframes/history/9da79ba4-6032-4f6f-a221-716ef3d13a9c/blobs/b2/b2306adb403c45f1d576a8da7e4a5d371933cac2a4ccc20449bd25e9107933d5"
+      "hash": "ef889839a0f41373517b734b5a83603c0f7f526829176c94d320ee567877a5da",
+      "content": "/root/.cache/hyperframes/history/9da79ba4-6032-4f6f-a221-716ef3d13a9c/blobs/ef/ef889839a0f41373517b734b5a83603c0f7f526829176c94d320ee567877a5da"
     },
     "compositions/frames/04-scene-4.html": {
       "hash": "35e590692450cfa2de739c41e2cd81a83e4fa94a135532f5bd00530c064c95b7",
@@ -181,7 +181,23 @@
       "content": "/root/.cache/hyperframes/history/9da79ba4-6032-4f6f-a221-716ef3d13a9c/blobs/7b/7be9f844eb41212266c89c49a94605ae3bc69cac882f6be6cd10571d16d7ac83"
     }
   },
-  "revisions": {},
+  "revisions": {
+    "2ccb1223-7898-4f50-9027-74ec3c1fe3a9": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1793410684537,
+      "endedAt": 1793410684561,
+      "files": {
+        "compositions/frames/03-scene-3.html": {
+          "before": "/root/.cache/hyperframes/history/9da79ba4-6032-4f6f-a221-716ef3d13a9c/blobs/b2/b2306adb403c45f1d576a8da7e4a5d371933cac2a4ccc20449bd25e9107933d5",
+          "after": "/root/.cache/hyperframes/history/9da79ba4-6032-4f6f-a221-716ef3d13a9c/blobs/ef/ef889839a0f41373517b734b5a83603c0f7f526829176c94d320ee567877a5da"
+        }
+      }
+    }
+  },
   "checks": {
     "latest": null,
     "revisions": {},
