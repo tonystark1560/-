@@ -1,0 +1,359 @@
+{
+  "version": 1,
+  "historyId": "c5e0ecfc-3926-4287-b8a6-25ee78076cd6",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    ".media/manifest.jsonl": {
+      "hash": "18b5835adc013f0f418158591f3beddd36b03b2a9cc7097eb097a89e6b34e5cf",
+      "content": "/root/.cache/hyperframes/history/c5e0ecfc-3926-4287-b8a6-25ee78076cd6/blobs/18/18b5835adc013f0f418158591f3beddd36b03b2a9cc7097eb097a89e6b34e5cf"
+    },
+    "AGENTS.md": {
+      "hash": "1b36171117cb7c18f4100a0db6a3782ff2e096115995733200445cc2e80a4060",
+      "content": "/root/.cache/hyperframes/history/c5e0ecfc-3926-4287-b8a6-25ee78076cd6/blobs/1b/1b36171117cb7c18f4100a0db6a3782ff2e096115995733200445cc2e80a4060"
+    },
+    "BRIEF.md": {
+      "hash": "58941558bf5e99fa096e4fae269952a0e5fe53ab9c04d05b6f253366960ff837",
+      "content": "/root/.cache/hyperframes/history/c5e0ecfc-3926-4287-b8a6-25ee78076cd6/blobs/58/58941558bf5e99fa096e4fae269952a0e5fe53ab9c04d05b6f253366960ff837"
+    },
+    "CLAUDE.md": {
+      "hash": "1b36171117cb7c18f4100a0db6a3782ff2e096115995733200445cc2e80a4060",
+      "content": "/root/.cache/hyperframes/history/c5e0ecfc-3926-4287-b8a6-25ee78076cd6/blobs/1b/1b36171117cb7c18f4100a0db6a3782ff2e096115995733200445cc2e80a4060"
+    },
+    "SCRIPT.md": {
+      "hash": "1c52b22ebda5a35a03c9fee8e27ee8ee18d8e3228f87f24551fea7b1332319ff",
+      "content": "/root/.cache/hyperframes/history/c5e0ecfc-3926-4287-b8a6-25ee78076cd6/blobs/1c/1c52b22ebda5a35a03c9fee8e27ee8ee18d8e3228f87f24551fea7b1332319ff"
+    },
+    "STORYBOARD.md": {
+      "hash": "4d997756ba78186aa733e140611d399d7006c4e1f886b681bc48395c37d1436b",
+      "content": "/root/.cache/hyperframes/history/c5e0ecfc-3926-4287-b8a6-25ee78076cd6/blobs/4d/4d997756ba78186aa733e140611d399d7006c4e1f886b681bc48395c37d1436b"
+    },
+    "assets/fonts/Inter-Black.otf": {
+      "hash": "1dc81aa64047bfb4246ece435105ec85944f575744d6d850ab7a287fe6b640e7",
+      "content": "/root/.cache/hyperframes/history/c5e0ecfc-3926-4287-b8a6-25ee78076cd6/blobs/1d/1dc81aa64047bfb4246ece435105ec85944f575744d6d850ab7a287fe6b640e7"
+    },
+    "assets/fonts/Inter-Bold.otf": {
+      "hash": "00fd6f4691ee8884a33b46bf45851b341927c37c30064f558e1befb242971c49",
+      "content": "/root/.cache/hyperframes/history/c5e0ecfc-3926-4287-b8a6-25ee78076cd6/blobs/00/00fd6f4691ee8884a33b46bf45851b341927c37c30064f558e1befb242971c49"
+    },
+    "assets/fonts/Inter-ExtraBold.otf": {
+      "hash": "2012ceaf1470372c415f95c00495a1ad1ebdcd1cd6a6225808f011d459a9b12a",
+      "content": "/root/.cache/hyperframes/history/c5e0ecfc-3926-4287-b8a6-25ee78076cd6/blobs/20/2012ceaf1470372c415f95c00495a1ad1ebdcd1cd6a6225808f011d459a9b12a"
+    },
+    "assets/fonts/Inter-Medium.otf": {
+      "hash": "1e65171fccd6f445b7742728454620ec2867356c849af78e71bf2c4f0e3d97ba",
+      "content": "/root/.cache/hyperframes/history/c5e0ecfc-3926-4287-b8a6-25ee78076cd6/blobs/1e/1e65171fccd6f445b7742728454620ec2867356c849af78e71bf2c4f0e3d97ba"
+    },
+    "assets/fonts/Inter-Regular.otf": {
+      "hash": "be6d709dcb730ddaf050cbdae6fe89bd56d5d14dc66885639bbf6f06bd03521b",
+      "content": "/root/.cache/hyperframes/history/c5e0ecfc-3926-4287-b8a6-25ee78076cd6/blobs/be/be6d709dcb730ddaf050cbdae6fe89bd56d5d14dc66885639bbf6f06bd03521b"
+    },
+    "assets/fonts/Inter-SemiBold.otf": {
+      "hash": "bd68706b7bf8b3c580ae57685a2116bb1704b3a9998309ccfec7cd486f8a593e",
+      "content": "/root/.cache/hyperframes/history/c5e0ecfc-3926-4287-b8a6-25ee78076cd6/blobs/bd/bd68706b7bf8b3c580ae57685a2116bb1704b3a9998309ccfec7cd486f8a593e"
+    },
+    "assets/voice/01.wav": {
+      "hash": "d30115f8f83ad3de8b0677c336d7b64b0d1855e54889e9b372c278ed9fc25de0",
+      "content": "/root/.cache/hyperframes/history/c5e0ecfc-3926-4287-b8a6-25ee78076cd6/blobs/d3/d30115f8f83ad3de8b0677c336d7b64b0d1855e54889e9b372c278ed9fc25de0"
+    },
+    "assets/voice/02.wav": {
+      "hash": "afa3aa69413fe087deda0113d3a07eb377a6fa2cf4b930848b8b095c1552f5f8",
+      "content": "/root/.cache/hyperframes/history/c5e0ecfc-3926-4287-b8a6-25ee78076cd6/blobs/af/afa3aa69413fe087deda0113d3a07eb377a6fa2cf4b930848b8b095c1552f5f8"
+    },
+    "assets/voice/03.wav": {
+      "hash": "2ca56556a2d8dfe6867f60fd42049575d868f1f3fb913ae17d8d77d15cff2da1",
+      "content": "/root/.cache/hyperframes/history/c5e0ecfc-3926-4287-b8a6-25ee78076cd6/blobs/2c/2ca56556a2d8dfe6867f60fd42049575d868f1f3fb913ae17d8d77d15cff2da1"
+    },
+    "assets/voice/04.wav": {
+      "hash": "d1a1eb7e37e6908d36c056a9806292a291b42b524b082ccf26873235080b00f2",
+      "content": "/root/.cache/hyperframes/history/c5e0ecfc-3926-4287-b8a6-25ee78076cd6/blobs/d1/d1a1eb7e37e6908d36c056a9806292a291b42b524b082ccf26873235080b00f2"
+    },
+    "assets/voice/05.wav": {
+      "hash": "71c9a5880b4156d8a6a333452ebae638771a7e1307914a8479255ca64ef2c46a",
+      "content": "/root/.cache/hyperframes/history/c5e0ecfc-3926-4287-b8a6-25ee78076cd6/blobs/71/71c9a5880b4156d8a6a333452ebae638771a7e1307914a8479255ca64ef2c46a"
+    },
+    "assets/voice/06.wav": {
+      "hash": "38b209a95444462893fdd7d3e52d8befa37234e49bc8fb1ec640a96b0e350677",
+      "content": "/root/.cache/hyperframes/history/c5e0ecfc-3926-4287-b8a6-25ee78076cd6/blobs/38/38b209a95444462893fdd7d3e52d8befa37234e49bc8fb1ec640a96b0e350677"
+    },
+    "assets/voice/07.wav": {
+      "hash": "21df1337875e762cbac87bd87f97a641fa7d904a1786c73226e99cef7f56f0d3",
+      "content": "/root/.cache/hyperframes/history/c5e0ecfc-3926-4287-b8a6-25ee78076cd6/blobs/21/21df1337875e762cbac87bd87f97a641fa7d904a1786c73226e99cef7f56f0d3"
+    },
+    "assets/voice/08.wav": {
+      "hash": "c369ed5b697f5449bd2c2f1956aa8811ce8f029ef8acca75db120bd070987223",
+      "content": "/root/.cache/hyperframes/history/c5e0ecfc-3926-4287-b8a6-25ee78076cd6/blobs/c3/c369ed5b697f5449bd2c2f1956aa8811ce8f029ef8acca75db120bd070987223"
+    },
+    "assets/voice/09.wav": {
+      "hash": "2f3fa900b73fe7458f1eb53dca327e031ce80751e21bc2e0a7351c2741b01a0a",
+      "content": "/root/.cache/hyperframes/history/c5e0ecfc-3926-4287-b8a6-25ee78076cd6/blobs/2f/2f3fa900b73fe7458f1eb53dca327e031ce80751e21bc2e0a7351c2741b01a0a"
+    },
+    "audio_engine_meta.json": {
+      "hash": "7e18ca941272b51c6f9cf7c2adfa2608acae130ba547f48a2d48469d4e9ccdc3",
+      "content": "/root/.cache/hyperframes/history/c5e0ecfc-3926-4287-b8a6-25ee78076cd6/blobs/7e/7e18ca941272b51c6f9cf7c2adfa2608acae130ba547f48a2d48469d4e9ccdc3"
+    },
+    "audio_meta.json": {
+      "hash": "641ae71b7c47eda00e53a09f9a0411af445a0539404c40657133545e412e0911",
+      "content": "/root/.cache/hyperframes/history/c5e0ecfc-3926-4287-b8a6-25ee78076cd6/blobs/64/641ae71b7c47eda00e53a09f9a0411af445a0539404c40657133545e412e0911"
+    },
+    "audio_request.json": {
+      "hash": "af0bab4ef8b76881e771c123397471c5cc6f83fb1bd3f35c851c07d38bc328d7",
+      "content": "/root/.cache/hyperframes/history/c5e0ecfc-3926-4287-b8a6-25ee78076cd6/blobs/af/af0bab4ef8b76881e771c123397471c5cc6f83fb1bd3f35c851c07d38bc328d7"
+    },
+    "caption-overrides.json": {
+      "hash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "content": "/root/.cache/hyperframes/history/c5e0ecfc-3926-4287-b8a6-25ee78076cd6/blobs/37/37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    "caption_groups.json": {
+      "hash": "962a44f5ea48a494ea5f177f7af01b193a6ba49d03ae69590e0eaf14853f0a55",
+      "content": "/root/.cache/hyperframes/history/c5e0ecfc-3926-4287-b8a6-25ee78076cd6/blobs/96/962a44f5ea48a494ea5f177f7af01b193a6ba49d03ae69590e0eaf14853f0a55"
+    },
+    "capture/extracted/tokens.json": {
+      "hash": "e463768307a7b2147fb12d76246dc04875e869be93d2de9029e97ff859557e04",
+      "content": "/root/.cache/hyperframes/history/c5e0ecfc-3926-4287-b8a6-25ee78076cd6/blobs/e4/e463768307a7b2147fb12d76246dc04875e869be93d2de9029e97ff859557e04"
+    },
+    "capture/extracted/visible-text.txt": {
+      "hash": "6b907461fed12e9458bf923137b0c1e3472a46f64a5cdaa08888e949935697e4",
+      "content": "/root/.cache/hyperframes/history/c5e0ecfc-3926-4287-b8a6-25ee78076cd6/blobs/6b/6b907461fed12e9458bf923137b0c1e3472a46f64a5cdaa08888e949935697e4"
+    },
+    "compositions/captions.html": {
+      "hash": "ccc0bcd2b9557fd352d4d5beaa7e7a2a8d04b198d7d088e23ccb14b73dd83429",
+      "content": "/root/.cache/hyperframes/history/c5e0ecfc-3926-4287-b8a6-25ee78076cd6/blobs/cc/ccc0bcd2b9557fd352d4d5beaa7e7a2a8d04b198d7d088e23ccb14b73dd83429"
+    },
+    "compositions/frames/01-scene-1.html": {
+      "hash": "7650e9f0a5cc2b99b1f9656547a62a054d841e51dad120858e268cecb7f0ea40",
+      "content": "/root/.cache/hyperframes/history/c5e0ecfc-3926-4287-b8a6-25ee78076cd6/blobs/76/7650e9f0a5cc2b99b1f9656547a62a054d841e51dad120858e268cecb7f0ea40"
+    },
+    "compositions/frames/02-scene-2.html": {
+      "hash": "fe2f97d9767252ceea5a64a476f61007decc502932dd8520f24f29dc16125f3e",
+      "content": "/root/.cache/hyperframes/history/c5e0ecfc-3926-4287-b8a6-25ee78076cd6/blobs/fe/fe2f97d9767252ceea5a64a476f61007decc502932dd8520f24f29dc16125f3e"
+    },
+    "compositions/frames/03-scene-3.html": {
+      "hash": "e825ec93d911cec9d2ea9d171f3a357f0d8be91c5df6253dc080f26e733ed81e",
+      "content": "/root/.cache/hyperframes/history/c5e0ecfc-3926-4287-b8a6-25ee78076cd6/blobs/e8/e825ec93d911cec9d2ea9d171f3a357f0d8be91c5df6253dc080f26e733ed81e"
+    },
+    "compositions/frames/04-scene-4.html": {
+      "hash": "2d746974e9a7a74dcffdfdb90feeeb6fdd3397c307f3db3ffeb59f9bbccb00f4",
+      "content": "/root/.cache/hyperframes/history/c5e0ecfc-3926-4287-b8a6-25ee78076cd6/blobs/2d/2d746974e9a7a74dcffdfdb90feeeb6fdd3397c307f3db3ffeb59f9bbccb00f4"
+    },
+    "compositions/frames/05-scene-5.html": {
+      "hash": "55c2e4582094fec7e24df107eae80f36d75b7e4afaa3fd2ef77bfaae9e924c60",
+      "content": "/root/.cache/hyperframes/history/c5e0ecfc-3926-4287-b8a6-25ee78076cd6/blobs/55/55c2e4582094fec7e24df107eae80f36d75b7e4afaa3fd2ef77bfaae9e924c60"
+    },
+    "compositions/frames/06-scene-6.html": {
+      "hash": "2ce35aea1bea2b8bec64b0ac014b978f45ff07f64e976ba5e1db39ba1911af31",
+      "content": "/root/.cache/hyperframes/history/c5e0ecfc-3926-4287-b8a6-25ee78076cd6/blobs/2c/2ce35aea1bea2b8bec64b0ac014b978f45ff07f64e976ba5e1db39ba1911af31"
+    },
+    "compositions/frames/07-scene-7.html": {
+      "hash": "52b2e2d0521cac9eae0bc45c75076286549017ec12d8db1f2d86ab7a36a8985a",
+      "content": "/root/.cache/hyperframes/history/c5e0ecfc-3926-4287-b8a6-25ee78076cd6/blobs/52/52b2e2d0521cac9eae0bc45c75076286549017ec12d8db1f2d86ab7a36a8985a"
+    },
+    "compositions/frames/08-scene-8.html": {
+      "hash": "002d5c83bfd7fa995fb115d8bd71e392e61e18655ff4b6c403e517f770acefc0",
+      "content": "/root/.cache/hyperframes/history/c5e0ecfc-3926-4287-b8a6-25ee78076cd6/blobs/00/002d5c83bfd7fa995fb115d8bd71e392e61e18655ff4b6c403e517f770acefc0"
+    },
+    "compositions/frames/09-scene-9.html": {
+      "hash": "5cba6efaefff495349ea005fc4a0a69a98a7770fead1d0c1c26e95445b4ed4c0",
+      "content": "/root/.cache/hyperframes/history/c5e0ecfc-3926-4287-b8a6-25ee78076cd6/blobs/5c/5cba6efaefff495349ea005fc4a0a69a98a7770fead1d0c1c26e95445b4ed4c0"
+    },
+    "frame.md": {
+      "hash": "a9d3667bda0cd029c271111831d870528d4c58ddb89191e9264b73ed82abc711",
+      "content": "/root/.cache/hyperframes/history/c5e0ecfc-3926-4287-b8a6-25ee78076cd6/blobs/a9/a9d3667bda0cd029c271111831d870528d4c58ddb89191e9264b73ed82abc711"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "/root/.cache/hyperframes/history/c5e0ecfc-3926-4287-b8a6-25ee78076cd6/blobs/93/9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "bf9b328cb85eb54aa9f5ec1df5960a5bf04a2fa5475f9be45dcf9a03f3c4709c",
+      "content": "/root/.cache/hyperframes/history/c5e0ecfc-3926-4287-b8a6-25ee78076cd6/blobs/bf/bf9b328cb85eb54aa9f5ec1df5960a5bf04a2fa5475f9be45dcf9a03f3c4709c"
+    },
+    "meta.json": {
+      "hash": "81f8e508a89260cfad4ab639c692ad650a5b35576574e104c1e6bfe3231c785a",
+      "content": "/root/.cache/hyperframes/history/c5e0ecfc-3926-4287-b8a6-25ee78076cd6/blobs/81/81f8e508a89260cfad4ab639c692ad650a5b35576574e104c1e6bfe3231c785a"
+    },
+    "package.json": {
+      "hash": "ef1630e90f816683ef54d389b3c15cd9f4dbe65a40843bad01a5d727f28f61e9",
+      "content": "/root/.cache/hyperframes/history/c5e0ecfc-3926-4287-b8a6-25ee78076cd6/blobs/ef/ef1630e90f816683ef54d389b3c15cd9f4dbe65a40843bad01a5d727f28f61e9"
+    },
+    "voice.log": {
+      "hash": "6a7442f1badd0f700d4dc06d96423a98ea33b26caff5f084ff1ea5f879f8996b",
+      "content": "/root/.cache/hyperframes/history/c5e0ecfc-3926-4287-b8a6-25ee78076cd6/blobs/6a/6a7442f1badd0f700d4dc06d96423a98ea33b26caff5f084ff1ea5f879f8996b"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": {
+      "revision": null,
+      "id": "cd575898-bad3-49cd-af5c-141a17e255ad-7"
+    },
+    "revisions": {},
+    "unversioned": [
+      {
+        "scope": "full",
+        "id": "cd575898-bad3-49cd-af5c-141a17e255ad-0",
+        "image": "/tmp/claude-0/-home-user--/96995283-1cfb-5c78-9e92-90c062f61772/scratchpad/binance-heist-ep1/frame-00-at-5.7s.png",
+        "time": 5.7,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793407634522,
+        "contentHash": "76b09d507a6615ebd872232bc83215d10bdeb47a2fe712c53ac28f7445ac86b2",
+        "revision": null,
+        "inputFingerprint": "f2431e3b517f6a5ffd22554f10bdd15075d87ca7cefab4e60c0c4cfc703577b6",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "cd575898-bad3-49cd-af5c-141a17e255ad-1",
+        "image": "/tmp/claude-0/-home-user--/96995283-1cfb-5c78-9e92-90c062f61772/scratchpad/binance-heist-ep1/frame-01-at-13.65s.png",
+        "time": 13.65,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793407634522,
+        "contentHash": "53153766a2ccbd97ebc35f260960c51a545f29267c3c230f7161eb6b451e6ebb",
+        "revision": null,
+        "inputFingerprint": "f2431e3b517f6a5ffd22554f10bdd15075d87ca7cefab4e60c0c4cfc703577b6",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "cd575898-bad3-49cd-af5c-141a17e255ad-2",
+        "image": "/tmp/claude-0/-home-user--/96995283-1cfb-5c78-9e92-90c062f61772/scratchpad/binance-heist-ep1/frame-02-at-20.86s.png",
+        "time": 20.86,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793407634522,
+        "contentHash": "a415cada7750caa9f80879d55e13ba8268d9b4aefa990621a4eb88f4fd254ecd",
+        "revision": null,
+        "inputFingerprint": "f2431e3b517f6a5ffd22554f10bdd15075d87ca7cefab4e60c0c4cfc703577b6",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "cd575898-bad3-49cd-af5c-141a17e255ad-3",
+        "image": "/tmp/claude-0/-home-user--/96995283-1cfb-5c78-9e92-90c062f61772/scratchpad/binance-heist-ep1/frame-03-at-26.06s.png",
+        "time": 26.06,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793407634522,
+        "contentHash": "d8725dbc71835ce72ea5efb89774cab4a9e7bd4234b62df81f788183e684e916",
+        "revision": null,
+        "inputFingerprint": "f2431e3b517f6a5ffd22554f10bdd15075d87ca7cefab4e60c0c4cfc703577b6",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "cd575898-bad3-49cd-af5c-141a17e255ad-4",
+        "image": "/tmp/claude-0/-home-user--/96995283-1cfb-5c78-9e92-90c062f61772/scratchpad/binance-heist-ep1/frame-04-at-30.97s.png",
+        "time": 30.97,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793407634522,
+        "contentHash": "b55ba8ecedb2dd546b723e384829474a6f710fec8c5c76c39635da20e46f12fa",
+        "revision": null,
+        "inputFingerprint": "f2431e3b517f6a5ffd22554f10bdd15075d87ca7cefab4e60c0c4cfc703577b6",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "cd575898-bad3-49cd-af5c-141a17e255ad-5",
+        "image": "/tmp/claude-0/-home-user--/96995283-1cfb-5c78-9e92-90c062f61772/scratchpad/binance-heist-ep1/frame-05-at-37.2s.png",
+        "time": 37.2,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793407634522,
+        "contentHash": "89f97add9dab196d24e92745affa4f8918117e24639b5d1839ef334e08f74aca",
+        "revision": null,
+        "inputFingerprint": "f2431e3b517f6a5ffd22554f10bdd15075d87ca7cefab4e60c0c4cfc703577b6",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "cd575898-bad3-49cd-af5c-141a17e255ad-6",
+        "image": "/tmp/claude-0/-home-user--/96995283-1cfb-5c78-9e92-90c062f61772/scratchpad/binance-heist-ep1/frame-06-at-43.13s.png",
+        "time": 43.13,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793407634522,
+        "contentHash": "d7edb139ba82a58093c983fece270571e14f5e6be9304a78d8160d39515e3029",
+        "revision": null,
+        "inputFingerprint": "f2431e3b517f6a5ffd22554f10bdd15075d87ca7cefab4e60c0c4cfc703577b6",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "cd575898-bad3-49cd-af5c-141a17e255ad-7",
+        "image": "/tmp/claude-0/-home-user--/96995283-1cfb-5c78-9e92-90c062f61772/scratchpad/binance-heist-ep1/frame-07-at-48.03s.png",
+        "time": 48.03,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793407634522,
+        "contentHash": "d986dcbf53456d43b0218fd69c872644899270324fc56cd0f3e9444c350b7070",
+        "revision": null,
+        "inputFingerprint": "f2431e3b517f6a5ffd22554f10bdd15075d87ca7cefab4e60c0c4cfc703577b6",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      }
+    ]
+  }
+}

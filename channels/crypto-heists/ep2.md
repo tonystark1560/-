@@ -1,0 +1,25 @@
+# The Binance Heist · Part 2: They Borrowed the Keys
+
+**Channel:** Crypto Heists · **Format:** 9:16 Shorts/TikTok/Reels
+
+## Сценарий
+
+The hackers didn't break the vault. They borrowed the keys. From the users.
+
+Phishing sites. Fake login pages that looked exactly like the real one.
+
+Viruses on laptops, quietly copying everything people typed.
+
+One by one, they collected accounts. API keys, the robot keys that let programs trade for you. And two-factor codes.
+
+Then they did the hardest thing in crime. Nothing. They waited.
+
+Binance later said the hackers had the patience to wait, and struck at the most opportune time.
+
+Many accounts, each looking independent. Each acting like an ordinary user.
+
+Then, all at once, they moved. One transaction, built to pass every security check.
+
+Seven thousand bitcoin walked out the front door. Part 3: who pays for it?
+
+---

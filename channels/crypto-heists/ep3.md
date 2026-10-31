@@ -1,0 +1,23 @@
+# The Binance Heist · Part 3: Who Pays for a $40 Million Robbery?
+
+**Channel:** Crypto Heists · **Format:** 9:16 Shorts/TikTok/Reels
+
+## Сценарий
+
+When an exchange gets robbed, the users usually lose. Not this time.
+
+In 2018, Binance had created a fund called SAFU. The Secure Asset Fund for Users.
+
+Ten percent of all trading fees flowed into it. An emergency vault built for exactly this day.
+
+The CEO, Changpeng Zhao, known as CZ, announces it: SAFU covers the entire loss. No user loses a coin.
+
+Withdrawals stay frozen for about a week while the system is locked down.
+
+Every API key gets restricted to trading only. No more withdrawals by robot.
+
+Crisis over? Not quite. Because CZ had another idea. A dangerous one.
+
+What if they could make the robbery never happen at all? Part 4.
+
+---

@@ -144,9 +144,9 @@ def paras(path):
 
 class RuProject(Project):
     """cue(): English cue word → its relative position in the English line → Russian word at the same position."""
-    def __init__(self, root, n):
+    def __init__(self, root, n, en_path=None):
         super().__init__(root)
-        self.en = paras(f"/home/user/-/channels/long-night/ep{n}.md")
+        self.en = paras(en_path or f"/home/user/-/channels/long-night/ep{n}.md")
         self.over = {}
 
     def cue(self, n, word, nth=1, frac=0.5):

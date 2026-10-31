@@ -1,0 +1,25 @@
+# The Binance Heist · Part 4: Rewrite Bitcoin's History?
+
+**Channel:** Crypto Heists · **Format:** 9:16 Shorts/TikTok/Reels
+
+## Сценарий
+
+The idea was called a rollback. Rewrite bitcoin's history and erase the theft.
+
+Bitcoin is a chain of blocks. Every new block locks in the ones before it.
+
+To erase the theft, miners would have to rebuild the chain without it, and outrun the rest of the network.
+
+CZ talked about it openly, on a live stream. He spoke with developers. He spoke with miners.
+
+The crypto world exploded. Rewrite bitcoin to save one company? That breaks the one promise bitcoin makes.
+
+The promise: once it's written, nobody can change it. Not banks. Not governments. Not the biggest exchange on Earth.
+
+Within a day, CZ backed down. No rollback.
+
+He wrote that the bitcoin ledger is the most immutable ledger on the planet.
+
+The seven thousand bitcoin were gone for good. But the biggest Binance heist hadn't happened yet. Part 5.
+
+---

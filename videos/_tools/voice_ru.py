@@ -15,8 +15,11 @@ voices = []
 for n, text in lines:
     n = int(n)
     path = f"assets/voice/{n:02d}.wav"
+    say = text
+    for a, b in (json.load(open("tts_map.json")).items() if os.path.exists("tts_map.json") else []):
+        say = re.sub(rf"(?<![\w-]){re.escape(a)}(?![\w-])", b, say)
     subprocess.run(["python3", "-m", "piper", "-m", MODEL, "-f", path, "--length-scale", ls, "--sentence-silence", "0.2"],
-                   input=text.encode(), check=True, capture_output=True)
+                   input=say.encode(), check=True, capture_output=True)
     with wave.open(path) as w:
         dur = w.getnframes() / w.getframerate()
     d = tempfile.mkdtemp()

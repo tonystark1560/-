@@ -1,0 +1,17 @@
+One transaction. Seven thousand bitcoin. Forty million dollars. Gone in a single click.
+
+May 7th, 2019. Binance, the biggest crypto exchange on Earth. Millions of users. Billions in coins.
+
+Most of those coins sleep in cold wallets. Offline. Unreachable. But some live in the hot wallet, online, ready for withdrawals.
+
+At 17:15, the hot wallet sends out one withdrawal. Seven thousand and seventy-four bitcoin.
+
+About two percent of all the bitcoin Binance holds. In one move.
+
+The security system doesn't stop it. The transaction looks completely normal.
+
+Binance freezes every deposit and every withdrawal. For millions of users, the money is suddenly locked.
+
+Then the statement. Hackers got user API keys, two-factor codes, and maybe more.
+
+But how do you rob an exchange without ever breaking into it? Part 2.
